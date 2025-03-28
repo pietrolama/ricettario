@@ -1,0 +1,4168 @@
+{
+  "categorie": [
+    {
+      "nome": "🧠 Tecniche Avanzate e Molecolari",
+      "ricette": [
+        {
+          "nome": "Finto Caviale – Tecnica Base",
+          "descrizione": "Succo e agar, goccia a goccia nell’olio ghiacciato. Un effetto visivo e tattile.",
+          "ingredienti": [
+            {
+              "quantita": "100 g",
+              "ingrediente": "Liquido da gelificare"
+            },
+            {
+              "quantita": "1 g",
+              "ingrediente": "Agar Agar"
+            },
+            {
+              "quantita": "100 g",
+              "ingrediente": "olio di semi"
+            }
+          ],
+          "procedimento": [
+            "Mettere in freezer l’olio fino a portarlo a 2°.",
+            "Portare a bollore il liquido da gelificare, sciogliere l’agar agar al suo interno e cuocere per 4 minuti.",
+            "Lasciare raffreddare il liquido fino a 50° e, con una siringa, far cadere goccia dopo goccia nell’olio freddo.",
+            "Per ottenere sfere grandi applicare maggiore pressione, per gocce più piccole il contrario. Mescolare delicatamente di tanto in tanto.",
+            "Conservare il caviale nell’olio in frigorifero fino al momento dell’utilizzo.",
+            "Raccogliere le sfere con un cucchiaio bucato e sciacquarle sotto acqua corrente.",
+            "Non superare la temperatura di 35° per le sfere, altrimenti si scioglieranno."
+          ]
+        },
+        {
+          "nome": "Neve d’Olio e Polveri Aromatiche con Maltodestrina",
+          "descrizione": "Una metamorfosi dell’olio: da liquido a neve. Una magia tecnica che si fonde con l’aroma.",
+          "ingredienti": [
+            {
+              "quantità": "100 g",
+              "ingrediente": "olio (oliva, sesamo, nocciola o altri oli aromatizzati)"
+            },
+            {
+              "quantità": "30-50 g",
+              "ingrediente": "maltodestrina di tapioca"
+            }
+          ],
+          "procedimento": [
+            "Versare l’olio in una ciotola.",
+            "Aggiungere la maltodestrina e mescolare con spatola o frusta fino a ottenere una polvere soffice.",
+            "Regolare la consistenza aggiungendo altra maltodestrina se necessario.",
+            "Servire come guarnizione su antipasti, pesce o dessert salati e conservare in frigorifero fino al servizio."
+          ],
+          "varianti": [
+            {
+              "nome": "Polvere di Cioccolato o Burro di Arachidi",
+              "ingredienti": [
+                {
+                  "quantità": "",
+                  "ingrediente": "cioccolato fuso o burro di arachidi + maltodestrina"
+                }
+              ],
+              "applicazioni": "mousse, gelato, decorazioni per dessert"
+            },
+            {
+              "nome": "Polvere di Burro al Tartufo",
+              "ingredienti": [
+                {
+                  "quantita": "",
+                  "ingrediente": "burro al tartufo + maltodestrina"
+                }
+              ],
+              "applicazioni": "topping per pasta, risotti, tartare"
+            },
+            {
+              "nome": "Polvere di Frutta",
+              "ingredienti": [
+                {
+                  "quantita": "",
+                  "ingrediente": "olio infuso alla frutta o succo concentrato + maltodestrina"
+                }
+              ],
+              "applicazioni": "yogurt, gelato, crostate, cocktail"
+            },
+            {
+              "nome": "\"Terra\" al Cioccolato o Caffè",
+              "ingredienti": [
+                {
+                  "quantita": "",
+                  "ingrediente": "olio al cioccolato o caffè + maltodestrina"
+                }
+              ],
+              "applicazioni": "semifreddi, mousse, foie gras"
+            },
+            {
+              "nome": "Burro di Cacao in Polvere per Piatti Salati",
+              "ingredienti": [
+                {
+                  "quantita": "",
+                  "ingrediente": "burro di cacao + maltodestrina"
+                }
+              ],
+              "applicazioni": "su carne arrosto, purè, verdure arrostite"
+            },
+            {
+              "nome": "Neve di Olio Aromatizzato",
+              "ingredienti": [
+                {
+                  "quantita": "",
+                  "ingrediente": "olio aromatizzato (rosmarino, aglio, peperoncino) + maltodestrina"
+                }
+              ],
+              "applicazioni": "topping per zuppe, paste, antipasti"
+            },
+            {
+              "nome": "Polvere di Olio di Noci",
+              "ingredienti": [
+                {
+                  "quantita": "",
+                  "ingrediente": "olio di noci o nocciole + maltodestrina"
+                }
+              ],
+              "applicazioni": "formaggi, foie gras, cheesecake, carni bianche"
+            },
+            {
+              "nome": "Polvere di Vino o Liquori",
+              "ingredienti": [
+                {
+                  "quantita": "",
+                  "ingrediente": "riduzione di vino o liquore + olio (facoltativo) + maltodestrina"
+                }
+              ],
+              "applicazioni": "cocktail dessert, foie gras, dolci al cioccolato"
+            }
+          ]
+        },
+        {
+          "nome": "Pane di Cristallo (Tecnica con Kuzu)",
+          "descrizione": "Un’illusione trasparente che crocca come vetro. Il Kuzu plasma un pane dalla struttura irreale.",
+          "ingredienti": [
+            {
+              "quantita": "100 g",
+              "ingrediente": "Amido di kuzu"
+            },
+            {
+              "quantita": "200 g",
+              "ingrediente": "Acqua"
+            },
+            {
+              "quantita": "50 g",
+              "ingrediente": "Olio extravergine d’oliva (o altro olio neutro)"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "Sale"
+            }
+          ],
+          "procedimento": [
+            "Preparazione della miscela: In una casseruola, sciogli l’amido di kuzu nell’acqua fredda mescolando con una frusta. Porta sul fuoco e cuoci a fiamma media mescolando fino a ottenere una consistenza gelatinosa e traslucida.",
+            "Aggiunta dell’olio: Togli dal fuoco e incorpora l’olio poco alla volta, mescolando fino a ottenere una massa omogenea.",
+            "Formatura: Versa la miscela calda in stampi in silicone, riempiendoli a metà. Batti leggermente lo stampo per eliminare bolle d’aria.",
+            "Prima cottura: Inforna a 150°C per 10-15 minuti finché si solidifica e si forma una leggera crosta superficiale.",
+            "Seconda cottura: Abbassa il forno a 60-70°C e cuoci per 4-6 ore fino a completa disidratazione e trasparenza.",
+            "Raffreddamento e conservazione: Raffredda completamente prima di sformare. Conserva in contenitore ermetico in luogo asciutto."
+          ]
+        },
+        {
+          "nome": "Fumo Liquido – Metodo Casalingo",
+          "descrizione": "Aromatizzare senza bruciare. Distillazione dell’invisibile, essenza affumicata in forma liquida.",
+          "ingredienti": [
+            {
+              "quantità": "100 g",
+              "ingrediente": "trucioli di legno (quercia, melo, noce americano)"
+            },
+            {
+              "quantità": "200 ml",
+              "ingrediente": "acqua distillata o minerale naturale"
+            },
+            {
+              "quantità": "q.b.",
+              "ingrediente": "Ghiaccio"
+            }
+          ],
+          "procedimento": [
+            "Preparazione del legno: Tostare i trucioli in forno a 120°C per 10 minuti per asciugarli completamente e attivarne gli aromi.",
+            "Generazione del fumo: Utilizzare una smoking gun o un affumicatore per bruciare lentamente i trucioli in un contenitore chiuso, convogliando il fumo attraverso un tubo.",
+            "Condensazione: Far passare il fumo attraverso un tubo immerso in ghiaccio o in una serpentina fredda, che condensa la parte aromatica in piccole gocce.",
+            "Raccolta: Raccogliere la condensa in una bottiglietta o contenitore di vetro con tappo.",
+            "Filtraggio (opzionale): Filtrare con garza o carta da caffè per eliminare impurità carboniose.",
+            "Conservazione: Conservare il liquido in vetro scuro, in frigorifero, fino a 2 mesi."
+          ],
+          "utilizzo": [
+            {
+              "applicazione": "Marinature",
+              "dosi": "2–4 gocce per ogni 100 ml di liquido"
+            },
+            {
+              "applicazione": "Salse e fondi",
+              "dosi": "aggiungere a fine cottura"
+            },
+            {
+              "applicazione": "Cocktail",
+              "dosi": "qualche goccia per aggiungere un tocco affumicato"
+            }
+          ]
+        },
+        {
+          "nome": "Umami di Caramello Vegetale",
+          "descrizione": "Polveri di scarti vegetali, riduzioni lucide e sapide. Il vegetale si veste da fondo bruno.",
+          "struttura_generale": [
+            {
+              "fase": "1. Fase di Essiccazione e Concentrazione Umami",
+              "ingredienti_base": "scarti vegetali dell’ortaggio scelto (bucce, gambi, foglie esterne, polpa avanzata)",
+              "procedimento": [
+                "Sbollentare se serve ridurre l'amaro (es. prezzemolo, cavolo nero, scorze di pomodoro)",
+                "Essiccare a 70–80°C finché non sono secchi e friabili",
+                "Polverizzare finemente, setacciando per eliminare granuli"
+              ]
+            },
+            {
+              "fase": "2. Base Liquida Personalizzabile",
+              "ingredienti": [
+                {
+                  "quantita": "70%",
+                  "ingrediente": "Acqua aromatizzata (ottenuta sbollentando per 2–3 min. le parti fresche dell’ingrediente scelto e filtrando)"
+                },
+                {
+                  "quantita": "30%",
+                  "ingrediente": "Olio aromatico (infuso con le stesse verdure, o neutro se già ricchi, tipo funghi o zucca)"
+                },
+                {
+                  "quantita": "max 1–2% del totale liquido",
+                  "ingrediente": "Acidità (facoltativa): aceto di mela, aceto di kombucha, succo di limone"
+                }
+              ]
+            },
+            {
+              "fase": "3. Emulsione e Caramellizzazione",
+              "procedimento": [
+                "Unisci 1 cucchiaio abbondante di polvere vegetale ai liquidi (100 ml totali)",
+                "Riduci a fiamma dolce per 10–15 minuti, mescolando",
+                "Deve diventare lucida, vischiosa, “da nappatura”"
+              ]
+            },
+            {
+              "fase": "✨ 4. Finitura e Stabilizzazione",
+              "procedimento": [
+                "Per lucidità extra: emulsiona a caldo con poco burro vegetale, olio EVO o miso",
+                "Per stabilità e consistenza controllata: 0,1–0,2 g di xantana per 100 ml"
+              ]
+            }
+          ],
+          "esempi_personalizzazione": [
+            {
+              "ingrediente": "Funghi",
+              "note_umami_aromi_dominanti": "Umami forte, terroso",
+              "suggerimenti": "Usa anche gli scarti crudi, non sbollentare. Ottimo un olio all’aglio nero o al rosmarino. Aggiungi soia per spingere l’umami."
+            },
+            {
+              "ingrediente": "Pomodoro",
+              "note_umami_aromi_dominanti": "Acido, dolce, ricco di glutammato",
+              "suggerimenti": "Usa pellicine, semi, polpa avanzata. Ottimo con aceto di riso e olio al basilico. Riduci a colore “marrone caramello”."
+            },
+            {
+              "ingrediente": "Zucca",
+              "note_umami_aromi_dominanti": "Dolce, caramellata, bassa acidità",
+              "suggerimenti": "Usa scorze, semi tostati e polpa. Ottimo con olio all’anice o burro nocciola vegetale. Aggiungi nota amara (scorza di agrume o tamari)."
+            },
+            {
+              "ingrediente": "Cipolla",
+              "note_umami_aromi_dominanti": "Dolcezza + profondità caramellata",
+              "suggerimenti": "Usa le prime bucce, essiccate. Puoi usare brodo affumicato o aggiunta di tè nero per un tocco tostato."
+            },
+            {
+              "ingrediente": "Cavolo nero",
+              "note_umami_aromi_dominanti": "Erbaceo-amaro, intenso",
+              "suggerimenti": "Necessita sbollentatura. Ottimo con olio all’aglio o zenzero. Acidità fondamentale."
+            },
+            {
+              "ingrediente": "Sedano rapa",
+              "note_umami_aromi_dominanti": "Terroso, delicato",
+              "suggerimenti": "Usa scorze e scarti. Base liquida neutra. Finitura con olio al limone o finocchio."
+            }
+          ],
+          "tips_tecnici": [
+            "Per un profilo più “caramello salato vegetale”: aggiungi una punta di miso bianco in fase finale",
+            "Per un effetto “demi-glace vegetale”: riduci di più, anche fino a 1/3 del volume iniziale",
+            "Per renderla glassa: termina la riduzione con 1 g di pectina o agar-agar per 100 ml se vuoi solidificare a freddo"
+          ]
+        },
+        {
+          "nome": "Umami di Pomodoro CBT – Metodo Pirotta",
+          "descrizione": "Riduzione dolce-acida di pomodoro, cotta con lentezza per sprigionare il quinto gusto.",
+          "ingredienti": [
+            {
+              "quantita": "1 kg",
+              "ingrediente": "Pomodorini datterini o ciliegini maturi"
+            },
+            {
+              "quantita": "30 g",
+              "ingrediente": "Olio extravergine di oliva"
+            },
+            {
+              "quantita": "5 g",
+              "ingrediente": "Sale fino"
+            },
+            {
+              "quantita": "5 g",
+              "ingrediente": "Zucchero"
+            },
+            {
+              "quantita": "a piacere",
+              "ingrediente": "(Facoltativo) Aglio, erbe aromatiche o kombu"
+            }
+          ],
+          "attrezzatura": [
+            "Macchina per sottovuoto + sacchetti",
+            "Roner (bagno termostatato)",
+            "Pentolino antiaderente o inox",
+            "Colino fine o chinoise",
+            "Termometro da cucina (facoltativo)"
+          ],
+          "procedimento": [
+            "Preparazione dei pomodorini: Lava e incidi i pomodorini. Condiscili con olio, sale, zucchero e aromi opzionali. Inseriscili in un sacchetto sottovuoto in un solo strato e sigilla.",
+            "CBT - Estrazione: Cuoci a 85°C per 3 ore. Raffredda rapidamente in acqua e ghiaccio.",
+            "Separazione: Apri il sacchetto e filtra il liquido con un colino fine o garza. Conserva i pomodorini per altri usi.",
+            "Concentrazione finale: Riduci il liquido a fuoco basso fino a ottenere una glassa lucida e brunita. Non superare i 110-120°C."
+          ],
+          "utilizzi": [
+            "Salsa di finitura per carni, pesci, risotti, pasta",
+            "Demi-glace vegetale",
+            "Decorazioni per piatti fine-dining"
+          ],
+          "note_tecniche": [
+            "Conservazione: 7 giorni in frigo o in freezer a cubetti",
+            "Riduzione meno spinta = brodo umami di pomodoro"
+          ]
+        },
+        {
+          "nome": "Lemon Curd Tecnico",
+          "descrizione": "Curd giallo-limone, perfetto al grado. Emulsione di acidità e precisione termica.",
+          "ingredienti": [
+            {
+              "quantita": "120 g",
+              "ingrediente": "Succo di limone fresco (circa 3 limoni)"
+            },
+            {
+              "quantita": "5 g",
+              "ingrediente": "Zeste di limone (solo la parte gialla, senza albedo)"
+            },
+            {
+              "quantita": "150 g",
+              "ingrediente": "Zucchero semolato"
+            },
+            {
+              "quantita": "100 g",
+              "ingrediente": "Burro non salato, a cubetti, freddo"
+            },
+            {
+              "quantita": "2",
+              "ingrediente": "Uova intere"
+            },
+            {
+              "quantita": "2",
+              "ingrediente": "Tuorli"
+            },
+            {
+              "quantita": "3 g (facoltativo)",
+              "ingrediente": "Amido di mais"
+            }
+          ],
+          "procedimento": [
+            "Emulsione iniziale: In una boule inox unisci zucchero, uova, tuorli e amido di mais. Sbatti fino a ottenere una massa omogenea. Aggiungi succo e scorza di limone e mescola.",
+            "Cottura a bagnomaria controllato: Prepara un bagnomaria a 65–70°C. Appoggia la boule sopra l’acqua e cuoci mescolando con frusta. Porta il composto gradualmente a 78°C (max 80°C) finché vela il dorso di un cucchiaio.",
+            "Montaggio del burro (a freddo): Togli la boule dal bagnomaria e, a 55–60°C, incorpora il burro freddo a cubetti, mescolando con spatola o frullatore a immersione.",
+            "Raffreddamento e conservazione: Versa in barattoli sterilizzati e abbatti a 4°C. Conserva fino a 10 giorni in frigorifero."
+          ]
+        },
+        {
+          "nome": "Gelificazione & Caviale Vegetale",
+          "descrizione": "Sfere rosse, verdi o trasparenti. Vegetali che si fingono caviale. Impatto visivo e freschezza pura.",
+          "ingredienti": [
+            {
+              "quantita": "100g",
+              "ingrediente": "Liquido da gelificare"
+            },
+            {
+              "quantita": "1g",
+              "ingrediente": "Agar Agar"
+            },
+            {
+              "quantita": "100g",
+              "ingrediente": "olio di semi"
+            }
+          ],
+          "procedimento": [
+            "Mettere in freezer l’olio fino a portarlo a 2°.",
+            "Portare a bollore il liquido da gelificare, scioglierci dentro l’agar agar e cuocere per 4 minuti.",
+            "Lasciar raffreddare fino ai 50°, con una siringa fare cadere goccia dopo goccia nell’olio freddo il liquido.",
+            "Per ottenere sfere grandi applicare maggiore pressione, per gocce più piccole il contrario.",
+            "Mescolare delicatamente di tanto in tanto.",
+            "Dovrete essere abbastanza veloci perché se l’olio si riscalda la gelificazione non avverrà correttamente.",
+            "Conservare il caviale nell’olio in frigo fino al momento dell’utilizzo.",
+            "Raccoglierlo poco prima dell'utilizzo con un cucchiaio bucato e sciacquarlo sotto acqua corrente.",
+            "Non far superare alle sfere la temperatura di 35°C, altrimenti si scioglieranno."
+          ]
+        },
+        {
+          "nome": "Gnocchi Molecolari",
+          "descrizione": "Amido e purea che diventano perle morbide. Il comfort incontra la scienza.",
+          "ingredienti": [
+            {
+              "quantita": "100 g",
+              "ingrediente": "purea a vostra scelta"
+            },
+            {
+              "quantita": "15 g",
+              "ingrediente": "amido di riso"
+            },
+            {
+              "quantita": "15 g",
+              "ingrediente": "fecola di patate"
+            },
+            {
+              "quantita": "40 g",
+              "ingrediente": "mascarpone"
+            }
+          ],
+          "procedimento": [
+            "Creare la purea a vostra scelta sbollentando la verdura in acqua leggermente salata, passarla in acqua e ghiaccio e quando fredda frullarla con un mixer ad immersione.",
+            "Unire gli amidi alla purea, mescolare bene e portare sul fuoco. Far raggiungere al composto i 70°C e toglierlo dal fuoco.",
+            "Lasciar riposare finché non raggiunge i 40°C e unire il mascarpone, amalgamare finché il composto non diventa liscio.",
+            "Far bollire in una pentola acqua salata e cuocere gli gnocchi per circa 3 minuti. In realtà essendo gli amidi già stati cotti in precedenza questa procedura serve solo a scaldarli."
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "🥩 Carne e Vegetali in CBT",
+      "ricette": [
+        {
+          "nome": "Petto d’Anatra CBT al Limoncello",
+          "descrizione": "Marinato, cotto sottovuoto, rifinito croccante. Un’anatra vestita d’agrumi.",
+          "ingredienti": {
+            "petto_d_anatra": [
+              {
+                "quantita": "2",
+                "ingrediente": "petti d'anatra (circa 200 g ciascuno)"
+              },
+              {
+                "quantita": "100 g",
+                "ingrediente": "sale grosso"
+              },
+              {
+                "quantita": "50 ml",
+                "ingrediente": "limoncello di Sorrento"
+              },
+              {
+                "quantita": "1",
+                "ingrediente": "Scorza di limone (non trattato)"
+              },
+              {
+                "quantita": "1 rametto",
+                "ingrediente": "timo"
+              },
+              {
+                "quantita": "1 rametto",
+                "ingrediente": "rosmarino"
+              },
+              {
+                "quantita": "2 spicchi",
+                "ingrediente": "aglio schiacciati"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Pepe nero macinato fresco"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Olio extravergine di oliva o grasso d’anatra"
+              }
+            ],
+            "polvere_di_limoncello": [
+              {
+                "quantita": "50 ml",
+                "ingrediente": "limoncello di Sorrento"
+              },
+              {
+                "quantita": "20-30 g",
+                "ingrediente": "maltodestrina di tapioca"
+              }
+            ]
+          },
+          "procedimento": [
+            "Marinatura: cospargere il petto d’anatra con sale grosso. Marinare la carne (non la pelle) con limoncello, scorza di limone, timo, rosmarino, aglio e pepe per 1–2 ore.",
+            "Preparazione sous-vide: rimuovere il sale, asciugare bene. Inserire nei sacchetti con erbe e poco olio o limoncello. Cuocere a 54°C per 90 minuti.",
+            "Abbattimento: raffreddare in abbattitore o bagno di ghiaccio.",
+            "Polvere di limoncello: unire limoncello e maltodestrina fino a ottenere una polvere fine. Setacciare.",
+            "Rigenerazione: rosolare la pelle in padella calda fino a croccantezza. Scaldare brevemente il lato carne.",
+            "Composizione: tagliare a medaglioni, spolverare con polvere di limoncello, servire con eventuali accompagnamenti."
+          ],
+          "vino_abbinato": "Pinot Nero della Borgogna o Aglianico del Vulture."
+        },
+        {
+          "nome": "Filetto di Manzo CBT",
+          "descrizione": "Classico e sontuoso. CBT per esaltare fibre, Maillard per firmare il gusto.",
+          "ingredienti": [
+            {
+              "quantita": "1,2 kg",
+              "ingrediente": "filetto di manzo"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "olio evo"
+            },
+            {
+              "quantita": "2 rametti",
+              "ingrediente": "rosmarino"
+            },
+            {
+              "quantita": "5 g",
+              "ingrediente": "timo"
+            },
+            {
+              "quantita": "1 g",
+              "ingrediente": "salvia"
+            },
+            {
+              "quantita": "2 foglie",
+              "ingrediente": "alloro"
+            },
+            {
+              "quantita": "30 g",
+              "ingrediente": "burro"
+            },
+            {
+              "quantita": "1 l",
+              "ingrediente": "acqua"
+            },
+            {
+              "quantita": "30 g",
+              "ingrediente": "sale"
+            },
+            {
+              "quantita": "30 g",
+              "ingrediente": "zucchero"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "pepe"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "spezie a piacere"
+            }
+          ],
+          "procedimento": [
+            "Immergere il filetto nella salamoia di acqua, sale, zucchero, pepe e tutte le spezie a scelta. Coprire il contenitore e riporre in frigo per 24h.",
+            "Prepariamo ora una busta per il sottovuoto in cui inseriremo il filetto leggermente massaggiato con olio evo.",
+            "Aggiungiamo alla busta del sottovuoto anche rosmarino e timo.",
+            "Impostiamo il roner tra i 48° e i 56° per 2.5h, dopo di ché abbattetelo e lasciatelo in frigorifero per 24h.",
+            "Iniziate a preriscaldare il forno ventilato, alla massima potenza mentre iniziamo a rosolare il filetto in padella con burro, salvia e alloro.",
+            "Fate avvenire la reazione di Maillard su tutti i lati e nappatela col burro e i suoi succhi.",
+            "Inserire una sonda per controllare la temperatura e riporre il filetto sulla griglia del forno.",
+            "Una volta che il cuore ha raggiunto i 35°/40° potrete toglierlo dal forno, aspettare qualche minuto e tagliarlo.",
+            "Con i succhi rimasti nella busta del roner e con quelli lasciati in padella per creare la Maillard potete creare una buonissima salsa che accompagnerà il filetto, basterà sfumare col vino la padella ancora rovente, aspettare che l'alcool evapori e poi allungare con un po' di brodo vegetale o di carne."
+          ]
+        },
+        {
+          "nome": "Pulled Pork – Sfilacci di Fumo e Tempo",
+          "descrizione": "Una poesia lunga ore. Il maiale che si fa seta, la memoria che si scioglie nel miele.",
+          "struttura_rituale": [
+            {
+              "elemento": "Materia prima",
+              "descrizione": "Una spalla intera di maiale con osso, marezzata, robusta. Viene massaggiata con senape grezza, per far aderire meglio la polvere."
+            },
+            {
+              "elemento": "Polvere aromatica (dry rub)",
+              "descrizione": "Un impasto secco, dolce e affumicato:",
+              "ingredienti": [
+                "Zucchero grezzo, paprika doppia, pepe, sale",
+                "Cipolla e aglio in polvere",
+                "Senape secca",
+                "Un pizzico di cayenna"
+              ],
+              "note": "Il tutto viene pressato sulla carne, strato su strato, fino a diventare parte di essa."
+            },
+            {
+              "elemento": "Riposo",
+              "descrizione": "La carne riposa scoperta per 12 ore. Assorbe l’umidità dell’aria e si secca in superficie. Sta diventando corteccia."
+            },
+            {
+              "elemento": "Fase I – Affidarsi al fumo",
+              "descrizione": "Affumicatore con legno di ciliegio e quercia rossa a 110°C. La carne viene grigliata lentamente. Ogni ora viene spennellata con aceto di mele e succo di mela. Dopo 6 ore, la superficie è scura: si chiama \"bark\"."
+            },
+            {
+              "elemento": "Fase II – Protezione e fusione",
+              "descrizione": "A 75°C al cuore, si avvolge nella carta da macellaio. Prima si spennella con glassa BBQ (miele, aceto, burro fuso). Si continua la cottura fino a 95°C. Il collagene si scioglie, le fibre si spezzano. La carne diventa seta."
+            },
+            {
+              "elemento": "Fase III – Il tempo si ferma",
+              "descrizione": "Riposo di almeno un’ora avvolta, senza essere toccata. La trasformazione si completa in silenzio."
+            },
+            {
+              "elemento": "Sfilacciatura",
+              "descrizione": "Con rispetto. Si tirano i fili a mano. Alcuni pezzi vengono nappati con la glassa calda. Altri lasciati nudi, per far parlare la corteccia."
+            },
+            {
+              "elemento": "Servizio",
+              "descrizione": [
+                "Un pan brioche caldo",
+                "Una forchettata di coleslaw",
+                "Una goccia di aceto",
+                "Un silenzio dopo il primo morso"
+              ]
+            },
+            {
+              "elemento": "Note finali",
+              "descrizione": "Questo piatto non è fatto per stupire. È fatto per ricordare qualcosa che non sapevi di sapere. Un ritorno alla brace, all’attesa, all’odore di legno che ti entra nei vestiti. \"Pulled pork\" è un nome tecnico. Ma quello che servi è una memoria sfilacciata, lucida di miele, che profuma di casa mai avuta."
+            }
+          ]
+        },
+        {
+          "nome": "Bistecca di Anguria CBT BBQ",
+          "descrizione": "Un ortaggio che gioca a essere carne. Fumo, marinatura, crosta e burro.",
+          "ingredienti": {
+            "anguria": [
+              {
+                "quantita": "2 fette",
+                "ingrediente": "spesse di anguria (3–4 cm)"
+              }
+            ],
+            "marinatura_bbq_affumicata": [
+              {
+                "quantita": "50 ml",
+                "ingrediente": "Salsa BBQ"
+              },
+              {
+                "quantita": "30 ml",
+                "ingrediente": "Aceto di mele"
+              },
+              {
+                "quantita": "1 cucchiaio",
+                "ingrediente": "Zucchero di canna"
+              },
+              {
+                "quantita": "1 cucchiaino",
+                "ingrediente": "Paprika affumicata"
+              },
+              {
+                "quantita": "1 cucchiaino",
+                "ingrediente": "Senape di Digione"
+              },
+              {
+                "quantita": "1 spicchio",
+                "ingrediente": "Aglio grattugiato"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Pepe nero"
+              }
+            ],
+            "dry_brine": [
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Sale fino"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Pepe nero"
+              },
+              {
+                "quantita": "facoltativa",
+                "ingrediente": "Paprika affumicata"
+              }
+            ],
+            "nappatura_in_padella": [
+              {
+                "quantita": "20 g",
+                "ingrediente": "Burro"
+              },
+              {
+                "quantita": "2 cucchiai",
+                "ingrediente": "Salsa BBQ"
+              }
+            ]
+          },
+          "procedimento": [
+            "Marinatura spinta: Immergi le fette di anguria nella marinatura BBQ affumicata. Copri e lascia in frigo per 2 ore (fino a 4 per un gusto più deciso), girando a metà tempo.",
+            "Cottura CBT (sperimentale): Condiziona le fette sottovuoto separatamente. Cuoci una a 84°C per 45 min, l’altra per 2 h. Raffredda rapidamente in acqua e ghiaccio.",
+            "Dry brine: Asciuga bene le fette. Cospargi con sale, pepe e paprika affumicata. Lascia in frigo scoperto per 24 h su una griglia per disidratare la superficie.",
+            "Reazione di Maillard e nappatura: Scalda una padella in ghisa a fuoco alto. Aggiungi burro e BBQ, abbassa leggermente la fiamma. Nappa l’anguria con il condimento caldo per 30–40 secondi per lato, senza cuocere troppo a lungo."
+          ],
+          "finitura_consigliata": [
+            "Spennella con salsa BBQ calda per una glassa finale lucida",
+            "Guarnisci con germogli freschi, cipolla fermentata o croccante",
+            "Aggiungi un tocco di aceto balsamico ridotto"
+          ],
+          "pairing_consigliato": [
+            {
+              "bevanda": "Kombucha affumicato al legno di ciliegio",
+              "note": "con tè nero Lapsang Souchong e ciliegie essiccate. Equilibra il dolce dell’anguria, rinfresca il palato, richiama il profilo BBQ"
+            }
+          ]
+        },
+        {
+          "nome": "Carne Vegetale Ultra-Realistica (Stile Kobe)",
+          "descrizione": "Sfoglie proteiche e grassi vegetali marmorizzati. Un Kobe cruelty-free.",
+          "ingredienti": {
+            "a_impasto_base_tessuto_muscolare": [
+              {
+                "quantita": "180 g",
+                "ingrediente": "glutine di frumento"
+              },
+              {
+                "quantita": "30 g",
+                "ingrediente": "proteina di soia isolate (già reidratata e tritata finemente)"
+              },
+              {
+                "quantita": "50 g",
+                "ingrediente": "farina di ceci"
+              },
+              {
+                "quantita": "200 ml",
+                "ingrediente": "brodo umami leggero (preparato con un infuso di kombu e shiitake, filtrato)"
+              },
+              {
+                "quantita": "20 ml",
+                "ingrediente": "olio extravergine di oliva"
+              },
+              {
+                "quantita": "1 cucchiaino",
+                "ingrediente": "concentrato di pomodoro"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Sale e pepe nero"
+              }
+            ],
+            "b_grasso_vegetale_marmorizzato": [
+              {
+                "quantita": "60 g",
+                "ingrediente": "burro di cacao"
+              },
+              {
+                "quantita": "30 g",
+                "ingrediente": "olio di cocco"
+              },
+              {
+                "quantita": "20 g",
+                "ingrediente": "olio extravergine di oliva"
+              },
+              {
+                "quantita": "3 g",
+                "ingrediente": "lecitina di soia (emulsionante)"
+              },
+              {
+                "quantita": "5 g",
+                "ingrediente": "amido di tapioca"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Acqua (per regolare la consistenza)"
+              },
+              {
+                "quantita": "5ml",
+                "ingrediente": "succo di barbabietola fresca"
+              },
+              {
+                "quantita": "1 pizzico",
+                "ingrediente": "aceto di mele"
+              }
+            ],
+            "c_dryrub_per_dry_aging": [
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Sale marino grosso"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Pepe nero macinato fresco"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Paprika affumicata"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Aglio in polvere"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Cipolla in polvere"
+              },
+              {
+                "quantita": "Un pizzico",
+                "ingrediente": "zucchero di canna"
+              }
+            ],
+            "d_finitura_spennellatura_per_il_colore_della_crosta": [
+              {
+                "quantita": "30 ml",
+                "ingrediente": "succo di barbabietola fresca"
+              },
+              {
+                "quantita": "1 cucchiaino",
+                "ingrediente": "cacao amaro in polvere"
+              },
+              {
+                "quantita": "Qualche goccia",
+                "ingrediente": "d’acqua (per diluire se necessario)"
+              }
+            ],
+            "e_aromi_per_la_cottura_sottovuoto": [
+              {
+                "quantita": "1 rametto",
+                "ingrediente": "rosmarino"
+              },
+              {
+                "quantita": "1 spicchio",
+                "ingrediente": "d’aglio (leggermente schiacciato)"
+              },
+              {
+                "quantita": "Qualche grano",
+                "ingrediente": "di pepe nero"
+              }
+            ]
+          },
+          "procedimento_dettagliato": [
+            {
+              "step": "1. Preparazione del Grasso Vegetale Marmorizzato",
+              "sottostep": [
+                {
+                  "titolo": "Fusione degli Oli:",
+                  "istruzioni": "In un recipiente a bagnomaria, sciogli insieme il burro di cacao, l’olio di cocco e i 20 g di olio extravergine di oliva a fuoco moderato, mescolando fino a ottenere una miscela omogenea."
+                },
+                {
+                  "titolo": "Emulsione:",
+                  "istruzioni": "Aggiungi la lecitina di soia e l’amido di tapioca alla miscela, incorporando gradualmente qualche cucchiaio di acqua (o brodo leggero) per ottenere una consistenza cremosa ma non troppo liquida."
+                },
+                {
+                  "titolo": "Integrazione del Colore Interno:",
+                  "istruzioni": "Una volta omogenea, incorpora 5 ml di succo di barbabietola e un pizzico di aceto di mele. Questi ingredienti daranno una leggera tinta rossa al grasso senza alterare il profilo gustativo."
+                },
+                {
+                  "titolo": "Divisione in Due Fasi:",
+                  "istruzioni": [
+                    "Fase Solida: Versa metà del composto in uno stampo rettangolare e lascia solidificare in frigorifero (o, per accelerare, in freezer per 5–10 minuti). Una volta solido, taglia questo blocco in piccoli cubetti.",
+                    "Fase Gel: Conserva l’altra metà in una ciotola, mantenendola con consistenza morbida e gelatinosa. Questa verrà usata per arricchire il centro dell’impasto."
+                  ]
+                }
+              ]
+            },
+            {
+              "step": "2. Preparazione dell’Impasto Base",
+              "sottostep": [
+                {
+                  "titolo": "Unione degli Ingredienti Secchi:",
+                  "istruzioni": "In una ciotola capiente, mescola il glutine di frumento, la proteina di soia isolate e la farina di ceci."
+                },
+                {
+                  "titolo": "Integrazione degli Ingredienti Liquidi:",
+                  "istruzioni": "In un’altra ciotola, unisci il brodo umami, i 20 ml di olio extravergine di oliva, il concentrato di pomodoro, sale e pepe. Versa il liquido sugli ingredienti secchi e impasta energicamente fino a ottenere una consistenza liscia, elastica e ben idratata. Lascia riposare l’impasto per circa 10 minuti per far rilassare il glutine."
+                }
+              ]
+            },
+            {
+              "step": "3. Tecnica della Stratificazione “Sfoglia Proteica”",
+              "sottostep": [
+                {
+                  "titolo": "Stesura dell’Impasto:",
+                  "istruzioni": "Trasferisci l’impasto su una superficie leggermente unta e stendilo formando un rettangolo di circa 1 cm di spessore."
+                },
+                {
+                  "titolo": "Distribuzione del Grasso Solido:",
+                  "istruzioni": "Distribuisci uniformemente i cubetti di grasso solido (ottenuti dalla Fase Solida del Grasso Vegetale) su metà del rettangolo."
+                },
+                {
+                  "titolo": "Prima Piega:",
+                  "istruzioni": "Piegare l’impasto a tre, coprendo i cubetti con la parte rimanente."
+                },
+                {
+                  "titolo": "Ristendere e Piegare:",
+                  "istruzioni": "Ristendi l’impasto piegato a uno spessore di circa 1 cm e ripeti la piegatura per ottenere almeno 4 pieghe totali. Importante: Dopo ogni piega, avvolgi l’impasto in pellicola trasparente e riponilo in freezer per circa 5 minuti per fissare la struttura e stabilizzare il grasso."
+                },
+                {
+                  "titolo": "Incorporazione del Grasso Gel:",
+                  "istruzioni": "All’ultima piega, stendi l’impasto e, al centro, distribuisci uniformemente il gel morbido preparato in precedenza. Arrotola delicatamente l’impasto per inglobare il gel, mantenendo la struttura a strati che imita le fibre muscolari."
+                }
+              ]
+            },
+            {
+              "step": "4. Dry-Aging (Simulazione)",
+              "sottostep": [
+                {
+                  "titolo": "Applicazione del Dryrub",
+                  "istruzioni": "Cospargi uniformemente l'esterno dell'impasto con il dryrub preparato. Questo passaggio non solo aggiunge sapore, ma aiuta anche a creare una crosta esterna che simula la disidratazione superficiale tipica del dry-aging."
+                },
+                {
+                  "titolo": "Riposo in Frigorifero",
+                  "istruzioni": "Avvolgi l'impasto in una garza o in un telo da cucina pulito e traspirante. Riponi l'impasto su una griglia in frigorifero. Lascia riposare per almeno 24 ore, idealmente 48-72 ore. Questo permette all'impasto di 'respirare', favorendo una leggera disidratazione superficiale."
+                }
+              ]
+            },
+            {
+              "step": "5. Cottura Sottovuoto",
+              "sottostep": [
+                {
+                  "titolo": "Preparazione per la Cottura",
+                  "istruzioni": "Dopo il periodo di 'dry-aging' simulato, rimuovi delicatamente la garza. Inserisci l'impasto in un sacchetto per sottovuoto adatto alla cottura. Aggiungi gli aromi (rosmarino, aglio, pepe)."
+                },
+                {
+                  "titolo": "Sigillatura e Cottura",
+                  "istruzioni": "Sigilla il sacchetto sottovuoto, assicurandoti di rimuovere quanta più aria possibile. Immergi il sacchetto in un bagno d'acqua preriscaldato con un roner (circolatore ad immersione) impostato a 55-57°C. Cuoci per 2-3 ore. Questo intervallo di temperatura e tempo permette una cottura uniforme e lo sviluppo di una consistenza tenera."
+                }
+              ]
+            },
+            {
+              "step": "6. Finitura e Rosolatura",
+              "sottostep": [
+                {
+                  "titolo": "Preparazione Finale",
+                  "istruzioni": "Rimuovi l'impasto dal sacchetto sottovuoto e asciugalo tamponando con carta assorbente. Prepara una miscela per la spennellatura mescolando il succo di barbabietola e il cacao in polvere. Spennella uniformemente la superficie dell'impasto con questa miscela. Questo passaggio conferirà un colore brunito e un sapore leggermente affumicato, simulando la crosta esterna di una bistecca tradizionale."
+                },
+                {
+                  "titolo": "Rosolatura",
+                  "istruzioni": "Scalda una padella in ghisa o una piastra a fuoco alto. Ungi leggermente la padella con olio extravergine di oliva. Rosola l'impasto per circa 30-60 secondi per lato, o fino a quando non si forma una crosta esterna ben definita e brunita. Fai attenzione a non cuocere eccessivamente l'interno."
+                }
+              ]
+            },
+            {
+              "step": "7. Servizio",
+              "istruzioni": "Lascia riposare l'impasto per qualche minuto dopo la rosolatura. Taglia a fette, come faresti con una bistecca tradizionale. Servi immediatamente, accompagnando a piacere con contorni classici come patate arrosto, verdure grigliate o salse a scelta."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "🍝 Primi Piatti Creativi",
+      "ricette": [
+        {
+          "nome": "Spaghetti Aglio e Olio Gourmet",
+          "descrizione": "Latte, clorofilla, aglio in tre cotture. Il più classico si traveste da haute cuisine.",
+          "ingredienti": [
+            {
+              "quantita": "100 g",
+              "ingrediente": "olio evo"
+            },
+            {
+              "quantita": "1 mazzetto",
+              "ingrediente": "prezzemolo"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "peperoncino"
+            },
+            {
+              "quantita": "6 spicchi",
+              "ingrediente": "aglio"
+            },
+            {
+              "quantita": "200 g",
+              "ingrediente": "acqua"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "latte"
+            },
+            {
+              "quantita": "250 g",
+              "ingrediente": "pasta"
+            }
+          ],
+          "procedimento": [
+            "Mettere in ammollo l'aglio per almeno 12 ore nel latte fino a coprirlo. Portarlo a bollore nello stesso latte per 5 minuti, scolarlo e ripetere la stessa operazione per altre due volte usando l'acqua. A termine frullate l'aglio con del latte versato a filo fino a consistenza desiderata per creare la crema all'aglio.",
+            "Mettere su l'acqua della pasta, aspettare il bollore e salarla.",
+            "Calare le foglie di prezzemolo per 10 secondi, estrarle e metterle in acqua e ghiaccio. Ripetere l’operazione per i gambi modificando il tempo a un minuto.",
+            "Versare l'olio in un contenitore adatto al minipimer e inserire le foglie di prezzemolo. Tritare fino ad ottenere una crema abbastanza liscia. Filtrare il tutto in un colino e conservare gli scarti, ottenendo così l'olio al prezzemolo.",
+            "Ripetere l'operazione per i gambi, sostituendo all'olio l'acqua per ottenere la clorofilla in cui risottare gli spaghetti.",
+            "Con gli scarti ottenuti creare una sfoglia di prezzemolo e metterlo nel microonde per circa 4 minuti a 600 W, aspettare che si raffreddi e sbriciolarlo per ottenere la polvere di prezzemolo.",
+            "Calare la pasta e cuocerla per metà tempo in pentola e l'altra risottata con la clorofilla ottenuta precedentemente in padella, dove ci sarà metà dell'olio ottenuto prima, la crema d'aglio e peperoncino a gusto. Risottare fino a cottura ultimata, versare il restante olio per mantecare e servire spolverando la polvere sul nido di spaghetti."
+          ]
+        },
+        {
+          "nome": "Carbonara CBT – Chef Pirotta",
+          "descrizione": "La carbonara destrutturata e ricomposta: salsa a bassa temperatura, guanciale in parallelepipedi.",
+          "ingredienti": [
+            {
+              "quantita": "85 g",
+              "ingrediente": "tuorli"
+            },
+            {
+              "quantita": "20 g",
+              "ingrediente": "pecorino"
+            },
+            {
+              "quantita": "20 g",
+              "ingrediente": "parmigiano"
+            },
+            {
+              "quantita": "3,3 g",
+              "ingrediente": "amido di mais"
+            },
+            {
+              "quantita": "3,3 g",
+              "ingrediente": "amido di riso"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "pepe"
+            },
+            {
+              "quantita": "330 g",
+              "ingrediente": "guanciale con cotenna"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "acqua"
+            },
+            {
+              "quantita": "320 g",
+              "ingrediente": "pasta"
+            }
+          ],
+          "procedimento": [
+            {
+              "fase": "Guanciale CBT",
+              "procedura": [
+                "Lava e spazzola il guanciale sotto l’acqua corrente affinché tutto il pepe in superficie si sia lavato via.",
+                "Asciugalo e separa la cotenna con un coltello ben affilato, para il guanciale eliminando i bordi ingialliti e la parte con il pepe, dandogli una forma squadrata.",
+                "Tieni da parte la cotenna e tutti i ritagli ottenuti dalla pulitura.",
+                "Condiziona sottovuoto il guanciale e cuocilo a 68°C per 24 ore, dopodiché abbatti a +3°C."
+              ]
+            },
+            {
+              "fase": "Essenza di Guanciale CBT",
+              "procedura": [
+                "Taglia le cotenne e i ritagli del guanciale in piccoli pezzi e condizionali sottovuoto con lo stesso peso di acqua, cuoci a 85°C per 12 ore.",
+                "A fine cottura, a caldo, separa i liquidi dalle parti solide con un setaccio a rete finissima.",
+                "Abbatti i liquidi a 3°C e poi elimina la parte grassa che si formerà per decantazione sulla superficie.",
+                "Conserva la parte acquosa sottostante, che sarà l’essenza di guanciale.",
+                "Se non intendi utilizzarla subito per la salsa carbonara CBT, conservala sottovuoto a -18°C (previo decongelamento)."
+              ]
+            },
+            {
+              "fase": "Salsa Carbonara CBT",
+              "procedura": [
+                "Unisci tutti gli ingredienti in una caraffa graduata e omogeneizzali con un frullatore ad immersione, evitando di incorporare aria.",
+                "Trasferisci il composto in una vaschetta bassa e sgasa il composto usando il sottovuoto.",
+                "Una volta sgasato, trasferisci il composto in una grossa busta da cottura e raffreddala fino a 0°C per ottenere il sottovuoto perfetto.",
+                "Condiziona sottovuoto e cuoci a 66°C per 1 ora e 30 minuti, mescolando ogni 15 minuti.",
+                "A fine cottura abbatti a 3°C.",
+                "Al momento di utilizzarla, se vuoi un risultato particolarmente vellutato, frulla per pochi secondi (se l’hai fatta bene, sarà già sufficientemente liscia)."
+              ]
+            },
+            {
+              "fase": "Finitura",
+              "procedura": [
+                "Taglia il guanciale in parallelepipedi di 1,5 cm di lato e rosolali a fuoco dolce su tutti i lati.",
+                "Una volta rosolato, tieni il guanciale in caldo e lascia nella padella il grasso rilasciato.",
+                "Nel frattempo, cuoci la pasta e, una volta scolata, conserva un po’ di acqua di cottura.",
+                "Unisci la pasta nella padella con il grasso del guanciale, mescola bene, poi a fuoco spento aggiungi circa 50/60 g di salsa di carbonara (fredda) e falla mantecare usando solo il calore della pasta; se necessario, aggiungi poca acqua di cottura.",
+                "Servi immediatamente con il guanciale rosolato, pecorino grattugiato e abbondante pepe nero macinato."
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Risotto alla Bisque di Gamberi e Pomodorini Confit",
+          "descrizione": "Bisque intensa e dolcezza confit risottati all’onda, con gambero scottato come firma finale.",
+          "ingredienti": [
+            {
+              "quantita": "4",
+              "ingrediente": "gamberoni"
+            },
+            {
+              "quantita": "1 spicchio",
+              "ingrediente": "aglio"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "olio"
+            },
+            {
+              "quantita": "400 g",
+              "ingrediente": "riso carnaroli/arborio"
+            },
+            {
+              "quantita": "100 g",
+              "ingrediente": "olio evo al prezzemolo"
+            },
+            {
+              "quantita": "1 bicchiere",
+              "ingrediente": "vino bianco"
+            },
+            {
+              "quantita": "1 l",
+              "ingrediente": "bisque di gamberi con pomodorini confit"
+            }
+          ],
+          "procedimento": [
+            "Per l'olio al prezzemolo vedere la ricetta “Olio al prezzemolo”.",
+            "Privare i gamberi della testa e dei carapaci, pulirli dalle interiora e conservare questi scarti per fare la bisque.",
+            "Privare la testa degli occhi, per evitare il sapore amaro.",
+            "Preparare la bisque sostituendo i pomodorini indicati in ricetta con dei pomodorini confit unendoli dopo i carapaci.",
+            "In una padella antiaderente, scottare i gamberi con un filo d'olio e uno spicchio d'aglio per circa 30-40 secondi per lato.",
+            "In un pentolino già caldo, versare il riso e tostarlo per circa 3 minuti, fino a percepire il tipico odore e il suono diverso durante la tostatura.",
+            "Sfumare con un bicchiere di vino bianco e, appena evaporato l’alcool, iniziare ad aggiungere la bisque a poco a poco, mescolando continuamente.",
+            "Il liquido dovrà coprire appena il riso; se necessario, aggiungere altro brodo per completare la cottura al dente.",
+            "A cottura ultimata, versare l'olio al prezzemolo e mantecare il risotto a onda.",
+            "Lasciare riposare il risotto coperto per un minuto, poi impiattare aggiungendo un gambero appoggiato al centro."
+          ]
+        },
+        {
+          "nome": "Risotto Pere e Gorgonzola",
+          "descrizione": "Dolcezza caramellata e cremosità piccante in un incontro equilibrato, con fettine di pera a completare.",
+          "ingredienti": [
+            {
+              "quantita": "400 g",
+              "ingrediente": "riso carnaroli/arborio"
+            },
+            {
+              "quantita": "150 g",
+              "ingrediente": "gorgonzola piccante"
+            },
+            {
+              "quantita": "7",
+              "ingrediente": "pere"
+            },
+            {
+              "quantita": "70 g",
+              "ingrediente": "burro"
+            },
+            {
+              "quantita": "60 g",
+              "ingrediente": "parmigiano"
+            },
+            {
+              "quantita": "1 bicchiere",
+              "ingrediente": "vino bianco"
+            },
+            {
+              "quantita": "1,6 l",
+              "ingrediente": "acqua"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "sale"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "zucchero di canna"
+            }
+          ],
+          "procedimento": [
+            "Tagliare da quattro pere con molta cura la parte centrale, ottenendo fettine sottili, e metterle da parte.",
+            "Continuare a tagliare ulteriori fettine di pera fino a ottenere almeno due pere intere tagliate.",
+            "Riscaldare una padella antiaderente e cuocere le fettine di pera con un po' di zucchero di canna fino a caramellizzazione.",
+            "Mantenere intatta la parte centrale di una delle pere, spezzettare le altre e metterle da parte per la decorazione.",
+            "Sbucciare e tagliare grossolanamente le restanti pere e metterle in acqua fredda (insieme anche le bucce) per creare un brodo di pere.",
+            "Dopo circa un’ora, filtrare il brodo eliminando le bucce.",
+            "Frullare le pere per ottenere una crema, tenendone da parte una piccola quantità per arricchire il brodo se necessario.",
+            "In un pentolino, tostare il riso per circa 3 minuti, sfumare con vino bianco e aggiungere gradualmente il brodo di pere mentre il riso assorbe il liquido.",
+            "A ¾ della cottura, aggiungere qualche cucchiaio della crema di pere ottenuta e aggiustare di sale se necessario.",
+            "A fine cottura, togliere il risotto dal fuoco e mantecare con gorgonzola, burro e parmigiano.",
+            "Lasciare riposare il risotto coperto per un minuto, poi impiattare decorando con le pere caramellate (disposte al centro come un elemento verticale) e altre pere sminuzzate sparse a piacimento."
+          ]
+        },
+        {
+          "nome": "Risotto Crema di Mortadella e Pistacchio",
+          "descrizione": "Mantecatura vellutata alla mortadella, pistacchio in tre consistenze: pesto, granella e polvere.",
+          "ingredienti": [
+            {
+              "quantita": "400 g",
+              "ingrediente": "riso carnaroli/arborio"
+            },
+            {
+              "quantita": "200 g",
+              "ingrediente": "mascarpone"
+            },
+            {
+              "quantita": "100 g",
+              "ingrediente": "mortadella"
+            },
+            {
+              "quantita": "100 g",
+              "ingrediente": "pistacchi"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "olio d’oliva"
+            },
+            {
+              "quantita": "50 g",
+              "ingrediente": "burro"
+            },
+            {
+              "quantita": "85 g",
+              "ingrediente": "parmigiano"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "latte"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "pepe"
+            },
+            {
+              "quantita": "1 l",
+              "ingrediente": "brodo vegetale"
+            }
+          ],
+          "procedimento": [
+            "Iniziare a creare la mousse di mortadella: ridurre la mortadella a cubetti con un coltello, unire mascarpone, pepe, un cucchiaio di latte e 25 g di parmigiano e frullare fino a ottenere un composto liscio e cremoso. Valutare se aggiungere altro latte per ottenere la consistenza desiderata.",
+            "Preparare il pesto di pistacchio: in un mixer, frullare metà dei pistacchi pelati e reidratati (circa 50 g) a velocità minima, aggiungendo olio a filo fino a formare una pasta liscia.",
+            "Tostare l’altra metà dei pistacchi in forno ventilato a 200°C per circa 15-20 minuti, girandoli 3 volte durante la cottura. Battere a pezzi grossolani una parte dei pistacchi tostati per ottenere una granella, mentre l’altra metà può essere frullata in polvere.",
+            "Iniziare la cottura del risotto: tostare il riso a secco in una pentola, sfumare con un bicchiere di vino bianco e continuare la cottura aggiungendo gradualmente il brodo vegetale.",
+            "Quando il riso è quasi cotto, togliere dal fuoco e mantecare con la mousse di mortadella e il parmigiano, aggiungendo eventualmente altro brodo vegetale per raggiungere la consistenza desiderata.",
+            "Lasciare riposare il risotto per un minuto coperto e impiattare completando con macchie di pesto di pistacchio, granella e polvere di pistacchio."
+          ]
+        },
+        {
+          "nome": "Risotto Crema di Parmigiana di melanzane, crema di mozzarella di bufala, perle di basilico e tarallo sbriciolato",
+          "descrizione": "Omaggio alla parmigiana: crema fondente, gocce di bufala, perle di basilico e croccante di tarallo.",
+          "ingredienti": [
+            {
+              "quantita": "400 g",
+              "ingrediente": "riso carnaroli/arborio"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "olio d’oliva"
+            },
+            {
+              "quantita": "90 g",
+              "ingrediente": "burro"
+            },
+            {
+              "quantita": "100 g",
+              "ingrediente": "parmigiano"
+            },
+            {
+              "quantita": "250 g",
+              "ingrediente": "mozzarella di bufala"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "latte"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "pepe"
+            },
+            {
+              "quantita": "200 g",
+              "ingrediente": "parmigiana di melanzane"
+            },
+            {
+              "quantita": "1.5 l",
+              "ingrediente": "brodo vegetale"
+            },
+            {
+              "quantita": "1",
+              "ingrediente": "scalogno"
+            }
+          ],
+          "procedimento": [
+            "Iniziare a creare la crema di parmigiana: frullare la parmigiana aggiungendo gradualmente del brodo fino a ottenere una consistenza liscia e cremosa, eventualmente aggiungendo altro brodo se necessario.",
+            "Preparare la crema di mozzarella: frullare la mozzarella con latte e un filo d'olio fino a ottenere una crema liscia, aggiungendo eventualmente additivi come la xantana per stabilizzare la consistenza.",
+            "Utilizzare il metodo del caviale per creare perle di basilico dalla crema di basilico ottenuta precedentemente.",
+            "Sbriciolare il tarallo fino a ottenere una granella.",
+            "Cuocere il risotto: tostare il riso in una pentola con olio d’oliva e scalogno, sfumare con un bicchiere di vino bianco e aggiungere gradualmente il brodo vegetale.",
+            "Quando il riso è quasi cotto (circa ¾ della cottura), aggiungere la crema di parmigiana.",
+            "Fuori dal fuoco, mantecare il risotto con burro e parmigiano, aggiungendo eventualmente altro brodo vegetale.",
+            "Lasciare riposare il risotto per un minuto coperto e impiattare, completando con strisce o macchie di crema di mozzarella, perle di basilico e granella di tarallo."
+          ]
+        },
+        {
+          "nome": "Gnocchi di Patate Viola",
+          "descrizione": "Colore acceso, morbidezza densa, salsa al parmigiano vellutata.",
+          "ingredienti": [
+            {
+              "quantita": "1 kg",
+              "ingrediente": "patate viola"
+            },
+            {
+              "quantita": "300 g",
+              "ingrediente": "farina 00"
+            },
+            {
+              "quantita": "1",
+              "ingrediente": "uova"
+            }
+          ],
+          "procedimento": [
+            "Cuocere le patate in acqua leggermente salata con tutta la buccia e verificare che siano morbide alla prova della forchetta.",
+            "Lasciare intiepidire leggermente e passarle allo schiacciapatate.",
+            "Unire la farina (quantità variabile a seconda dell'umidità) e l'uovo, lavorando l'impasto fino a formare una palla compatta, senza lavorarlo eccessivamente per evitare lo sviluppo eccessivo del glutine.",
+            "Tagliare l'impasto in strisce, arrotondare e formare piccoli cilindri secondo la forma preferita.",
+            "Cuocere gli gnocchi in abbondante acqua salata: saranno pronti quando saliranno a galla.",
+            "Scolarli, saltarli in padella con burro, salvia e alloro e servirli con una salsa al parmigiano vellutata."
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "🍕 Pizza e Pane",
+      "ricette": [
+        {
+          "nome": "Pizza in Pala Romana – Metodo Pietro Lama",
+          "descrizione": "Biga al 70%, idratazione all’80%. Impasto vivo, stesura tradizionale, doppia cottura.",
+          "ingredienti": {
+            "totali": [
+              {
+                "quantita": "555,56 g",
+                "ingrediente": "Farina totale"
+              },
+              {
+                "quantita": "444,44 g",
+                "ingrediente": "Acqua totale"
+              },
+              {
+                "quantita": "80%",
+                "ingrediente": "Idratazione"
+              },
+              {
+                "quantita": "11,11 g",
+                "ingrediente": "Sale"
+              },
+              {
+                "quantita": "5,56 g",
+                "ingrediente": "Lievito totale"
+              }
+            ],
+            "biga_18_20h_prima": [
+              {
+                "quantita": "388,89 g",
+                "ingrediente": "Farina"
+              },
+              {
+                "quantita": "171,11 g (45%)",
+                "ingrediente": "Acqua"
+              },
+              {
+                "quantita": "3,89 g (1% sulla farina della biga)",
+                "ingrediente": "Lievito fresco"
+              }
+            ],
+            "impasto_finale": [
+              {
+                "quantita": "166,67 g",
+                "ingrediente": "Farina"
+              },
+              {
+                "quantita": "273,33 g",
+                "ingrediente": "Acqua"
+              },
+              {
+                "quantita": "1,67 g (1% sulla farina del rinfresco)",
+                "ingrediente": "Lievito fresco"
+              },
+              {
+                "quantita": "11,11 g",
+                "ingrediente": "Sale"
+              },
+              {
+                "quantita": "Facoltativi",
+                "ingrediente": "miele o olio EVO"
+              }
+            ]
+          },
+          "procedimento": [
+            "Biga: Impastare brevemente senza incordare. Fermentare a 18-20°C per 18h coperta.",
+            "Impasto finale: Incordare bene. Riposo 1h a temperatura ambiente con eventuali pieghe. Staglio diretto in panetto da ~1000 g. Frigo a 4°C. Estrarre 2h prima della cottura.",
+            "Stesura (Metodo Tradizionale da Pala Romana): Infarinare bene il banco con semola rimacinata. Dare una forma rettangolare all'impasto, schiacciandolo delicatamente con i polpastrelli a partire dai bordi verso il centro, senza sgonfiarlo completamente.",
+            "Cottura – Metodo Doppia Fase: Preriscaldare il forno al massimo (250-280°C). Posizionare la pala sul fondo del forno, su teglia rovente. Quando il fondo è ben colorato, spostare la pala sul ripiano centrale. Condire a piacere e completare la cottura finché la pizza è croccante e dorata."
+          ]
+        },
+        {
+          "nome": "Pizza Margherita",
+          "descrizione": "Il simbolo. Tradizione pura. Pomodoro, mozzarella, basilico: l’Italia in un disco.",
+          "ingredienti": {
+            "per_l_impasto_grande": [
+              {
+                "quantita": "400 g",
+                "ingrediente": "acqua"
+              },
+              {
+                "quantita": "620 g",
+                "ingrediente": "farina"
+              },
+              {
+                "quantita": "20 g",
+                "ingrediente": "sale"
+              },
+              {
+                "quantita": "1,5 g",
+                "ingrediente": "lievito fresco"
+              },
+              {
+                "quantita": "8 g",
+                "ingrediente": "zucchero"
+              },
+              {
+                "quantita": "20 g",
+                "ingrediente": "olio"
+              }
+            ],
+            "per_l_impasto_piccola": [
+              {
+                "quantita": "350 g",
+                "ingrediente": "acqua"
+              },
+              {
+                "quantita": "540 g",
+                "ingrediente": "farina"
+              },
+              {
+                "quantita": "17 g",
+                "ingrediente": "sale"
+              },
+              {
+                "quantita": "1,5 g",
+                "ingrediente": "lievito fresco"
+              },
+              {
+                "quantita": "6 g",
+                "ingrediente": "zucchero"
+              },
+              {
+                "quantita": "16 g",
+                "ingrediente": "olio"
+              }
+            ],
+            "per_il_condimento": [
+              {
+                "quantita": "320 g",
+                "ingrediente": "mozzarella",
+                "per": "grande"
+              },
+              {
+                "quantita": "280 g",
+                "ingrediente": "mozzarella",
+                "per": "piccola"
+              },
+              {
+                "quantita": "220 g",
+                "ingrediente": "pelata",
+                "per": "grande"
+              },
+              {
+                "quantita": "200 g",
+                "ingrediente": "pelata",
+                "per": "piccola"
+              },
+              {
+                "quantita": "2 ½ g",
+                "ingrediente": "sale",
+                "per": "grande"
+              },
+              {
+                "quantita": "2 g",
+                "ingrediente": "sale",
+                "per": "piccola"
+              },
+              {
+                "quantita": "q.b",
+                "ingrediente": "olio"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "basilico"
+              }
+            ]
+          },
+          "procedimento": [
+            "Sciogliere il sale nell'acqua e aggiungere metà della farina setacciata con il lievito sbriciolato. Aggiungere la restante farina un po' alla volta.",
+            "Aggiungere zucchero e olio (lo zucchero si usa solo in forni domestici).",
+            "Impastare per 10-15 minuti, formare una palla e lasciare riposare coperta per 1 ora.",
+            "Formare 4 panetti e lasciare lievitare fino al raddoppio (circa 8 ore).",
+            "Preparare la salsa: schiacciare i pomodori pelati, condirli e lasciar riposare almeno 2 ore per assorbire i sapori.",
+            "Tagliare la mozzarella a listarelle di dimensioni medie.",
+            "Stendere il panetto di pizza infarinato, mantenendo i bordi ben strutturati.",
+            "Condire la pizza con circa 3-4 cucchiai di salsa, la mozzarella, un filo d'olio e basilico.",
+            "Cuocere in un fornetto per pizze per 2-3 minuti oppure in forno preriscaldato per 8-12 minuti (aggiungendo la mozzarella e il basilico a metà cottura se non si dispone di un fornetto)."
+          ]
+        },
+        {
+          "nome": "Pizza Doppio Prefermento (75%)",
+          "descrizione": "Poolish e biga. Il gusto profondo di una lunga attesa.",
+          "ingredienti": {
+            "per_l_impasto": [
+              {
+                "quantita": "750 g",
+                "ingrediente": "Farina 80"
+              },
+              {
+                "quantita": "550 g",
+                "ingrediente": "Acqua"
+              },
+              {
+                "quantita": "18 g",
+                "ingrediente": "Sale"
+              },
+              {
+                "quantita": "20 g",
+                "ingrediente": "Olio"
+              },
+              {
+                "quantita": "16 g",
+                "ingrediente": "Zucchero"
+              }
+            ],
+            "preimpasto_biga": [
+              {
+                "quantita": "262 g",
+                "ingrediente": "Farina"
+              },
+              {
+                "quantita": "131 g",
+                "ingrediente": "Acqua"
+              },
+              {
+                "quantita": "2.62 g",
+                "ingrediente": "Lievito (1% del peso della farina)"
+              }
+            ],
+            "preimpasto_poolish": [
+              {
+                "quantita": "262 g",
+                "ingrediente": "Farina"
+              },
+              {
+                "quantita": "262 g",
+                "ingrediente": "Acqua"
+              },
+              {
+                "quantita": "0.262 g",
+                "ingrediente": "Lievito"
+              }
+            ],
+            "restante_impasto": [
+              {
+                "quantita": "225 g",
+                "ingrediente": "Farina"
+              },
+              {
+                "quantita": "157 g",
+                "ingrediente": "Acqua"
+              },
+              {
+                "quantita": "3 g",
+                "ingrediente": "Lievito (0.4% del peso della farina)"
+              }
+            ]
+          },
+          "procedimento": [
+            "Prepara il preimpasto mescolando farina, acqua e lievito secondo le proporzioni indicate per la biga e il poolish.",
+            "Lascia fermentare a temperatura ambiente per 18 ore.",
+            "Dopo 18 ore, in planetaria unisci biga, poolish e metà dell'acqua rimasta; lavora fino a sciogliere eventuali grumi.",
+            "Aggiungi la restante farina e il lievito, quindi integra zucchero e olio.",
+            "Aggiungi il sale e l'acqua rimanente a filo, attendendo che l'acqua precedente venga assorbita.",
+            "Trasferisci l'impasto su un piano da lavoro leggermente oliato e lavoralo fino a ottenere una consistenza liscia e omogenea. Se necessario, lascia riposare in frigorifero per 10 minuti e poi riprendi.",
+            "Dividi in panetti, lasciando lievitare a temperatura ambiente per circa 3 ore o in frigorifero (togliendo l'impasto 1 ora e 30 minuti prima dell'uso).",
+            "Stendi l'impasto e condiscilo a piacimento."
+          ]
+        },
+        {
+          "nome": "Pane con Poolish 40%",
+          "descrizione": "Fragranza intensa, alveolatura ampia. L’arte del pane con struttura.",
+          "ingredienti": {
+            "per_il_poolish_18_ore_di_fermentazione": [
+              {
+                "quantita": "280 g",
+                "ingrediente": "farina"
+              },
+              {
+                "quantita": "280 g",
+                "ingrediente": "acqua"
+              },
+              {
+                "quantita": "0,28 g",
+                "ingrediente": "lievito fresco (0,1% peso della farina)*"
+              }
+            ],
+            "per_l_impasto": [
+              {
+                "quantita": "420 g",
+                "ingrediente": "farina"
+              },
+              {
+                "quantita": "280 g",
+                "ingrediente": "acqua"
+              },
+              {
+                "quantita": "1 g",
+                "ingrediente": "lievito fresco (consigliato in inverno)"
+              },
+              {
+                "quantita": "5 g",
+                "ingrediente": "miele"
+              },
+              {
+                "quantita": "15 g",
+                "ingrediente": "olio"
+              },
+              {
+                "quantita": "14 g",
+                "ingrediente": "sale"
+              }
+            ]
+          },
+          "note": {
+            "poolish_2ore": "Poolish pronto in 2 ore >> metteremo il 3% di lievito sul peso della farina",
+            "poolish_4ore": "Poolish pronto in 4 ore >> metteremo l’1.5% di lievito sul peso della farina",
+            "poolish_8ore": "Poolish pronto in 8 ore >> metteremo lo 0.75% di lievito sul peso della farina",
+            "poolish_12ore": "Poolish pronto in 12 ore >> metteremo lo 0.2% di lievito sul peso della farina",
+            "poolish_18ore": "Poolish pronto in 18 ore >> metteremo lo 0.1% di lievito sul peso della farina"
+          },
+          "procedimento": [
+            "Iniziamo realizzando il poolish: in una ciotola, mischia farina, acqua e lievito (sciolto nell'acqua) e mescola bene.",
+            "Misura le temperature ambiente e della farina per calcolare la temperatura dell'acqua (Temperatura acqua = 70 - temperatura ambiente - temperatura farina).",
+            "Mescola gli ingredienti fino ad ottenere un composto liscio e lascia fermentare per 18 ore.",
+            "Se hai un'impastatrice, versa il poolish nel recipiente; altrimenti, usa la stessa ciotola e aggiungi metà dell'acqua e il lievito per l'impasto, avviando a velocità minima.",
+            "Quando il poolish è ben sciolto, aggiungi il miele e un cucchiaio di farina alla volta.",
+            "Una volta che la farina è ben incorporata, versa l'olio.",
+            "Crea una soluzione con l'acqua rimanente e il sale, aggiungendoli poco alla volta, aspettando che l'acqua precedente venga assorbita.",
+            "Trasferisci l'impasto su un piano leggermente oliato, ungendo anche le mani, e lavora con delle pieghe fino a ottenere un impasto consistente e liscio.",
+            "Lascia riposare per 30 minuti, esegui un'altra serie di pieghe (4 volte ogni 15 minuti).",
+            "Metti l'impasto in una ciotola oleata e lascia lievitare fino al raddoppio.",
+            "Quando raddoppia, trasferiscilo su un piano leggermente infarinato e stendilo con la tecnica della laminatura (senza farlo sgonfiare), quindi dagli la forma finale e sigilla le pieghe.",
+            "Infarina tutta la superficie del pane e mettilo in un cestino da lievitazione.",
+            "Lascia lievitare nuovamente fino a ottenere un impasto elastico (verifica premendo delicatamente con un dito, deve tornare lentamente indietro).",
+            "Per la cottura, metti il pane su una pietra refrattaria in forno preriscaldato alla massima potenza in modalità statica e vapore (o, in alternativa, usa un pentolino con pietre e versa acqua calda al momento dell'infornamento).",
+            "Cuoci per 30 minuti, poi togli il vapore e cuoci in modalità ventilata a 200°C per altri 25-30 minuti.",
+            "Per ottenere una crosta ancora migliore, lascia il pane in forno con la valvola aperta a temperatura minima per circa 20-25 minuti.",
+            "Il pane è cotto quando il cuore raggiunge 98°-99°. Lascia raffreddare in verticale per far fuoriuscire l'umidità."
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "🍮 Dolci d’Autore",
+      "ricette": [
+        {
+          "nome": "Pan Brioche al Caramello Salato Ultra",
+          "descrizione": "Un pan brioche dal cuore morbido e dal contrasto irresistibile, rivisitato in chiave ultra gourmet.",
+          "ingredienti": {
+            "poolish": [
+              {
+                "quantita": "150 g",
+                "ingrediente": "Farina Manitoba"
+              },
+              {
+                "quantita": "170 ml",
+                "ingrediente": "Latte tiepido"
+              },
+              {
+                "quantita": "0.2-0.3 g (o 1 g per lievitazione rapida)",
+                "ingrediente": "Lievito di birra fresco"
+              }
+            ],
+            "impasto": [
+              {
+                "quantita": "180 g",
+                "ingrediente": "Farina Manitoba"
+              },
+              {
+                "quantita": "170 g",
+                "ingrediente": "Farina 00"
+              },
+              {
+                "quantita": "85 g",
+                "ingrediente": "Uovo (1 uovo + 1 tuorlo)"
+              },
+              {
+                "quantita": "15 g",
+                "ingrediente": "Albume"
+              },
+              {
+                "quantita": "80 g",
+                "ingrediente": "Burro morbido"
+              },
+              {
+                "quantita": "135 g",
+                "ingrediente": "Latte tiepido"
+              },
+              {
+                "quantita": "7 g",
+                "ingrediente": "Sale"
+              },
+              {
+                "quantita": "1 g o 1 cucchiaino",
+                "ingrediente": "Estratto di vaniglia"
+              }
+            ],
+            "crema_e_caramello": [
+              {
+                "quantita": "100 g",
+                "ingrediente": "Pasta di nocciole pura"
+              },
+              {
+                "quantita": "50 g",
+                "ingrediente": "Burro morbido (per la crema)"
+              },
+              {
+                "quantita": "50 g",
+                "ingrediente": "Panna liquida"
+              },
+              {
+                "quantita": "20 g",
+                "ingrediente": "Zucchero a velo"
+              },
+              {
+                "quantita": "1 pizzico",
+                "ingrediente": "Sale"
+              },
+              {
+                "quantita": "(Opzionale) 10 g",
+                "ingrediente": "Cioccolato gianduia fuso"
+              },
+              {
+                "quantita": "150 g",
+                "ingrediente": "Zucchero semolato (per caramello)"
+              },
+              {
+                "quantita": "6 g",
+                "ingrediente": "Sale fino (per caramello)"
+              }
+            ],
+            "finitura": [
+              {
+                "quantita": "50 g",
+                "ingrediente": "Caramello salato polverizzato extra"
+              },
+              {
+                "quantita": "2-3 g",
+                "ingrediente": "Fiocchi di sale Maldon"
+              },
+              {
+                "quantita": "10 g miele + 5 g latte",
+                "ingrediente": "Miscela per spennellare"
+              }
+            ]
+          },
+          "procedimento": [
+            "Preimpasto: Sciogli il lievito nel latte tiepido, unisci la Farina Manitoba e lascia fermentare per 12-16 ore.",
+            "Creazione del caramello: Sciogli lo zucchero con il sale fino e frulla fino a ottenere una polvere fine.",
+            "Preparazione della crema di nocciole: Scalda il burro e amalgama con la pasta di nocciole, panna, zucchero a velo, sale e, se desideri, il cioccolato gianduia fuso.",
+            "Impasto principale: In una planetaria, unisci il preimpasto con gli ingredienti dell'impasto. Lavora fino a ottenere una massa elastica, incorporando gradualmente burro, sale e latte.",
+            "Prima lievitazione: Lascia riposare a temperatura ambiente, poi trasferisci in frigorifero per maturare fino a 24 ore.",
+            "Formatura: Forma i pan brioche e disponili sulla teglia.",
+            "Seconda lievitazione: Lascia lievitare per 3-4 ore a temperatura ambiente.",
+            "Finitura e cottura: Spennella con la miscela di miele e latte, cospargi con il caramello extra e i fiocchi di sale, quindi inforna a 160°C fino a doratura."
+          ]
+        },
+        {
+          "nome": "Ultra Pangoccioli",
+          "descrizione": "Lievitazione perfetta, cioccolato che scioglie. Merenda stellata.",
+          "ingredienti": {
+            "impasto": [
+              {
+                "quantita": "250 g",
+                "ingrediente": "Farina Manitoba (W360-380)"
+              },
+              {
+                "quantita": "250 g",
+                "ingrediente": "Farina 00 (W230-260)"
+              },
+              {
+                "quantita": "55 g",
+                "ingrediente": "Zucchero di canna chiaro"
+              },
+              {
+                "quantita": "255 g",
+                "ingrediente": "Latte fresco intero"
+              },
+              {
+                "quantita": "30 g",
+                "ingrediente": "Latte in polvere (oppure 15 g panna fresca + 15 g farina in più)"
+              },
+              {
+                "quantita": "2",
+                "ingrediente": "Tuorli"
+              },
+              {
+                "quantita": "7 g",
+                "ingrediente": "Miele di acacia"
+              },
+              {
+                "quantita": "5 g",
+                "ingrediente": "Lievito di birra fresco"
+              },
+              {
+                "quantita": "6 g",
+                "ingrediente": "Sale fino"
+              },
+              {
+                "quantita": "7 g",
+                "ingrediente": "Malto diastasico in polvere"
+              },
+              {
+                "quantita": "80 g",
+                "ingrediente": "Burro di centrifuga"
+              },
+              {
+                "quantita": "3 g",
+                "ingrediente": "Estratto naturale di vaniglia (o 1 bacca intera)"
+              }
+            ],
+            "gocce_di_cioccolato": [
+              {
+                "quantita": "100 g",
+                "ingrediente": "Gocce di cioccolato fondente"
+              },
+              {
+                "quantita": "100 g (opzionale)",
+                "ingrediente": "Gocce di cioccolato bianco"
+              }
+            ],
+            "finitura": [
+              {
+                "quantita": "1",
+                "ingrediente": "tuorlo + 30 ml latte per spennellare"
+              }
+            ]
+          },
+          "procedimento": [
+            "Preimpasto (poolish): Sciogli lievito e miele in 100 g latte tiepido. Aggiungi 100 g Manitoba, mescola e lascia lievitare 1 ora.",
+            "Impasto principale: In planetaria, unisci poolish con restanti ingredienti secchi. Aggiungi latte e vaniglia. Incorpora i tuorli uno alla volta, poi il sale e il burro a pezzetti. Impasta fino a incordatura (15-18 minuti).",
+            "Incorporazione gocce: Congela le gocce 30 minuti, aggiungile all’impasto freddo e impasta a velocità minima per 1 minuto.",
+            "Prima lievitazione: Forma una palla, metti in ciotola imburrata, copri. 2h a T.A., poi 12h in frigo.",
+            "Formatura: Dividi in pezzi da 55 g, pirlali e mettili in teglia. Fai lievitare 2h a 26-28°C coperti.",
+            "Cottura: Spennella con tuorlo e latte, cuoci a 170°C statico per 22-24 minuti. Cuore a 92-94°C. Facoltativo: spennella con sciroppo di zucchero caldo."
+          ],
+          "varianti_ultra_gourmet": [
+            {
+              "nome": "Cioccolato caramellato",
+              "note": "Usa chocolate caramel, spennella con burro fuso."
+            },
+            {
+              "nome": "Nocciola e cioccolato",
+              "note": "Aggiungi 15 g pasta di nocciola all’impasto."
+            },
+            {
+              "nome": "Tre cioccolati",
+              "note": "Usa 70 g fondente, 70 g bianco, 70 g al latte."
+            }
+          ]
+        },
+        {
+          "nome": "Tortino al Cioccolato e Ganache al Pistacchio",
+          "descrizione": "Il cuore che esplode. Caldo e morbido, un abbraccio verde nascosto.",
+          "ingredienti": {
+            "per_il_tortino": [
+              {
+                "quantita": "150 g",
+                "ingrediente": "cioccolato fondente al 70% di cacao"
+              },
+              {
+                "quantita": "150 g",
+                "ingrediente": "burro anidro"
+              },
+              {
+                "quantita": "3",
+                "ingrediente": "uova medie"
+              },
+              {
+                "quantita": "70",
+                "ingrediente": "zucchero semolato"
+              },
+              {
+                "quantita": "60 g",
+                "ingrediente": "farina 00"
+              },
+              {
+                "quantita": "1 pzc",
+                "ingrediente": "sale marino"
+              }
+            ],
+            "per_la_ganache_al_pistacchio": [
+              {
+                "quantita": "100 g",
+                "ingrediente": "cioccolato bianco di alta qualità"
+              },
+              {
+                "quantita": "100 g",
+                "ingrediente": "crema di pistacchio pura"
+              },
+              {
+                "quantita": "75 g",
+                "ingrediente": "panna fresca liquida"
+              },
+              {
+                "quantita": "20 g",
+                "ingrediente": "burro morbido (facoltativo)"
+              },
+              {
+                "quantita": "2 cucchiai",
+                "ingrediente": "cucchiai di liquore al pistacchio (facoltativo)"
+              }
+            ]
+          },
+          "procedimento": [
+            "Realizzazione della ganache al pistacchio:",
+            "Tritare finemente il cioccolato bianco.",
+            "Scaldare la panna fresca in un pentolino a sfiorare il bollore.",
+            "Togliere dal fuoco e aggiungere il cioccolato bianco tritato, mescolando energicamente fino a scioglierlo completamente.",
+            "Incorporare la crema di pistacchio, il liquore al pistacchio (se utilizzato) e il burro morbido (se utilizzato), amalgamando il tutto fino ad ottenere una consistenza omogenea e vellutata.",
+            "Coprire la ganache con pellicola alimentare a contatto e farla riposare in frigorifero per almeno 2 ore, per favorire la stabilizzazione della struttura e l'intensificazione del gusto.",
+            "Porzionatura della ganache:",
+            "Prelevare la ganache dal frigorifero e, con l'aiuto di un cucchiaio, formare 6 palline di uguali dimensioni.",
+            "Disporre le palline di ganache su un vassoio rivestito con carta da forno e riporle in congelatore per almeno 2 ore, per ottenere un cuore cremoso e perfettamente solidificato.",
+            "Preparazione del tortino:",
+            "Preriscaldare il forno a 180°C.",
+            "Imburrare e infarinare accuratamente 6 stampini monoporzione in alluminio, garantendo una distribuzione uniforme del burro e della farina per una facile sformatura.",
+            "Composizione del tortino:",
+            "Sciogliere il cioccolato fondente e il burro anidro a bagnomaria o al microonde, controllando la temperatura per evitare surriscaldamenti che potrebbero danneggiare le proprietà organolettiche.",
+            "In una ciotola a parte, sbattere le uova con lo zucchero semolato fino ad ottenere un composto chiaro e spumoso, incorporando aria per conferire leggerezza al tortino.",
+            "Unire delicatamente il composto di cioccolato e burro fuso al composto di uova e zucchero, mescolando con una spatola con movimenti avvolgenti per preservare la montatura.",
+            "Setacciare la farina 00 e il sale marino direttamente nel composto, amalgamandoli con delicatezza per evitare la formazione di grumi e ottenere un impasto liscio e omogeneo.",
+            "Cottura del tortino:",
+            "Distribuire uniformemente l'impasto nei 6 stampini preparati, riempiendoli per circa 1/3 della loro capacità.",
+            "Estrarre le palline di ganache dal congelatore e inserirne una al centro di ogni tortino, facendo attenzione a non romperla.",
+            "Coprire le palline di ganache con il restante impasto, raggiungendo i 2/3 dello stampino per una cottura uniforme.",
+            "Cottura e sformatura:",
+            "Cuocere i tortini in forno preriscaldato modalità ventilato a 170°C per 18-20 minuti, monitorando la cottura per ottenere un risultato ottimale.",
+            "I bordi del tortino dovrebbero risultare cotti e leggermente dorati, mentre il centro dovrebbe mantenere una morbidezza cremosa.",
+            "Sfornare i tortini e lasciarli riposare per 5 minuti prima di sformarli delicatamente su piatti individuali.",
+            "Presentazione e servizio:",
+            "Servire i tortini caldi, spolverandoli con cacao amaro in polvere per un tocco estetico e un gusto intenso.",
+            "A piacere, accompagnare i tortini con un ciuffo di panna montata fresca o una pallina di gelato alla vaniglia, creando un contrasto di temperature e consistenze."
+          ]
+        },
+        {
+          "nome": "Mini Torta Estiva con Namelaka allo Yogurt",
+          "descrizione": "Bisquit al lampone, confit di bosco, guscio di nocciola: un dessert che unisce tradizione e innovazione per una freschezza futuristica.",
+          "ingredienti": {
+            "per_la_frolla_alla_nocciola": [
+              {
+                "quantita": "200 g",
+                "ingrediente": "farina 00"
+              },
+              {
+                "quantita": "100 g",
+                "ingrediente": "farina di nocciole tostate"
+              },
+              {
+                "quantita": "100 g",
+                "ingrediente": "zucchero a velo"
+              },
+              {
+                "quantita": "150 g",
+                "ingrediente": "burro freddo"
+              },
+              {
+                "quantita": "50 g",
+                "ingrediente": "uovo intero"
+              },
+              {
+                "quantita": "1 g",
+                "ingrediente": "sale fino"
+              },
+              {
+                "quantita": "facoltativo",
+                "ingrediente": "baccello di vaniglia"
+              }
+            ],
+            "per_il_bisquit_al_lampone": [
+              {
+                "quantita": "2",
+                "ingrediente": "uova intere"
+              },
+              {
+                "quantita": "60 g",
+                "ingrediente": "farina 00"
+              },
+              {
+                "quantita": "60 g",
+                "ingrediente": "zucchero"
+              },
+              {
+                "quantita": "40 g",
+                "ingrediente": "purea di lamponi setacciata"
+              },
+              {
+                "quantita": "20 g",
+                "ingrediente": "burro fuso"
+              },
+              {
+                "quantita": "1 g",
+                "ingrediente": "lievito chimico"
+              },
+              {
+                "quantita": "1 pizzico",
+                "ingrediente": "sale"
+              }
+            ],
+            "per_l_inserto_confit": [
+              {
+                "quantita": "100 g",
+                "ingrediente": "fragoline di bosco"
+              },
+              {
+                "quantita": "100 g",
+                "ingrediente": "mirtilli"
+              },
+              {
+                "quantita": "40 g",
+                "ingrediente": "zucchero semolato"
+              },
+              {
+                "quantita": "4 g + 5 g",
+                "ingrediente": "pectina NH + zucchero (miscelati)"
+              },
+              {
+                "quantita": "qualche goccia",
+                "ingrediente": "succo di limone"
+              }
+            ],
+            "per_la_namelaka_allo_yogurt": [
+              {
+                "quantita": "200 g",
+                "ingrediente": "cioccolato bianco (Valrhona Ivoire o simile)"
+              },
+              {
+                "quantita": "100 g",
+                "ingrediente": "latte intero"
+              },
+              {
+                "quantita": "5 g",
+                "ingrediente": "gelatina in fogli (o 1,6 g in polvere)"
+              },
+              {
+                "quantita": "200 g",
+                "ingrediente": "yogurt greco naturale"
+              },
+              {
+                "quantita": "200 g",
+                "ingrediente": "panna fresca semi-montata"
+              }
+            ]
+          },
+          "procedimento": [
+            "Frolla alla nocciola: Sabbiare le polveri con il burro freddo a cubetti per ottenere una sabbiatura fine e asciutta. Unire zucchero a velo e sale, aggiungere l’uovo (con la vaniglia se si desidera). Impastare brevemente, evitando di scaldare l’impasto, e lasciarlo riposare per almeno 1h, meglio 12h. Stendere l’impasto a 3 mm, foderare anelli microforati e abbattere o congelare per 10 min. Cuocere in bianco a 160°C ventilato per 16-18 min, quindi raffreddare. (Consiglio: spennellare l’interno del guscio con burro di cacao o cioccolato bianco temperato per isolare l’umidità.)",
+            "Bisquit al lampone: Montare uova e zucchero fino a ottenere una consistenza a nastro. Aggiungere la purea di lamponi, poi le polveri setacciate (lievito, farina, sale). Incorporare a filo il burro fuso tiepido. Cuocere su teglia a 180°C per 8-10 min, raffreddare e, se necessario, coppare. (Nota: questo bisquit leggero crea un contrasto perfetto con la frolla.)",
+            "Confit: Cuocere la frutta con lo zucchero finché diventa morbida. Aggiungere la miscela di pectina e zucchero insieme al succo di limone e portare a 85°C. Colare il composto in uno stampo a disco o semisfera e congelare. (Per un effetto ultra moderno, ottenere un cuore rosso lucido e regolare, con un taglio netto.)",
+            "Namelaka: Idratare la gelatina e sciogliere il cioccolato. Scaldare il latte, aggiungere la gelatina e versarlo sul cioccolato per un’emulsione perfetta. Incorporare delicatamente lo yogurt e, a 30-35°C, la panna semi-montata. Colare il composto nello stampo e raffreddare per almeno 6 ore. (Consiglio: per una stabilità superiore, colare il namelaka sopra il confit già congelato e rifinire con un velo liscio prima di inserirlo nella frolla.)",
+            "Montaggio e finitura: Utilizzare il guscio cotto e spennellato come base: inserire il disco di bisquit. Posizionare l’inserto confit (precedentemente congelato). Riempire con il namelaka e livellare. Decorare con frutti freschi (lamponi, fragoline, mirtilli), foglie di menta o fiori eduli. (Finitura consigliata: nappatura con gel neutro a freddo o spray velvet bianco ghiaccio.)",
+            "Varianti raffinate: Sostituire il lampone con biscuit al pistacchio per un contrasto cromatico e aromatico. Utilizzare glassa a specchio o spray velvet per un effetto 'pasticceria moderna'. Preparare una base sablée cotta con uno strato sottile di gianduja e cereali per aggiungere crunch e resistenza all’umidità."
+          ]
+        },
+        {
+          "nome": "Pastiera Napoletana di Nonna Nina",
+          "descrizione": "Frolla burrosa, ricotta mantecata, grano profumato agli agrumi: un rito pasquale che profuma di famiglia.",
+          "ingredienti": {
+            "per_la_frolla": [
+              {
+                "quantita": "1 kg",
+                "ingrediente": "farina"
+              },
+              {
+                "quantita": "500 g",
+                "ingrediente": "burro"
+              },
+              {
+                "quantita": "4",
+                "ingrediente": "tuorli"
+              },
+              {
+                "quantita": "2",
+                "ingrediente": "uova"
+              },
+              {
+                "quantita": "400 g",
+                "ingrediente": "zucchero"
+              },
+              {
+                "quantita": "½ limone",
+                "ingrediente": "scorza limone"
+              },
+              {
+                "quantita": "2 cucchiaini",
+                "ingrediente": "vaniglia"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "sale"
+              }
+            ],
+            "per_il_ripieno_di_grano": [
+              {
+                "quantita": "1740 g",
+                "ingrediente": "grano"
+              },
+              {
+                "quantita": "150 g",
+                "ingrediente": "burro"
+              },
+              {
+                "quantita": "150 g",
+                "ingrediente": "latte"
+              },
+              {
+                "quantita": "2 cucchiaini",
+                "ingrediente": "vaniglia"
+              },
+              {
+                "quantita": "1 e ½ limone",
+                "ingrediente": "scorza di limone"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "sale"
+              }
+            ],
+            "per_la_ricotta_mantecata": [
+              {
+                "quantita": "2 kg",
+                "ingrediente": "ricotta"
+              },
+              {
+                "quantita": "1,9 kg",
+                "ingrediente": "zucchero"
+              },
+              {
+                "quantita": "24",
+                "ingrediente": "uova"
+              }
+            ],
+            "odori_per_l_impasto": [
+              {
+                "quantita": "3 fiale",
+                "ingrediente": "millefiori"
+              },
+              {
+                "quantita": "10 cucchiaini",
+                "ingrediente": "vaniglia"
+              },
+              {
+                "quantita": "1 cucchiaino",
+                "ingrediente": "cannella"
+              }
+            ]
+          },
+          "procedimento": [
+            "Inserire la ricotta e lo zucchero in un recipiente e mantecate con una frusta gli ingredienti, potete usare anche un minipimer. Questa operazione fatela almeno un'ora prima dell'aggiunta del grano.",
+            "Iniziamo a preparare la pasta frolla come in ricetta, ma con le quantità di questa ricetta. Mettiamo a riposare la pasta frolla in frigo e iniziamo a preparare l'impasto per il ripieno.",
+            "Cuocere tutti gli ingredienti insieme a fiamma media tipo risotto per circa 15 minuti. La consistenza finale deve risultare cremosa.",
+            "Unire il grano freddo e il mantecato di ricotta, inserire tutti gli odori e finire di mantecare per amalgamare il tutto.",
+            "Unire al composto 24 uova in 3 volte (8 alla volta, lasciando assorbire prima di aggiungerne altre), le uova devono essere belle schiumose prima di essere inserite.",
+            "Versare il composto in uno stampo adeguato rivestito già della pasta frolla.",
+            "Creare la tipiche 7 strisce messe in diagonale come tradizione vuole.",
+            "Cuocere in forno statico preriscaldato a 190° per circa 2 ore. Deve gonfiarsi al centro, se non la fa non è un buon segno. Non aprire il forno prima di un'ora e mezza."
+          ]
+        },
+        {
+          "nome": "Torta Caprese",
+          "descrizione": "Mandorle tostate, cioccolato fondente, limoncello: un errore diventato capolavoro senza farina.",
+          "ingredienti": [
+            {
+              "quantita": "380 g",
+              "ingrediente": "mandorle con buccia"
+            },
+            {
+              "quantita": "250 g",
+              "ingrediente": "cioccolato fondente"
+            },
+            {
+              "quantita": "250 g",
+              "ingrediente": "zucchero"
+            },
+            {
+              "quantita": "25 g",
+              "ingrediente": "cacao amaro"
+            },
+            {
+              "quantita": "250 g",
+              "ingrediente": "burro"
+            },
+            {
+              "quantita": "5",
+              "ingrediente": "uova"
+            },
+            {
+              "quantita": "n.1",
+              "ingrediente": "baccello di vaniglia"
+            },
+            {
+              "quantita": "100 g",
+              "ingrediente": "limoncello"
+            },
+            {
+              "quantita": "1 pzc",
+              "ingrediente": "sale"
+            }
+          ],
+          "procedimento": [
+            "Frullare separatamente le mandorle e il cioccolato e conservare per dopo.",
+            "Mantecare con la frusta zucchero e burro morbido fino ad avere una consistenza morbida e setosa.",
+            "Aggiungere al composto un uovo alla volta, aspettare che si assorba prima di inserire il successivo.",
+            "Inserire cioccolato, mandorle, cacao, vaniglia e un pizzico di sale, lasciar amalgamare e aggiungere lentamente a filo il limoncello.",
+            "Inserire l'impasto in uno stampo circolare da 30 cm e infornare a 160°, modalità statica per 90 minuti.",
+            "Per verificare la cottura inserire uno stuzzicadenti fino al cuore della torta, aspettare qualche secondo e poi rimuoverlo delicatamente, se non avrà lasciato tracce la torta sarà pronta."
+          ]
+        },
+        {
+          "nome": "Torta Bavarese ai Pop Corn con Gelèe ai Frutti Rossi e Glassa al Caramello Salato",
+          "descrizione": "Latte ai pop corn, cuore di frutti rossi, vetro dorato di caramello: il comfort si fa haute pâtisserie.",
+          "ingredienti": {
+            "bavarese_al_popcorn": [
+              {
+                "quantita": "380 g",
+                "ingrediente": "tuorli d’uovo"
+              },
+              {
+                "quantita": "200 g",
+                "ingrediente": "zucchero"
+              },
+              {
+                "quantita": "40 g",
+                "ingrediente": "amido di riso"
+              },
+              {
+                "quantita": "1000 g",
+                "ingrediente": "latte intero"
+              },
+              {
+                "quantita": "500 g",
+                "ingrediente": "pop corn naturali appena scoppiati"
+              },
+              {
+                "quantita": "3 baccelli",
+                "ingrediente": "vaniglia"
+              },
+              {
+                "quantita": "25 g",
+                "ingrediente": "gelatina in fogli"
+              },
+              {
+                "quantita": "1000 g",
+                "ingrediente": "panna fresca montata non zuccherata"
+              }
+            ],
+            "gelee_frutti_rossi": [
+              {
+                "quantita": "300 g",
+                "ingrediente": "frutti rossi misti"
+              },
+              {
+                "quantita": "50 g",
+                "ingrediente": "zucchero semolato"
+              },
+              {
+                "quantita": "20 g",
+                "ingrediente": "glucosio"
+              },
+              {
+                "quantita": "10 g",
+                "ingrediente": "succo di limone"
+              },
+              {
+                "quantita": "6 g",
+                "ingrediente": "gelatina in fogli"
+              }
+            ],
+            "glassa_caramello_salato": [
+              {
+                "quantita": "250 g",
+                "ingrediente": "latte intero"
+              },
+              {
+                "quantita": "75 g",
+                "ingrediente": "latte condensato"
+              },
+              {
+                "quantita": "50 g",
+                "ingrediente": "caramello salato"
+              },
+              {
+                "quantita": "100 g",
+                "ingrediente": "glucosio"
+              },
+              {
+                "quantita": "400 g",
+                "ingrediente": "cioccolato bianco"
+              },
+              {
+                "quantita": "10 g",
+                "ingrediente": "gelatina in fogli"
+              }
+            ]
+          },
+          "procedimento": [
+            {
+              "fase": "Bavarese al Latte di Pop Corn",
+              "procedura": [
+                "Versa il latte bollente sui pop corn appena scoppiati. Copri e lascia in infusione per 30 min. Filtra e ripesa per tornare a 1000 g.",
+                "Monta i tuorli con zucchero e amido. Scalda il latte infuso con la vaniglia, versalo a filo sui tuorli. Riporta sul fuoco e cuoci a 82–84°C.",
+                "Aggiungi la gelatina ammollata e strizzata. Mescola e lascia intiepidire a 30–32°C.",
+                "Incorpora delicatamente la panna montata in più riprese. La bavarese deve risultare ariosa, lucida, stabile."
+              ]
+            },
+            {
+              "fase": "Gelèe ai Frutti Rossi",
+              "procedura": [
+                "Frulla i frutti, filtra, scalda la purea con zucchero e glucosio a 60°C.",
+                "Aggiungi il succo di limone e la gelatina ammollata.",
+                "Cola in stampo da 16 cm o in semisfere. Congela."
+              ]
+            },
+            {
+              "fase": "Glassa al Caramello Salato",
+              "procedura": [
+                "Scalda latte, condensato, caramello e glucosio.",
+                "Versa sul cioccolato bianco tritato, emulsiona.",
+                "Aggiungi la gelatina ammollata, frulla con minipimer (senza bolle).",
+                "Usa a 32–34°C su torta congelata."
+              ]
+            },
+            {
+              "fase": "Assemblaggio",
+              "procedura": [
+                "In uno stampo in silicone, versa metà bavarese.",
+                "Inserisci la gelèe congelata al centro.",
+                "Copri con la restante bavarese. Livella e congela per almeno 8 h."
+              ]
+            },
+            {
+              "fase": "Finitura",
+              "procedura": [
+                "Sforma l’entremet congelato.",
+                "Glassa con colata fluida a 32°C.",
+                "Decora con popcorn caramellati, foglia oro, cristalli di sale o spray dorato."
+              ]
+            }
+          ],
+          "note_finali": [
+            "L’infusione al pop corn regala una nota nostalgica, lattiginosa, burrosa.",
+            "Il cuore rosso rompe la dolcezza con acidità vibrante.",
+            "La glassa salata chiude il cerchio: vetro fragile che si frantuma sotto il cucchiaio."
+          ]
+        },
+        {
+          "nome": "Zeppole di Nonna Nina",
+          "descrizione": "Patate e farina, profumi di limone e vaniglia, frittura lieve: dolcezza che danza nell’olio e nel ricordo.",
+          "ingredienti": [
+            {
+              "quantita": "800 g",
+              "ingrediente": "patate"
+            },
+            {
+              "quantita": "1 kg",
+              "ingrediente": "farina 00"
+            },
+            {
+              "quantita": "4",
+              "ingrediente": "uova"
+            },
+            {
+              "quantita": "125 g",
+              "ingrediente": "burro"
+            },
+            {
+              "quantita": "200 g",
+              "ingrediente": "zucchero"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "latte"
+            },
+            {
+              "quantita": "50 g",
+              "ingrediente": "lievito"
+            },
+            {
+              "quantita": "1 ½",
+              "ingrediente": "scorza di limone"
+            },
+            {
+              "quantita": "1",
+              "ingrediente": "baccello di vaniglia"
+            },
+            {
+              "quantita": "1 pizzico",
+              "ingrediente": "cannella"
+            },
+            {
+              "quantita": "1 pizzico",
+              "ingrediente": "sale"
+            }
+          ],
+          "procedimento": [
+            "Lessare le patate, passarle allo schiacciapatate e lasciarle raffreddare.",
+            "Inserire in planetaria, usando la frusta, la farina, le patate, lo zucchero, il burro e il sale. Azionate fino ad avere un composto omogeneo.",
+            "Aggiungete man mano le uova, una alla volta.",
+            "Inserite ora la scorza di limone, la vaniglia e un poco di cannella.",
+            "Sciogliete in metà latte il lievito e aggiungetelo all'impasto.",
+            "Per il latte è difficile dare una quantità precisa perché dipende molto dall'umidità delle patate, della farina e dell'ambiente.",
+            "L'impasto dovrà risultare morbido ma non molle.",
+            "Formato l'impasto, lasciatelo riposare per 10 minuti e tagliatelo, come stesse facendo gli gnocchi a strisce, datagli la tipica forma della zeppola e aspettate il raddoppio su un panno leggermente infarinato.",
+            "Una volta raddoppiate di volume potete iniziarle a friggere in olio di semi alla temperatura di 170°C per la prima parte della cottura, poi abbassate la fiamma e continuate a far cuocere finché non risulteranno ben dorate.",
+            "Man mano che le cuocete passate le zeppole in un bagno di zucchero e cannella."
+          ]
+        },
+        {
+          "nome": "Struffoli - Sal De Riso",
+          "descrizione": "Gnocchetti dorati, miele caldo, agrumi in festa: una pioggia di Natale in ogni boccone.",
+          "ingredienti": [
+            {
+              "quantita": "500 g",
+              "ingrediente": "farina"
+            },
+            {
+              "quantita": "50 g",
+              "ingrediente": "zucchero"
+            },
+            {
+              "quantita": "1 bc",
+              "ingrediente": "vaniglia"
+            },
+            {
+              "quantita": "60 g",
+              "ingrediente": "vino bianco"
+            },
+            {
+              "quantita": "4",
+              "ingrediente": "uova fresche"
+            },
+            {
+              "quantita": "50 g",
+              "ingrediente": "burro"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "sale"
+            },
+            {
+              "quantita": "1",
+              "ingrediente": "buccia arancia e limone"
+            },
+            {
+              "quantita": "500 g",
+              "ingrediente": "miele millefiori"
+            }
+          ],
+          "procedimento": [
+            "Sciogliere nelle uova sbattute lo zucchero, una volta sciolto aggiungere il vino.",
+            "Preparare la montagnetta di farina e creare un buco al centro.",
+            "Inserire tutti gli ingredienti e iniziare ad impastare.",
+            "Quando l'impasto risulterà liscio ed omogeneo riporlo in un una ciotola coperta in frigorifero per un'ora.",
+            "Trascorso il tempo di riposo tagliare delle strisce, infarinarle leggermente e ricavare gli gnocchetti, se volete potete renderli rotondi.",
+            "Passare al setaccio per eliminare la farina in eccesso e friggere in olio di semi a 160°C fino a doratura color nocciola.",
+            "Farli asciugare su carta assorbente, aspettare che si raffreddino e condirli con miele."
+          ]
+        },
+        {
+          "nome": "Migliaccio - Famiglia Dell'Aria",
+          "descrizione": "Semolino, ricotta e limone, forno lento: tra budino e torta, il sapore dell’attesa.",
+          "ingredienti": [
+            {
+              "quantita": "1 lt",
+              "ingrediente": "latte"
+            },
+            {
+              "quantita": "½ lt",
+              "ingrediente": "acqua"
+            },
+            {
+              "quantita": "½ kg",
+              "ingrediente": "zucchero"
+            },
+            {
+              "quantita": "1 pzc",
+              "ingrediente": "sale fino"
+            },
+            {
+              "quantita": "1 cucchiaino",
+              "ingrediente": "strutto"
+            },
+            {
+              "quantita": "2",
+              "ingrediente": "bucce di limone"
+            },
+            {
+              "quantita": "2 cucchiai",
+              "ingrediente": "limoncello"
+            },
+            {
+              "quantita": "5 bustine",
+              "ingrediente": "vanillina"
+            },
+            {
+              "quantita": "½ kg",
+              "ingrediente": "ricotta"
+            },
+            {
+              "quantita": "6/7",
+              "ingrediente": "uova intere"
+            },
+            {
+              "quantita": "½ kg",
+              "ingrediente": "semolino"
+            }
+          ],
+          "procedimento": [
+            "Far bollire il latte, l'acqua, il sale, lo strutto, il limone, il liquore e la vanillina.",
+            "Unire lo zucchero e il semolino e setacciarli.",
+            "Quando il composto è arrivato a ebollizione, abbassare fiamma e unire a pioggia il composto.",
+            "Mescolare finché gli ingredienti non si sono ben amalgamati.",
+            "Unire la ricotta frullata nel composto ancora bollente, quindi mescolare bene.",
+            "Lasciare raffreddare il tutto.",
+            "Battere le uova, unirle al composto e amalgamare",
+            "Porre il composto in una tortiera imburrata (usare o burro o margarina o strutto).",
+            "Porre il tutto nel forno statico preriscaldato a 180° per 1 ora e 15 circa."
+          ]
+        },
+        {
+          "nome": "Savoiardi - Massari",
+          "descrizione": "Montata perfetta, zucchero a velo, struttura friabile: il biscotto che regge l’eleganza.",
+          "ingredienti": [
+            {
+              "quantita": "170 g",
+              "ingrediente": "tuorli"
+            },
+            {
+              "quantita": "150 g",
+              "ingrediente": "albumi"
+            },
+            {
+              "quantita": "150 kg",
+              "ingrediente": "zucchero"
+            },
+            {
+              "quantita": "30 g",
+              "ingrediente": "fecola di patate"
+            },
+            {
+              "quantita": "50 g",
+              "ingrediente": "farina 00"
+            },
+            {
+              "quantita": "1",
+              "ingrediente": "vaniglia"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "zucchero a velo"
+            }
+          ],
+          "procedimento": [
+            "Versare 100 g di zucchero semolato in una planetaria dotata di fruste; incidete per il senso della lunghezza un baccello di vaniglia e prelevate i semini interni raschiando con la lama di un coltellino e versateli nella planetaria con lo zucchero.",
+            "Unite anche i tuorli e iniziate a lavorare il tutto alla massima velocità, ci vorranno circa 12 minuti di lavorazione.",
+            "Quando la massa montata è pronta, ovvero quando presenterà profondi solchi, potete lasciarla un attimo da parte e passare a montare gli albumi.",
+            "Gli albumi andranno montati nella tazza della planetaria o in una ciotola a parte perfettamente pulita con strumenti altrettanto puliti e gli albumi dovranno essere privi di tracce di tuorlo.",
+            "Versateli quindi nella ciotola e iniziate a montarli senza lo zucchero.",
+            "Quando saranno leggermente schiumosi unite il 10% dei 50 g di zucchero semolato rimasti e aumentate la velocità, quindi versate il restante zucchero pian piano. Gli albumi dovranno risultare lisci e compatti, senza muoversi e non dovranno essere granulosi; i granuli sono segno che non si è montato a dovere gli albumi e i savoiardi non verranno come dovrebbero.",
+            "Mescolate in una ciotola 50 g di farina e 30 g di fecola setacciandole e setacciatele ancora una volta insieme per donare maggiore uniformità e aumentare il volume.",
+            "A questo punto, versate una spatolata di albumi montati nel composto con i tuorli e mescolate dal basso verso l'alto con la marisa; poi versate 1/3 delle polveri setacciate e mescolate sempre dal basso verso l'alto delicatamente; quindi versate ancora 1/3 degli albumi mescolate ancora delicatamente, poi unite ancora 1/3 delle polveri, mescolate; unite infine gli albumi rimanenti, mescolate ancora sempre dall'alto verso il basso e terminate con la rimanenza delle polveri. Mescolate il composto molto delicatamente sempre dall'alto verso il basso.",
+            "Una volta che la vostra massa montata sarà pronta, prendete una sac-àpoche con bocchetta liscia da 14 mm e con un tarocco versate all'interno l'impasto dei savoiardi.",
+            "E' preferibile non usare una marisa perché riuscireste a prendere poco impasto alla volta rischiando di smontare il composto.",
+            "Prendete una leccarda e foderatela con carta da forno, quindi iniziate a realizzare i vostri savoiardi, creando dei bastoncini di circa 10-12 cm di lunghezza, distanziandoli equamente tra loro.",
+            "Una volta pronti, in una ciotolina unite allo zucchero semolato i semini di 1 bacca di vaniglia e mescolate per aromatizzare.",
+            "Il savoiardo ne guadagnerà in gusto.",
+            "Spolverizzate i savoiardi con lo zucchero aromatizzato e infine con abbondante zucchero a velo.",
+            "Questo farà si che lo zucchero in cottura crei una barriera vapore e permetterà ai biscotti di mantenere la forma; senza zucchero i savoiardi risulterebbero piatti dopo cotti.",
+            "Infornate in forno statico già caldo a 200° per circa 10-11 minuti, avendo cura di posizionare un pezzetto spesso di carta alluminio per lasciare uno sfiato nello sportello del forno (questo simulerà la cottura in forno con valvola aperta).",
+            "Sfornate i vostri savoiardi quando vedrete la superficie di un bel colore nocciola dorato uniforme.",
+            "I vostri savoiardi fatti in casa sono pronti potete lasciarli raffreddare.",
+            "Con queste dosi ne otterrete una cinquantina, sono ottimi da gustare come biscotto semplice o per la colazione oltre a quelli che serviranno per il tiramisù goloso.",
+            "Potete conservarli in una scatola di latta."
+          ]
+        },
+        {
+          "nome": "Tiramisù",
+          "descrizione": "Caffè amaro, mascarpone montato, savoiardi inzuppati: il dolce che si sussurra.",
+          "ingredienti": [
+            {
+              "quantita": "200 g",
+              "ingrediente": "tuorli"
+            },
+            {
+              "quantita": "500 kg",
+              "ingrediente": "zucchero"
+            },
+            {
+              "quantita": "1 Kg",
+              "ingrediente": "mascarpone 45% grassi"
+            },
+            {
+              "quantita": "~ 25/30",
+              "ingrediente": "savoiardi"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "caffè"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "cacao amaro"
+            }
+          ],
+          "procedimento": [
+            "Iniziare con la preparazione dei savoiardi.",
+            "Inserire nella planetaria i tuorli e lo zucchero, azionare la macchina al massimo della velocità e montare la crema per circa 12 min. La consistenza dovrà risultare liscia e abbastanza compatta.",
+            "A questo punto inseriamo anche il mascarpone nella planetaria e lo montiamo assieme alla crema, partendo da una velocità bassa per poi aumentarla al massimo, per circa 3 min. Attenzione a non far impazzire la crema. Il composto dovrà risultare compatto e soffice.",
+            "Prendere un anello da 22 cm, imburrarlo e zuccherarlo. Poggiarlo sul piatto e creare un piccolo strato di crema al suo interno.",
+            "Inzuppare i savoiardi per 2/3 sec. nel caffè e man mano creare uno strato all’interno dell’anello.",
+            "Completato il primo strato di savoiardi creare un altro strato di crema e poi un altro strato di savoiardi, disposti però a 90° rispetto allo strato precedente e completare con un altro strato di crema.",
+            "Riporre il tiramisù in frigo per almeno 8 ore.",
+            "Al momento di servirlo sfilare l’anello del tiramisù e spolverare la superficie con il cacao amaro"
+          ]
+        },
+        {
+          "nome": "Meringhe - Massari",
+          "descrizione": "Albumi lucidi, zucchero calibrato, forno aperto: la geometria della leggerezza.",
+          "ingredienti": [
+            {
+              "quantita": "150 g",
+              "ingrediente": "albume"
+            },
+            {
+              "quantita": "450 g",
+              "ingrediente": "zucchero"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "zucchero a velo"
+            }
+          ],
+          "procedimento": [
+            "Inserire l’albume nella planetaria e prelevare 150 g di zucchero dai 450 g della ricetta.",
+            "Far montare l’albume da solo alla massima velocità, quando inizia ad essere schiumoso inserire 1/3 dei 150 g di zucchero. Aspettare che monti e inserire in due volte lo zucchero restante.",
+            "Una volta inserita la prima parte di zucchero, l’operazione dovrebbe essere durata circa 4 min, inserire in 3 volte i restanti 300 g.",
+            "Quando il composto sarà ben montato, liscio e omogeneo trasferitelo in una sac-à-poche, formare su della carta forno le meringhe e spolveratele con dello zucchero a velo.",
+            "Infornare le meringhe a 120° per 2 ore a valvola aperta. Lasciarle raffreddare in forno spento ancora caldo, così finiranno di seccarsi e risulteranno friabili."
+          ]
+        },
+        {
+          "nome": "Plumcake senza lattosio - Massari",
+          "descrizione": "Agrumi freschi, olio d’oliva, impasto arioso: comfort cake che non esclude nessuno.",
+          "ingredienti": {
+            "per_il_plumcake": [
+              {
+                "quantita": "292 g",
+                "ingrediente": "Zucchero"
+              },
+              {
+                "quantita": "292 g",
+                "ingrediente": "Misto d’uovo"
+              },
+              {
+                "quantita": "2",
+                "ingrediente": "Scorza d’ arancia"
+              },
+              {
+                "quantita": "2",
+                "ingrediente": "Scorza di mandarino"
+              },
+              {
+                "quantita": "2",
+                "ingrediente": "Scorza di limone"
+              },
+              {
+                "quantita": "16 g",
+                "ingrediente": "Succo di limone"
+              },
+              {
+                "quantita": "2 g",
+                "ingrediente": "Sale"
+              },
+              {
+                "quantita": "97 g",
+                "ingrediente": "Tuorlo"
+              },
+              {
+                "quantita": "73 g",
+                "ingrediente": "Succo d’ arancia"
+              },
+              {
+                "quantita": "204 g",
+                "ingrediente": "Olio d’oliva"
+              },
+              {
+                "quantita": "292 g",
+                "ingrediente": "Farina tipo 00"
+              },
+              {
+                "quantita": "97 g",
+                "ingrediente": "Fecola"
+              },
+              {
+                "quantita": "14 g",
+                "ingrediente": "Lievito in polvere"
+              }
+            ],
+            "per_la_bagna": [
+              {
+                "quantita": "100 g",
+                "ingrediente": "Succo di limone"
+              },
+              {
+                "quantita": "100 g",
+                "ingrediente": "Succo d’arancia"
+              },
+              {
+                "quantita": "200 g",
+                "ingrediente": "Acqua"
+              },
+              {
+                "quantita": "105 g",
+                "ingrediente": "Zucchero"
+              }
+            ]
+          },
+          "procedimento": [
+            "Montare a schiuma le uova con lo zucchero e gli aromi in planetaria munita di frusta. Nel frattempo setacciare le polveri per due volte.",
+            "Quando le uova saranno montate aggiungere i tuorli a filo quindi aggiungere il succo di arancia con il sale disciolto al suo interno, la farina e l’olio a filo in due volte.",
+            "Versare il composto nello stampo da plum cake precedentemente rivestito con 50g olio di oliva e 30g di farina mescolati. Tale composto svolge la stessa funzione del burro.",
+            "Incidere la sommità del plum cake con un tarocco immerso in olio.",
+            "In un pentolino portare a bollore acqua e zucchero fino a completo scioglimento; - Lasciare raffreddare completamente lo sciroppo in frigorifero per circa 30 minuti quindi aggiungere il succo di limone e il succo di arancia;",
+            "Cuocere in forno a 180°C per 35 minuti, una volta cotto e raffreddato spennellare il plum cake con la bagna agli agrumi."
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "🍫 Cioccolatini e Ganache",
+      "ricette": [
+        {
+          "nome": "Cioccolatino “Pop Acido”",
+          "descrizione": "Doppia ganache, camicia colorata, cuore liquido. Una pralina che racconta.",
+          "ingredienti": {
+            "camicia": [
+              {
+                "quantita": "",
+                "ingrediente": "Cioccolato bianco colorato (burro di cacao + coloranti naturali: blu spirulina, rosa barbabietola, giallo curcuma)"
+              }
+            ],
+            "ganache_a_due_strati": {
+              "strato_superiore_acidita_e_freschezza": [
+                {
+                  "quantita": "80 g",
+                  "ingrediente": "cioccolato bianco"
+                },
+                {
+                  "quantita": "50 g",
+                  "ingrediente": "panna fresca"
+                },
+                {
+                  "quantita": "20 g",
+                  "ingrediente": "succo di lime fresco"
+                },
+                {
+                  "quantita": "1 cucchiaino",
+                  "ingrediente": "scorza di lime grattugiata"
+                },
+                {
+                  "quantita": "(Facoltativo) 2 g",
+                  "ingrediente": "burro per brillantezza"
+                }
+              ],
+              "strato_inferiore_dolce_sapido": [
+                {
+                  "quantita": "100 g",
+                  "ingrediente": "cioccolato al latte"
+                },
+                {
+                  "quantita": "60 g",
+                  "ingrediente": "panna"
+                },
+                {
+                  "quantita": "10 g",
+                  "ingrediente": "pasta di arachidi liscia"
+                },
+                {
+                  "quantita": "1 pizzico",
+                  "ingrediente": "sale Maldon"
+                }
+              ]
+            },
+            "finitura_interna_facoltativa_ma_magica": [
+              {
+                "quantita": "1 goccia",
+                "ingrediente": "riduzione di aceto balsamico e lamponi (tipo cuore morbido)"
+              },
+              {
+                "quantita": "oppure",
+                "ingrediente": "una microperla di gel di frutto della passione (agar + purea)"
+              }
+            ]
+          },
+          "procedimento": [
+            "Camicia: Tempera il cioccolato bianco colorato, colalo negli stampi a semisfera o cubo e crea la camicia. Lascia cristallizzare.",
+            "Strato superiore: Prepara una ganache sciogliendo il cioccolato bianco con la panna calda, aggiungi il succo e la scorza di lime, e il burro se desiderato. Versa un primo strato negli stampi e lascia rapprendere.",
+            "Strato inferiore: Scalda la panna, uniscila al cioccolato al latte e alla pasta di arachidi, aggiungi un pizzico di sale e versa sopra il primo strato già rappreso.",
+            "Finitura interna: Se desiderato, aggiungi al centro una goccia di riduzione acida o una perla di gel di frutta prima di chiudere lo stampo.",
+            "Chiusura: Sigilla ogni stampo con altro cioccolato bianco temperato e lascia cristallizzare completamente prima di sformare."
+          ],
+          "note_finali": "Il guscio si rompe → il lime pizzica e accende → la dolcezza cremosa avvolge → un lampo salato chiude il cerchio. Un cioccolatino sorprendente, strutturato e giocoso."
+        },
+        {
+          "nome": "Notturno – Datterino e Peperoncino",
+          "descrizione": "Pomodoro e piccante in ganache, su base sablé al cacao.",
+          "ingredienti": {
+            "ganache_al_pomodoro_e_peperoncino": [
+              {
+                "quantita": "200 g",
+                "ingrediente": "Datterini rossi maturi"
+              },
+              {
+                "quantita": "30 g",
+                "ingrediente": "Zucchero"
+              },
+              {
+                "quantita": "5 g",
+                "ingrediente": "Aceto di lampone (o balsamico bianco)"
+              },
+              {
+                "quantita": "1",
+                "ingrediente": "Peperoncino secco"
+              },
+              {
+                "quantita": "100 g",
+                "ingrediente": "Panna fresca"
+              },
+              {
+                "quantita": "150 g",
+                "ingrediente": "Cioccolato bianco"
+              },
+              {
+                "quantita": "2 g (ammollata)",
+                "ingrediente": "Gelatina in fogli"
+              }
+            ],
+            "camicia_di_cioccolato": [
+              {
+                "quantita": "200 g",
+                "ingrediente": "Cioccolato fondente 70%"
+              }
+            ],
+            "sable_al_cacao": [
+              {
+                "quantita": "120 g",
+                "ingrediente": "Farina 00"
+              },
+              {
+                "quantita": "100 g",
+                "ingrediente": "Burro freddo a cubetti"
+              },
+              {
+                "quantita": "40 g",
+                "ingrediente": "Zucchero a velo"
+              },
+              {
+                "quantita": "15 g",
+                "ingrediente": "Cacao amaro in polvere"
+              },
+              {
+                "quantita": "1",
+                "ingrediente": "Tuorlo d’uovo"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Fior di sale"
+              }
+            ]
+          },
+          "procedimento": [
+            "Ganache al datterino piccante: Taglia i datterini e cuocili con zucchero e peperoncino, sfumando con aceto. Frulla e filtra la purea ottenuta. Scalda la panna con la gelatina, poi versala sul cioccolato bianco e aggiungi la purea di datterino. Versa la ganache in stampi sferici e congela.",
+            "Camicia di cioccolato: Tempera il cioccolato fondente seguendo il procedimento (45°C → 27°C → 31°C), versa negli stampi a cupola, crea uno strato sottile e lascia cristallizzare in frigorifero per 10 minuti.",
+            "Inserto: Inserisci la ganache congelata all’interno dei gusci di camicia e sigilla con ulteriore cioccolato temperato. Raffredda.",
+            "Sable al cacao: Prepara un sablé lavorando farina, cacao, burro e zucchero, aggiungendo il tuorlo e lasciando riposare per 1 ora. Stendi a 3 mm, ritaglia e cuoci a 170°C per 12-14 minuti, poi spolvera con fior di sale."
+          ],
+          "impiattamento": "Adagia un disco di sablé su un piatto nero opaco, posiziona sopra il cioccolatino, e completa con una spolverata di polvere di pomodoro secco e una goccia di olio al peperoncino leggero."
+        },
+        {
+          "nome": "Cioccolatini al pistacchio",
+          "descrizione": "Guscio fondente e cuore verde vellutato: ganache al pistacchio con note di cioccolato bianco e panna.",
+          "ingredienti": {
+            "per_la_camicia": [
+              {
+                "quantita": "200 g",
+                "ingrediente": "Cioccolato fondente"
+              }
+            ],
+            "per_la_ganache": [
+              {
+                "quantita": "200 g",
+                "ingrediente": "panna fresca"
+              },
+              {
+                "quantita": "250 g",
+                "ingrediente": "cioccolato bianco"
+              },
+              {
+                "quantita": "120 g",
+                "ingrediente": "pasta di pistacchio"
+              },
+              {
+                "quantita": "4 g",
+                "ingrediente": "gelatina in fogli"
+              }
+            ]
+          },
+          "procedimento": [
+            "Tempera il cioccolato fondente portandolo a 45°C, lavorando i 2/3 su un piano fino ad arrivare a 27°C e rimescolando tutto insieme (il risultato dovrebbe essere intorno a 31°C).",
+            "Versa il cioccolato temperato negli stampi e svuota per creare la camicia. Lascia raffreddare in frigorifero.",
+            "Prepara la ganache: porta la panna a 85°C, ammolla la gelatina in acqua fredda per 10 minuti, poi falla fondere (eventualmente in microonde con un po' d'acqua).",
+            "Una volta che la panna ha raggiunto la giusta temperatura, uniscila al cioccolato bianco, alla pasta di pistacchio e frulla con un minipimer fino a ottenere una consistenza liscia.",
+            "Aspetta che la ganache arrivi a circa 25°C e versala negli stampi.",
+            "Sigilla la camicia con ulteriore cioccolato temperato."
+          ]
+        },
+        {
+          "nome": "Cioccolatini al limoncello",
+          "descrizione": "Scorza fondente e anima solare: ganache profumata al limoncello che esplode in dolcezza liquorosa.",
+          "ingredienti": {
+            "per_la_camicia": [
+              {
+                "quantita": "200 g",
+                "ingrediente": "Cioccolato fondente"
+              }
+            ],
+            "per_la_ganache": [
+              {
+                "quantita": "200 g",
+                "ingrediente": "panna fresca"
+              },
+              {
+                "quantita": "250 g",
+                "ingrediente": "cioccolato bianco"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "limoncello"
+              },
+              {
+                "quantita": "4 g",
+                "ingrediente": "gelatina in fogli"
+              }
+            ]
+          },
+          "procedimento": [
+            "Segui lo stesso procedimento dei cioccolatini al pistacchio, aggiungendo il limoncello nella ganache."
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "🍽️ Fine-Dining e Antipasti Creativi",
+      "ricette": [
+        {
+          "nome": "Bacio Bruciato",
+          "descrizione": "Bon-bon di cipolla bruciata con cuore liquido di caprino e glassa al balsamico. Un bacio che lascia il segno.",
+          "ingredienti": {
+            "per_l_esterno": [
+              {
+                "quantita": "2",
+                "ingrediente": "Cipolle rosse"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Olio EVO"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Sale"
+              },
+              {
+                "quantita": "2 g",
+                "ingrediente": "Agar agar"
+              },
+              {
+                "quantita": "80 g",
+                "ingrediente": "Acqua"
+              }
+            ],
+            "per_il_cuore": [
+              {
+                "quantita": "100 g",
+                "ingrediente": "Caprino fresco"
+              },
+              {
+                "quantita": "20 g",
+                "ingrediente": "Latte intero"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Sale, pepe bianco"
+              }
+            ],
+            "per_la_glassa": [
+              {
+                "quantita": "50 g",
+                "ingrediente": "Aceto balsamico tradizionale"
+              },
+              {
+                "quantita": "1 cucchiaino",
+                "ingrediente": "Zucchero"
+              }
+            ],
+            "finitura": [
+              {
+                "quantita": "",
+                "ingrediente": "Germoglio acido o micro foglia"
+              },
+              {
+                "quantita": "",
+                "ingrediente": "Polvere di cipolla fermentata (facoltativa)"
+              }
+            ]
+          },
+          "procedimento": [
+            "Cipolla bruciata: Cuocere le cipolle intere in forno a 200°C finché l’esterno è carbonizzato e l’interno fondente (circa 35–40 minuti). Prelevare la polpa interna, tritare e frullare fino a ottenere una crema, quindi passarla al setaccio.",
+            "Base per il guscio: In un pentolino, scaldare la crema di cipolla con l’acqua e aggiungere agar agar. Portare a ebollizione per 1 minuto e versare la crema in stampi sferici in silicone o acetato, formando solo il guscio esterno. Lasciare raffreddare.",
+            "Cuore liquido: Frullare caprino e latte fino a ottenere una crema fluida ma stabile. Inserire il composto al centro di mezze sfere precedentemente congelate usando una sac-à-poche e unire rapidamente le due metà per formare una sfera completa.",
+            "Glassa: Ridurre l’aceto balsamico con zucchero fino a ottenere una consistenza sciropposa.",
+            "Composizione: Disponi ogni bon-bon su un cucchiaio nero o ardesia, glassa con una goccia di riduzione e decora con microfoglie o germogli acidi."
+          ]
+        },
+        {
+          "nome": "Cacio & Cenere",
+          "descrizione": "Meringa salata al pecorino e carbone vegetale. Un’illusione dolce che si fa salata.",
+          "ingredienti": [
+            {
+              "quantita": "2",
+              "ingrediente": "Albumi"
+            },
+            {
+              "quantita": "40 g",
+              "ingrediente": "Pecorino grattugiato"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "Carbone vegetale in polvere"
+            },
+            {
+              "quantita": "1 cucchiaino",
+              "ingrediente": "Miele"
+            },
+            {
+              "quantita": "un pizzico",
+              "ingrediente": "Sale"
+            }
+          ],
+          "procedimento": [
+            "Montare gli albumi con un pizzico di sale fino a ottenere una consistenza spumosa, quindi incorporare il pecorino grattugiato.",
+            "Utilizzando una sac-à-poche, formare delle punte su una teglia e cuocere in forno a 90°C per 2 ore.",
+            "A fine cottura, spolverare leggermente con carbone vegetale e aggiungere una microgoccia di miele sulla sommità di ogni meringa."
+          ]
+        },
+        {
+          "nome": "Rosso su Nero",
+          "descrizione": "Tartare di datterino e peperoncino su sablé salato al cacao. Vegetale, ma carnale.",
+          "ingredienti": [
+            {
+              "quantita": "80 g",
+              "ingrediente": "Datterini confit"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "Peperoncino dolce fresco"
+            },
+            {
+              "quantita": "1 cucchiaino",
+              "ingrediente": "Salsa di soia affumicata"
+            },
+            {
+              "quantita": "60 g",
+              "ingrediente": "Burro"
+            },
+            {
+              "quantita": "100 g",
+              "ingrediente": "Farina"
+            },
+            {
+              "quantita": "5 g",
+              "ingrediente": "Cacao amaro"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "Sale"
+            }
+          ],
+          "procedimento": [
+            "Sablé: Lavorare il burro freddo con farina, cacao e sale fino a ottenere un impasto sabbioso. Stendere l’impasto e cuocere in forno a 180°C, quindi sbriciolare il prodotto ottenuto.",
+            "Tartare: Tritare finemente i datterini confit e il peperoncino, condire con salsa di soia e un filo d’olio.",
+            "Montaggio: Su un cucchiaino nero, disporre una base di sablé e completare con la tartare."
+          ]
+        },
+        {
+          "nome": "Spugna al Caramello",
+          "descrizione": "Una spugna soffice cotta al microonde in 50 secondi. Struttura e leggerezza.",
+          "ingredienti": [
+            {
+              "quantita": "4",
+              "ingrediente": "Uova"
+            },
+            {
+              "quantita": "100 g",
+              "ingrediente": "Zucchero semolato"
+            },
+            {
+              "quantita": "50 g",
+              "ingrediente": "Burro fuso"
+            },
+            {
+              "quantita": "100 g",
+              "ingrediente": "Farina 00"
+            },
+            {
+              "quantita": "50 ml",
+              "ingrediente": "Latte"
+            },
+            {
+              "quantita": "1 pizzico",
+              "ingrediente": "Sale"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "Caramello (pronto o fatto sciogliendo zucchero fino a doratura)"
+            }
+          ],
+          "attrezzature": [
+            "Sifone da cucina con bomboletta di gas (N2O)",
+            "Forno a microonde",
+            "Bicchieri di plastica resistenti al microonde",
+            "Setaccio"
+          ],
+          "procedimento": [
+            "Sbattere le uova con lo zucchero fino a ottenere un composto chiaro e spumoso. Aggiungere il burro fuso e il latte, mescolando bene. Setacciare la farina e unirla al composto, aggiungendo anche sale e caramello fino a completo assorbimento.",
+            "Versare la pastella nel sifone, chiuderlo e caricarlo con una bomboletta di N2O, agitare energicamente.",
+            "Praticare dei fori sul fondo dei bicchieri, riempirli a metà con la pastella e cuocere al microonde per 40-50 secondi alla massima potenza.",
+            "Lasciare raffreddare, quindi capovolgere i bicchieri per estrarre la spugna.",
+            "Servire da sola oppure accompagnata da gelato, frutta o salse a piacere."
+          ]
+        },
+        {
+          "nome": "Trasparenza e Polvere",
+          "descrizione": "Pane di cristallo al kuzu, crema al parmigiano e neve di olio al rosmarino. Minimalismo in tre texture.",
+          "ingredienti": {
+            "per_il_pane_di_cristallo": [
+              {
+                "quantita": "50 g",
+                "ingrediente": "Amido di kuzu"
+              },
+              {
+                "quantita": "200 g",
+                "ingrediente": "Acqua"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Olio di semi"
+              },
+              {
+                "quantita": "un pizzico",
+                "ingrediente": "Sale fino"
+              }
+            ],
+            "per_la_crema_al_parmigiano": [
+              {
+                "quantita": "100 g",
+                "ingrediente": "Parmigiano Reggiano 30 mesi"
+              },
+              {
+                "quantita": "100 g",
+                "ingrediente": "Latte intero"
+              },
+              {
+                "quantita": "50 g",
+                "ingrediente": "Panna fresca"
+              },
+              {
+                "quantita": "3 g (facoltativo per stabilizzare)",
+                "ingrediente": "Amido di mais"
+              }
+            ],
+            "per_la_neve_di_olio_al_rosmarino": [
+              {
+                "quantita": "50 g",
+                "ingrediente": "Olio extravergine al rosmarino"
+              },
+              {
+                "quantita": "8–10 g",
+                "ingrediente": "Maltodestrina"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Sale in fiocchi"
+              }
+            ]
+          },
+          "procedimento": [
+            "Pane di cristallo: Mescolare l’amido di kuzu con acqua e un pizzico di sale, stendere in uno strato sottilissimo su silpat o carta forno leggermente oliata e cuocere in forno ventilato a 100°C per 50-60 minuti finché diventa trasparente. Lasciare raffreddare.",
+            "Crema al parmigiano: Portare a 70°C il latte e la panna, aggiungere il Parmigiano grattugiato a pioggia, frullare e filtrare. Se necessario, legare con un po' di amido sciolto a freddo.",
+            "Neve di olio: Frullare l’olio al rosmarino con la maltodestrina fino a ottenere una consistenza simile a sabbia leggera, aggiustando di sale.",
+            "Composizione: Su un piattino caldo, stendere uno strato sottile di crema al parmigiano, appoggiare delicatamente il pane di cristallo, spolverare con la neve di olio e fiocchi di sale e servire immediatamente."
+          ]
+        },
+        {
+          "nome": "Sfoglia Umami",
+          "descrizione": "Croccante di parmigiano, crema al pomodoro CBT e polvere di cipolla caramellata.",
+          "ingredienti": [
+            {
+              "quantita": "100 g",
+              "ingrediente": "Parmigiano grattugiato"
+            },
+            {
+              "quantita": "50 g",
+              "ingrediente": "Liquido di pomodoro CBT ridotto"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "Cipolla caramellata o cipolla nera in polvere"
+            }
+          ],
+          "procedimento": [
+            "Cialda: Versare un cucchiaio abbondante di Parmigiano su una padella antiaderente o silpat e cuocere a fuoco medio finché si scioglie e diventa dorato. Lasciare raffreddare.",
+            "Crema: Ridurre il liquido di pomodoro CBT fino a ottenere una crema lucida; se necessario, legare con agar o xantana.",
+            "Montaggio: Su un disco croccante di parmigiano, versare una goccia di crema e completare con la polvere di cipolla. Servire a temperatura ambiente."
+          ]
+        },
+        {
+          "nome": "Sasso e Burro",
+          "descrizione": "Mini patata viola CBT, fonduta calda, cipolla fermentata. Semplicità da masticare in silenzio.",
+          "ingredienti": [
+            {
+              "quantita": "6",
+              "ingrediente": "Patate viola piccole"
+            },
+            {
+              "quantita": "80 g",
+              "ingrediente": "Parmigiano"
+            },
+            {
+              "quantita": "60 g",
+              "ingrediente": "Panna fresca"
+            },
+            {
+              "quantita": "40 g",
+              "ingrediente": "Latte"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "Cipolla fermentata disidratata e polverizzata"
+            }
+          ],
+          "procedimento": [
+            "CBT patate: Lavare, sigillare sottovuoto e cuocere a 85°C per 1h30, quindi raffreddare.",
+            "Crema calda: Sciogliere il Parmigiano in latte e panna, emulsionare e filtrare.",
+            "Montaggio: Su un cucchiaio fondo, versare la crema calda, aggiungere una patata viola lucidata con olio e completare con la cipolla fermentata in polvere."
+          ]
+        },
+        {
+          "nome": "Tartare di Mare Ridotto",
+          "descrizione": "Gambero crudo e umami CBT. Eleganza marina.",
+          "ingredienti": [
+            {
+              "quantita": "4",
+              "ingrediente": "Gamberi rossi"
+            },
+            {
+              "quantita": "2 cucchiai",
+              "ingrediente": "Umami di pomodoro CBT"
+            },
+            {
+              "quantita": "1 cucchiaino",
+              "ingrediente": "Olio infuso alla vaniglia (o zeste di lime)"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "Sale, pepe bianco"
+            }
+          ],
+          "procedimento": [
+            "Battuta: Pulire e tritare finemente i gamberi al coltello. Condire con sale e olio infuso.",
+            "Composizione: Disporre la tartare su un piattino, nappare con umami ridotto e guarnire con scorza fresca o fiori eduli."
+          ]
+        },
+        {
+          "nome": "Tataki Crudo",
+          "descrizione": "Tartare di wagyu, friariello essiccato, ponzu di melograno. Carne e vegetale in equilibrio.",
+          "ingredienti": [
+            {
+              "quantita": "120 g",
+              "ingrediente": "Wagyu (o manzo frollato)"
+            },
+            {
+              "quantita": "30 g",
+              "ingrediente": "Melograno – succo fresco"
+            },
+            {
+              "quantita": "10 g",
+              "ingrediente": "Salsa di soia"
+            },
+            {
+              "quantita": "5 g",
+              "ingrediente": "Succo di lime"
+            },
+            {
+              "quantita": "1 ciuffo",
+              "ingrediente": "Friarielli"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "Sale, olio EVO"
+            }
+          ],
+          "procedimento": [
+            "Tartare: Tagliare la carne in brunoise fine, condire con ponzu di melograno (preparato con soia, lime e succo ridotto) e mescolare.",
+            "Friarielli: Essiccare o disidratare le foglie di friariello a bassa temperatura, poi sbriciolarle al momento dell'impasto.",
+            "Composizione: Disporre la tartare su un cucchiaio o piattino, completare con la polvere di friariello e qualche goccia di olio EVO."
+          ]
+        },
+        {
+          "nome": "Dattero e Sangue",
+          "descrizione": "Datterino confit, riduzione di lamponi e croccante di pane. Finger verticale.",
+          "ingredienti": [
+            {
+              "quantita": "10",
+              "ingrediente": "Pomodorini datterini"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "Peperoncino fresco"
+            },
+            {
+              "quantita": "50 g",
+              "ingrediente": "Aceto di lamponi"
+            },
+            {
+              "quantita": "a fette",
+              "ingrediente": "Pane di segale o pane bianco"
+            },
+            {
+              "quantita": "1 cucchiaino",
+              "ingrediente": "Zucchero"
+            }
+          ],
+          "procedimento": [
+            "Confit: Tagliare i datterini a metà, condire con olio, peperoncino e zucchero, cuocere a 90°C per 45 minuti.",
+            "Riduzione: Ridurre l'aceto di lamponi con poco zucchero fino a ottenere uno sciroppo denso.",
+            "Croccante: Tagliare il pane a listarelle sottili e tostarlo fino a renderlo croccante.",
+            "Montaggio: Infila un datterino su ogni listarella, nappa con la riduzione e servi come finger."
+          ]
+        },
+        {
+          "nome": "Pianto di Cipolla",
+          "descrizione": "Lacrime caramellate e acidule di cipolla rossa. Emozione in gocce.",
+          "ingredienti": [
+            {
+              "quantita": "300 g",
+              "ingrediente": "Cipolle rosse dolci"
+            },
+            {
+              "quantita": "50 ml",
+              "ingrediente": "Aceto di lamponi (alta qualità)"
+            },
+            {
+              "quantita": "30 g",
+              "ingrediente": "Miele millefiori"
+            },
+            {
+              "quantita": "30 g",
+              "ingrediente": "Zucchero di canna grezzo"
+            },
+            {
+              "quantita": "20 g",
+              "ingrediente": "Burro chiarificato"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "Sale Maldon"
+            },
+            {
+              "quantita": "1 g (opzionale)",
+              "ingrediente": "Gomma xantana"
+            }
+          ],
+          "procedimento": [
+            "Preparazione delle cipolle caramellate: Affettare finemente le cipolle rosse e cuocerle dolcemente in padella con burro chiarificato fino a che diventano morbide e trasparenti (circa 20 minuti a fuoco basso).",
+            "Aggiungere zucchero di canna e miele, continuare la cottura a fiamma moderata per altri 10-15 minuti fino a completa caramellizzazione.",
+            "Deglassare con aceto di lamponi, lasciando evaporare l'alcol per 3-5 minuti fino a ottenere un composto denso, lucido e leggermente acidulo.",
+            "Frullare il composto con un frullatore ad immersione fino a ottenere una crema liscia; se necessario, aggiungere un pizzico di gomma xantana per stabilizzare la texture.",
+            "Versare la crema in stampi a forma di goccia (o creare delle gocce su una superficie fredda coperta di pellicola trasparente) e lasciar stabilizzare in frigorifero per almeno 1 ora.",
+            "Impiattare le “lacrime” su piatti individuali o cucchiai da degustazione, completando con qualche fiocco di sale Maldon."
+          ],
+          "presentazione_consigliata": "Servi le lacrime su una superficie minimalista per enfatizzare l’aspetto poetico ed emozionale, ideale come portata sensoriale in un menù degustazione di alta cucina."
+        },
+        {
+          "nome": "Lacrima Gialla",
+          "descrizione": "Goccia di lemon curd tecnico, polvere di miso bianco, zeste candite. Acido e umami.",
+          "ingredienti": [
+            {
+              "quantita": "2",
+              "ingrediente": "Tuorli"
+            },
+            {
+              "quantita": "40 g",
+              "ingrediente": "Zucchero"
+            },
+            {
+              "quantita": "70 g",
+              "ingrediente": "Succo di limone"
+            },
+            {
+              "quantita": "1",
+              "ingrediente": "Scorza di limone"
+            },
+            {
+              "quantita": "60 g",
+              "ingrediente": "Burro"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "Miso bianco disidratato"
+            },
+            {
+              "quantita": "qualche striscia sottile",
+              "ingrediente": "Zeste candite"
+            }
+          ],
+          "procedimento": [
+            "Curd tecnico: Scaldare i tuorli, zucchero e succo di limone a bagnomaria, mescolando fino a raggiungere 82°C. Togliere dal fuoco e incorporare il burro freddo a cubetti, mescolando fino a ottenere una completa emulsione. Passare il composto al setaccio e colarlo in stampi a goccia in silicone. Lasciare raffreddare fino a solidificazione.",
+            "Finitura: Sformare ogni goccia su un cucchiaino da servizio, spolverare con miso bianco grattugiato finissimo e decorare con una micro-striscia di zest candita."
+          ]
+        },
+        {
+          "nome": "Verdi che Scivola",
+          "descrizione": "Finto caviale di pomodoro su burrata affumicata. Boccone fresco e affumicato.",
+          "ingredienti": [
+            {
+              "quantita": "200 g",
+              "ingrediente": "Succo di pomodoro fresco filtrato"
+            },
+            {
+              "quantita": "1,6 g",
+              "ingrediente": "Agar agar"
+            },
+            {
+              "quantita": "125 g",
+              "ingrediente": "Burrata"
+            },
+            {
+              "quantita": "50 g",
+              "ingrediente": "Panna fresca"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "Sale"
+            },
+            {
+              "quantita": "poche gocce",
+              "ingrediente": "Olio extravergine al basilico"
+            },
+            {
+              "quantita": "facoltativo",
+              "ingrediente": "Fumo liquido o burrata già affumicata"
+            }
+          ],
+          "procedimento": [
+            "Caviale vegetale: Portare a bollore il succo di pomodoro con agar agar, quindi raffreddare rapidamente utilizzando la tecnica di sferificazione fredda inversa (versare a gocce in olio freddissimo con pipetta o siringa). Filtrare e sciacquare le sfere.",
+            "Crema fredda di burrata: Frullare la burrata con la panna e un pizzico di sale fino a ottenere una crema liscia. Se desiderato, aggiungere qualche goccia di fumo liquido. Filtrare e trasferire in una sac-à-poche.",
+            "Composizione: Su un piattino piccolo o cucchiaio, stendere una base di crema di burrata, aggiungere un cucchiaino di caviale vegetale e completare con qualche goccia di olio al basilico."
+          ]
+        },
+        {
+          "nome": "Cipolla Oscura",
+          "descrizione": "Sfera liquida di cipolla nera fermentata. Umami assoluto.",
+          "ingredienti": [
+            {
+              "quantita": "500 g",
+              "ingrediente": "cipolle dorate"
+            },
+            {
+              "quantita": "100 g",
+              "ingrediente": "miso rosso"
+            },
+            {
+              "quantita": "20 ml",
+              "ingrediente": "salsa di soia"
+            },
+            {
+              "quantita": "20 g",
+              "ingrediente": "zucchero di canna"
+            },
+            {
+              "quantita": "500 ml",
+              "ingrediente": "brodo vegetale"
+            },
+            {
+              "quantita": "2 g",
+              "ingrediente": "Agar Agar"
+            },
+            {
+              "quantita": "",
+              "ingrediente": "Acqua fredda (per raffreddamento sfere)"
+            }
+          ],
+          "procedimento": [
+            "Fermentazione Cipolla: Pulisci e pela le cipolle dorate intere, ricoprile completamente con miso rosso. Trasferiscile in un contenitore ermetico e lascia fermentare a temperatura ambiente (18-22°C) per 60-90 giorni.",
+            "Preparazione del concentrato: Rimuovi l'eccesso di miso e taglia finemente le cipolle fermentate. Rosola leggermente con zucchero di canna e salsa di soia, quindi aggiungi il brodo vegetale e cuoci lentamente fino a ridurre il liquido di circa due terzi. Filtra accuratamente.",
+            "Creazione della sfera: Versa il concentrato in piccoli stampi sferici di silicone e congela completamente.",
+            "Rivestimento: Porta a ebollizione 200 ml d'acqua con 2 g di Agar Agar per almeno 3 minuti, lascia raffreddare a 50-55°C e immergi rapidamente le sfere congelate per formare un sottile rivestimento che si solidifica immediatamente.",
+            "Servizio: Lascia riposare le sfere in frigorifero fino a quando saranno completamente scongelate all'interno, mantenendo il cuore liquido. Servi a temperatura ambiente."
+          ]
+        },
+        {
+          "nome": "Cipolla Bruciata Ripiena",
+          "descrizione": "Mousse di caprino, riduzione al balsamico. Comfort affumicato.",
+          "ingredienti": {
+            "cipolle_ripiene": [
+              {
+                "quantita": "4",
+                "ingrediente": "Cipolle bianche grandi"
+              },
+              {
+                "quantita": "200 g",
+                "ingrediente": "Formaggio di capra morbido"
+              },
+              {
+                "quantita": "50 ml",
+                "ingrediente": "Panna fresca"
+              },
+              {
+                "quantita": "2 cucchiai",
+                "ingrediente": "Erba cipollina tritata"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Sale e pepe"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Olio extravergine d’oliva"
+              }
+            ],
+            "riduzione_al_balsamico": [
+              {
+                "quantita": "100 ml",
+                "ingrediente": "Aceto balsamico di Modena"
+              },
+              {
+                "quantita": "2 cucchiai",
+                "ingrediente": "Zucchero di canna"
+              }
+            ],
+            "decorazione": [
+              {
+                "quantita": "",
+                "ingrediente": "Germogli freschi (es. ravanello)"
+              },
+              {
+                "quantita": "",
+                "ingrediente": "Scaglie di sale marino"
+              },
+              {
+                "quantita": "",
+                "ingrediente": "Foglioline di timo o altre erbe aromatiche"
+              }
+            ]
+          },
+          "procedimento": [
+            "Bruciare le cipolle: Preriscaldare il forno a 220°C e infornare le cipolle intere con buccia per 45-60 minuti fino a che l’esterno diventi nero e l’interno rimanga morbido. Lasciare raffreddare leggermente.",
+            "Creare le coppette: Tagliare la parte superiore delle cipolle e scavare la polpa lasciando 2-3 strati per formare una tazza. Conservare parte della polpa per il ripieno.",
+            "Mousse di formaggio: Tritare 2 cucchiai della polpa cotta, unire al formaggio di capra, panna e erba cipollina, aggiustare di sale e pepe fino ad ottenere una crema liscia.",
+            "Farcitura e gratinatura: Riempire le cipolle con la mousse e infornare a 180°C per 10-15 minuti.",
+            "Riduzione al balsamico: In un pentolino, ridurre l'aceto balsamico con zucchero fino ad ottenere una consistenza sciropposa.",
+            "Impiattamento: Disporre la cipolla ripiena su un piatto, irrorarla con la riduzione, decorare con germogli, timo e un filo d’olio."
+          ],
+          "note_di_degustazione": [
+            "La cipolla bruciata dona dolcezza e un aroma affumicato.",
+            "La mousse di caprino è morbida e leggermente acidula.",
+            "La riduzione balsamica bilancia il piatto con note agrodolci."
+          ]
+        },
+        {
+          "nome": "Finto Caviale con Burrata e Crostino",
+          "descrizione": "Sfere di pomodoro, base cremosa e croccante. Contrasti a cucchiaio.",
+          "ingredienti": {
+            "per_il_caviale_di_pomodoro": [
+              {
+                "quantita": "100 g",
+                "ingrediente": "Succo di pomodoro filtrato (da pomodori maturi o passata 100%)"
+              },
+              {
+                "quantita": "1 g (1%)",
+                "ingrediente": "Agar agar"
+              },
+              {
+                "quantita": "200 ml (freddissimo, idealmente a 2°C)",
+                "ingrediente": "Olio di semi (girasole o arachide)"
+              }
+            ],
+            "per_la_base_di_burrata_affumicata": [
+              {
+                "quantita": "200 g",
+                "ingrediente": "Burrata o stracciatella di alta qualità"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Sale"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Pepe nero"
+              },
+              {
+                "quantita": "facoltativo",
+                "ingrediente": "Smoke gun o affumicatura a freddo per la burrata"
+              }
+            ],
+            "per_il_crostino": [
+              {
+                "quantita": "4 fette",
+                "ingrediente": "Pane rustico a fette (tipo pugliese, casereccio)"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "Olio EVO"
+              }
+            ],
+            "finitura": [
+              {
+                "quantita": "",
+                "ingrediente": "Foglie di basilico fresco"
+              },
+              {
+                "quantita": "",
+                "ingrediente": "Olio al basilico o olio EVO nero (carbonizzato o al nero di seppia)"
+              }
+            ]
+          },
+          "procedimento": [
+            "Preparare il caviale di pomodoro (che può essere fatto in anticipo): mettere l'olio di semi in freezer o frigo fino a 2-3°C. In un pentolino, scalda il succo di pomodoro con 1 g di agar agar fino a 90°C, mescolando bene, quindi raffredda a circa 50°C.",
+            "Con una pipetta o siringa, lascia cadere a gocce il liquido nell’olio freddo, formando delle sfere che si solidificano.",
+            "Mescola delicatamente e filtra le sfere con un colino, sciacquandole sotto acqua fredda. Conserva in frigorifero (non superare i 35°C).",
+            "Per la base, se si desidera affumicare la burrata, affumicala a freddo per 3-4 minuti con smoke gun o chips di legno, condendola poi con sale e pepe.",
+            "Per i crostini, affetta il pane, spennellalo con olio EVO e tosta in padella, griglia o forno fino a doratura croccante."
+          ],
+          "note_dello_chef": [
+            "Il contrasto tra la burrata fredda e il crostino caldo amplifica l’esperienza gustativa.",
+            "Il caviale di pomodoro offre un effetto visivo sorprendente e un'esplosione di sapore puro.",
+            "Il basilico aggiunge una nota di freschezza aromatica."
+          ],
+          "assemblaggio_del_piatto": [
+            "Disponi una cucchiaiata generosa di burrata fredda al centro del piatto.",
+            "Adagia un crostino caldo accanto, leggermente inclinato.",
+            "Versa delicatamente il caviale di pomodoro sopra la burrata.",
+            "Decora con una foglia di basilico e finisci con un filo d’olio al basilico o olio nero per un contrasto visivo e aromatico."
+          ]
+        },
+        {
+          "nome": "Carciofo in Vasocottura con Caramello Vegetale",
+          "descrizione": "Vegetale e umami, crumble di tarallo, mousse al pecorino.",
+          "ingredienti": {
+            "per_i_carciofi_in_vasocottura": [
+              { "quantita": "4", "ingrediente": "Carciofi" },
+              { "quantita": "1 spicchio", "ingrediente": "Aglio" },
+              { "quantita": "q.b.", "ingrediente": "Prezzemolo fresco tritato" },
+              { "quantita": "q.b.", "ingrediente": "Olio EVO" },
+              { "quantita": "q.b.", "ingrediente": "Sale" }
+            ],
+            "mousse_al_pecorino": [
+              { "quantita": "80 g", "ingrediente": "Pecorino romano grattugiato" },
+              { "quantita": "100 ml", "ingrediente": "Panna fresca" },
+              { "quantita": "q.b.", "ingrediente": "Pepe nero" }
+            ],
+            "caramello_vegetale_verde_umami": [
+              { "quantita": "da 4 carciofi", "ingrediente": "Scarti di carciofo (foglie e gambi)" },
+              { "quantita": "30 ml", "ingrediente": "Olio al prezzemolo" },
+              { "quantita": "70 ml", "ingrediente": "Acqua al prezzemolo" },
+              { "quantita": "1 cucchiaino", "ingrediente": "Aceto di mele (o balsamico bianco)" },
+              { "quantita": "Facoltativo: 0,1 g", "ingrediente": "xantana per lucidità extra" }
+            ],
+            "olio_al_prezzemolo": [
+              { "quantita": "1 mazzetto (solo foglie)", "ingrediente": "Prezzemolo" },
+              { "quantita": "100 ml", "ingrediente": "Olio di semi o EVO leggero" }
+            ],
+            "acqua_al_prezzemolo": [
+              { "quantita": "1 mazzetto", "ingrediente": "Gambi del prezzemolo" },
+              { "quantita": "150 ml", "ingrediente": "Acqua naturale" }
+            ],
+            "crumble_di_tarallo": [
+              { "quantita": "80 g", "ingrediente": "Taralli classici pugliesi" },
+              { "quantita": "20 g", "ingrediente": "Burro fuso" },
+              { "quantita": "q.b. (facoltativa)", "ingrediente": "Scorza di limone" }
+            ]
+          },
+          "procedimento": [
+            {
+              "fase": "Essiccazione e polverizzazione degli scarti",
+              "procedura": [
+                "Sbollentare foglie esterne e gambi per 30 secondi, raffreddare in acqua e ghiaccio, asciugare e essiccare in forno ventilato a 80°C per 2-3 ore.",
+                "Frullare fino ad ottenere una polvere finissima e conservarla."
+              ]
+            },
+            {
+              "fase": "Carciofi in vasocottura",
+              "procedura": [
+                "Pulire i carciofi mantenendo il cuore e le foglie interne.",
+                "Condirli con prezzemolo tritato, aglio, olio e sale.",
+                "Inserirli in un barattolo da 500 ml e cuocerli in microonde per 6 minuti.",
+                "Lasciare raffreddare per 15 minuti nel barattolo chiuso per creare un effetto sottovuoto."
+              ]
+            },
+            {
+              "fase": "Mousse al pecorino",
+              "procedura": [
+                "Scaldare la panna a 70–75°C, aggiungere il pecorino e frullare con un minipimer fino ad ottenere una consistenza fluida ma densa.",
+                "Aggiustare di pepe nero e tenere in caldo."
+              ]
+            },
+            {
+              "fase": "Olio e acqua al prezzemolo",
+              "procedura": [
+                "Sbollentare separatamente foglie e gambi (circa 10 secondi), raffreddare.",
+                "Frullare le foglie con 100 ml di olio per ottenere olio al prezzemolo.",
+                "Frullare i gambi con 150 ml di acqua per ottenere acqua al prezzemolo, quindi filtrare entrambi."
+              ]
+            },
+            {
+              "fase": "Caramello vegetale verde",
+              "procedura": [
+                "In un pentolino, unire olio e acqua al prezzemolo, aceto e un cucchiaio abbondante di polvere di scarti.",
+                "Portare a bollore, quindi ridurre a fuoco medio-basso fino ad ottenere una salsa lucida e densa di colore verde scuro.",
+                "Se desiderato, stabilizzare con 0,1 g di xantana o montare con un filo d'olio alla fine."
+              ]
+            },
+            {
+              "fase": "Crumble di tarallo",
+              "procedura": [
+                "Tritare grossolanamente i taralli.",
+                "Mescolarli con burro fuso e scorza di limone.",
+                "Tostare in padella antiaderente per 3–4 minuti fino a doratura."
+              ]
+            },
+            {
+              "fase": "Assemblaggio finale",
+              "procedura": [
+                "Su una paletta di servizio, posizionare il carciofo caldo in piedi.",
+                "Nappare con la mousse al pecorino dalla base fino a metà altezza.",
+                "Decorare con righe di caramello vegetale verde e rimuovere la paletta.",
+                "Completare con crumble di tarallo e qualche goccia di olio al prezzemolo."
+              ]
+            }
+          ],
+          "note_finali": [
+            "La mousse al pecorino avvolge il carciofo, mentre il caramello vegetale porta l’umami.",
+            "Il crumble e l’olio aggiungono croccantezza e freschezza, creando un piatto dal carattere ricco e sorprendente pur essendo completamente vegetale."
+          ]
+        }
+        
+      ]
+    },
+    {
+      "nome": "🧱 Basi, Fondi e Preparazioni Madri",
+      "ricette": [
+        {
+          "nome": "Brodo Vegetale",
+          "descrizione": "Una sinfonia leggera di verdure, da chiarificare per eleganza estrema o arricchire con funghi e pomodori per profondità.",
+          "ingredienti": [
+            {
+              "quantita": "2",
+              "ingrediente": "pomodori rossi"
+            },
+            {
+              "quantita": "2",
+              "ingrediente": "carote"
+            },
+            {
+              "quantita": "2",
+              "ingrediente": "cipolle"
+            },
+            {
+              "quantita": "3 costine",
+              "ingrediente": "coste di sedano"
+            },
+            {
+              "quantita": "1",
+              "ingrediente": "patata"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "pepe in grani"
+            },
+            {
+              "quantita": "3 kg",
+              "ingrediente": "acqua o ghiaccio"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "sale"
+            }
+          ],
+          "procedimento": [
+            "Questo è un brodo ricco. Per una versione più leggera, usa solo sedano, cipolla e carota; per un brodo più corposo, aggiungi funghi, asparagi, porro o erbe aromatiche.",
+            "Sciacquare bene tutte le verdure e tagliarle grossolanamente (esclusi i pomodori, dai quali togli solo il picciolo).",
+            "Mettere tutti gli ingredienti (eccetto il sale) in una pentola, portare a bollore, coprire e lasciare cuocere per circa 2 ore. Verso fine cottura, aggiungere il sale, quindi far raffreddare il brodo e filtrarlo con un colino a maglia stretta.",
+            "Per un brodo ancora più chiaro, chiarificarlo con un albume montato."
+          ]
+        },
+        {
+          "nome": "Brodo di Carne",
+          "descrizione": "Classico e potente. Ossa, gallina, manzo e verdure per un fondale corposo da costruzione.",
+          "ingredienti": [
+            {
+              "quantita": "500 g",
+              "ingrediente": "polpa di manzo"
+            },
+            {
+              "quantita": "300 g",
+              "ingrediente": "ossa di bovino"
+            },
+            {
+              "quantita": "½",
+              "ingrediente": "gallina"
+            },
+            {
+              "quantita": "1",
+              "ingrediente": "pomodori rossi"
+            },
+            {
+              "quantita": "1",
+              "ingrediente": "carote"
+            },
+            {
+              "quantita": "2",
+              "ingrediente": "cipolle"
+            },
+            {
+              "quantita": "1 costine",
+              "ingrediente": "coste di sedano"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "pepe in grani"
+            },
+            {
+              "quantita": "3 kg",
+              "ingrediente": "acqua o ghiaccio"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "sale"
+            }
+          ],
+          "procedimento": [
+            "Preparare le verdure come per il brodo vegetale.",
+            "Lavare la carne sotto l'acqua corrente. Inserire tutti gli ingredienti (eccetto il sale), portare a ebollizione, abbassare la fiamma e cuocere per circa 3 ore semi-coperto. Verso fine cottura, aggiustare di sale.",
+            "Far raffreddare il brodo e filtrarlo con un colino a maglia stretta.",
+            "Durante la cottura, schiumare di tanto in tanto per eliminare le impurità."
+          ]
+        },
+        {
+          "nome": "Bisque di Gamberi",
+          "descrizione": "Gusci tostati, vino e ghiaccio: il mare che si concentra. Perfetta per risotti e salse.",
+          "ingredienti": [
+            {
+              "quantita": "1",
+              "ingrediente": "scalogno"
+            },
+            {
+              "quantita": "1",
+              "ingrediente": "carota"
+            },
+            {
+              "quantita": "q.b.",
+              "ingrediente": "paprika"
+            },
+            {
+              "quantita": "1 bicchiere",
+              "ingrediente": "vino bianco"
+            },
+            {
+              "quantita": "6-10",
+              "ingrediente": "carcasse dei gamberi"
+            },
+            {
+              "quantita": "1 l",
+              "ingrediente": "acqua/ghiaccio"
+            },
+            {
+              "quantita": "4",
+              "ingrediente": "pomodorini"
+            }
+          ],
+          "procedimento": [
+            "Tritare finemente scalogno e carota e farle appassire in padella con un filo d'olio, insieme ai pomodorini tagliati a metà.",
+            "Aggiungere gli scarti dei gamberi e far tostare per 3-4 minuti a fiamma viva.",
+            "Sfumare con un bicchiere di vino bianco e lasciare evaporare l'alcol. Aggiungere ghiaccio (o acqua molto fredda) e cuocere per 15 minuti.",
+            "Filtrare la bisque con un colino a maglia stretta."
+          ]
+        },
+        {
+          "nome": "Velluto Bianco – Salsa al Parmigiano",
+          "descrizione": "Il profumo del latte, il respiro dell’alloro, il calore che fonde la memoria del burro con l’intensità sapida del Parmigiano.",
+          "ingredienti": [
+            { "quantita": "200 g", "ingrediente": "Parmigiano Reggiano" },
+            { "quantita": "500 ml", "ingrediente": "Latte intero" },
+            { "quantita": "50 g", "ingrediente": "Farina 00" },
+            { "quantita": "50 g", "ingrediente": "Burro" },
+            { "quantita": "q.b.", "ingrediente": "Foglie di salvia e alloro" }
+          ],
+          "procedimento": [
+            {
+              "fase": "La nascita del roux",
+              "procedura": [
+                "In un pentolino a fiamma dolce, sciogliere il burro senza farlo sfrigolare.",
+                "Aggiungere la farina setacciata e mescolare costantemente fino a ottenere un roux dorato."
+              ]
+            },
+            {
+              "fase": "Lo shock termico",
+              "procedura": [
+                "Versare il latte freddo in tre tempi, mescolando continuamente.",
+                "Cuocere per 6–8 minuti finché la crema diventa densa, liscia e lucida."
+              ]
+            },
+            {
+              "fase": "L’oro grattugiato",
+              "procedura": [
+                "Togliere dal fuoco e aggiungere gradualmente il Parmigiano, mescolando fino a completo scioglimento.",
+                "In caso di grumi, passare la salsa al colino per renderla vellutata."
+              ]
+            },
+            {
+              "fase": "Variante tecnica – Versione leggera",
+              "procedura": [
+                "Scaldare il latte a 70°C, unire il Parmigiano e frullare con un minipimer.",
+                "Aggiungere 0,5 g di xantana per migliorare la stabilità e ottenere una texture perfetta per nappare."
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Salsa Birra & Mele – Riduzione Dolce, Speziata e Bruna",
+          "descrizione": "La mela si scioglie, la birra si riduce, la senape punge appena. Una riduzione che si fa racconto.",
+          "ingredienti": [
+            { "quantita": "33 cl", "ingrediente": "Birra ambrata o scura" },
+            { "quantita": "150 g", "ingrediente": "Burro (diviso in due parti)" },
+            { "quantita": "30 g", "ingrediente": "Miele millefiori" },
+            { "quantita": "30 g", "ingrediente": "Senape rustica" },
+            { "quantita": "q.b.", "ingrediente": "Salvia e alloro" },
+            { "quantita": "un soffio", "ingrediente": "Cannella" },
+            { "quantita": "q.b.", "ingrediente": "Zucchero" },
+            { "quantita": "½", "ingrediente": "Cipolla arrostita (fondente e dolce)" },
+            { "quantita": "qualche goccia", "ingrediente": "Glassa di soia" },
+            { "quantita": "1", "ingrediente": "Mela (meglio Renetta o Granny Smith)" }
+          ],
+          "procedimento": [
+            {
+              "fase": "Riduzione della birra",
+              "procedura": [
+                "Versare la birra in un pentolino e ridurre a fiamma media fino a dimezzare.",
+                "Deve diventare un liquido scuro, concentrato e vibrante."
+              ]
+            },
+            {
+              "fase": "Fase uno – dolce e speziata",
+              "procedura": [
+                "In un secondo pentolino, fondere metà del burro.",
+                "Aggiungere miele e senape, mescolando fino a ottenere un'emulsione dorata.",
+                "Versare l’emulsione nella birra ridotta e continuare la cottura a sobbollire."
+              ]
+            },
+            {
+              "fase": "Fase due – frutta e umami",
+              "procedura": [
+                "In un terzo pentolino, sciogliere l’altra metà del burro con un pizzico di zucchero.",
+                "Aggiungere mela tagliata a brunoise e cipolla arrostita.",
+                "Stufare dolcemente, poi aggiungere glassa di soia, salvia, alloro e cannella.",
+                "Sfumare tutto con la riduzione alla birra precedentemente preparata."
+              ]
+            },
+            {
+              "fase": "Consistenza finale",
+              "procedura": [
+                "Cuocere lentamente fino a ottenere una salsa fluida, lucida e bruna.",
+                "Ideale per nappare carni arrosto, verdure caramellate o risotti speziati."
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Pomodorini Confit",
+          "descrizione": "Caramellati lentamente al forno con zucchero a velo, aglio e origano: piccoli scrigni di sapore concentrato.",
+          "ingredienti": [
+            { "quantita": "4", "ingrediente": "pomodorini" },
+            { "quantita": "½ spicchio", "ingrediente": "aglio" },
+            { "quantita": "q.b.", "ingrediente": "zucchero a velo" },
+            { "quantita": "q.b.", "ingrediente": "origano" }
+          ],
+          "procedimento": [
+            {
+              "fase": "Preparazione e cottura",
+              "procedura": [
+                "Tagliare i pomodorini a metà e disporli con la parte tagliata verso l'alto.",
+                "Condirli con olio evo, mezzo spicchio d'aglio tritato finemente, origano e una spolverata di zucchero a velo.",
+                "Infornare a temperatura minima (possibilmente 80°C) per circa 2 ore.",
+                "Controllare i pomodorini e valutare se proseguire: devono risultare leggermente caramellati in superficie e disidratati internamente."
+              ]
+            }
+          ]
+        },  
+        {
+          "nome": "Carciofo in Vasocottura",
+          "descrizione": "Cottura al microonde in barattolo: il carciofo si fa tenero, aromatico, perfetto da conservare.",
+          "ingredienti": [
+            { "quantita": "1", "ingrediente": "carciofo" },
+            { "quantita": "¼ spicchio", "ingrediente": "aglio" },
+            { "quantita": "q.b.", "ingrediente": "sale" },
+            { "quantita": "q.b.", "ingrediente": "olio" },
+            { "quantita": "q.b.", "ingrediente": "prezzemolo" }
+          ],
+          "procedimento": [
+            {
+              "fase": "Preparazione",
+              "procedura": [
+                "Pulire il carciofo eliminando le foglie esterne dure e il gambo.",
+                "Tritare l'aglio e il prezzemolo e inserirli tra le foglie del carciofo con sale e olio."
+              ]
+            },
+            {
+              "fase": "Vasocottura",
+              "procedura": [
+                "Inserire il carciofo in un barattolo da 500 ml adatto alla vasocottura.",
+                "Cuocere al microonde alla potenza testata per 6 minuti.",
+                "Lasciar raffreddare il barattolo per 15–20 minuti affinché si completi la cottura e si crei il sottovuoto."
+              ]
+            },
+            {
+              "fase": "Conservazione e servizio",
+              "procedura": [
+                "Una volta freddo, conservare il barattolo in frigorifero fino a 15 giorni o consumare subito.",
+                "Per aprirlo, tirare la linguetta o stappare il gancio e riporre brevemente in microonde fino all’apertura."
+              ]
+            },
+            {
+              "fase": "Test della potenza",
+              "procedura": [
+                "Riempire un vasetto fino a ¾ d'acqua e metterlo in microonde.",
+                "Se tra i 3 e 4 minuti l'acqua inizia a bollire leggermente, quella è la potenza corretta per la vasocottura."
+              ]
+            }
+          ]
+        },              
+        {
+          "nome": "Crema Pasticciera – I. Massari",
+          "descrizione": "Tecnica pura. Amido di riso, infusione, coagulazione precisa. Una base per infinite interpretazioni.",
+          "ingredienti": [
+            {
+              "quantita": "200 g",
+              "ingrediente": "tuorlo"
+            },
+            {
+              "quantita": "130 g",
+              "ingrediente": "zucchero"
+            },
+            {
+              "quantita": "40 g",
+              "ingrediente": "amido di riso"
+            },
+            {
+              "quantita": "500 g",
+              "ingrediente": "latte fresco di alta qualità"
+            },
+            {
+              "quantita": "1",
+              "ingrediente": "baccelli di vaniglia"
+            },
+            {
+              "quantita": "½",
+              "ingrediente": "scorza di limone"
+            }
+          ],
+          "procedimento": [
+            "Portare a ebollizione il latte con baccelli di vaniglia e scorza di limone.",
+            "In una ciotola, mescolare i tuorli, lo zucchero e l’amido di riso con una frusta fino a ottenere un composto omogeneo.",
+            "Filtrare il latte per eliminare scorze e baccelli, quindi versarlo lentamente sul composto, mescolando continuamente.",
+            "Rimettere il tutto sul fuoco e cuocere a fiamma bassa, mescolando costantemente, fino a raggiungere 84°C, temperatura di coagulazione del tuorlo.",
+            "Una volta raggiunta la temperatura, versare la crema in una bacinella precedentemente raffreddata in congelatore per abbassare rapidamente la temperatura a 50°C e interrompere la cottura.",
+            "Lasciare raffreddare completamente in frigorifero."
+          ]
+        },
+        {
+          "nome": "Pan di Spagna – I. Massari",
+          "descrizione": "Montata perfetta, struttura stabile. La geometria della leggerezza.",
+          "ingredienti": [
+            {
+              "quantita": "125 g",
+              "ingrediente": "uova a temperatura ambiente"
+            },
+            {
+              "quantita": "75 g",
+              "ingrediente": "tuorli"
+            },
+            {
+              "quantita": "125 g",
+              "ingrediente": "zucchero"
+            },
+            {
+              "quantita": "125 g",
+              "ingrediente": "farina bianca 00"
+            },
+            {
+              "quantita": "n.1",
+              "ingrediente": "baccello di vaniglia"
+            }
+          ],
+          "procedimento": [
+            "Montare le uova con zucchero e vaniglia in planetaria a velocità media, mentre setacci la farina due volte.",
+            "Dopo circa 2 minuti, aggiungere i tuorli a filo, continuando a montare.",
+            "Ridurre la velocità e incorporare gradualmente la farina setacciata, mescolando delicatamente per evitare grumi.",
+            "Versare il composto in uno stampo imburrato e infarinato, fino a riempirlo per 2/3 della sua altezza.",
+            "Cuocere in forno preriscaldato a 180°C con la valvola aperta per 22-24 minuti."
+          ]
+        },
+        {
+          "nome": "Pasta Frolla – I. Massari",
+          "descrizione": "Equilibrio di burro, zucchero e tempo. Base aromatica per crostate o mignon.",
+          "ingredienti": [
+            {
+              "quantita": "250 g",
+              "ingrediente": "burro"
+            },
+            {
+              "quantita": "70 g",
+              "ingrediente": "uova"
+            },
+            {
+              "quantita": "170 g",
+              "ingrediente": "zucchero"
+            },
+            {
+              "quantita": "330 g",
+              "ingrediente": "farina bianca 00"
+            },
+            {
+              "quantita": "1",
+              "ingrediente": "baccello di vaniglia"
+            },
+            {
+              "quantita": "1",
+              "ingrediente": "scorza di limone"
+            },
+            {
+              "quantita": "3 g",
+              "ingrediente": "sale"
+            },
+            {
+              "quantita": "4g",
+              "ingrediente": "lievito in polvere (facoltativo)"
+            }
+          ],
+          "procedimento": [
+            "Unire il burro ammorbidito, gli aromi e lo zucchero in planetaria munita di foglia fino a ottenere un composto cremoso.",
+            "Aggiungere le uova, precedentemente sciolto il sale, e mescolare.",
+            "Setacciare farina e lievito in polvere due volte, quindi incorporare gradualmente al composto, mescolando a bassa velocità.",
+            "Avvolgere l’impasto in pellicola e lasciarlo riposare in frigorifero per 2 ore.",
+            "Stendere la pasta tra due fogli di carta forno, bucherellarla con una forchetta e inserirla nella tortiera. Cuocere in forno a 170°C per 18 minuti, iniziando con la valvola chiusa per 10 minuti e poi aperta per 8 minuti."
+          ]
+        }
+      ]
+    }
+  ]
+}
