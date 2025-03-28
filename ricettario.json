@@ -4,32 +4,64 @@
       "nome": "🧠 Tecniche Avanzate e Molecolari",
       "ricette": [
         {
-          "nome": "Finto Caviale – Tecnica Base",
-          "descrizione": "Succo e agar, goccia a goccia nell’olio ghiacciato. Un effetto visivo e tattile.",
-          "ingredienti": [
-            {
-              "quantita": "100 g",
-              "ingrediente": "Liquido da gelificare"
-            },
-            {
-              "quantita": "1 g",
-              "ingrediente": "Agar Agar"
-            },
-            {
-              "quantita": "100 g",
-              "ingrediente": "olio di semi"
-            }
-          ],
-          "procedimento": [
-            "Mettere in freezer l’olio fino a portarlo a 2°.",
-            "Portare a bollore il liquido da gelificare, sciogliere l’agar agar al suo interno e cuocere per 4 minuti.",
-            "Lasciare raffreddare il liquido fino a 50° e, con una siringa, far cadere goccia dopo goccia nell’olio freddo.",
-            "Per ottenere sfere grandi applicare maggiore pressione, per gocce più piccole il contrario. Mescolare delicatamente di tanto in tanto.",
-            "Conservare il caviale nell’olio in frigorifero fino al momento dell’utilizzo.",
-            "Raccogliere le sfere con un cucchiaio bucato e sciacquarle sotto acqua corrente.",
-            "Non superare la temperatura di 35° per le sfere, altrimenti si scioglieranno."
-          ]
-        },
+  "nome": "Finto Caviale",
+  "descrizione": "Piccole sfere gelatinose create dal contrasto tra caldo e freddo, tra fluido e forma. Un’illusione che evoca il lusso del caviale attraverso l’alchimia vegetale.",
+  "ingredienti": [
+    {
+      "quantita": "100 g",
+      "ingrediente": "liquido da gelificare (es. succo, brodo, infuso)"
+    },
+    {
+      "quantita": "1 g",
+      "ingrediente": "agar agar"
+    },
+    {
+      "quantita": "q.b.",
+      "ingrediente": "olio di semi molto freddo (circa 2°C)"
+    }
+  ],
+  "procedimento": [
+    {
+      "fase": "Preparazione del grembo gelido",
+      "procedura": [
+        "Versa l’olio di semi in un contenitore alto e stretto.",
+        "Riponilo nel freezer fino a quando raggiunge circa 2°C.",
+        "L’olio sarà l’ambiente di formazione delle sfere."
+      ]
+    },
+    {
+      "fase": "Attivazione del legame",
+      "procedura": [
+        "Porta a bollore il liquido da gelificare (100 g).",
+        "Aggiungi 1 g di agar agar e mescola con precisione.",
+        "Cuoci per 4 minuti per attivare completamente l’agar."
+      ]
+    },
+    {
+      "fase": "Il momento della nascita",
+      "procedura": [
+        "Lascia raffreddare il liquido gelificante fino a 50°C.",
+        "Caricalo in una siringa o pipetta.",
+        "Fai cadere goccia dopo goccia nell’olio freddo.",
+        "Ogni goccia si trasformerà in una sfera gelatinosa.",
+        "Mescola delicatamente l’olio per evitare aggregazioni tra le sfere."
+      ]
+    },
+    {
+      "fase": "Conservazione e servizio",
+      "procedura": [
+        "Conserva le sfere immerse nell’olio, in frigorifero, fino al momento dell’utilizzo.",
+        "Per servire, recuperale con un cucchiaio forato e risciacquale sotto acqua fredda corrente per eliminare l’olio in eccesso."
+      ]
+    }
+  ],
+  "note_tecniche": [
+    "Non superare i 35°C o le sfere perderanno la forma.",
+    "La temperatura ideale dell’olio per la sferificazione è tra 1,5°C e 4°C.",
+    "La pressione sulla pipetta determina la dimensione delle sfere."
+  ]
+}
+,
         {
           "nome": "Neve d’Olio e Polveri Aromatiche con Maltodestrina",
           "descrizione": "Una metamorfosi dell’olio: da liquido a neve. Una magia tecnica che si fonde con l’aroma.",
@@ -287,53 +319,101 @@
           ]
         },
         {
-          "nome": "Umami di Pomodoro CBT",
-          "descrizione": "Riduzione dolce-acida di pomodoro, cotta con lentezza per sprigionare il quinto gusto.",
-          "ingredienti": [
-            {
-              "quantita": "1 kg",
-              "ingrediente": "Pomodorini datterini o ciliegini maturi"
-            },
-            {
-              "quantita": "30 g",
-              "ingrediente": "Olio extravergine di oliva"
-            },
-            {
-              "quantita": "5 g",
-              "ingrediente": "Sale fino"
-            },
-            {
-              "quantita": "5 g",
-              "ingrediente": "Zucchero"
-            },
-            {
-              "quantita": "a piacere",
-              "ingrediente": "(Facoltativo) Aglio, erbe aromatiche o kombu"
-            }
-          ],
-          "attrezzatura": [
-            "Macchina per sottovuoto + sacchetti",
-            "Roner (bagno termostatato)",
-            "Pentolino antiaderente o inox",
-            "Colino fine o chinoise",
-            "Termometro da cucina (facoltativo)"
-          ],
-          "procedimento": [
-            "Preparazione dei pomodorini: Lava e incidi i pomodorini. Condiscili con olio, sale, zucchero e aromi opzionali. Inseriscili in un sacchetto sottovuoto in un solo strato e sigilla.",
-            "CBT - Estrazione: Cuoci a 85°C per 3 ore. Raffredda rapidamente in acqua e ghiaccio.",
-            "Separazione: Apri il sacchetto e filtra il liquido con un colino fine o garza. Conserva i pomodorini per altri usi.",
-            "Concentrazione finale: Riduci il liquido a fuoco basso fino a ottenere una glassa lucida e brunita. Non superare i 110-120°C."
-          ],
-          "utilizzi": [
-            "Salsa di finitura per carni, pesci, risotti, pasta",
-            "Demi-glace vegetale",
-            "Decorazioni per piatti fine-dining"
-          ],
-          "note_tecniche": [
-            "Conservazione: 7 giorni in frigo o in freezer a cubetti",
-            "Riduzione meno spinta = brodo umami di pomodoro"
-          ]
-        },
+  "nome": "Umami di Pomodoro CBT",
+  "descrizione": "Riduzione dolce-acida di pomodoro ottenuta da doppia estrazione. Densa come miele, rossa come sangue vegetale, pura come un’essenza.",
+  "ingredienti": [
+    {
+      "quantita": "1 kg",
+      "ingrediente": "pomodorini datterini o ciliegini maturi"
+    },
+    {
+      "quantita": "30 g",
+      "ingrediente": "olio extravergine di oliva"
+    },
+    {
+      "quantita": "5 g",
+      "ingrediente": "sale fino"
+    },
+    {
+      "quantita": "5 g",
+      "ingrediente": "zucchero"
+    },
+    {
+      "quantita": "facoltativo",
+      "ingrediente": "1 spicchio d’aglio in camicia, timo fresco o striscia di alga kombu"
+    }
+  ],
+  "procedimento": [
+    {
+      "fase": "Condimento e sigillatura",
+      "procedura": [
+        "Lava e incidi leggermente i pomodorini.",
+        "Condisci con olio, sale, zucchero e eventuali aromi scelti.",
+        "Inseriscili in un sacchetto sottovuoto in un solo strato e sigilla bene."
+      ]
+    },
+    {
+      "fase": "CBT – Estrazione lenta",
+      "procedura": [
+        "Cuoci il sacchetto a 85°C per 3 ore.",
+        "Raffredda rapidamente in acqua e ghiaccio per bloccare la cottura e fissare l’aroma."
+      ]
+    },
+    {
+      "fase": "Separazione dell’acqua di vegetazione",
+      "procedura": [
+        "Apri il sacchetto e filtra il liquido rilasciato: sarà il primo estratto."
+      ]
+    },
+    {
+      "fase": "Passaverdura e sgocciolatura",
+      "procedura": [
+        "Passa i pomodorini con un passaverdure a disco fine.",
+        "Trasferisci la passata in un colino o garza sterile e lascia colare per 1–2 ore (meglio overnight).",
+        "Non forzare: raccogli solo il liquido colato naturalmente."
+      ]
+    },
+    {
+      "fase": "Fusione degli estratti",
+      "procedura": [
+        "Unisci il liquido filtrato con quello colato dalla passata.",
+        "Mescola: questa è la base umami di pomodoro."
+      ]
+    },
+    {
+      "fase": "Riduzione finale",
+      "procedura": [
+        "Riduci il composto a fuoco dolce in casseruola, mescolando con spatola in silicone.",
+        "Mantieni tra 105°C e 115°C finché diventa denso come miele (30–60 min)."
+      ]
+    }
+  ],
+  "note_tecniche": [
+    "Conservare in frigo per 7 giorni in contenitore ermetico.",
+    "Si può congelare in cubetti per usi mirati.",
+    "Versione meno ridotta = brodo umami di pomodoro.",
+    "Residui solidi ottimi per fondi, ripieni, creme."
+  ],
+  "utilizzo": [
+    {
+      "applicazione": "Pennellata su carni CBT o vegetali arrostiti",
+      "dosi": "q.b."
+    },
+    {
+      "applicazione": "Emulsione con olio o burro",
+      "dosi": "per vinaigrette calde"
+    },
+    {
+      "applicazione": "Salsa di nappatura",
+      "dosi": "1 cucchiaio per porzione"
+    },
+    {
+      "applicazione": "Base per glaze barbecue vegetale",
+      "dosi": "da personalizzare"
+    }
+  ]
+}
+,
         {
           "nome": "Lemon Curd Tecnico",
           "descrizione": "Curd giallo-limone, perfetto al grado. Emulsione di acidità e precisione termica.",
@@ -434,506 +514,591 @@
       ]
     },
     {
-      "nome": "🥩 Carne e Vegetali in CBT",
-      "ricette": [
+  "nome": "🥩 Carne e Vegetali in CBT",
+  "ricette": [
+    {
+      "nome": "Petto d’Anatra CBT al Limoncello",
+      "descrizione": "Marinato, cotto sottovuoto, rifinito croccante. Un’anatra vestita d’agrumi.",
+      "ingredienti": {
+        "petto_d_anatra": [
+          { "quantita": "2", "ingrediente": "petti d'anatra (circa 200 g ciascuno)" },
+          { "quantita": "100 g", "ingrediente": "sale grosso" },
+          { "quantita": "50 ml", "ingrediente": "limoncello di Sorrento" },
+          { "quantita": "1", "ingrediente": "Scorza di limone (non trattato)" },
+          { "quantita": "1 rametto", "ingrediente": "timo" },
+          { "quantita": "1 rametto", "ingrediente": "rosmarino" },
+          { "quantita": "2 spicchi", "ingrediente": "aglio schiacciati" },
+          { "quantita": "q.b.", "ingrediente": "Pepe nero macinato fresco" },
+          { "quantita": "q.b.", "ingrediente": "Olio extravergine di oliva o grasso d’anatra" }
+        ],
+        "polvere_di_limoncello": [
+          { "quantita": "50 ml", "ingrediente": "limoncello di Sorrento" },
+          { "quantita": "20-30 g", "ingrediente": "maltodestrina di tapioca" }
+        ]
+      },
+      "procedimento": [
         {
-          "nome": "Petto d’Anatra CBT al Limoncello",
-          "descrizione": "Marinato, cotto sottovuoto, rifinito croccante. Un’anatra vestita d’agrumi.",
-          "ingredienti": {
-            "petto_d_anatra": [
-              {
-                "quantita": "2",
-                "ingrediente": "petti d'anatra (circa 200 g ciascuno)"
-              },
-              {
-                "quantita": "100 g",
-                "ingrediente": "sale grosso"
-              },
-              {
-                "quantita": "50 ml",
-                "ingrediente": "limoncello di Sorrento"
-              },
-              {
-                "quantita": "1",
-                "ingrediente": "Scorza di limone (non trattato)"
-              },
-              {
-                "quantita": "1 rametto",
-                "ingrediente": "timo"
-              },
-              {
-                "quantita": "1 rametto",
-                "ingrediente": "rosmarino"
-              },
-              {
-                "quantita": "2 spicchi",
-                "ingrediente": "aglio schiacciati"
-              },
-              {
-                "quantita": "q.b.",
-                "ingrediente": "Pepe nero macinato fresco"
-              },
-              {
-                "quantita": "q.b.",
-                "ingrediente": "Olio extravergine di oliva o grasso d’anatra"
-              }
-            ],
-            "polvere_di_limoncello": [
-              {
-                "quantita": "50 ml",
-                "ingrediente": "limoncello di Sorrento"
-              },
-              {
-                "quantita": "20-30 g",
-                "ingrediente": "maltodestrina di tapioca"
-              }
-            ]
-          },
-          "procedimento": [
-            "Marinatura: cospargere il petto d’anatra con sale grosso. Marinare la carne (non la pelle) con limoncello, scorza di limone, timo, rosmarino, aglio e pepe per 1–2 ore.",
-            "Preparazione sous-vide: rimuovere il sale, asciugare bene. Inserire nei sacchetti con erbe e poco olio o limoncello. Cuocere a 54°C per 90 minuti.",
-            "Abbattimento: raffreddare in abbattitore o bagno di ghiaccio.",
-            "Polvere di limoncello: unire limoncello e maltodestrina fino a ottenere una polvere fine. Setacciare.",
-            "Rigenerazione: rosolare la pelle in padella calda fino a croccantezza. Scaldare brevemente il lato carne.",
-            "Composizione: tagliare a medaglioni, spolverare con polvere di limoncello, servire con eventuali accompagnamenti."
-          ],
-          "vino_abbinato": "Pinot Nero della Borgogna o Aglianico del Vulture."
-        },
-        {
-          "nome": "Filetto di Manzo CBT",
-          "descrizione": "Classico e sontuoso. CBT per esaltare fibre, Maillard per firmare il gusto.",
-          "ingredienti": [
-            {
-              "quantita": "1,2 kg",
-              "ingrediente": "filetto di manzo"
-            },
-            {
-              "quantita": "q.b.",
-              "ingrediente": "olio evo"
-            },
-            {
-              "quantita": "2 rametti",
-              "ingrediente": "rosmarino"
-            },
-            {
-              "quantita": "5 g",
-              "ingrediente": "timo"
-            },
-            {
-              "quantita": "1 g",
-              "ingrediente": "salvia"
-            },
-            {
-              "quantita": "2 foglie",
-              "ingrediente": "alloro"
-            },
-            {
-              "quantita": "30 g",
-              "ingrediente": "burro"
-            },
-            {
-              "quantita": "1 l",
-              "ingrediente": "acqua"
-            },
-            {
-              "quantita": "30 g",
-              "ingrediente": "sale"
-            },
-            {
-              "quantita": "30 g",
-              "ingrediente": "zucchero"
-            },
-            {
-              "quantita": "q.b.",
-              "ingrediente": "pepe"
-            },
-            {
-              "quantita": "q.b.",
-              "ingrediente": "spezie a piacere"
-            }
-          ],
-          "procedimento": [
-            "Immergere il filetto nella salamoia di acqua, sale, zucchero, pepe e tutte le spezie a scelta. Coprire il contenitore e riporre in frigo per 24h.",
-            "Prepariamo ora una busta per il sottovuoto in cui inseriremo il filetto leggermente massaggiato con olio evo.",
-            "Aggiungiamo alla busta del sottovuoto anche rosmarino e timo.",
-            "Impostiamo il roner tra i 48° e i 56° per 2.5h, dopo di ché abbattetelo e lasciatelo in frigorifero per 24h.",
-            "Iniziate a preriscaldare il forno ventilato, alla massima potenza mentre iniziamo a rosolare il filetto in padella con burro, salvia e alloro.",
-            "Fate avvenire la reazione di Maillard su tutti i lati e nappatela col burro e i suoi succhi.",
-            "Inserire una sonda per controllare la temperatura e riporre il filetto sulla griglia del forno.",
-            "Una volta che il cuore ha raggiunto i 35°/40° potrete toglierlo dal forno, aspettare qualche minuto e tagliarlo.",
-            "Con i succhi rimasti nella busta del roner e con quelli lasciati in padella per creare la Maillard potete creare una buonissima salsa che accompagnerà il filetto, basterà sfumare col vino la padella ancora rovente, aspettare che l'alcool evapori e poi allungare con un po' di brodo vegetale o di carne."
+          "fase": "Marinatura",
+          "procedura": [
+            "Cospargere il petto d’anatra con sale grosso.",
+            "Marinare la carne con limoncello, scorza, erbe e pepe per 1–2 ore."
           ]
         },
         {
-          "nome": "Pulled Pork – Sfilacci di Fumo e Tempo",
-          "descrizione": "Una poesia lunga ore. Il maiale che si fa seta, la memoria che si scioglie nel miele.",
-          "struttura_rituale": [
-            {
-              "elemento": "Materia prima",
-              "descrizione": "Una spalla intera di maiale con osso, marezzata, robusta. Viene massaggiata con senape grezza, per far aderire meglio la polvere."
-            },
-            {
-              "elemento": "Polvere aromatica (dry rub)",
-              "descrizione": "Un impasto secco, dolce e affumicato:",
-              "ingredienti": [
-                "Zucchero grezzo, paprika doppia, pepe, sale",
-                "Cipolla e aglio in polvere",
-                "Senape secca",
-                "Un pizzico di cayenna"
-              ],
-              "note": "Il tutto viene pressato sulla carne, strato su strato, fino a diventare parte di essa."
-            },
-            {
-              "elemento": "Riposo",
-              "descrizione": "La carne riposa scoperta per 12 ore. Assorbe l’umidità dell’aria e si secca in superficie. Sta diventando corteccia."
-            },
-            {
-              "elemento": "Fase I – Affidarsi al fumo",
-              "descrizione": "Affumicatore con legno di ciliegio e quercia rossa a 110°C. La carne viene grigliata lentamente. Ogni ora viene spennellata con aceto di mele e succo di mela. Dopo 6 ore, la superficie è scura: si chiama \"bark\"."
-            },
-            {
-              "elemento": "Fase II – Protezione e fusione",
-              "descrizione": "A 75°C al cuore, si avvolge nella carta da macellaio. Prima si spennella con glassa BBQ (miele, aceto, burro fuso). Si continua la cottura fino a 95°C. Il collagene si scioglie, le fibre si spezzano. La carne diventa seta."
-            },
-            {
-              "elemento": "Fase III – Il tempo si ferma",
-              "descrizione": "Riposo di almeno un’ora avvolta, senza essere toccata. La trasformazione si completa in silenzio."
-            },
-            {
-              "elemento": "Sfilacciatura",
-              "descrizione": "Con rispetto. Si tirano i fili a mano. Alcuni pezzi vengono nappati con la glassa calda. Altri lasciati nudi, per far parlare la corteccia."
-            },
-            {
-              "elemento": "Servizio",
-              "descrizione": [
-                "Un pan brioche caldo",
-                "Una forchettata di coleslaw",
-                "Una goccia di aceto",
-                "Un silenzio dopo il primo morso"
-              ]
-            },
-            {
-              "elemento": "Note finali",
-              "descrizione": "Questo piatto non è fatto per stupire. È fatto per ricordare qualcosa che non sapevi di sapere. Un ritorno alla brace, all’attesa, all’odore di legno che ti entra nei vestiti. \"Pulled pork\" è un nome tecnico. Ma quello che servi è una memoria sfilacciata, lucida di miele, che profuma di casa mai avuta."
-            }
+          "fase": "Preparazione sous-vide",
+          "procedura": [
+            "Rimuovere il sale, asciugare bene.",
+            "Inserire nei sacchetti con erbe e poco olio o limoncello.",
+            "Cuocere a 54°C per 90 minuti."
           ]
         },
         {
-          "nome": "Bistecca di Anguria CBT BBQ",
-          "descrizione": "Un ortaggio che gioca a essere carne. Fumo, marinatura, crosta e burro.",
-          "ingredienti": {
-            "anguria": [
-              {
-                "quantita": "2 fette",
-                "ingrediente": "spesse di anguria (3–4 cm)"
-              }
-            ],
-            "marinatura_bbq_affumicata": [
-              {
-                "quantita": "50 ml",
-                "ingrediente": "Salsa BBQ"
-              },
-              {
-                "quantita": "30 ml",
-                "ingrediente": "Aceto di mele"
-              },
-              {
-                "quantita": "1 cucchiaio",
-                "ingrediente": "Zucchero di canna"
-              },
-              {
-                "quantita": "1 cucchiaino",
-                "ingrediente": "Paprika affumicata"
-              },
-              {
-                "quantita": "1 cucchiaino",
-                "ingrediente": "Senape di Digione"
-              },
-              {
-                "quantita": "1 spicchio",
-                "ingrediente": "Aglio grattugiato"
-              },
-              {
-                "quantita": "q.b.",
-                "ingrediente": "Pepe nero"
-              }
-            ],
-            "dry_brine": [
-              {
-                "quantita": "q.b.",
-                "ingrediente": "Sale fino"
-              },
-              {
-                "quantita": "q.b.",
-                "ingrediente": "Pepe nero"
-              },
-              {
-                "quantita": "facoltativa",
-                "ingrediente": "Paprika affumicata"
-              }
-            ],
-            "nappatura_in_padella": [
-              {
-                "quantita": "20 g",
-                "ingrediente": "Burro"
-              },
-              {
-                "quantita": "2 cucchiai",
-                "ingrediente": "Salsa BBQ"
-              }
-            ]
-          },
-          "procedimento": [
-            "Marinatura spinta: Immergi le fette di anguria nella marinatura BBQ affumicata. Copri e lascia in frigo per 2 ore (fino a 4 per un gusto più deciso), girando a metà tempo.",
-            "Cottura CBT (sperimentale): Condiziona le fette sottovuoto separatamente. Cuoci una a 84°C per 45 min, l’altra per 2 h. Raffredda rapidamente in acqua e ghiaccio.",
-            "Dry brine: Asciuga bene le fette. Cospargi con sale, pepe e paprika affumicata. Lascia in frigo scoperto per 24 h su una griglia per disidratare la superficie.",
-            "Reazione di Maillard e nappatura: Scalda una padella in ghisa a fuoco alto. Aggiungi burro e BBQ, abbassa leggermente la fiamma. Nappa l’anguria con il condimento caldo per 30–40 secondi per lato, senza cuocere troppo a lungo."
-          ],
-          "finitura_consigliata": [
-            "Spennella con salsa BBQ calda per una glassa finale lucida",
-            "Guarnisci con germogli freschi, cipolla fermentata o croccante",
-            "Aggiungi un tocco di aceto balsamico ridotto"
-          ],
-          "pairing_consigliato": [
-            {
-              "bevanda": "Kombucha affumicato al legno di ciliegio",
-              "note": "con tè nero Lapsang Souchong e ciliegie essiccate. Equilibra il dolce dell’anguria, rinfresca il palato, richiama il profilo BBQ"
-            }
+          "fase": "Abbattimento",
+          "procedura": [
+            "Raffreddare in abbattitore o bagno di ghiaccio."
           ]
         },
         {
-          "nome": "Carne Vegetale Ultra-Realistica (Stile Kobe)",
-          "descrizione": "Sfoglie proteiche e grassi vegetali marmorizzati. Un Kobe cruelty-free.",
-          "ingredienti": {
-            "a_impasto_base_tessuto_muscolare": [
-              {
-                "quantita": "180 g",
-                "ingrediente": "glutine di frumento"
-              },
-              {
-                "quantita": "30 g",
-                "ingrediente": "proteina di soia isolate (già reidratata e tritata finemente)"
-              },
-              {
-                "quantita": "50 g",
-                "ingrediente": "farina di ceci"
-              },
-              {
-                "quantita": "200 ml",
-                "ingrediente": "brodo umami leggero (preparato con un infuso di kombu e shiitake, filtrato)"
-              },
-              {
-                "quantita": "20 ml",
-                "ingrediente": "olio extravergine di oliva"
-              },
-              {
-                "quantita": "1 cucchiaino",
-                "ingrediente": "concentrato di pomodoro"
-              },
-              {
-                "quantita": "q.b.",
-                "ingrediente": "Sale e pepe nero"
-              }
-            ],
-            "b_grasso_vegetale_marmorizzato": [
-              {
-                "quantita": "60 g",
-                "ingrediente": "burro di cacao"
-              },
-              {
-                "quantita": "30 g",
-                "ingrediente": "olio di cocco"
-              },
-              {
-                "quantita": "20 g",
-                "ingrediente": "olio extravergine di oliva"
-              },
-              {
-                "quantita": "3 g",
-                "ingrediente": "lecitina di soia (emulsionante)"
-              },
-              {
-                "quantita": "5 g",
-                "ingrediente": "amido di tapioca"
-              },
-              {
-                "quantita": "q.b.",
-                "ingrediente": "Acqua (per regolare la consistenza)"
-              },
-              {
-                "quantita": "5ml",
-                "ingrediente": "succo di barbabietola fresca"
-              },
-              {
-                "quantita": "1 pizzico",
-                "ingrediente": "aceto di mele"
-              }
-            ],
-            "c_dryrub_per_dry_aging": [
-              {
-                "quantita": "q.b.",
-                "ingrediente": "Sale marino grosso"
-              },
-              {
-                "quantita": "q.b.",
-                "ingrediente": "Pepe nero macinato fresco"
-              },
-              {
-                "quantita": "q.b.",
-                "ingrediente": "Paprika affumicata"
-              },
-              {
-                "quantita": "q.b.",
-                "ingrediente": "Aglio in polvere"
-              },
-              {
-                "quantita": "q.b.",
-                "ingrediente": "Cipolla in polvere"
-              },
-              {
-                "quantita": "Un pizzico",
-                "ingrediente": "zucchero di canna"
-              }
-            ],
-            "d_finitura_spennellatura_per_il_colore_della_crosta": [
-              {
-                "quantita": "30 ml",
-                "ingrediente": "succo di barbabietola fresca"
-              },
-              {
-                "quantita": "1 cucchiaino",
-                "ingrediente": "cacao amaro in polvere"
-              },
-              {
-                "quantita": "Qualche goccia",
-                "ingrediente": "d’acqua (per diluire se necessario)"
-              }
-            ],
-            "e_aromi_per_la_cottura_sottovuoto": [
-              {
-                "quantita": "1 rametto",
-                "ingrediente": "rosmarino"
-              },
-              {
-                "quantita": "1 spicchio",
-                "ingrediente": "d’aglio (leggermente schiacciato)"
-              },
-              {
-                "quantita": "Qualche grano",
-                "ingrediente": "di pepe nero"
-              }
-            ]
-          },
-          "procedimento_dettagliato": [
-            {
-              "step": "1. Preparazione del Grasso Vegetale Marmorizzato",
-              "sottostep": [
-                {
-                  "titolo": "Fusione degli Oli:",
-                  "istruzioni": "In un recipiente a bagnomaria, sciogli insieme il burro di cacao, l’olio di cocco e i 20 g di olio extravergine di oliva a fuoco moderato, mescolando fino a ottenere una miscela omogenea."
-                },
-                {
-                  "titolo": "Emulsione:",
-                  "istruzioni": "Aggiungi la lecitina di soia e l’amido di tapioca alla miscela, incorporando gradualmente qualche cucchiaio di acqua (o brodo leggero) per ottenere una consistenza cremosa ma non troppo liquida."
-                },
-                {
-                  "titolo": "Integrazione del Colore Interno:",
-                  "istruzioni": "Una volta omogenea, incorpora 5 ml di succo di barbabietola e un pizzico di aceto di mele. Questi ingredienti daranno una leggera tinta rossa al grasso senza alterare il profilo gustativo."
-                },
-                {
-                  "titolo": "Divisione in Due Fasi:",
-                  "istruzioni": [
-                    "Fase Solida: Versa metà del composto in uno stampo rettangolare e lascia solidificare in frigorifero (o, per accelerare, in freezer per 5–10 minuti). Una volta solido, taglia questo blocco in piccoli cubetti.",
-                    "Fase Gel: Conserva l’altra metà in una ciotola, mantenendola con consistenza morbida e gelatinosa. Questa verrà usata per arricchire il centro dell’impasto."
-                  ]
-                }
-              ]
-            },
-            {
-              "step": "2. Preparazione dell’Impasto Base",
-              "sottostep": [
-                {
-                  "titolo": "Unione degli Ingredienti Secchi:",
-                  "istruzioni": "In una ciotola capiente, mescola il glutine di frumento, la proteina di soia isolate e la farina di ceci."
-                },
-                {
-                  "titolo": "Integrazione degli Ingredienti Liquidi:",
-                  "istruzioni": "In un’altra ciotola, unisci il brodo umami, i 20 ml di olio extravergine di oliva, il concentrato di pomodoro, sale e pepe. Versa il liquido sugli ingredienti secchi e impasta energicamente fino a ottenere una consistenza liscia, elastica e ben idratata. Lascia riposare l’impasto per circa 10 minuti per far rilassare il glutine."
-                }
-              ]
-            },
-            {
-              "step": "3. Tecnica della Stratificazione “Sfoglia Proteica”",
-              "sottostep": [
-                {
-                  "titolo": "Stesura dell’Impasto:",
-                  "istruzioni": "Trasferisci l’impasto su una superficie leggermente unta e stendilo formando un rettangolo di circa 1 cm di spessore."
-                },
-                {
-                  "titolo": "Distribuzione del Grasso Solido:",
-                  "istruzioni": "Distribuisci uniformemente i cubetti di grasso solido (ottenuti dalla Fase Solida del Grasso Vegetale) su metà del rettangolo."
-                },
-                {
-                  "titolo": "Prima Piega:",
-                  "istruzioni": "Piegare l’impasto a tre, coprendo i cubetti con la parte rimanente."
-                },
-                {
-                  "titolo": "Ristendere e Piegare:",
-                  "istruzioni": "Ristendi l’impasto piegato a uno spessore di circa 1 cm e ripeti la piegatura per ottenere almeno 4 pieghe totali. Importante: Dopo ogni piega, avvolgi l’impasto in pellicola trasparente e riponilo in freezer per circa 5 minuti per fissare la struttura e stabilizzare il grasso."
-                },
-                {
-                  "titolo": "Incorporazione del Grasso Gel:",
-                  "istruzioni": "All’ultima piega, stendi l’impasto e, al centro, distribuisci uniformemente il gel morbido preparato in precedenza. Arrotola delicatamente l’impasto per inglobare il gel, mantenendo la struttura a strati che imita le fibre muscolari."
-                }
-              ]
-            },
-            {
-              "step": "4. Dry-Aging (Simulazione)",
-              "sottostep": [
-                {
-                  "titolo": "Applicazione del Dryrub",
-                  "istruzioni": "Cospargi uniformemente l'esterno dell'impasto con il dryrub preparato. Questo passaggio non solo aggiunge sapore, ma aiuta anche a creare una crosta esterna che simula la disidratazione superficiale tipica del dry-aging."
-                },
-                {
-                  "titolo": "Riposo in Frigorifero",
-                  "istruzioni": "Avvolgi l'impasto in una garza o in un telo da cucina pulito e traspirante. Riponi l'impasto su una griglia in frigorifero. Lascia riposare per almeno 24 ore, idealmente 48-72 ore. Questo permette all'impasto di 'respirare', favorendo una leggera disidratazione superficiale."
-                }
-              ]
-            },
-            {
-              "step": "5. Cottura Sottovuoto",
-              "sottostep": [
-                {
-                  "titolo": "Preparazione per la Cottura",
-                  "istruzioni": "Dopo il periodo di 'dry-aging' simulato, rimuovi delicatamente la garza. Inserisci l'impasto in un sacchetto per sottovuoto adatto alla cottura. Aggiungi gli aromi (rosmarino, aglio, pepe)."
-                },
-                {
-                  "titolo": "Sigillatura e Cottura",
-                  "istruzioni": "Sigilla il sacchetto sottovuoto, assicurandoti di rimuovere quanta più aria possibile. Immergi il sacchetto in un bagno d'acqua preriscaldato con un roner (circolatore ad immersione) impostato a 55-57°C. Cuoci per 2-3 ore. Questo intervallo di temperatura e tempo permette una cottura uniforme e lo sviluppo di una consistenza tenera."
-                }
-              ]
-            },
-            {
-              "step": "6. Finitura e Rosolatura",
-              "sottostep": [
-                {
-                  "titolo": "Preparazione Finale",
-                  "istruzioni": "Rimuovi l'impasto dal sacchetto sottovuoto e asciugalo tamponando con carta assorbente. Prepara una miscela per la spennellatura mescolando il succo di barbabietola e il cacao in polvere. Spennella uniformemente la superficie dell'impasto con questa miscela. Questo passaggio conferirà un colore brunito e un sapore leggermente affumicato, simulando la crosta esterna di una bistecca tradizionale."
-                },
-                {
-                  "titolo": "Rosolatura",
-                  "istruzioni": "Scalda una padella in ghisa o una piastra a fuoco alto. Ungi leggermente la padella con olio extravergine di oliva. Rosola l'impasto per circa 30-60 secondi per lato, o fino a quando non si forma una crosta esterna ben definita e brunita. Fai attenzione a non cuocere eccessivamente l'interno."
-                }
-              ]
-            },
-            {
-              "step": "7. Servizio",
-              "istruzioni": "Lascia riposare l'impasto per qualche minuto dopo la rosolatura. Taglia a fette, come faresti con una bistecca tradizionale. Servi immediatamente, accompagnando a piacere con contorni classici come patate arrosto, verdure grigliate o salse a scelta."
-            }
+          "fase": "Polvere di limoncello",
+          "procedura": [
+            "Unire limoncello e maltodestrina fino a ottenere una polvere fine.",
+            "Setacciare e conservare asciutta."
+          ]
+        },
+        {
+          "fase": "Rigenerazione",
+          "procedura": [
+            "Rosolare la pelle in padella calda fino a croccantezza.",
+            "Scaldare brevemente il lato carne."
+          ]
+        },
+        {
+          "fase": "Composizione",
+          "procedura": [
+            "Tagliare a medaglioni, spolverare con polvere di limoncello.",
+            "Servire con accompagnamenti."
+          ]
+        }
+      ],
+      "pairing_consigliato": [
+        {
+          "bevanda": "Pinot Nero della Borgogna o Aglianico del Vulture."
+        }
+      ]
+    },
+    {
+      "nome": "Filetto di Manzo CBT",
+      "descrizione": "Classico e sontuoso. CBT per esaltare fibre, Maillard per firmare il gusto.",
+      "ingredienti": [
+        { "quantita": "1,2 kg", "ingrediente": "filetto di manzo" },
+        { "quantita": "q.b.", "ingrediente": "olio evo" },
+        { "quantita": "2 rametti", "ingrediente": "rosmarino" },
+        { "quantita": "5 g", "ingrediente": "timo" },
+        { "quantita": "1 g", "ingrediente": "salvia" },
+        { "quantita": "2 foglie", "ingrediente": "alloro" },
+        { "quantita": "30 g", "ingrediente": "burro" },
+        { "quantita": "1 l", "ingrediente": "acqua" },
+        { "quantita": "30 g", "ingrediente": "sale" },
+        { "quantita": "30 g", "ingrediente": "zucchero" },
+        { "quantita": "q.b.", "ingrediente": "pepe" },
+        { "quantita": "q.b.", "ingrediente": "spezie a piacere" }
+      ],
+      "procedimento": [
+        {
+          "fase": "Salamoia",
+          "procedura": [
+            "Immergere il filetto in acqua con sale, zucchero, pepe e spezie.",
+            "Conservare in frigo per 24h."
+          ]
+        },
+        {
+          "fase": "Cottura sottovuoto",
+          "procedura": [
+            "Inserire il filetto in busta sottovuoto con olio e aromi.",
+            "Cuocere a 48–56°C per 2.5h con roner.",
+            "Abbattere e conservare in frigo per 24h."
+          ]
+        },
+        {
+          "fase": "Maillard",
+          "procedura": [
+            "Rosolare in padella con burro, salvia e alloro.",
+            "Nappare con i succhi fino a doratura esterna."
+          ]
+        },
+        {
+          "fase": "Cottura finale al forno",
+          "procedura": [
+            "Preriscaldare il forno al massimo.",
+            "Cuocere fino a 35–40°C al cuore con sonda."
+          ]
+        },
+        {
+          "fase": "Salsa",
+          "procedura": [
+            "Deglassare la padella con vino e allungare con brodo.",
+            "Ridurre per ottenere una salsa da nappatura."
           ]
         }
       ]
     },
+    {
+  "nome": "Brisket Texano – Il Tempo del Fumo",
+  "descrizione": "Un rito texano di fuoco, legno e pazienza. Il brisket si trasforma in burro dopo ore di affumicatura lenta.",
+  "ingredienti": {
+    "carne": [
+      {
+        "quantita": "1",
+        "ingrediente": "Brisket intero (punta e piatto), 5–7 kg, con almeno 1 cm di grasso"
+      }
+    ],
+    "rub_classico": [
+      {
+        "quantita": "50%",
+        "ingrediente": "Sale grosso (kosher)"
+      },
+      {
+        "quantita": "50%",
+        "ingrediente": "Pepe nero macinato fresco"
+      },
+      {
+        "quantita": "facoltativo",
+        "ingrediente": "Aglio in polvere o paprika"
+      }
+    ],
+    "extra_opzionali": [
+      {
+        "quantita": "q.b.",
+        "ingrediente": "Senape di Digione (per far aderire il rub)"
+      },
+      {
+        "quantita": "q.b.",
+        "ingrediente": "Legna da affumicatura: quercia, hickory o mesquite"
+      }
+    ]
+  },
+  "procedimento": [
+    {
+      "fase": "Rifinitura della carne",
+      "procedura": [
+        "Elimina il grasso in eccesso lasciando circa 1 cm sul lato grasso.",
+        "Rimuovi le parti fibrose e la silver skin.",
+        "Separa leggermente la 'point' dalla 'flat' senza dividerla del tutto."
+      ]
+    },
+    {
+      "fase": "Condimento",
+      "procedura": [
+        "Spennella con senape se desiderato.",
+        "Ricopri uniformemente con il rub sale-pepe, massaggiando bene.",
+        "Riposa in frigo coperto per almeno 4 ore, meglio se tutta la notte."
+      ]
+    },
+    {
+      "fase": "Affumicatura – Low & Slow",
+      "procedura": [
+        "Scalda lo smoker a 105–120°C.",
+        "Posiziona la legna accanto alla brace o nella camera di affumicatura.",
+        "Adagia il brisket con il grasso verso l’alto.",
+        "Inserisci la sonda nella parte più spessa della flat."
+      ]
+    },
+    {
+      "fase": "Formazione del Bark",
+      "procedura": [
+        "Affumica per 5–6 ore finché si forma una crosta scura e profumata.",
+        "A circa 70–75°C, la temperatura si stabilizza (stall)."
+      ]
+    },
+    {
+      "fase": "Texas Crutch (facoltativo)",
+      "procedura": [
+        "Avvolgi il brisket in butcher paper o alluminio.",
+        "Continua fino a 90–95°C al cuore.",
+        "Controlla che la sonda entri facilmente, come nel burro."
+      ]
+    },
+    {
+      "fase": "Riposo Sacro",
+      "procedura": [
+        "Avvolgi il brisket in un asciugamano.",
+        "Lascialo riposare in ghiacciaia o forno spento per 1–4 ore."
+      ]
+    },
+    {
+      "fase": "Taglio e Servizio",
+      "procedura": [
+        "Affetta la flat controfibra in fette da 1 cm.",
+        "Taglia la point a cubi per burnt ends se desiderato.",
+        "Servi con pane di mais, sottaceti, cipolla affettata e salsa BBQ a parte."
+      ]
+    }
+  ],
+  "pairing_consigliato": [
+    {
+      "bevanda": "Birra chiara artigianale"
+    },
+    {
+      "bevanda": "Tè freddo non zuccherato"
+    }
+  ]
+},
+
+    {
+      "nome": "Pulled Pork – Sfilacci di Fumo e Tempo",
+      "descrizione": "Una poesia lunga ore. Il maiale che si fa seta, la memoria che si scioglie nel miele.",
+      "procedimento": [
+        {
+          "fase": "Materia prima",
+          "procedura": [
+            "Usare una spalla intera di maiale con osso, marezzata e robusta.",
+            "Massaggiare la carne con senape grezza per far aderire la polvere aromatica."
+          ]
+        },
+        {
+          "fase": "Polvere aromatica (dry rub)",
+          "procedura": [
+            "Preparare un mix secco con: zucchero grezzo, paprika doppia, pepe, sale, cipolla e aglio in polvere, senape secca e un pizzico di cayenna.",
+            "Pressare il rub sulla carne, strato su strato."
+          ]
+        },
+        {
+          "fase": "Riposo",
+          "procedura": [
+            "Lasciare la carne scoperta per 12h per asciugatura superficiale."
+          ]
+        },
+        {
+          "fase": "Fase I – Affidarsi al fumo",
+          "procedura": [
+            "Cuocere a 110°C con legno di ciliegio e quercia rossa per 6h.",
+            "Spennellare ogni ora con aceto e succo di mela."
+          ]
+        },
+        {
+          "fase": "Fase II – Protezione e fusione",
+          "procedura": [
+            "A 75°C al cuore, spennellare con glassa e avvolgere in carta da macellaio.",
+            "Continuare fino a 95°C."
+          ]
+        },
+        {
+          "fase": "Fase III – Il tempo si ferma",
+          "procedura": [
+            "Riposo avvolto per 1h, per completare la trasformazione."
+          ]
+        },
+        {
+          "fase": "Sfilacciatura",
+          "procedura": [
+            "Sfilacciare a mano, nappare parte con glassa calda."
+          ]
+        },
+        {
+          "fase": "Servizio",
+          "procedura": [
+            "Servire con pan brioche, coleslaw, aceto e silenzio."
+          ]
+        }
+      ],
+      "note_finali": [
+        "Questo piatto non è fatto per stupire. È fatto per ricordare qualcosa che non sapevi di sapere.",
+        "Un ritorno alla brace, all’attesa, all’odore di legno che ti entra nei vestiti.",
+        "«Pulled pork» è un nome tecnico. Ma quello che servi è una memoria sfilacciata, lucida di miele, che profuma di casa mai avuta."
+      ]
+    },
+{
+      "nome": "Bistecca di Anguria CBT BBQ",
+      "descrizione": "Un ortaggio che gioca a essere carne. Fumo, marinatura, crosta e burro.",
+      "ingredienti": {
+        "anguria": [
+          {
+            "quantita": "2 fette",
+            "ingrediente": "spesse di anguria (3–4 cm)"
+          }
+        ],
+        "marinatura_bbq_affumicata": [
+          {
+            "quantita": "50 ml",
+            "ingrediente": "Salsa BBQ"
+          },
+          {
+            "quantita": "30 ml",
+            "ingrediente": "Aceto di mele"
+          },
+          {
+            "quantita": "1 cucchiaio",
+            "ingrediente": "Zucchero di canna"
+          },
+          {
+            "quantita": "1 cucchiaino",
+            "ingrediente": "Paprika affumicata"
+          },
+          {
+            "quantita": "1 cucchiaino",
+            "ingrediente": "Senape di Digione"
+          },
+          {
+            "quantita": "1 spicchio",
+            "ingrediente": "Aglio grattugiato"
+          },
+          {
+            "quantita": "q.b.",
+            "ingrediente": "Pepe nero"
+          }
+        ],
+        "dry_brine": [
+          {
+            "quantita": "q.b.",
+            "ingrediente": "Sale fino"
+          },
+          {
+            "quantita": "q.b.",
+            "ingrediente": "Pepe nero"
+          },
+          {
+            "quantita": "facoltativa",
+            "ingrediente": "Paprika affumicata"
+          }
+        ],
+        "nappatura_in_padella": [
+          {
+            "quantita": "20 g",
+            "ingrediente": "Burro"
+          },
+          {
+            "quantita": "2 cucchiai",
+            "ingrediente": "Salsa BBQ"
+          }
+        ]
+      },
+      "procedimento": [
+        {
+          "fase": "Marinatura spinta",
+          "procedura": [
+            "Immergi le fette di anguria nella marinatura BBQ affumicata.",
+            "Copri e lascia in frigo per 2 ore, girando a metà tempo."
+          ]
+        },
+        {
+          "fase": "Cottura CBT (sperimentale)",
+          "procedura": [
+            "Condiziona le fette sottovuoto separatamente.",
+            "Cuoci una a 84°C per 45 min, l’altra per 2 h.",
+            "Raffredda rapidamente in acqua e ghiaccio."
+          ]
+        },
+        {
+          "fase": "Dry brine",
+          "procedura": [
+            "Asciuga bene le fette.",
+            "Cospargi con sale, pepe e paprika affumicata.",
+            "Lascia in frigo scoperto per 24 h su griglia."
+          ]
+        },
+        {
+          "fase": "Reazione di Maillard e nappatura",
+          "procedura": [
+            "Scalda una padella in ghisa a fuoco alto.",
+            "Aggiungi burro e BBQ, abbassa la fiamma.",
+            "Nappa l’anguria per 30–40 secondi per lato."
+          ]
+        }
+      ],
+      "finitura_consigliata": [
+        "Spennella con salsa BBQ calda per una glassa finale lucida",
+        "Guarnisci con germogli freschi, cipolla fermentata o croccante",
+        "Aggiungi un tocco di aceto balsamico ridotto"
+      ],
+      "pairing_consigliato": [
+        {
+          "bevanda": "Kombucha affumicato al legno di ciliegio",
+          "note": "con tè nero Lapsang Souchong e ciliegie essiccate. Equilibra il dolce dell’anguria, rinfresca il palato, richiama il profilo BBQ"
+        }
+      ]
+    },
+    {
+      "nome": "Carne Vegetale Ultra-Realistica (Stile Kobe)",
+      "descrizione": "Sfoglie proteiche e grassi vegetali marmorizzati. Un Kobe cruelty-free.",
+      "ingredienti": {
+        "impasto_base_tessuto_muscolare": [
+          {
+            "quantita": "180 g",
+            "ingrediente": "glutine di frumento"
+          },
+          {
+            "quantita": "30 g",
+            "ingrediente": "proteina di soia isolate (già reidratata e tritata finemente)"
+          },
+          {
+            "quantita": "50 g",
+            "ingrediente": "farina di ceci"
+          },
+          {
+            "quantita": "200 ml",
+            "ingrediente": "brodo umami leggero (kombu + shiitake)"
+          },
+          {
+            "quantita": "20 ml",
+            "ingrediente": "olio extravergine di oliva"
+          },
+          {
+            "quantita": "1 cucchiaino",
+            "ingrediente": "concentrato di pomodoro"
+          },
+          {
+            "quantita": "q.b.",
+            "ingrediente": "Sale e pepe nero"
+          }
+        ],
+        "grasso_vegetale_marmorizzato": [
+          {
+            "quantita": "60 g",
+            "ingrediente": "burro di cacao"
+          },
+          {
+            "quantita": "30 g",
+            "ingrediente": "olio di cocco"
+          },
+          {
+            "quantita": "20 g",
+            "ingrediente": "olio extravergine di oliva"
+          },
+          {
+            "quantita": "3 g",
+            "ingrediente": "lecitina di soia"
+          },
+          {
+            "quantita": "5 g",
+            "ingrediente": "amido di tapioca"
+          },
+          {
+            "quantita": "q.b.",
+            "ingrediente": "Acqua (per consistenza)"
+          },
+          {
+            "quantita": "5 ml",
+            "ingrediente": "succo di barbabietola fresca"
+          },
+          {
+            "quantita": "1 pizzico",
+            "ingrediente": "aceto di mele"
+          }
+        ],
+        "dryrub_per_dry_aging": [
+          {
+            "quantita": "q.b.",
+            "ingrediente": "Sale marino grosso"
+          },
+          {
+            "quantita": "q.b.",
+            "ingrediente": "Pepe nero macinato fresco"
+          },
+          {
+            "quantita": "q.b.",
+            "ingrediente": "Paprika affumicata"
+          },
+          {
+            "quantita": "q.b.",
+            "ingrediente": "Aglio in polvere"
+          },
+          {
+            "quantita": "q.b.",
+            "ingrediente": "Cipolla in polvere"
+          },
+          {
+            "quantita": "Un pizzico",
+            "ingrediente": "Zucchero di canna"
+          }
+        ],
+        "finitura_crosta": [
+          {
+            "quantita": "30 ml",
+            "ingrediente": "succo di barbabietola fresca"
+          },
+          {
+            "quantita": "1 cucchiaino",
+            "ingrediente": "cacao amaro in polvere"
+          },
+          {
+            "quantita": "Qualche goccia",
+            "ingrediente": "acqua (se necessario)"
+          }
+        ],
+        "aromi_cottura_sottovuoto": [
+          {
+            "quantita": "1 rametto",
+            "ingrediente": "rosmarino"
+          },
+          {
+            "quantita": "1 spicchio",
+            "ingrediente": "aglio schiacciato"
+          },
+          {
+            "quantita": "Qualche grano",
+            "ingrediente": "pepe nero"
+          }
+        ]
+      },
+      "procedimento": [
+        {
+          "fase": "Preparazione del Grasso Vegetale Marmorizzato",
+          "procedura": [
+            "Sciogli burro di cacao, olio di cocco e olio EVO a bagnomaria.",
+            "Aggiungi lecitina, amido e acqua q.b. per ottenere una crema.",
+            "Incorpora succo di barbabietola e aceto per colorare.",
+            "Dividi: solidifica metà in freezer e taglia a cubetti; l’altra metà conservala morbida come gel."
+          ]
+        },
+        {
+          "fase": "Preparazione dell’Impasto Base",
+          "procedura": [
+            "Mescola glutine, proteina di soia e farina di ceci.",
+            "Unisci brodo, olio, pomodoro, sale e pepe e impasta fino a ottenere una consistenza elastica. Riposa 10 minuti."
+          ]
+        },
+        {
+          "fase": "Stratificazione – Sfoglia Proteica",
+          "procedura": [
+            "Stendi l’impasto a rettangolo di 1 cm.",
+            "Distribuisci i cubetti di grasso solido e piega a tre.",
+            "Ristendi e ripeti le pieghe per 4 volte, riposando in freezer tra una piega e l’altra.",
+            "All’ultima piega, inserisci al centro il grasso gel e arrotola."
+          ]
+        },
+        {
+          "fase": "Dry-Aging (Simulato)",
+          "procedura": [
+            "Cospargi l’impasto con il dryrub.",
+            "Avvolgi in garza e lascia in frigo su griglia per 24–72 h."
+          ]
+        },
+        {
+          "fase": "Cottura Sottovuoto",
+          "procedura": [
+            "Rimuovi la garza, metti sottovuoto con aromi.",
+            "Cuoci in roner a 55–57°C per 2–3 ore."
+          ]
+        },
+        {
+          "fase": "Finitura e Rosolatura",
+          "procedura": [
+            "Tampona l’impasto asciutto, spennella con mix barbabietola + cacao.",
+            "Rosola in padella in ghisa ben calda per 30–60 secondi per lato."
+          ]
+        },
+        {
+          "fase": "Servizio",
+          "procedura": [
+            "Fai riposare qualche minuto, poi affetta come una bistecca.",
+            "Servi con patate arrosto, verdure grigliate o salse a piacere."
+          ]
+        }
+      ]
+    }
+  ]
+}
+,
     {
       "nome": "🍝 Primi Piatti Creativi",
       "ricette": [
@@ -1566,6 +1731,127 @@
           ]
         },
         {
+  "nome": "“Fumo di Pera” – Comfort in Pala",
+  "descrizione": "Pala croccante a doppia cottura, crema di provola affumicata, pere caramellate al burro e miele, noci sabbiate salate, miele al timo fresco.",
+  "ingredienti": {
+    "impasto_pala": [
+      {
+        "quantita": "600-650 g",
+        "ingrediente": "Impasto pala, già steso"
+      }
+    ],
+    "crema_affumicata": [
+      {
+        "quantita": "150 g",
+        "ingrediente": "Provola affumicata"
+      },
+      {
+        "quantita": "50 g",
+        "ingrediente": "Parmigiano"
+      },
+      {
+        "quantita": "100 ml",
+        "ingrediente": "Latte intero o panna"
+      },
+      {
+        "quantita": "q.b.",
+        "ingrediente": "Pepe nero"
+      },
+      {
+        "quantita": "opzionale",
+        "ingrediente": "Amido di mais"
+      }
+    ],
+    "pere_caramellate": [
+      {
+        "quantita": "1",
+        "ingrediente": "Pera Abate a fettine da 3 mm"
+      },
+      {
+        "quantita": "10 g",
+        "ingrediente": "Burro"
+      },
+      {
+        "quantita": "5 g",
+        "ingrediente": "Miele millefiori"
+      }
+    ],
+    "noci_sabbiate_salate": [
+      {
+        "quantita": "40 g",
+        "ingrediente": "Noci"
+      },
+      {
+        "quantita": "2 g",
+        "ingrediente": "Miele"
+      },
+      {
+        "quantita": "q.b.",
+        "ingrediente": "Sale in fiocchi"
+      }
+    ],
+    "miele_al_timo": [
+      {
+        "quantita": "50 g",
+        "ingrediente": "Miele millefiori"
+      },
+      {
+        "quantita": "2 rametti",
+        "ingrediente": "Timo fresco"
+      }
+    ],
+    "opzionale": [
+      {
+        "quantita": "20 g",
+        "ingrediente": "Gorgonzola dolce a fiocchi"
+      }
+    ]
+  },
+  "procedimento": [
+    {
+      "fase": "Prima cottura",
+      "procedura": [
+        "Cuoci la base della pala (senza condimenti) su pietra refrattaria a 275°C per 5-6 minuti.",
+        "Deve risultare croccante sotto, chiara sopra."
+      ]
+    },
+    {
+      "fase": "Condimento a caldo",
+      "procedura": [
+        "Spalma 70-80 g di crema affumicata calda.",
+        "Disponi armonicamente le fettine di pera spadellate e le noci sabbiate.",
+        "Opzionale: aggiungi 20 g di gorgonzola dolce a fiocchi."
+      ]
+    },
+    {
+      "fase": "Seconda cottura",
+      "procedura": [
+        "Inforna sul ripiano medio per 3-4 minuti.",
+        "La crema deve fondersi, le noci tostarsi ulteriormente e la superficie diventare croccante e legata."
+      ]
+    },
+    {
+      "fase": "Finitura al pass",
+      "procedura": [
+        "Filo di miele al timo (5-8 g) a zig zag.",
+        "Microfoglie di timo fresco (3-5 punte).",
+        "Spolverata leggera di pepe o polvere di alloro secco."
+      ]
+    }
+  ],
+  "pairing_consigliato": [
+    {
+      "bevanda": "Birra sour barrel-aged con pera",
+      "note": "Ex: Lambic aux poires. L’acidità e legnosità sgrassano la crema e armonizzano la dolcezza."
+    },
+    {
+      "bevanda": "Vino bianco aromatico e secco",
+      "note": "Gewürztraminer alsaziano o Kerner altoatesino, serviti a 10°C."
+    }
+  ]
+}
+
+        ,{
           "nome": "Pane con Poolish 40%",
           "descrizione": "Fragranza intensa, alveolatura ampia. L’arte del pane con struttura.",
           "ingredienti": {
