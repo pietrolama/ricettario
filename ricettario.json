@@ -455,35 +455,6 @@
           ]
         },
         {
-          "nome": "Gelificazione & Caviale Vegetale",
-          "descrizione": "Sfere rosse, verdi o trasparenti. Vegetali che si fingono caviale. Impatto visivo e freschezza pura.",
-          "ingredienti": [
-            {
-              "quantita": "100g",
-              "ingrediente": "Liquido da gelificare"
-            },
-            {
-              "quantita": "1g",
-              "ingrediente": "Agar Agar"
-            },
-            {
-              "quantita": "100g",
-              "ingrediente": "olio di semi"
-            }
-          ],
-          "procedimento": [
-            "Mettere in freezer l’olio fino a portarlo a 2°.",
-            "Portare a bollore il liquido da gelificare, scioglierci dentro l’agar agar e cuocere per 4 minuti.",
-            "Lasciar raffreddare fino ai 50°, con una siringa fare cadere goccia dopo goccia nell’olio freddo il liquido.",
-            "Per ottenere sfere grandi applicare maggiore pressione, per gocce più piccole il contrario.",
-            "Mescolare delicatamente di tanto in tanto.",
-            "Dovrete essere abbastanza veloci perché se l’olio si riscalda la gelificazione non avverrà correttamente.",
-            "Conservare il caviale nell’olio in frigo fino al momento dell’utilizzo.",
-            "Raccoglierlo poco prima dell'utilizzo con un cucchiaio bucato e sciacquarlo sotto acqua corrente.",
-            "Non far superare alle sfere la temperatura di 35°C, altrimenti si scioglieranno."
-          ]
-        },
-        {
           "nome": "Gnocchi Molecolari",
           "descrizione": "Amido e purea che diventano perle morbide. Il comfort incontra la scienza.",
           "ingredienti": [
