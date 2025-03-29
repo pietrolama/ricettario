@@ -212,7 +212,7 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
   z-index: 1;
   transition: background-color var(--transition-speed) ease;
   /* === MODIFICA QUI la trasparenza (0.0 = trasparente, 1.0 = opaco) === */
-  background-color: rgba(0, 0, 0, 0.55); /* Valore di esempio, più scuro */
+  background-color: rgba(0, 0, 0, 0.15); /* Valore di esempio, più scuro */
   /* Rimuoviamo mix-blend-mode per ora, rende difficile prevedere il risultato */
   /* mix-blend-mode: multiply; */
 }
