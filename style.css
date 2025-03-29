@@ -30,32 +30,31 @@
     --spacing-xl: calc(var(--spacing-unit) * 4);  /* 32px */
 
     --border-radius: 6px;
-    --transition-speed: 0.25s; /* Leggermente più lenta per animazione più fluida */
+    --transition-speed: 0.25s;
 }
 
 /* =================================
    Dark Mode Theme - Applicato automaticamente o con classe .dark-mode sul body
    ================================= */
 @media (prefers-color-scheme: dark) {
-  :root { /* Sovrascrive le variabili se il sistema è in dark mode */
-    --color-bg: #121212;             /* Sfondo molto scuro, non nero puro */
-    --color-surface: #1e1e1e;        /* Superfici leggermente più chiare */
-    --color-border: #333333;         /* Bordi più scuri ma visibili */
-    --color-text-primary: #e0e0e0;   /* Testo principale chiaro */
-    --color-text-secondary: #aaaaaa; /* Testo secondario grigio chiaro */
-    --color-accent: #3391ff; /* Blu leggermente più brillante */
-    --color-accent-hover: #5badff; /* Ancora più brillante */
-    --color-shadow: rgba(0, 0, 0, 0.2); /* Ombre più scure in dark mode */
+  :root {
+    --color-bg: #121212;
+    --color-surface: #1e1e1e;
+    --color-border: #333333;
+    --color-text-primary: #e0e0e0;
+    --color-text-secondary: #aaaaaa;
+    --color-accent: #3391ff;
+    --color-accent-hover: #5badff;
+    --color-shadow: rgba(0, 0, 0, 0.2);
     --color-shadow-hover: rgba(0, 0, 0, 0.3);
-    --color-overlay: rgba(0, 0, 0, 0.8); /* Overlay leggermente più scuro */
-    --color-error-bg: #5c1a1e; /* Sfondo errore scuro */
-    --color-error-border: #a73c45; /* Bordo errore scuro */
-    --color-error-text: #f8d7da; /* Testo errore chiaro */
+    --color-overlay: rgba(0, 0, 0, 0.8);
+    --color-error-bg: #5c1a1e;
+    --color-error-border: #a73c45;
+    --color-error-text: #f8d7da;
   }
 }
 
-/* Puoi anche aggiungere una classe per forzare il dark mode con JS */
-body.dark-mode {
+body.dark-mode { /* Classe per forzare dark mode */
     --color-bg: #121212;
     --color-surface: #1e1e1e;
     --color-border: #333333;
@@ -126,52 +125,15 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
   overflow-y: auto;
   transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease;
 }
-.sidebar h2 {
-    font-size: 1.1rem;
-    color: var(--color-text-secondary);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: var(--spacing-xl);
-}
-
-#searchInput {
-  width: 100%;
-  padding: var(--spacing-sm) var(--spacing-md);
-  margin-bottom: var(--spacing-lg);
-  border: 1px solid var(--color-border);
-  border-radius: var(--border-radius);
-  background-color: var(--color-bg);
-  color: var(--color-text-primary);
-  transition: border-color var(--transition-speed) ease, box-shadow var(--transition-speed) ease, background-color var(--transition-speed) ease;
-}
+.sidebar h2 { font-size: 1.1rem; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: var(--spacing-xl); }
+#searchInput { width: 100%; padding: var(--spacing-sm) var(--spacing-md); margin-bottom: var(--spacing-lg); border: 1px solid var(--color-border); border-radius: var(--border-radius); background-color: var(--color-bg); color: var(--color-text-primary); transition: border-color var(--transition-speed) ease, box-shadow var(--transition-speed) ease, background-color var(--transition-speed) ease; }
 #searchInput::placeholder { color: var(--color-text-secondary); opacity: 0.8; }
-#searchInput:focus {
-  outline: none;
-  border-color: var(--color-accent);
-  background-color: var(--color-surface);
-  box-shadow: 0 0 0 3px rgba(var(--color-accent-rgb), 0.15);
-}
-
+#searchInput:focus { outline: none; border-color: var(--color-accent); background-color: var(--color-surface); box-shadow: 0 0 0 3px rgba(var(--color-accent-rgb), 0.15); }
 #categoryList { list-style: none; padding: 0; }
-#categoryList li {
-  padding: var(--spacing-sm) var(--spacing-md);
-  margin-bottom: var(--spacing-xs);
-  cursor: pointer;
-  border-radius: var(--border-radius);
-  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
-  color: var(--color-text-secondary);
-  font-weight: 500;
-}
-#categoryList li:hover {
-  background-color: rgba(var(--color-accent-rgb), 0.1);
-  color: var(--color-text-primary);
-}
+#categoryList li { padding: var(--spacing-sm) var(--spacing-md); margin-bottom: var(--spacing-xs); cursor: pointer; border-radius: var(--border-radius); transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease; color: var(--color-text-secondary); font-weight: 500; }
+#categoryList li:hover { background-color: rgba(var(--color-accent-rgb), 0.1); color: var(--color-text-primary); }
 #categoryList li:focus { outline: none; box-shadow: 0 0 0 2px rgba(var(--color-accent-rgb), 0.25); }
-#categoryList li.active-category {
-  background-color: var(--color-accent);
-  color: var(--color-surface);
-  font-weight: 600;
-}
+#categoryList li.active-category { background-color: var(--color-accent); color: var(--color-surface); font-weight: 600; }
 #categoryList li.active-category:hover { background-color: var(--color-accent-hover); }
 #categoryList li:first-child { font-weight: 600; color: var(--color-text-primary); margin-bottom: var(--spacing-md); }
 
@@ -179,17 +141,7 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
    Area Contenuto
    ================================= */
 .content { flex: 1; padding: var(--spacing-xl); overflow-y: auto; }
-.gallery-controls {
-  margin-bottom: var(--spacing-xl);
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-md);
-  padding: var(--spacing-md);
-  background-color: var(--color-surface);
-  border-radius: var(--border-radius);
-  border: 1px solid var(--color-border);
-  transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease;
-}
+.gallery-controls { margin-bottom: var(--spacing-xl); display: flex; align-items: center; gap: var(--spacing-md); padding: var(--spacing-md); background-color: var(--color-surface); border-radius: var(--border-radius); border: 1px solid var(--color-border); transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease; }
 .gallery-controls label { color: var(--color-text-secondary); font-weight: 500; }
 #zoomSlider { flex-grow: 1; max-width: 200px; cursor: pointer; }
 
@@ -198,15 +150,7 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
    ================================= */
 .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--spacing-lg); }
 #gallery p { color: var(--color-text-secondary); font-style: italic; grid-column: 1 / -1; text-align: center; padding: var(--spacing-xl) 0; }
-.error-message {
-  color: var(--color-error-text);
-  font-weight: 500;
-  background-color: var(--color-error-bg);
-  border: 1px solid var(--color-error-border);
-  padding: var(--spacing-md);
-  border-radius: var(--border-radius);
-  text-align: center;
-}
+.error-message { color: var(--color-error-text); font-weight: 500; background-color: var(--color-error-bg); border: 1px solid var(--color-error-border); padding: var(--spacing-md); border-radius: var(--border-radius); text-align: center; }
 
 /* =================================
    Card Ricetta (Base - Senza Immagine)
@@ -225,7 +169,7 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
               box-shadow calc(var(--transition-speed) * 1.2) ease,
               border-color var(--transition-speed) ease,
               background-color var(--transition-speed) ease;
-  min-height: 300px; /* Aumentata altezza minima base */
+  min-height: 300px;
 }
 
 .card:hover {
@@ -236,40 +180,13 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
 }
 
 /* Contenuto testuale per card SENZA immagine */
-.card:not(.card-has-image) h3 {
-    font-size: 1.2rem;
-    margin-bottom: var(--spacing-sm);
-    color: var(--color-text-primary);
-}
-
-.card:not(.card-has-image) p {
-    flex-grow: 1;
-    margin-bottom: var(--spacing-md);
-    font-size: 0.95rem;
-    color: var(--color-text-secondary);
-    line-height: 1.5;
-}
-
-.card:not(.card-has-image) .category-tag {
-    display: inline-block;
-    margin-top: auto;
-    padding: var(--spacing-xs) var(--spacing-sm);
-    font-size: 0.75rem;
-    font-weight: 500;
-    color: var(--color-text-secondary);
-    background-color: var(--color-bg);
-    border-radius: calc(var(--border-radius) * 2);
-    align-self: flex-start;
-    transition: background-color var(--transition-speed) ease;
-}
+.card:not(.card-has-image) h3 { font-size: 1.2rem; margin-bottom: var(--spacing-sm); color: var(--color-text-primary); }
+.card:not(.card-has-image) p { flex-grow: 1; margin-bottom: var(--spacing-md); font-size: 0.95rem; color: var(--color-text-secondary); line-height: 1.5; }
+.card:not(.card-has-image) .category-tag { display: inline-block; margin-top: auto; padding: var(--spacing-xs) var(--spacing-sm); font-size: 0.75rem; font-weight: 500; color: var(--color-text-secondary); background-color: var(--color-bg); border-radius: calc(var(--border-radius) * 2); align-self: flex-start; transition: background-color var(--transition-speed) ease; }
 
 
 /* =============================================
-   Card Ricetta CON Immagine (Stili RIVISTI)
-   ============================================= */
-
-/* =============================================
-   Card Ricetta CON Immagine (Layout Testo Modificato)
+   Card Ricetta CON Immagine (NUOVO Layout Testo)
    ============================================= */
 
 .card.card-has-image {
@@ -283,13 +200,13 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
   padding: 0; /* Rimuoviamo padding diretto */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   background-color: var(--color-border); /* Fallback */
-  /* Aggiungiamo display flex per controllare il figlio .card-content-wrapper */
+  overflow: hidden; /* Assicurati che l'overlay non esca */
+  /* Mantiene flex column per posizionare il wrapper */
   display: flex;
-  flex-direction: column; /* Elementi interni in colonna */
-  justify-content: flex-end; /* *** SPINGE IL CONTENUTO IN BASSO *** */
+  flex-direction: column;
 }
 
-/* Overlay (Gradiente leggermente aggiustato per enfatizzare il basso) */
+/* Overlay (Gradiente rivisto per zone chiare/scure) */
 .card.card-has-image::before {
   content: '';
   position: absolute;
@@ -297,53 +214,74 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
   border-radius: var(--border-radius);
   z-index: 1;
   transition: background var(--transition-speed) ease;
-  /* Gradiente che scurisce di più e prima dal basso */
+  /* Gradiente leggero sopra, più scuro sotto */
   background: linear-gradient(to bottom,
-                rgba(0, 0, 0, 0.0) 0%,   /* Trasparente in alto */
-                rgba(0, 0, 0, 0.2) 50%,  /* Scurisce gradualmente a metà */
-                rgba(0, 0, 0, 0.90) 100% /* Molto scuro in basso */
+                rgba(0, 0, 0, 0.4) 0%,   /* Leggermente scuro in alto per titolo */
+                rgba(0, 0, 0, 0.0) 35%,  /* Trasparente al centro */
+                rgba(0, 0, 0, 0.85) 100% /* Molto scuro in basso */
               );
 }
 
-/* Wrapper per il contenuto (ora posizionato in basso) */
+/* Wrapper per il contenuto */
 .card-has-image .card-content-wrapper {
   position: relative;
   z-index: 2;
-  padding: var(--spacing-md); /* Padding ridotto per zona inferiore */
+  padding: var(--spacing-md); /* Padding uniforme per top/bottom blocks */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Fa espandere il wrapper per usare justify-content */
   background-color: transparent;
-  /* Non serve più flex-grow o height 100% perché è spinto in basso dal flex parent */
+  height: 100%; /* Necessario con flex-grow */
+  /* *** USA JUSTIFY-CONTENT PER SEPARARE BLOCCHI *** */
+  justify-content: space-between;
 }
 
-/* Stile testo (Ombra potrebbe essere meno necessaria ora) */
+/* Blocco superiore (solo titolo) */
+.card-has-image .card-top-content {
+    /* Questo div non è strettamente necessario se h3 è il primo figlio,
+       ma può aiutare per futura flessibilità */
+}
+
+/* Blocco inferiore (descrizione + tag) */
+.card-has-image .card-bottom-content {
+    /* Contenitore per p e span.category-tag */
+}
+
+/* Stile testo */
 .card.card-has-image h3,
 .card.card-has-image p {
   color: #ffffff;
-  /* Riduciamo o togliamo l'ombra se l'overlay è sufficiente */
-   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
-   /* text-shadow: none; */ /* Prova anche senza ombra */
+  /* Ombra testo per leggibilità */
+   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
 }
 
+/* Titolo (nel blocco superiore) */
 .card.card-has-image h3 {
-    font-size: 1.2rem; /* Dimensione titolo leggermente ridotta */
-    margin-bottom: var(--spacing-xs); /* Meno spazio sotto il titolo */
-}
-
-.card.card-has-image p {
-    /* Rimuoviamo flex-grow perché non deve più espandersi */
-    margin-bottom: var(--spacing-sm); /* Meno spazio sotto la descrizione */
-    font-size: 0.85rem; /* Descrizione più piccola */
-    line-height: 1.4;
-    /* Limita SEMPRE la descrizione a poche righe */
-    display: -webkit-box;
-    -webkit-line-clamp: 2; /* Mostra max 2 righe */
+    font-size: 1.3rem; /* Titolo più grande */
+    margin-bottom: 0; /* Rimuove margine inferiore di default */
+    /* Opzionale: limita a 1-2 righe se troppo lungo */
+    /* display: -webkit-box;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    text-overflow: ellipsis; /* Aggiunge ... se testo troncato */
+    text-overflow: ellipsis; */
 }
 
-/* Stile tag categoria (Posizionato nel blocco inferiore) */
+/* Descrizione (nel blocco inferiore) */
+.card.card-has-image p {
+    margin-bottom: var(--spacing-sm); /* Spazio sotto descrizione */
+    font-size: 0.85rem; /* Descrizione piccola */
+    line-height: 1.4;
+    /* Limita SEMPRE la descrizione */
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Max 2 righe */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Stile tag categoria (nel blocco inferiore) */
 .card.card-has-image .category-tag {
-  /* Rimuoviamo margin-top: auto */
   background-color: rgba(255, 255, 255, 0.15);
   color: #ffffff;
   backdrop-filter: blur(3px);
@@ -353,13 +291,12 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
    font-size: 0.75rem;
    font-weight: 500;
    border-radius: calc(var(--border-radius) * 2);
-   align-self: flex-start; /* Rimane allineato a sinistra */
+   align-self: flex-start;
    transition: background-color var(--transition-speed) ease;
-   /* Aggiungiamo un piccolo margine superiore se necessario */
-   margin-top: var(--spacing-xs);
+   /* Non serve margin-top: auto */
 }
 
-/* Effetto hover (invariato, ma l'effetto sarà sullo sfondo e non sul testo) */
+/* Effetto hover (invariato) */
 .card.card-has-image:hover {
   transform: translateY(-6px) scale(1.03);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4),
@@ -370,120 +307,45 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
 /* Overlay su hover (leggermente più scuro) */
 .card.card-has-image:hover::before {
     background: linear-gradient(to bottom,
-                  rgba(0, 0, 0, 0.0) 0%,
-                  rgba(0, 0, 0, 0.3) 50%,
-                  rgba(0, 0, 0, 0.95) 100%
+                  rgba(0, 0, 0, 0.5) 0%, /* Più scuro sopra su hover */
+                  rgba(0, 0, 0, 0.1) 35%,
+                  rgba(0, 0, 0, 0.9) 100%
                 );
 }
 
 /* --- FINE NUOVA SEZIONE CARD CON IMMAGINE --- */
 
+
 /* =================================
    Modal
    ================================= */
 #recipeModal { /* Overlay */
-  display: none;
-  position: fixed;
-  z-index: 1000;
-  inset: 0;
-  background-color: var(--color-overlay);
-  padding: var(--spacing-lg);
-  overflow-y: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity var(--transition-speed) ease-in-out;
+  display: none; position: fixed; z-index: 1000; inset: 0; background-color: var(--color-overlay); padding: var(--spacing-lg); overflow-y: auto; display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity var(--transition-speed) ease-in-out;
 }
 #recipeModal[style*="display: block"] { opacity: 1; }
-
-.modal-content { /* Box bianco del modal */
-  background-color: var(--color-surface);
-  border-radius: var(--border-radius);
-  width: 100%;
-  max-width: 700px;
-  max-height: 90vh;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-  overflow: hidden;
-  transform: scale(0.95);
-  opacity: 0;
-  transition: transform calc(var(--transition-speed) * 1.5) ease-out,
-              opacity calc(var(--transition-speed) * 1.5) ease-out,
-              background-color var(--transition-speed) ease;
-}
+.modal-content { background-color: var(--color-surface); border-radius: var(--border-radius); width: 100%; max-width: 700px; max-height: 90vh; display: flex; flex-direction: column; position: relative; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); overflow: hidden; transform: scale(0.95); opacity: 0; transition: transform calc(var(--transition-speed) * 1.5) ease-out, opacity calc(var(--transition-speed) * 1.5) ease-out, background-color var(--transition-speed) ease; }
 #recipeModal[style*="display: block"] .modal-content { transform: scale(1); opacity: 1; }
-
-.modal-header {
-  padding: var(--spacing-md) var(--spacing-lg);
-  border-bottom: 1px solid var(--color-border);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-shrink: 0;
-  transition: border-color var(--transition-speed) ease;
-}
+.modal-header { padding: var(--spacing-md) var(--spacing-lg); border-bottom: 1px solid var(--color-border); display: flex; justify-content: space-between; align-items: center; flex-shrink: 0; transition: border-color var(--transition-speed) ease; }
 .modal-header h2 { margin-bottom: 0; font-size: 1.4rem; color: var(--color-text-primary); }
-
-.modal-close-button { /* Bottone X */
-  font-size: 1.8rem; font-weight: 300; color: var(--color-text-secondary); padding: 0 var(--spacing-sm); line-height: 1; transition: color var(--transition-speed) ease;
-}
+.modal-close-button { font-size: 1.8rem; font-weight: 300; color: var(--color-text-secondary); padding: 0 var(--spacing-sm); line-height: 1; transition: color var(--transition-speed) ease; }
 .modal-close-button:hover, .modal-close-button:focus { color: var(--color-text-primary); outline: none; }
 .modal-close-button:focus-visible { box-shadow: 0 0 0 2px rgba(var(--color-accent-rgb), 0.5); border-radius: 4px; }
-
 .modal-body { padding: var(--spacing-lg); overflow-y: auto; flex-grow: 1; }
-
-/* Stili sezioni interne modal */
-.section-container {
-    margin-bottom: var(--spacing-xl); padding-bottom: var(--spacing-lg);
-    border-bottom: 1px dashed var(--color-border);
-    transition: border-color var(--transition-speed) ease;
-}
+.section-container { margin-bottom: var(--spacing-xl); padding-bottom: var(--spacing-lg); border-bottom: 1px dashed var(--color-border); transition: border-color var(--transition-speed) ease; }
 .section-container:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
-
-.section-title { /* h3 */
-    font-size: 1.15rem;
-    color: var(--color-accent);
-    margin-bottom: var(--spacing-md);
-    border-bottom: 2px solid var(--color-accent);
-    padding-bottom: var(--spacing-xs);
-    display: inline-block;
-    transition: color var(--transition-speed) ease, border-color var(--transition-speed) ease;
-}
-
-.subsection-container {
-    margin-bottom: var(--spacing-lg); padding-left: var(--spacing-md);
-    border-left: 2px solid var(--color-border);
-    transition: border-color var(--transition-speed) ease;
-}
+.section-title { font-size: 1.15rem; color: var(--color-accent); margin-bottom: var(--spacing-md); border-bottom: 2px solid var(--color-accent); padding-bottom: var(--spacing-xs); display: inline-block; transition: color var(--transition-speed) ease, border-color var(--transition-speed) ease; }
+.subsection-container { margin-bottom: var(--spacing-lg); padding-left: var(--spacing-md); border-left: 2px solid var(--color-border); transition: border-color var(--transition-speed) ease; }
 .subsection-container:last-child { margin-bottom: 0; }
-
-.subsection-title { /* h4, h5 */
-    font-size: 1rem; font-weight: 600; color: var(--color-text-primary); margin-bottom: var(--spacing-sm);
-}
-
-/* Stili info base modal */
+.subsection-title { font-size: 1rem; font-weight: 600; color: var(--color-text-primary); margin-bottom: var(--spacing-sm); }
 .categoria-info, .descrizione-info, .vino-info { margin-bottom: var(--spacing-lg); }
 .descrizione-info { color: var(--color-text-secondary); font-style: italic; }
-.vino-info {
-    background-color: var(--color-bg);
-    padding: var(--spacing-sm) var(--spacing-md);
-    border-radius: var(--border-radius);
-    border: 1px solid var(--color-border);
-    font-weight: 500;
-    transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease;
-}
-
-/* Stili liste modal */
+.vino-info { background-color: var(--color-bg); padding: var(--spacing-sm) var(--spacing-md); border-radius: var(--border-radius); border: 1px solid var(--color-border); font-weight: 500; transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease; }
 .modal-body ul, .modal-body ol { padding-left: var(--spacing-lg); }
 .modal-body li { margin-bottom: var(--spacing-sm); color: var(--color-text-secondary); }
 .modal-body ul li::marker { color: var(--color-accent); }
 .modal-body ol { list-style-type: decimal; }
 .modal-body ol li::marker { color: var(--color-text-primary); font-weight: 500; }
 .modal-body ul { list-style: disc; }
-
 
 /* =================================
    Media Queries
