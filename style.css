@@ -39,12 +39,12 @@
   :root {
     --color-bg: #121212;
     --color-surface: #1e1e1e;
-    --color-border: #383838; /* Bordo leggermente più visibile */
+    --color-border: #383838;
     --color-text-primary: #e0e0e0;
-    --color-text-secondary: #a0a0a0; /* Leggermente più chiaro */
-    --color-accent: #4dabf7; /* Blu più brillante per contrasto */
+    --color-text-secondary: #a0a0a0;
+    --color-accent: #4dabf7;
     --color-accent-hover: #74c0fc;
-    --color-shadow: rgba(0, 0, 0, 0.25); /* Ombre un po' più definite */
+    --color-shadow: rgba(0, 0, 0, 0.25);
     --color-shadow-hover: rgba(0, 0, 0, 0.35);
     --color-overlay: rgba(0, 0, 0, 0.8);
     --color-error-bg: #5c1a1e;
@@ -53,7 +53,7 @@
   }
 }
 
-body.dark-mode { /* Classe per forzare dark mode */
+body.dark-mode {
     --color-bg: #121212;
     --color-surface: #1e1e1e;
     --color-border: #383838;
@@ -132,7 +132,7 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
 #categoryList li { padding: var(--spacing-sm) var(--spacing-md); margin-bottom: var(--spacing-xs); cursor: pointer; border-radius: var(--border-radius); transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease; color: var(--color-text-secondary); font-weight: 500; }
 #categoryList li:hover { background-color: rgba(var(--color-accent-rgb), 0.1); color: var(--color-text-primary); }
 #categoryList li:focus { outline: none; box-shadow: 0 0 0 2px rgba(var(--color-accent-rgb), 0.25); }
-#categoryList li.active-category { background-color: var(--color-accent); color: #fff; /* Testo bianco su accento */ font-weight: 600; }
+#categoryList li.active-category { background-color: var(--color-accent); color: #fff; font-weight: 600; }
 #categoryList li.active-category:hover { background-color: var(--color-accent-hover); }
 #categoryList li:first-child { font-weight: 600; color: var(--color-text-primary); margin-bottom: var(--spacing-md); }
 
@@ -163,7 +163,7 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 3px 6px var(--color-shadow); /* Ombra leggermente più visibile */
+  box-shadow: 0 3px 6px var(--color-shadow);
   transition: transform calc(var(--transition-speed) * 1.1) ease,
               box-shadow calc(var(--transition-speed) * 1.1) ease,
               border-color var(--transition-speed) ease,
@@ -172,19 +172,18 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
 }
 
 .card:hover {
-  transform: translateY(-5px); /* Sollevamento leggermente ridotto */
-  border-color: var(--color-border); /* Mantiene bordo normale */
-  box-shadow: 0 6px 15px var(--color-shadow-hover); /* Ombra più profonda */
+  transform: translateY(-5px);
+  border-color: var(--color-border);
+  box-shadow: 0 6px 15px var(--color-shadow-hover);
 }
 
-/* Contenuto card SENZA immagine */
 .card:not(.card-has-image) h3 { font-size: 1.2rem; margin-bottom: var(--spacing-sm); color: var(--color-text-primary); }
 .card:not(.card-has-image) p { flex-grow: 1; margin-bottom: var(--spacing-md); font-size: 0.95rem; color: var(--color-text-secondary); line-height: 1.5; }
 .card:not(.card-has-image) .category-tag { display: inline-block; margin-top: auto; padding: var(--spacing-xs) var(--spacing-sm); font-size: 0.75rem; font-weight: 500; color: var(--color-text-secondary); background-color: var(--color-bg); border-radius: calc(var(--border-radius) * 2); align-self: flex-start; transition: background-color var(--transition-speed) ease; }
 
 
 /* =============================================
-   Card Ricetta CON Immagine (NUOVO STILE V2)
+   Card Ricetta CON Immagine (NUOVO STILE V3 - Overlay Pieno)
    ============================================= */
 
 .card.card-has-image {
@@ -194,17 +193,17 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
   background-repeat: no-repeat;
   color: #ffffff;
   min-height: 300px;
-  border: 1px solid var(--color-border); /* Bordo leggero anche con immagine */
-  padding: 0;
+  border: 1px solid var(--color-border);
+  padding: 0; /* Padding sarà nel wrapper */
   box-shadow: 0 4px 8px var(--color-shadow);
-  background-color: var(--color-surface); /* Fallback più scuro */
+  background-color: var(--color-surface); /* Fallback */
   overflow: hidden;
-  display: flex; /* Necessario per posizionare il wrapper */
+  /* Flex per posizionare wrapper (anche se ora occupa tutto) */
+  display: flex;
   flex-direction: column;
-  justify-content: flex-end; /* Spinge il wrapper in basso */
 }
 
-/* Overlay uniforme e leggero */
+/* Overlay uniforme su tutta la card */
 .card.card-has-image::before {
   content: '';
   position: absolute;
@@ -212,81 +211,86 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
   border-radius: var(--border-radius);
   z-index: 1;
   transition: background-color var(--transition-speed) ease;
-  background-color: rgba(0, 0, 0, 0.35); /* Overlay nero uniforme semi-trasparente */
-  mix-blend-mode: multiply; /* Prova a moltiplicare l'overlay sull'immagine */
+  /* === MODIFICA QUI la trasparenza (0.0 = trasparente, 1.0 = opaco) === */
+  background-color: rgba(0, 0, 0, 0.55); /* Valore di esempio, più scuro */
+  /* Rimuoviamo mix-blend-mode per ora, rende difficile prevedere il risultato */
+  /* mix-blend-mode: multiply; */
 }
 
-/* Wrapper per il contenuto posizionato in basso */
+/* Wrapper per il contenuto (torna ad occupare tutto lo spazio) */
 .card-has-image .card-content-wrapper {
   position: relative;
   z-index: 2;
-  /* Sfondo semi-trasparente per il blocco di testo */
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
-  padding: var(--spacing-md); /* Padding per il blocco testo */
-  margin: var(--spacing-sm); /* Margine dal bordo inferiore/laterale */
-  border-radius: var(--border-radius);
+  padding: var(--spacing-lg); /* Padding standard */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Occupa altezza disponibile */
+  background-color: transparent; /* Nessun background per il wrapper */
+  height: 100%;
 }
 
-/* Stile testo nel blocco inferiore */
+/* Stile testo distribuito */
 .card.card-has-image h3,
 .card.card-has-image p,
 .card.card-has-image .category-tag {
   color: #ffffff;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Ombra testo più sottile */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8); /* Ombra più forte necessaria */
 }
 
 .card.card-has-image h3 {
-    font-size: 1.15rem; /* Titolo leggermente più piccolo ma bold */
+    font-size: 1.3rem;
     font-weight: 700;
-    margin-bottom: var(--spacing-xs);
+    margin-bottom: var(--spacing-sm);
     line-height: 1.3;
 }
 
 .card.card-has-image p {
-    margin-bottom: var(--spacing-sm);
-    font-size: 0.8rem; /* Descrizione più piccola */
-    line-height: 1.4;
-    color: var(--color-text-secondary); /* Usa grigio chiaro per descrizione */
+    flex-grow: 1; /* Permette al tag di andare in fondo */
+    margin-bottom: var(--spacing-md);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.9); /* Leggermente meno bianco del titolo */
+    /* Limitiamo comunque la descrizione per non coprire troppo */
     display: -webkit-box;
-    -webkit-line-clamp: 2; /* Max 2 righe */
+    -webkit-line-clamp: 4; /* Max 4 righe */
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 .card.card-has-image .category-tag {
-  /* Rimuoviamo sfondi complessi, usiamo testo semplice */
-   background-color: transparent;
-   border: none;
-   backdrop-filter: none;
-   display: block; /* Occupa tutta la larghezza disponibile */
-   padding: 0;
-   font-size: 0.7rem; /* Tag ancora più piccolo */
+  margin-top: auto; /* Spinge in fondo */
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+   display: inline-block;
+   padding: var(--spacing-xs) var(--spacing-sm);
+   font-size: 0.75rem;
    font-weight: 500;
-   color: var(--color-text-secondary); /* Colore testo secondario */
-   opacity: 0.8;
-   text-transform: uppercase; /* Maiuscoletto */
-   letter-spacing: 0.5px;
-   margin-top: var(--spacing-xs);
+   border-radius: calc(var(--border-radius) * 2);
+   align-self: flex-start;
+   transition: background-color var(--transition-speed) ease;
 }
 
-/* Effetto hover RIVISTO */
+/* Effetto hover (invariato) */
 .card.card-has-image:hover {
-  transform: translateY(-4px); /* Sollevamento più sottile */
-  box-shadow: 0 8px 20px var(--color-shadow-hover); /* Ombra leggermente più profonda */
-  border-color: var(--color-accent); /* Evidenzia bordo con accento */
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px var(--color-shadow-hover);
+  border-color: var(--color-accent);
 }
 
-/* Overlay su hover diventa leggermente più scuro */
+/* Overlay su hover diventa più scuro */
 .card.card-has-image:hover::before {
-   background-color: rgba(0, 0, 0, 0.45);
+   /* === MODIFICA QUI la trasparenza su hover === */
+   background-color: rgba(0, 0, 0, 0.65);
 }
 
-/* --- FINE NUOVA SEZIONE CARD V2 --- */
+/* --- FINE NUOVA SEZIONE CARD V3 --- */
 
 
 /* =================================
-   Modal (Invariato)
+   Modal
    ================================= */
 #recipeModal { display: none; position: fixed; z-index: 1000; inset: 0; background-color: var(--color-overlay); padding: var(--spacing-lg); overflow-y: auto; display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity var(--transition-speed) ease-in-out; }
 #recipeModal[style*="display: block"] { opacity: 1; }
