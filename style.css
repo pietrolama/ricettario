@@ -268,108 +268,115 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
    Card Ricetta CON Immagine (Stili RIVISTI)
    ============================================= */
 
+/* =============================================
+   Card Ricetta CON Immagine (Layout Testo Modificato)
+   ============================================= */
+
 .card.card-has-image {
-  position: relative; /* Per posizionare overlay e contenuto */
+  position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #ffffff; /* Testo bianco di default per contrasto */
-  min-height: 300px; /* Altezza minima aumentata */
-  border: none; /* Rimuoviamo il bordo standard */
-  padding: 0; /* Rimuoviamo il padding diretto dalla card */
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Ombra più decisa per staccare */
-  /* Fallback background nel caso l'immagine non carichi */
-  background-color: var(--color-border);
+  color: #ffffff;
+  min-height: 300px;
+  border: none;
+  padding: 0; /* Rimuoviamo padding diretto */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  background-color: var(--color-border); /* Fallback */
+  /* Aggiungiamo display flex per controllare il figlio .card-content-wrapper */
+  display: flex;
+  flex-direction: column; /* Elementi interni in colonna */
+  justify-content: flex-end; /* *** SPINGE IL CONTENUTO IN BASSO *** */
 }
 
-/* Overlay RIVISTO (Gradiente più leggero in alto) */
+/* Overlay (Gradiente leggermente aggiustato per enfatizzare il basso) */
 .card.card-has-image::before {
   content: '';
   position: absolute;
-  inset: 0; /* Copre tutta la card */
+  inset: 0;
   border-radius: var(--border-radius);
-  z-index: 1; /* Sta sopra lo sfondo, sotto il testo */
+  z-index: 1;
   transition: background var(--transition-speed) ease;
-  /* Gradiente più leggero */
+  /* Gradiente che scurisce di più e prima dal basso */
   background: linear-gradient(to bottom,
                 rgba(0, 0, 0, 0.0) 0%,   /* Trasparente in alto */
-                rgba(0, 0, 0, 0.1) 40%,  /* Leggermente scuro a metà */
-                rgba(0, 0, 0, 0.85) 100% /* Molto scuro in basso per testo */
+                rgba(0, 0, 0, 0.2) 50%,  /* Scurisce gradualmente a metà */
+                rgba(0, 0, 0, 0.90) 100% /* Molto scuro in basso */
               );
 }
 
-/* Wrapper per il contenuto (essenziale!) */
+/* Wrapper per il contenuto (ora posizionato in basso) */
 .card-has-image .card-content-wrapper {
-  position: relative; /* Necessario per stare sopra l'overlay ::before */
+  position: relative;
   z-index: 2;
-  padding: var(--spacing-lg); /* Applichiamo il padding qui! */
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1; /* Occupa l'altezza disponibile */
-  background-color: transparent; /* Nessuno sfondo per il wrapper */
-  height: 100%; /* Assicura che occupi tutta l'altezza */
+  padding: var(--spacing-md); /* Padding ridotto per zona inferiore */
+  background-color: transparent;
+  /* Non serve più flex-grow o height 100% perché è spinto in basso dal flex parent */
 }
 
-/* Stile testo RIVISTO */
+/* Stile testo (Ombra potrebbe essere meno necessaria ora) */
 .card.card-has-image h3,
 .card.card-has-image p {
   color: #ffffff;
-  /* Ombra testo più forte per maggiore leggibilità */
-  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.9);
+  /* Riduciamo o togliamo l'ombra se l'overlay è sufficiente */
+   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+   /* text-shadow: none; */ /* Prova anche senza ombra */
 }
 
 .card.card-has-image h3 {
-    font-size: 1.3rem; /* Titolo più grande */
-    margin-bottom: var(--spacing-sm);
+    font-size: 1.2rem; /* Dimensione titolo leggermente ridotta */
+    margin-bottom: var(--spacing-xs); /* Meno spazio sotto il titolo */
 }
 
 .card.card-has-image p {
-    flex-grow: 1; /* Mantiene il comportamento flex */
-    margin-bottom: var(--spacing-md);
-    font-size: 0.9rem;
-    line-height: 1.5;
-    /* Opzionale: limita righe descrizione */
-    /* display: -webkit-box;
-    -webkit-line-clamp: 3;
+    /* Rimuoviamo flex-grow perché non deve più espandersi */
+    margin-bottom: var(--spacing-sm); /* Meno spazio sotto la descrizione */
+    font-size: 0.85rem; /* Descrizione più piccola */
+    line-height: 1.4;
+    /* Limita SEMPRE la descrizione a poche righe */
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Mostra max 2 righe */
     -webkit-box-orient: vertical;
-    overflow: hidden; */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Aggiunge ... se testo troncato */
 }
 
-/* Stile tag categoria */
+/* Stile tag categoria (Posizionato nel blocco inferiore) */
 .card.card-has-image .category-tag {
-  margin-top: auto; /* Spinge in fondo */
-  background-color: rgba(255, 255, 255, 0.15); /* Sfondo tag semi-trasparente chiaro */
+  /* Rimuoviamo margin-top: auto */
+  background-color: rgba(255, 255, 255, 0.15);
   color: #ffffff;
-  backdrop-filter: blur(3px); /* Effetto vetro smerigliato più evidente */
+  backdrop-filter: blur(3px);
   border: 1px solid rgba(255, 255, 255, 0.2);
    display: inline-block;
    padding: var(--spacing-xs) var(--spacing-sm);
    font-size: 0.75rem;
    font-weight: 500;
    border-radius: calc(var(--border-radius) * 2);
-   align-self: flex-start;
+   align-self: flex-start; /* Rimane allineato a sinistra */
    transition: background-color var(--transition-speed) ease;
+   /* Aggiungiamo un piccolo margine superiore se necessario */
+   margin-top: var(--spacing-xs);
 }
 
-/* Effetto hover RIVISTO */
+/* Effetto hover (invariato, ma l'effetto sarà sullo sfondo e non sul testo) */
 .card.card-has-image:hover {
-  transform: translateY(-6px) scale(1.03); /* Ingrandimento + sollevamento */
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4), /* Ombra più forte */
-              0 0 20px rgba(var(--color-accent-rgb), 0.3); /* Glow accent */
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4),
+              0 0 20px rgba(var(--color-accent-rgb), 0.3);
   border-color: transparent;
 }
 
-/* Overlay su hover RIVISTO (coerente con Opzione 1 Gradiente) */
+/* Overlay su hover (leggermente più scuro) */
 .card.card-has-image:hover::before {
     background: linear-gradient(to bottom,
                   rgba(0, 0, 0, 0.0) 0%,
-                  rgba(0, 0, 0, 0.2) 40%,
-                  rgba(0, 0, 0, 0.9) 100%
+                  rgba(0, 0, 0, 0.3) 50%,
+                  rgba(0, 0, 0, 0.95) 100%
                 );
 }
 
-/* --- FINE SEZIONE CARD CON IMMAGINE --- */
-
+/* --- FINE NUOVA SEZIONE CARD CON IMMAGINE --- */
 
 /* =================================
    Modal
