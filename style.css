@@ -7,7 +7,6 @@
     --color-border: #e9ecef;
     --color-text-primary: #212529;
     --color-text-secondary: #6c757d;
-    /* Blu come accento - Definiamo anche i valori RGB per usarli con alpha */
     --color-accent-rgb: 0, 123, 255;
     --color-accent: rgb(var(--color-accent-rgb)); /* #007bff */
     --color-accent-hover: #0056b3;
@@ -16,37 +15,37 @@
     --color-overlay: rgba(33, 37, 41, 0.7);
     --color-error-bg: #f8d7da;
     --color-error-border: #f5c6cb;
-    --color-error-text: #721c24; /* Testo più scuro per errore */
+    --color-error-text: #721c24;
 
     --font-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-size-base: 16px;
     --line-height-base: 1.6;
 
     --spacing-unit: 8px;
-    --spacing-xs: calc(var(--spacing-unit) * 0.5);  /* 4px */
-    --spacing-sm: var(--spacing-unit);              /* 8px */
-    --spacing-md: calc(var(--spacing-unit) * 2);  /* 16px */
-    --spacing-lg: calc(var(--spacing-unit) * 3);  /* 24px */
-    --spacing-xl: calc(var(--spacing-unit) * 4);  /* 32px */
+    --spacing-xs: calc(var(--spacing-unit) * 0.5);
+    --spacing-sm: var(--spacing-unit);
+    --spacing-md: calc(var(--spacing-unit) * 2);
+    --spacing-lg: calc(var(--spacing-unit) * 3);
+    --spacing-xl: calc(var(--spacing-unit) * 4);
 
     --border-radius: 6px;
     --transition-speed: 0.25s;
 }
 
 /* =================================
-   Dark Mode Theme - Applicato automaticamente o con classe .dark-mode sul body
+   Dark Mode Theme
    ================================= */
 @media (prefers-color-scheme: dark) {
   :root {
     --color-bg: #121212;
     --color-surface: #1e1e1e;
-    --color-border: #333333;
+    --color-border: #383838; /* Bordo leggermente più visibile */
     --color-text-primary: #e0e0e0;
-    --color-text-secondary: #aaaaaa;
-    --color-accent: #3391ff;
-    --color-accent-hover: #5badff;
-    --color-shadow: rgba(0, 0, 0, 0.2);
-    --color-shadow-hover: rgba(0, 0, 0, 0.3);
+    --color-text-secondary: #a0a0a0; /* Leggermente più chiaro */
+    --color-accent: #4dabf7; /* Blu più brillante per contrasto */
+    --color-accent-hover: #74c0fc;
+    --color-shadow: rgba(0, 0, 0, 0.25); /* Ombre un po' più definite */
+    --color-shadow-hover: rgba(0, 0, 0, 0.35);
     --color-overlay: rgba(0, 0, 0, 0.8);
     --color-error-bg: #5c1a1e;
     --color-error-border: #a73c45;
@@ -57,13 +56,13 @@
 body.dark-mode { /* Classe per forzare dark mode */
     --color-bg: #121212;
     --color-surface: #1e1e1e;
-    --color-border: #333333;
+    --color-border: #383838;
     --color-text-primary: #e0e0e0;
-    --color-text-secondary: #aaaaaa;
-    --color-accent: #3391ff;
-    --color-accent-hover: #5badff;
-    --color-shadow: rgba(0, 0, 0, 0.2);
-    --color-shadow-hover: rgba(0, 0, 0, 0.3);
+    --color-text-secondary: #a0a0a0;
+    --color-accent: #4dabf7;
+    --color-accent-hover: #74c0fc;
+    --color-shadow: rgba(0, 0, 0, 0.25);
+    --color-shadow-hover: rgba(0, 0, 0, 0.35);
     --color-overlay: rgba(0, 0, 0, 0.8);
     --color-error-bg: #5c1a1e;
     --color-error-border: #a73c45;
@@ -133,7 +132,7 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
 #categoryList li { padding: var(--spacing-sm) var(--spacing-md); margin-bottom: var(--spacing-xs); cursor: pointer; border-radius: var(--border-radius); transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease; color: var(--color-text-secondary); font-weight: 500; }
 #categoryList li:hover { background-color: rgba(var(--color-accent-rgb), 0.1); color: var(--color-text-primary); }
 #categoryList li:focus { outline: none; box-shadow: 0 0 0 2px rgba(var(--color-accent-rgb), 0.25); }
-#categoryList li.active-category { background-color: var(--color-accent); color: var(--color-surface); font-weight: 600; }
+#categoryList li.active-category { background-color: var(--color-accent); color: #fff; /* Testo bianco su accento */ font-weight: 600; }
 #categoryList li.active-category:hover { background-color: var(--color-accent-hover); }
 #categoryList li:first-child { font-weight: 600; color: var(--color-text-primary); margin-bottom: var(--spacing-md); }
 
@@ -164,29 +163,28 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 3px 5px var(--color-shadow);
-  transition: transform calc(var(--transition-speed) * 1.2) ease,
-              box-shadow calc(var(--transition-speed) * 1.2) ease,
+  box-shadow: 0 3px 6px var(--color-shadow); /* Ombra leggermente più visibile */
+  transition: transform calc(var(--transition-speed) * 1.1) ease,
+              box-shadow calc(var(--transition-speed) * 1.1) ease,
               border-color var(--transition-speed) ease,
               background-color var(--transition-speed) ease;
   min-height: 300px;
 }
 
 .card:hover {
-  transform: translateY(-6px);
-  border-color: rgba(var(--color-accent-rgb), 0.7);
-  box-shadow: 0 8px 20px var(--color-shadow-hover),
-              0 0 15px rgba(var(--color-accent-rgb), 0.3);
+  transform: translateY(-5px); /* Sollevamento leggermente ridotto */
+  border-color: var(--color-border); /* Mantiene bordo normale */
+  box-shadow: 0 6px 15px var(--color-shadow-hover); /* Ombra più profonda */
 }
 
-/* Contenuto testuale per card SENZA immagine */
+/* Contenuto card SENZA immagine */
 .card:not(.card-has-image) h3 { font-size: 1.2rem; margin-bottom: var(--spacing-sm); color: var(--color-text-primary); }
 .card:not(.card-has-image) p { flex-grow: 1; margin-bottom: var(--spacing-md); font-size: 0.95rem; color: var(--color-text-secondary); line-height: 1.5; }
 .card:not(.card-has-image) .category-tag { display: inline-block; margin-top: auto; padding: var(--spacing-xs) var(--spacing-sm); font-size: 0.75rem; font-weight: 500; color: var(--color-text-secondary); background-color: var(--color-bg); border-radius: calc(var(--border-radius) * 2); align-self: flex-start; transition: background-color var(--transition-speed) ease; }
 
 
 /* =============================================
-   Card Ricetta CON Immagine (NUOVO Layout Testo)
+   Card Ricetta CON Immagine (NUOVO STILE V2)
    ============================================= */
 
 .card.card-has-image {
@@ -196,83 +194,59 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
   background-repeat: no-repeat;
   color: #ffffff;
   min-height: 300px;
-  border: none;
-  padding: 0; /* Rimuoviamo padding diretto */
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  background-color: var(--color-border); /* Fallback */
-  overflow: hidden; /* Assicurati che l'overlay non esca */
-  /* Mantiene flex column per posizionare il wrapper */
-  display: flex;
+  border: 1px solid var(--color-border); /* Bordo leggero anche con immagine */
+  padding: 0;
+  box-shadow: 0 4px 8px var(--color-shadow);
+  background-color: var(--color-surface); /* Fallback più scuro */
+  overflow: hidden;
+  display: flex; /* Necessario per posizionare il wrapper */
   flex-direction: column;
+  justify-content: flex-end; /* Spinge il wrapper in basso */
 }
 
-/* Overlay (Gradiente rivisto per zone chiare/scure) */
+/* Overlay uniforme e leggero */
 .card.card-has-image::before {
   content: '';
   position: absolute;
   inset: 0;
   border-radius: var(--border-radius);
   z-index: 1;
-  transition: background var(--transition-speed) ease;
-  /* Gradiente leggero sopra, più scuro sotto */
-  background: linear-gradient(to bottom,
-                rgba(0, 0, 0, 0.4) 0%,   /* Leggermente scuro in alto per titolo */
-                rgba(0, 0, 0, 0.0) 35%,  /* Trasparente al centro */
-                rgba(0, 0, 0, 0.85) 100% /* Molto scuro in basso */
-              );
+  transition: background-color var(--transition-speed) ease;
+  background-color: rgba(0, 0, 0, 0.35); /* Overlay nero uniforme semi-trasparente */
+  mix-blend-mode: multiply; /* Prova a moltiplicare l'overlay sull'immagine */
 }
 
-/* Wrapper per il contenuto */
+/* Wrapper per il contenuto posizionato in basso */
 .card-has-image .card-content-wrapper {
   position: relative;
   z-index: 2;
-  padding: var(--spacing-md); /* Padding uniforme per top/bottom blocks */
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1; /* Fa espandere il wrapper per usare justify-content */
-  background-color: transparent;
-  height: 100%; /* Necessario con flex-grow */
-  /* *** USA JUSTIFY-CONTENT PER SEPARARE BLOCCHI *** */
-  justify-content: space-between;
+  /* Sfondo semi-trasparente per il blocco di testo */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
+  padding: var(--spacing-md); /* Padding per il blocco testo */
+  margin: var(--spacing-sm); /* Margine dal bordo inferiore/laterale */
+  border-radius: var(--border-radius);
 }
 
-/* Blocco superiore (solo titolo) */
-.card-has-image .card-top-content {
-    /* Questo div non è strettamente necessario se h3 è il primo figlio,
-       ma può aiutare per futura flessibilità */
-}
-
-/* Blocco inferiore (descrizione + tag) */
-.card-has-image .card-bottom-content {
-    /* Contenitore per p e span.category-tag */
-}
-
-/* Stile testo */
+/* Stile testo nel blocco inferiore */
 .card.card-has-image h3,
-.card.card-has-image p {
+.card.card-has-image p,
+.card.card-has-image .category-tag {
   color: #ffffff;
-  /* Ombra testo per leggibilità */
-   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Ombra testo più sottile */
 }
 
-/* Titolo (nel blocco superiore) */
 .card.card-has-image h3 {
-    font-size: 1.3rem; /* Titolo più grande */
-    margin-bottom: 0; /* Rimuove margine inferiore di default */
-    /* Opzionale: limita a 1-2 righe se troppo lungo */
-    /* display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis; */
+    font-size: 1.15rem; /* Titolo leggermente più piccolo ma bold */
+    font-weight: 700;
+    margin-bottom: var(--spacing-xs);
+    line-height: 1.3;
 }
 
-/* Descrizione (nel blocco inferiore) */
 .card.card-has-image p {
-    margin-bottom: var(--spacing-sm); /* Spazio sotto descrizione */
-    font-size: 0.85rem; /* Descrizione piccola */
+    margin-bottom: var(--spacing-sm);
+    font-size: 0.8rem; /* Descrizione più piccola */
     line-height: 1.4;
-    /* Limita SEMPRE la descrizione */
+    color: var(--color-text-secondary); /* Usa grigio chiaro per descrizione */
     display: -webkit-box;
     -webkit-line-clamp: 2; /* Max 2 righe */
     -webkit-box-orient: vertical;
@@ -280,48 +254,41 @@ header h1 { margin-bottom: 0; font-size: 1.5rem; }
     text-overflow: ellipsis;
 }
 
-/* Stile tag categoria (nel blocco inferiore) */
 .card.card-has-image .category-tag {
-  background-color: rgba(255, 255, 255, 0.15);
-  color: #ffffff;
-  backdrop-filter: blur(3px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-   display: inline-block;
-   padding: var(--spacing-xs) var(--spacing-sm);
-   font-size: 0.75rem;
+  /* Rimuoviamo sfondi complessi, usiamo testo semplice */
+   background-color: transparent;
+   border: none;
+   backdrop-filter: none;
+   display: block; /* Occupa tutta la larghezza disponibile */
+   padding: 0;
+   font-size: 0.7rem; /* Tag ancora più piccolo */
    font-weight: 500;
-   border-radius: calc(var(--border-radius) * 2);
-   align-self: flex-start;
-   transition: background-color var(--transition-speed) ease;
-   /* Non serve margin-top: auto */
+   color: var(--color-text-secondary); /* Colore testo secondario */
+   opacity: 0.8;
+   text-transform: uppercase; /* Maiuscoletto */
+   letter-spacing: 0.5px;
+   margin-top: var(--spacing-xs);
 }
 
-/* Effetto hover (invariato) */
+/* Effetto hover RIVISTO */
 .card.card-has-image:hover {
-  transform: translateY(-6px) scale(1.03);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4),
-              0 0 20px rgba(var(--color-accent-rgb), 0.3);
-  border-color: transparent;
+  transform: translateY(-4px); /* Sollevamento più sottile */
+  box-shadow: 0 8px 20px var(--color-shadow-hover); /* Ombra leggermente più profonda */
+  border-color: var(--color-accent); /* Evidenzia bordo con accento */
 }
 
-/* Overlay su hover (leggermente più scuro) */
+/* Overlay su hover diventa leggermente più scuro */
 .card.card-has-image:hover::before {
-    background: linear-gradient(to bottom,
-                  rgba(0, 0, 0, 0.5) 0%, /* Più scuro sopra su hover */
-                  rgba(0, 0, 0, 0.1) 35%,
-                  rgba(0, 0, 0, 0.9) 100%
-                );
+   background-color: rgba(0, 0, 0, 0.45);
 }
 
-/* --- FINE NUOVA SEZIONE CARD CON IMMAGINE --- */
+/* --- FINE NUOVA SEZIONE CARD V2 --- */
 
 
 /* =================================
-   Modal
+   Modal (Invariato)
    ================================= */
-#recipeModal { /* Overlay */
-  display: none; position: fixed; z-index: 1000; inset: 0; background-color: var(--color-overlay); padding: var(--spacing-lg); overflow-y: auto; display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity var(--transition-speed) ease-in-out;
-}
+#recipeModal { display: none; position: fixed; z-index: 1000; inset: 0; background-color: var(--color-overlay); padding: var(--spacing-lg); overflow-y: auto; display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity var(--transition-speed) ease-in-out; }
 #recipeModal[style*="display: block"] { opacity: 1; }
 .modal-content { background-color: var(--color-surface); border-radius: var(--border-radius); width: 100%; max-width: 700px; max-height: 90vh; display: flex; flex-direction: column; position: relative; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); overflow: hidden; transform: scale(0.95); opacity: 0; transition: transform calc(var(--transition-speed) * 1.5) ease-out, opacity calc(var(--transition-speed) * 1.5) ease-out, background-color var(--transition-speed) ease; }
 #recipeModal[style*="display: block"] .modal-content { transform: scale(1); opacity: 1; }
