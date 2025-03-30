@@ -157,42 +157,42 @@ document.addEventListener('DOMContentLoaded', function () {
         return hasContent ? containerDiv : null;
     }
 
-     /**
-     * Renderizza la sezione Utilizzo nel modal.
-     */
-    function renderUtilizzo(utilizzoData){
+    /**
+    * Renderizza la sezione Utilizzo nel modal.
+    */
+    function renderUtilizzo(utilizzoData) {
         if (!Array.isArray(utilizzoData) || utilizzoData.length === 0) return null;
         const containerDiv = createElement('div', 'utilizzo section-container');
         containerDiv.appendChild(createElement('h3', 'section-title', 'Utilizzo'));
         const listUl = createElement('ul');
         let hasContent = false;
         utilizzoData.forEach(item => {
-            if(item.applicazione && item.dosi){
+            if (item.applicazione && item.dosi) {
                 const listItem = createElement('li');
                 listItem.innerHTML = `<strong>${item.applicazione}:</strong> ${item.dosi}`;
                 listUl.appendChild(listItem); hasContent = true;
             }
         });
-        if(hasContent) containerDiv.appendChild(listUl);
+        if (hasContent) containerDiv.appendChild(listUl);
         return hasContent ? containerDiv : null;
     }
 
     /**
      * Renderizza la sezione Struttura Generale nel modal.
      */
-    function renderStruttura(strutturaData){
-         if (!Array.isArray(strutturaData) || strutturaData.length === 0) return null;
+    function renderStruttura(strutturaData) {
+        if (!Array.isArray(strutturaData) || strutturaData.length === 0) return null;
         const containerDiv = createElement('div', 'struttura_generale section-container');
         containerDiv.appendChild(createElement('h3', 'section-title', 'Struttura Generale'));
         let hasContent = false;
         strutturaData.forEach(item => {
-            if(item.fase){
+            if (item.fase) {
                 const faseDiv = createElement('div', 'fase subsection-container');
                 faseDiv.appendChild(createElement('h4', 'subsection-title', item.fase));
                 if (item.ingredienti_base) faseDiv.appendChild(createElement('p', null, `Ingredienti base: ${item.ingredienti_base}`));
-                if(item.ingredienti){ const ingDiv = renderIngredienti(item.ingredienti); if (ingDiv) faseDiv.appendChild(ingDiv); }
-                if (item.procedimento) { const procDiv = renderProcedimento(item.procedimento); if(procDiv) faseDiv.appendChild(procDiv); }
-                 containerDiv.appendChild(faseDiv); hasContent = true;
+                if (item.ingredienti) { const ingDiv = renderIngredienti(item.ingredienti); if (ingDiv) faseDiv.appendChild(ingDiv); }
+                if (item.procedimento) { const procDiv = renderProcedimento(item.procedimento); if (procDiv) faseDiv.appendChild(procDiv); }
+                containerDiv.appendChild(faseDiv); hasContent = true;
             }
         });
         return hasContent ? containerDiv : null;
@@ -208,22 +208,22 @@ document.addEventListener('DOMContentLoaded', function () {
         const listUl = createElement('ul');
         let hasContent = false;
         esempiData.forEach(esempio => {
-            if(esempio.ingrediente){
+            if (esempio.ingrediente) {
                 const listItem = createElement('li', 'subsection-container');
                 listItem.appendChild(createElement('h5', 'subsection-title', esempio.ingrediente));
-                if(esempio.note_umami_aromi_dominanti) listItem.appendChild(createElement('p', null, `Note Umami/Aromi Dominanti: ${esempio.note_umami_aromi_dominanti}`));
-                if(esempio.suggerimenti) listItem.appendChild(createElement('p', null, `Suggerimenti: ${esempio.suggerimenti}`));
+                if (esempio.note_umami_aromi_dominanti) listItem.appendChild(createElement('p', null, `Note Umami/Aromi Dominanti: ${esempio.note_umami_aromi_dominanti}`));
+                if (esempio.suggerimenti) listItem.appendChild(createElement('p', null, `Suggerimenti: ${esempio.suggerimenti}`));
                 listUl.appendChild(listItem); hasContent = true;
             }
         });
-        if(hasContent) containerDiv.appendChild(listUl);
+        if (hasContent) containerDiv.appendChild(listUl);
         return hasContent ? containerDiv : null;
     }
 
     /**
      * Renderizza la sezione Tips Tecnici nel modal.
      */
-    function renderTips(tipsData){
+    function renderTips(tipsData) {
         if (!Array.isArray(tipsData) || tipsData.length === 0) return null;
         const containerDiv = createElement('div', 'tips_tecnici section-container');
         containerDiv.appendChild(createElement('h3', 'section-title', 'Tips Tecnici'));
@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', function () {
         tipsData.forEach(tip => {
             if (typeof tip === 'string' && tip.trim() !== '') { listUl.appendChild(createElement('li', null, tip)); hasContent = true; }
         });
-        if(hasContent) containerDiv.appendChild(listUl);
+        if (hasContent) containerDiv.appendChild(listUl);
         return hasContent ? containerDiv : null;
     }
 
@@ -249,20 +249,20 @@ document.addEventListener('DOMContentLoaded', function () {
         if (Array.isArray(noteData)) {
             const listUl = createElement('ul');
             noteData.forEach(item => {
-                 if (typeof item === 'string' && item.trim() !== '') { listUl.appendChild(createElement('li', null, item)); hasContent = true; }
+                if (typeof item === 'string' && item.trim() !== '') { listUl.appendChild(createElement('li', null, item)); hasContent = true; }
             });
-            if(hasContent) containerDiv.appendChild(listUl);
+            if (hasContent) containerDiv.appendChild(listUl);
         } else if (typeof noteData === 'string' && noteData.trim() !== '') {
             containerDiv.appendChild(createElement('p', null, noteData)); hasContent = true;
         }
-      return hasContent ? containerDiv : null;
+        return hasContent ? containerDiv : null;
     }
 
     /**
      * Renderizza la sezione Finitura Consigliata nel modal.
      */
-    function renderFinitura(finituraData){
-         if (!Array.isArray(finituraData) || finituraData.length === 0) return null;
+    function renderFinitura(finituraData) {
+        if (!Array.isArray(finituraData) || finituraData.length === 0) return null;
         const containerDiv = createElement('div', 'finitura_consigliata section-container');
         containerDiv.appendChild(createElement('h3', 'section-title', 'Finitura Consigliata'));
         const listUl = createElement('ul');
@@ -270,23 +270,23 @@ document.addEventListener('DOMContentLoaded', function () {
         finituraData.forEach(item => {
             if (typeof item === 'string' && item.trim() !== '') { listUl.appendChild(createElement('li', null, item)); hasContent = true; }
         });
-        if(hasContent) containerDiv.appendChild(listUl);
+        if (hasContent) containerDiv.appendChild(listUl);
         return hasContent ? containerDiv : null;
     }
 
     /**
      * Renderizza la sezione Pairing Consigliato nel modal.
      */
-    function renderPairing(pairingData){
-         if (!Array.isArray(pairingData) || pairingData.length === 0) return null;
+    function renderPairing(pairingData) {
+        if (!Array.isArray(pairingData) || pairingData.length === 0) return null;
         const containerDiv = createElement('div', 'pairing_consigliato section-container');
         containerDiv.appendChild(createElement('h3', 'section-title', 'Pairing Consigliato'));
         let hasContent = false;
         pairingData.forEach(item => {
-            if(item.bevanda){
+            if (item.bevanda) {
                 const itemDiv = createElement('div', 'subsection-container');
                 itemDiv.appendChild(createElement('p', null, `Bevanda: ${item.bevanda}`));
-                if(item.note) itemDiv.appendChild(createElement('p', 'pairing-note', `Note: ${item.note}`));
+                if (item.note) itemDiv.appendChild(createElement('p', 'pairing-note', `Note: ${item.note}`));
                 containerDiv.appendChild(itemDiv); hasContent = true;
             }
         })
@@ -336,7 +336,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
             }
         });
-         // console.log(`Processate ${allRicette.length} ricette totali.`); // Log di debug
+        // console.log(`Processate ${allRicette.length} ricette totali.`); // Log di debug
     }
 
     /**
@@ -357,7 +357,7 @@ document.addEventListener('DOMContentLoaded', function () {
      * Renderizza la galleria delle ricette, applicando un filtro.
      */
     function renderGallery(filter = '') {
-         if (!gallery) return;
+        if (!gallery) return;
         gallery.innerHTML = ''; // Pulisce la galleria
         const lowerCaseFilter = filter.toLowerCase().trim();
 
@@ -382,24 +382,24 @@ document.addEventListener('DOMContentLoaded', function () {
         filteredRicette.forEach(createAndAppendCard);
     }
 
-     /**
-     * Crea una singola card per una ricetta e la aggiunge alla galleria.
-     */
+    /**
+    * Crea una singola card per una ricetta e la aggiunge alla galleria.
+    */
     function createAndAppendCard(ricetta) {
-      if (!gallery) return;
-      const card = createElement('div', 'card');
-      const imageFilename = generateImageFilename(ricetta.nome);
-      const imageUrl = `img/${imageFilename}${IMAGE_EXTENSION}`; // Usa la costante per l'estensione
-      card.style.backgroundImage = `url('${imageUrl}')`;
-      card.classList.add('card-has-image');
-      const contentWrapper = createElement('div', 'card-content-wrapper');
-      contentWrapper.innerHTML = `<h3></h3><p></p><span class="category-tag"></span>`;
-      contentWrapper.querySelector('h3').textContent = ricetta.nome;
-      contentWrapper.querySelector('p').textContent = ricetta.descrizione || '';
-      contentWrapper.querySelector('.category-tag').textContent = `Categoria: ${ricetta.categoria}`;
-      card.appendChild(contentWrapper);
-      card.addEventListener('click', () => openModal(ricetta));
-      gallery.appendChild(card);
+        if (!gallery) return;
+        const card = createElement('div', 'card');
+        const imageFilename = generateImageFilename(ricetta.nome);
+        const imageUrl = `img/${imageFilename}${IMAGE_EXTENSION}`; // Usa la costante per l'estensione
+        card.style.backgroundImage = `url('${imageUrl}')`;
+        card.classList.add('card-has-image');
+        const contentWrapper = createElement('div', 'card-content-wrapper');
+        contentWrapper.innerHTML = `<h3></h3><p></p><span class="category-tag"></span>`;
+        contentWrapper.querySelector('h3').textContent = ricetta.nome;
+        contentWrapper.querySelector('p').textContent = ricetta.descrizione || '';
+        contentWrapper.querySelector('.category-tag').textContent = `Categoria: ${ricetta.categoria}`;
+        card.appendChild(contentWrapper);
+        card.addEventListener('click', () => openModal(ricetta));
+        gallery.appendChild(card);
     }
 
     /**
@@ -445,7 +445,7 @@ document.addEventListener('DOMContentLoaded', function () {
      * Apre il modal con i dettagli della ricetta.
      */
     function openModal(ricetta) {
-         if (!modal || !modalContent) return;
+        if (!modal || !modalContent) return;
         modalContent.innerHTML = ''; // Pulisce
         // Crea Header
         const modalHeader = createElement('div', 'modal-header');
