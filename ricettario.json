@@ -2308,6 +2308,81 @@
           ]
         },
         {
+  "nome": "Crostata al Caramello Salato con Ganache al Tè Matcha",
+  "descrizione": "Un contrasto elegante tra dolce, amaro e salato. Frolla al cacao, caramello cremoso, ganache al tè verde giapponese.",
+  "ingredienti": {
+    "frolla_cioccolato_mandorle": [
+      { "quantita": "160 g", "ingrediente": "Farina 00" },
+      { "quantita": "30 g", "ingrediente": "Mandorle tritate" },
+      { "quantita": "30 g", "ingrediente": "Cacao amaro" },
+      { "quantita": "50 g", "ingrediente": "Zucchero" },
+      { "quantita": "1/4 cucchiaino", "ingrediente": "Sale" },
+      { "quantita": "110 g", "ingrediente": "Burro freddo a cubetti" },
+      { "quantita": "1 cucchiaino", "ingrediente": "Estratto di vaniglia" },
+      { "quantita": "1", "ingrediente": "Uovo" },
+      { "quantita": "1-2 cucchiai", "ingrediente": "Acqua fredda" }
+    ],
+    "caramello_salato": [
+      { "quantita": "300 g", "ingrediente": "Zucchero" },
+      { "quantita": "120 ml", "ingrediente": "Acqua" },
+      { "quantita": "120 ml", "ingrediente": "Panna" },
+      { "quantita": "70 g", "ingrediente": "Burro" },
+      { "quantita": "1 cucchiaino", "ingrediente": "Sale" }
+    ],
+    "ganache_matcha": [
+      { "quantita": "200 g", "ingrediente": "Cioccolato bianco" },
+      { "quantita": "125 g", "ingrediente": "Panna" },
+      { "quantita": "10 g", "ingrediente": "Tè matcha in polvere" }
+    ],
+    "guarnizione": [
+      { "quantita": "q.b.", "ingrediente": "Cristalli di sale marino" }
+    ]
+  },
+  "procedimento": [
+    {
+      "fase": "Frolla al Cioccolato e Mandorle",
+      "procedura": [
+        "Mescola farina, mandorle, cacao, zucchero e sale in una ciotola.",
+        "Aggiungi il burro freddo e lavora fino a ottenere un composto sabbioso.",
+        "Incorpora uovo, vaniglia e acqua fredda, impastando leggermente fino a ottenere un impasto omogeneo.",
+        "Avvolgi nella pellicola e riposa in frigorifero per 30 minuti.",
+        "Stendi e rivesti uno stampo da 23 cm, punzecchia il fondo, copri con carta forno e legumi.",
+        "Cuoci a 180°C per 15 minuti, rimuovi i pesi e cuoci altri 10 minuti. Lascia raffreddare."
+      ]
+    },
+    {
+      "fase": "Preparazione del Caramello Salato",
+      "procedura": [
+        "In un pentolino sciogli zucchero e acqua senza mescolare fino a color dorato.",
+        "Aggiungi lentamente la panna calda, mescolando bene.",
+        "Togli dal fuoco, incorpora burro e sale fino a ottenere una crema liscia.",
+        "Versa sulla base di frolla e raffredda in frigorifero per almeno 4-5 ore."
+      ]
+    },
+    {
+      "fase": "Preparazione della Ganache al Matcha",
+      "procedura": [
+        "Scalda la panna finché sobbolle, versala sul cioccolato bianco tritato.",
+        "Mescola fino a ottenere una crema liscia.",
+        "Aggiungi il matcha e incorpora bene.",
+        "Lascia intiepidire e versa sul caramello già freddo.",
+        "Riponi in frigorifero per altre 2-3 ore."
+      ]
+    },
+    {
+      "fase": "Guarnizione",
+      "procedura": [
+        "Prima del servizio, decora con cristalli di sale marino per esaltare il contrasto di sapori."
+      ]
+    }
+  ],
+  "note_finali": [
+    "La frolla deve essere ben croccante per sostenere i due strati cremosi.",
+    "Per una ganache più compatta, ridurre leggermente la panna o aumentare il cioccolato.",
+    "Il sale in cristalli finale bilancia perfettamente la dolcezza e l’amaro del matcha."
+  ]
+},
+        {
           "nome": "Pastiera Napoletana di Nonna Nina",
           "descrizione": "Frolla burrosa, ricotta mantecata, grano profumato agli agrumi: un rito pasquale che profuma di famiglia.",
           "ingredienti": {
