@@ -2661,6 +2661,66 @@
           ]
         },
         {
+  "nome": "Veli di Festa – Le Chiacchiere di Carnevale",
+  "descrizione": "Sfoglie leggere, fragranti e profumate di tradizione. Un dolce che danza nell'olio e si veste di zucchero come di neve.",
+  "ingredienti": [
+    { "quantita": "400 g", "ingrediente": "Farina 00" },
+    { "quantita": "30 g", "ingrediente": "Zucchero semolato" },
+    { "quantita": "50 g", "ingrediente": "Burro (a temperatura ambiente)" },
+    { "quantita": "1", "ingrediente": "Tuorlo" },
+    { "quantita": "1", "ingrediente": "Uovo intero" },
+    { "quantita": "1", "ingrediente": "Scorza grattugiata di limone non trattato" },
+    { "quantita": "40-60 ml", "ingrediente": "Vino bianco secco (q.b., da regolare)" },
+    { "quantita": "q.b.", "ingrediente": "Vaniglia (estratto o polvere)" },
+    { "quantita": "un soffio", "ingrediente": "Cannella (facoltativa)" },
+    { "quantita": "1 pizzico", "ingrediente": "Sale" },
+    { "quantita": "q.b.", "ingrediente": "Olio di arachidi per friggere" },
+    { "quantita": "q.b.", "ingrediente": "Zucchero a velo per la finitura" }
+  ],
+  "procedimento": [
+    {
+      "fase": "Impasto",
+      "procedura": [
+        "In una ciotola unisci farina, zucchero, scorza di limone, sale, vaniglia e cannella.",
+        "Crea un cratere al centro e aggiungi tuorlo e uovo.",
+        "Mescola con una forchetta, incorporando gradualmente la farina dai bordi.",
+        "Aggiungi poco alla volta il vino bianco fino a ottenere un impasto liscio ed elastico.",
+        "Trasferisci su un piano infarinato e lavora l'impasto finché risulta morbido ma strutturato.",
+        "Coprilo con un telo e lascialo riposare 30 minuti."
+      ]
+    },
+    {
+      "fase": "Stesura e Taglio",
+      "procedura": [
+        "Dividi l’impasto in porzioni e stendile con la sfogliatrice fino allo spessore minimo (tacca 6-7).",
+        "Le sfoglie devono essere sottili come veli e leggere al soffio.",
+        "Taglia in rettangoli eleganti con una rotella dentata e, se vuoi, incidi due tagli centrali per creare nodi."
+      ]
+    },
+    {
+      "fase": "Frittura",
+      "procedura": [
+        "Porta l’olio a 175–180°C.",
+        "Friggi le chiacchiere poche alla volta, pochi secondi per lato, finché dorate e gonfie.",
+        "Scolale su carta assorbente."
+      ]
+    },
+    {
+      "fase": "Finitura",
+      "procedura": [
+        "Cospargi con abbondante zucchero a velo mentre sono ancora tiepide.",
+        "Servi subito per apprezzarne la fragranza."
+      ]
+    }
+  ],
+  "note_tecniche": [
+    "Puoi usare anche grappa o marsala al posto del vino per un aroma più deciso.",
+    "L’impasto non deve essere troppo morbido: se serve, aggiungi un po’ di farina in lavorazione.",
+    "Conserva in scatola di latta chiusa per 2-3 giorni al massimo: perderanno croccantezza nel tempo.",
+    "Evita di sovrapporle durante il raffreddamento per non farle ammorbidire con il vapore."
+  ]
+},
+        {
           "nome": "Struffoli - Sal De Riso",
           "descrizione": "Gnocchetti dorati, miele caldo, agrumi in festa: una pioggia di Natale in ogni boccone.",
           "ingredienti": [
