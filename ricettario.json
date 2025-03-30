@@ -2772,6 +2772,94 @@
           ]
         },
         {
+  "nome": "Babà: Alchimia dell'Estasi Liquida",
+  "descrizione": "Un dolce che è rito, trasformazione, estasi. Il pane che si fa corpo e accoglie il nettare dello sciroppo.",
+  "ingredienti": [
+    { "quantita": "10 medie (circa 560 g)", "ingrediente": "Uova" },
+    { "quantita": "50 g", "ingrediente": "Acqua" },
+    { "quantita": "60 g", "ingrediente": "Zucchero" },
+    { "quantita": "15 g", "ingrediente": "Lievito di birra fresco" },
+    { "quantita": "350 g", "ingrediente": "Farina Manitoba" },
+    { "quantita": "150 g", "ingrediente": "Burro" },
+    { "quantita": "q.b.", "ingrediente": "Sale" },
+    { "quantita": "1/2", "ingrediente": "Scorza di limone non trattato" }
+  ],
+  "procedimento": [
+    {
+      "fase": "Nascita del Lievitino",
+      "procedura": [
+        "Mescola 100 g di farina, 50 g di acqua, 15 g di lievito e 60 g di zucchero in una ciotola.",
+        "Lascia lievitare fino al raddoppio del volume."
+      ]
+    },
+    {
+      "fase": "Il Corpo dell'Impasto",
+      "procedura": [
+        "Aggiungi al lievitino: 250 g di farina, eventuale zucchero restante, 5 uova, la scorza di limone.",
+        "Impasta, poi aggiungi le altre 5 uova una alla volta, aspettando che ogni uovo sia assorbito prima del successivo.",
+        "Lavora fino a ottenere un impasto lucido e cedevole."
+      ]
+    },
+    {
+      "fase": "Il Velo del Burro",
+      "procedura": [
+        "Taglia il burro a pezzetti e portalo a temperatura ambiente con un pizzico di sale.",
+        "Aggiungi poco alla volta all’impasto, continuando a mescolare per almeno 15 minuti.",
+        "L’impasto deve risultare elastico e non appiccicoso."
+      ]
+    },
+    {
+      "fase": "La Dimora del Babà",
+      "procedura": [
+        "Imburra e infarina gli stampi.",
+        "Versa l’impasto riempiendo fino a metà altezza.",
+        "Lascia lievitare in luogo tiepido finché raggiunge il bordo dello stampo."
+      ]
+    },
+    {
+      "fase": "Il Battesimo del Forno",
+      "procedura": [
+        "Cuoci in forno preriscaldato: 200°C per babà piccoli, 180°C per un babà grande.",
+        "La superficie deve risultare dorata e profumata."
+      ]
+    },
+    {
+      "fase": "Il Ponch: Nettare dell’Oblio",
+      "procedura": [
+        "Porta a 60°C 2 litri d’acqua con 1 kg di zucchero finché completamente sciolto.",
+        "Aggiungi aromi a piacere: rum, scorze di limone, vaniglia."
+      ]
+    },
+    {
+      "fase": "L’Abbandono Totale",
+      "procedura": [
+        "Immergi i babà tiepidi nello sciroppo e lasciali assorbire.",
+        "Strizza delicatamente per eliminare l’eccesso."
+      ]
+    },
+    {
+      "fase": "La Carezza Finale",
+      "procedura": [
+        "Scalda marmellata di albicocche con un po’ di ponch.",
+        "Spennella la superficie per renderla lucida."
+      ]
+    },
+    {
+      "fase": "Servizio e Suggestioni",
+      "procedura": [
+        "Servi i babà al naturale o con crema pasticcera al limone, panna montata o rum.",
+        "È un dolce poroso, che raccoglie il tempo e lo restituisce in forma di estasi."
+      ]
+    }
+  ],
+  "note_tecniche": [
+    "La forza dell’impasto è tutto: non deve essere troppo morbido né troppo asciutto.",
+    "Strizza con delicatezza per non compromettere la struttura.",
+    "La quantità di liquido assorbito dipende dal tempo di immersione e dalla porosità della cottura.",
+    "I babà si conservano meglio se immersi nel ponch e ben chiusi in contenitore ermetico."
+  ]
+},
+        {
           "nome": "Migliaccio - Famiglia Dell'Aria",
           "descrizione": "Semolino, ricotta e limone, forno lento: tra budino e torta, il sapore dell’attesa.",
           "ingredienti": [
