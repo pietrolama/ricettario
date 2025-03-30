@@ -1,51 +1,48 @@
 <!DOCTYPE html>
 <html lang="it">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ricettario Interattivo</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <h1>Ricettario Interattivo</h1>
-      <!-- ================================= -->
-      <!-- ===== SPAN CONTATORE INSERITO ===== -->
-      <!-- ================================= -->
-      <span id="recipe-counter" class="recipe-count-display">Caricamento ricette...</span>
-      <!-- ================================= -->
+        <h1>Ricettario Interattivo</h1>
+        <!-- ================================= -->
+        <!-- ===== SPAN CONTATORE INSERITO ===== -->
+        <!-- ================================= -->
+        <span id="recipe-counter" class="recipe-count-display">Caricamento ricette...</span>
+        <!-- ================================= -->
     </header>
     <div class="main-container">
-      <aside class="sidebar">
-        <h2>Indice Rapido</h2>
-        <input type="text" id="searchInput" placeholder="Cerca ricette..." />
-        <ul id="categoryList"></ul>
-      </aside>
-      <section class="content">
-        <div class="gallery-controls">
-          <label for="zoomSlider">Zoom:</label>
-          <input
-            type="range"
-            id="zoomSlider"
-            min="1"
-            max="3"
-            step="0.1"
-            value="1"
-          />
-        </div>
-        <div id="gallery" class="gallery"></div>
-      </section>
+        <aside class="sidebar">
+            <h2>Indice Rapido</h2>
+            <input type="text" id="searchInput" placeholder="Cerca ricette..." />
+            <ul id="categoryList"></ul>
+        </aside>
+        <section class="content">
+            <div class="gallery-controls">
+                <label for="zoomSlider">Zoom:</label>
+                <input type="range" id="zoomSlider" min="1" max="3" step="0.1" value="1" />
+            </div>
+            <div id="gallery" class="gallery"></div>
+        </section>
     </div>
 
     <!-- Modal per visualizzare tutti i dettagli della ricetta -->
     <div id="recipeModal" class="modal">
-      <div class="modal-content" id="modalContent">
-        <!-- Il contenuto del modal viene generato dinamicamente -->
-      </div>
+        <div class="modal-content" id="modalContent">
+            <!-- Il contenuto del modal viene generato dinamicamente -->
+        </div>
     </div>
 
     <script src="script.js"></script>
     <script> window.chtlConfig = { chatbotId: "7468254199" } </script>
-    <script async data-id="7468254199" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
-  </body>
+    <script async data-id="7468254199" id="chatling-embed-script" type="text/javascript"
+        src="https://chatling.ai/js/embed.js"></script>
+</body>
+
 </html>
