@@ -3060,6 +3060,51 @@
           ]
         },
         {
+          "nome": "Torrone Fondente alle Nocciole e Vaniglia",
+          "descrizione": "Strati fondenti e cuore cremoso: un torrone morbido, tostato e profumato alla vaniglia. Variante al pistacchio disponibile.",
+          "ingredienti": {
+            "camicia_di_cioccolato": [
+              {
+                "quantita": "250 g",
+                "ingrediente": "cioccolato fondente"
+              }
+            ],
+            "ripieno": [
+              {
+                "quantita": "250 g",
+                "ingrediente": "Nutella"
+              },
+              {
+                "quantita": "250 g",
+                "ingrediente": "cioccolato bianco"
+              },
+              {
+                "quantita": "250 g",
+                "ingrediente": "nocciole intere"
+              },
+              {
+                "quantita": "1",
+                "ingrediente": "bacca di vaniglia (oppure estratto puro)"
+              }
+            ]
+          },
+          "procedimento": [
+            "Tostatura: disponi le nocciole su una placca e tostale in forno statico a 160°C per 10 minuti. A metà cottura aggiungi i semi di vaniglia e mescola. Una volta fredde, spezzale grossolanamente.",
+            "Camicia di cioccolato: tempera il cioccolato fondente. Scioglilo a 45–50°C, raffreddalo mescolando fino a 28–29°C, poi riportalo a 31–32°C. Versa uno strato nello stampo foderato e lascia cristallizzare.",
+            "Ripieno: sciogli il cioccolato bianco a bagnomaria, uniscilo alla Nutella e aggiungi le nocciole tostate. Mescola bene.",
+            "Assemblaggio: versa il composto nello stampo foderato con il cioccolato. Livella e batti leggermente lo stampo per eliminare bolle. Lascia riposare in frigo per almeno 4 ore (meglio una notte).",
+            "Chiusura: ricopri con altro cioccolato fondente temperato per chiudere la base. Rimetti in frigo 30 minuti, poi sforma con delicatezza."
+          ],
+          "variante": {
+            "nome": "Torrone al Pistacchio",
+            "descrizione": "Sostituisci la Nutella con crema spalmabile al pistacchio. Puoi anche sostituire parte delle nocciole con pistacchi tostati per un gusto più intenso e bilanciato."
+          },
+          "note_finali": [
+            "Utilizza uno stampo da plumcake rivestito con carta forno o fogli di acetato per una sformatura perfetta.",
+            "Per un tocco gourmet, spolvera con sale Maldon prima che il cioccolato cristallizzi."
+          ]
+        },
+        {
           "nome": "Struffoli - Sal De Riso",
           "descrizione": "Gnocchetti dorati, miele caldo, agrumi in festa: una pioggia di Natale in ogni boccone.",
           "ingredienti": [
