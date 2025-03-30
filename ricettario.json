@@ -1477,6 +1477,139 @@
           ]
         },
         {
+          "nome": "Linguine nella Memoria del Mare",
+          "descrizione": "Linguine cotte come un risotto nella bisque di gamberi, con olio al prezzemolo, crema di mozzarella, tartare cruda e polvere d’umami dagli scarti.",
+          "ingredienti": {
+            "bisque_di_gamberi": [
+              {
+                "quantita": "12",
+                "ingrediente": "teste e carapaci di gamberi rossi"
+              },
+              {
+                "quantita": "1/2",
+                "ingrediente": "cipolla dorata"
+              },
+              {
+                "quantita": "1/2",
+                "ingrediente": "carota"
+              },
+              {
+                "quantita": "1/2",
+                "ingrediente": "costa di sedano"
+              },
+              {
+                "quantita": "1",
+                "ingrediente": "spicchio d’aglio schiacciato"
+              },
+              {
+                "quantita": "6",
+                "ingrediente": "pomodorini datterini"
+              },
+              {
+                "quantita": "1 bicchierino",
+                "ingrediente": "brandy"
+              },
+              {
+                "quantita": "600 ml",
+                "ingrediente": "acqua fredda"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "olio extravergine"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "sale grosso"
+              }
+            ],
+            "polvere_di_crostaceo": [
+              {
+                "quantita": "q.b.",
+                "ingrediente": "scarti essiccati della bisque"
+              }
+            ],
+            "crema_di_mozzarella": [
+              {
+                "quantita": "250 g",
+                "ingrediente": "mozzarella di bufala sgocciolata"
+              },
+              {
+                "quantita": "20 g",
+                "ingrediente": "panna fresca"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "sale fino"
+              }
+            ],
+            "olio_al_prezzemolo": [
+              {
+                "quantita": "30 g",
+                "ingrediente": "prezzemolo (solo foglie)"
+              },
+              {
+                "quantita": "60 g",
+                "ingrediente": "olio extravergine delicato"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "sale"
+              }
+            ],
+            "tartare_di_gamberi": [
+              {
+                "quantita": "8",
+                "ingrediente": "code crude di gamberi rossi"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "olio al prezzemolo"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "sale e pepe bianco"
+              }
+            ],
+            "linguine": [
+              {
+                "quantita": "320 g",
+                "ingrediente": "linguine"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "bisque calda per cottura risottata"
+              },
+              {
+                "quantita": "3 cucchiai",
+                "ingrediente": "olio al prezzemolo per mantecare"
+              }
+            ]
+          },
+          "procedimento": [
+            "Bisque: tostare scarti di gamberi con olio, aggiungere aglio, cipolla, carota, sedano, pomodorini. Sfumare con brandy, aggiungere acqua. Sobbolle per 30 min. Filtrare e tenere in caldo. Essiccare gli scarti e frullarli per ottenere la polvere.",
+            "Crema di mozzarella: frullare mozzarella e panna, setacciare, aggiustare di sale e tenere in frigo.",
+            "Olio al prezzemolo: sbollentare foglie di prezzemolo 10 sec, raffreddare, frullare con olio a 60°C e filtrare.",
+            "Tartare: pulire i gamberi, tritarli, condire con olio al prezzemolo, sale, pepe bianco. Conservare al fresco.",
+            "Cottura delle linguine: cuocere come risotto bagnando con bisque calda, mantecare a fuoco spento con olio al prezzemolo."
+          ],
+          "impiattamento": [
+            "Stendere un velo di crema di mozzarella sul piatto.",
+            "Adagiare un nido di linguine al centro.",
+            "Posizionare al centro la tartare di gamberi crudi.",
+            "Rifinire con olio al prezzemolo e una spolverata di polvere di crostaceo."
+          ],
+          "pairing_consigliato": [
+            {
+              "bevanda": "Sakè Junmai Ginjo – Tedorigawa “Yamahai Daiginjo”",
+              "note": "Freddo a 10°C. Umami elegante, note di pera e melone, chiusura pulita."
+            },
+            {
+              "bevanda": "Champagne Blanc de Blancs – Pascal Doquet “Arpège”",
+              "note": "Brut, 8°C. Acido e minerale, ideale con mozzarella e bisque."
+            }
+          ]
+        },
+        {
           "nome": "Gnocchi alle Vongole, Aglio Confit e Crumble d'Orto",
           "descrizione": "La terra si fa morbida e marina: gli gnocchi di patate accolgono le vongole come onde docili sulla sabbia. L’aglio confit, dolce e profondo, scivola tra le curve del gusto. E sopra, come foglie secche d'autunno, si posa un crumble croccante di mandorle e prezzemolo.",
           "ingredienti": {
