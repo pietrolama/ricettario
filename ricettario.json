@@ -1477,6 +1477,89 @@
           ]
         },
         {
+          "nome": "Paccaro con Crema di Zucca Confit e Cipolla Caramellata",
+          "descrizione": "Un viaggio tra dolcezza arrostita e abbracci fondenti.",
+          "ingredienti": {
+            "pasta": [
+              {
+                "quantita": "320 g",
+                "ingrediente": "paccari di buona trafilatura"
+              }
+            ],
+            "zucca_confit": [
+              {
+                "quantita": "600 g",
+                "ingrediente": "zucca delica"
+              },
+              {
+                "quantita": "2",
+                "ingrediente": "spicchi d’aglio in camicia"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "olio extravergine d’oliva profumato"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "sale marino"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "pepe nero macinato fresco"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "peperoncino secco"
+              }
+            ],
+            "cipolla_caramellata": [
+              {
+                "quantita": "2",
+                "ingrediente": "cipolle rosse di Tropea"
+              },
+              {
+                "quantita": "30 g",
+                "ingrediente": "burro"
+              },
+              {
+                "quantita": "1 cucchiaio colmo",
+                "ingrediente": "zucchero di canna grezzo"
+              },
+              {
+                "quantita": "50 ml",
+                "ingrediente": "vino rosso corposo"
+              }
+            ],
+            "mantecatura": [
+              {
+                "quantita": "40 g",
+                "ingrediente": "pecorino stagionato grattugiato"
+              },
+              {
+                "quantita": "q.b.",
+                "ingrediente": "olio extravergine d’oliva a crudo"
+              }
+            ]
+          },
+          "procedimento": [
+            "Zucca confit: taglia la zucca in quarti con buccia, condisci con olio, sale, pepe, peperoncino e aglio in camicia. Avvolgi in alluminio e cuoci a 120°C per 3-4 ore. Recupera la polpa e frullala con l’aglio e olio evo fino a ottenere una crema.",
+            "Cipolla caramellata: affetta le cipolle sottilmente, falle appassire in burro a fuoco dolce, aggiungi zucchero e poi sfuma con vino rosso. Continua a cuocere finché diventano scure e lucide.",
+            "Cottura pasta: cuoci i paccari in acqua salata, scolali al dente e conserva acqua di cottura. In padella, scalda la crema di zucca e finisci la cottura dei paccari lì, aggiungendo acqua se necessario.",
+            "Mantecatura: a fuoco spento, manteca con pecorino e olio evo a crudo.",
+            "Impiattamento: disponi i paccari in verticale al centro del piatto, aggiungi una cucchiaiata di cipolla caramellata sopra. Finitura con olio evo, pecorino o pepe nero."
+          ],
+          "pairing_consigliato": [
+            {
+              "bevanda": "Aglianico del Taburno",
+              "note": "Tannicità gentile, ideale per dialogare con la dolcezza della zucca e la caramellatura."
+            }
+          ],
+          "variante": {
+            "nome": "Variante carnivora",
+            "descrizione": "Aggiungi pancetta affumicata croccante o salsiccia sbriciolata rosolata alla crema di zucca per un tocco rustico e deciso."
+          }
+        },
+        {
           "nome": "Linguine nella Memoria del Mare",
           "descrizione": "Linguine cotte come un risotto nella bisque di gamberi, con olio al prezzemolo, crema di mozzarella, tartare cruda e polvere d’umami dagli scarti.",
           "ingredienti": {
