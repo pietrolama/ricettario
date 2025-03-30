@@ -1412,6 +1412,59 @@
           ]
         },
         {
+  "nome": "Gnocchi alle Vongole, Aglio Confit e Crumble d'Orto",
+  "descrizione": "La terra si fa morbida e marina: gli gnocchi di patate accolgono le vongole come onde docili sulla sabbia. L’aglio confit, dolce e profondo, scivola tra le curve del gusto. E sopra, come foglie secche d'autunno, si posa un crumble croccante di mandorle e prezzemolo.",
+  "ingredienti": {
+    "gnocchi": [
+      { "quantita": "800 g", "ingrediente": "patate vecchie" },
+      { "quantita": "200 g", "ingrediente": "farina 00" },
+      { "quantita": "1", "ingrediente": "tuorlo (facoltativo)" },
+      { "quantita": "q.b.", "ingrediente": "sale" }
+    ],
+    "vongole": [
+      { "quantita": "1 kg", "ingrediente": "vongole veraci" },
+      { "quantita": "1 spicchio", "ingrediente": "aglio" },
+      { "quantita": "½ bicchiere", "ingrediente": "vino bianco" },
+      { "quantita": "q.b.", "ingrediente": "prezzemolo fresco" },
+      { "quantita": "q.b.", "ingrediente": "olio extravergine di oliva" }
+    ],
+    "aglio_confit": [
+      { "quantita": "6 spicchi", "ingrediente": "aglio rosa" },
+      { "quantita": "q.b.", "ingrediente": "olio extravergine di oliva" },
+      { "quantita": "q.b.", "ingrediente": "timo, rosmarino, pepe nero in grani" }
+    ],
+    "olio_al_prezzemolo": [
+      { "quantita": "50 g", "ingrediente": "prezzemolo" },
+      { "quantita": "100 g", "ingrediente": "olio extravergine di oliva" }
+    ],
+    "crumble_di_mandorle": [
+      { "quantita": "40 g", "ingrediente": "mandorle pelate" },
+      { "quantita": "20 g", "ingrediente": "pangrattato grossolano" },
+      { "quantita": "q.b.", "ingrediente": "prezzemolo disidratato o fresco tritato" },
+      { "quantita": "facoltativa", "ingrediente": "scorza di limone" },
+      { "quantita": "q.b.", "ingrediente": "olio extravergine di oliva e sale" }
+    ]
+  },
+  "procedimento": [
+    "Aglio confit: cuoci gli spicchi d’aglio sbucciati in olio evo con erbe e pepe a 90°C per 1 ora. Frullane metà per ottenere una crema.",
+    "Olio al prezzemolo: sbollenta il prezzemolo per 10 secondi, raffreddalo in acqua e ghiaccio. Frulla con olio evo e filtra.",
+    "Vongole: spurgale e falle aprire in padella con aglio e olio, sfuma con vino bianco. Filtra il liquido e tienilo da parte. Sguscia metà delle vongole.",
+    "Gnocchi: prepara e cuoci gli gnocchi al momento in acqua salata.",
+    "Crumble di mandorle: trita le mandorle e tostale con pangrattato e olio. Aggiungi prezzemolo e scorza di limone. Deve risultare dorato e croccante.",
+    "Mantecatura: scalda la crema di aglio confit, aggiungi vongole e poca acqua di cottura. Unisci gli gnocchi e manteca con olio al prezzemolo."
+  ],
+  "impiattamento": [
+    "Sul fondo del piatto stendi una pennellata di crema di aglio confit.",
+    "Disponi gli gnocchi con le vongole e l’olio al prezzemolo.",
+    "Completa con crumble croccante, foglie di prezzemolo fresco e zeste di limone."
+  ],
+  "note_finali": [
+    "Puoi sostituire le mandorle con nocciole o pistacchi per varianti aromatiche.",
+    "Aggiungi qualche goccia di colatura di alici nell’olio al prezzemolo per un umami marino extra.",
+    "Il crumble può essere preparato in anticipo e conservato in barattolo ermetico per 2-3 giorni."
+  ]
+},
+        {
           "nome": "Gnocchi di Patate Viola",
           "descrizione": "Colore acceso, morbidezza densa, salsa al parmigiano vellutata.",
           "ingredienti": [
