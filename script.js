@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // --- Costanti ---
     const BASE_CARD_WIDTH = 200;
-    const IMAGE_EXTENSION = '.jpg'; // Imposta l'estensione corretta qui (es. .jpg, .jpeg, .webp)
+    const IMAGE_EXTENSION = '.jpeg'; // Imposta l'estensione corretta qui (es. .jpg, .jpeg, .webp)
 
     // --- Helper Function ---
     /**
