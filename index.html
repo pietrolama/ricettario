@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ricettario</title>
+    <title>Ricettario Interattivo</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,14 @@
 
 <body>
     <header>
-        <h1>Ricettario</h1>
+        <!-- NUOVO: Bottone Hamburger Menu -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Apri menu" aria-expanded="false">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+        <!-- FINE NUOVO -->
+        <h1>Ricettario Interattivo</h1>
         <span id="recipe-counter" class="recipe-count-display">Caricamento ricette...</span>
     </header>
     <div class="main-container">
