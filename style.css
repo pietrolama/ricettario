@@ -469,12 +469,6 @@ header h1 {
   text-transform: uppercase;
 }
 
-#zoomSlider {
-  width: 180px;
-  cursor: pointer;
-  accent-color: var(--color-accent);
-}
-
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
