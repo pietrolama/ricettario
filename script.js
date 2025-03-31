@@ -611,18 +611,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // --- Event Listeners ---
-
-    // Zoom Slider
-    if (zoomSlider && gallery) {
-        zoomSlider.addEventListener('input', function () {
-            const zoomLevel = parseFloat(zoomSlider.value) || 1;
-            const minWidth = BASE_CARD_WIDTH * zoomLevel;
-            gallery.style.gridTemplateColumns = `repeat(auto-fit, minmax(${minWidth}px, 1fr))`;
-        });
-        // Imposta valore iniziale
-        zoomSlider.dispatchEvent(new Event('input'));
-    }
-
     // Search Input
     if (searchInput) {
         searchInput.addEventListener('input', function () {
