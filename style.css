@@ -473,7 +473,7 @@ header h1 {
 }
 
 /* Effetto hover (invariato) */
-.card.card-has-image:hover {
+.card.card-has-image:hover::after {
   filter: blur(3px) brightness(0.9);
   transform: translateY(-4px);
   box-shadow: 0 8px 20px var(--color-shadow-hover);
