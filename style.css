@@ -1,80 +1,163 @@
+/* style.css - Tema Ibrido "Cyber-Clean" */
+
 /* =================================
-   CSS Variables (Design Tokens) - Light Mode Default
+   CSS Variables (Design Tokens) - Ibrido
    ================================= */
 :root {
-  --color-bg: #f8f9fa;
-  --color-surface: #ffffff;
-  --color-border: #e9ecef;
-  --color-text-primary: #212529;
-  --color-text-secondary: #6c757d;
-  --color-accent-rgb: 0, 123, 255;
+  /* Palette Colori - Base scura (Futuristic), Accento Neon (Futuristic) */
+  --color-bg: #1a1e23;
+  /* Leggermente più blu del nero puro */
+  --color-surface: #242930;
+  /* Superficie leggermente più chiara */
+  --color-surface-alt: #2f353d;
+  /* Ancora più chiara */
+  --color-border: #404853;
+  /* Bordi definiti ma non duri */
+  --color-text-primary: #e1e8f0;
+  /* Testo primario chiaro */
+  --color-text-secondary: #99a5b3;
+  /* Testo secondario più morbido */
+
+  /* Accento Neon Blu (Futuristic) */
+  --color-accent-rgb: 0, 160, 255;
+  /* Leggermente aggiustato per visibilità */
   --color-accent: rgb(var(--color-accent-rgb));
-  /* #007bff */
-  --color-accent-hover: #0056b3;
-  --color-shadow: rgba(0, 0, 0, 0.05);
-  --color-shadow-hover: rgba(0, 0, 0, 0.1);
-  --color-overlay: rgba(33, 37, 41, 0.7);
-  --color-error-bg: #f8d7da;
-  --color-error-border: #f5c6cb;
-  --color-error-text: #721c24;
+  --color-accent-hover: rgb(50, 180, 255);
+  --color-accent-light: rgba(var(--color-accent-rgb), 0.15);
+  /* Più visibile su scuro */
+  --color-accent-dark: rgb(0, 130, 220);
+  /* Per ombre o dettagli scuri accento */
 
-  --font-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  /* Ombre e Overlay */
+  --color-shadow: rgba(0, 0, 0, 0.3);
+  /* Ombra più evidente su scuro */
+  --color-shadow-hover: rgba(0, 0, 0, 0.45);
+  --color-overlay-gradient-card: linear-gradient(
+      to top,
+      rgba(10, 10, 15, 0.95) 0%, /* ERA 0.85 -> Molto scuro in basso */
+      rgba(10, 10, 15, 0.5) 60%,  /* ERA 0.1  -> Più scuro a metà */
+      transparent 100%
+  );
+  /* Overlay specifico per card immagine */
+  --color-overlay-modal: rgba(10, 12, 15, 0.88);
+  /* Overlay modale scuro */
+  --color-image-overlay: rgba(10, 10, 15, 0.40);
+  /* Overlay leggero su img card */
+  --color-image-overlay-hover: rgba(10, 10, 15, 0.65);
+  /* Overlay più scuro su hover */
+
+  /* Errori */
+  --color-error-bg: #4d1f27;
+  --color-error-text: #ff8f9a;
+  --color-error-border: #ffacb3;
+
+  /* Tipografia - Combinata (Futuristic Font, Clean Line Height) */
+  --font-body: 'Roboto', sans-serif;
+  /* Pulito e leggibile */
+  --font-heading: 'Orbitron', sans-serif;
+  /* Futuristico per titoli */
   --font-size-base: 16px;
-  --line-height-base: 1.6;
+  --line-height-base: 1.65;
+  /* Leggermente più arioso */
 
-  --spacing-unit: 8px;
-  --spacing-xs: calc(var(--spacing-unit) * 0.5);
-  --spacing-sm: var(--spacing-unit);
-  --spacing-md: calc(var(--spacing-unit) * 2);
-  --spacing-lg: calc(var(--spacing-unit) * 3);
-  --spacing-xl: calc(var(--spacing-unit) * 4);
+  /* Spaziature (Scala definita come Futuristic --space-X) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
 
-  --border-radius: 6px;
-  --transition-speed: 0.25s;
+  /* Altri Token (Forma ibrida) */
+  --border-radius: 4px;
+  /* Compromesso tra sharp (2px) e rounded (6px) */
+  --transition-speed: 0.28s;
+  /* Leggermente più veloce */
+  --transition-ease: ease-out;
+  --transition-default: all var(--transition-speed) var(--transition-ease);
+
+  /* Variabili Specifiche per Effetti Sidebar/Modal */
+  --sidebar-li-height: 44px;
+  /* Altezza stimata item sidebar */
+  --river-offset: 0px;
+  /* Offset river (gestito da JS) */
+  --sidebar-river-width: 4px;
+  --typewriter-duration: 2.0s;
+  /* Durata typewriter (base) */
+  --typewriter-steps: 50;
+  /* Passi typewriter (base, JS può sovrascrivere) */
+  --typewriter-delay: 0.35s;
+  --typewriter-cursor-color: var(--color-accent);
 }
 
 /* =================================
-   Dark Mode Theme
+   Light Mode Theme (Basato su Standard Clean)
    ================================= */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-bg: #121212;
-    --color-surface: #1e1e1e;
-    --color-border: #383838;
-    --color-text-primary: #e0e0e0;
-    --color-text-secondary: #a0a0a0;
-    --color-accent: #4dabf7;
-    --color-accent-hover: #74c0fc;
-    --color-shadow: rgba(0, 0, 0, 0.25);
-    --color-shadow-hover: rgba(0, 0, 0, 0.35);
-    --color-overlay: rgba(0, 0, 0, 0.8);
-    --color-error-bg: #5c1a1e;
-    --color-error-border: #a73c45;
-    --color-error-text: #f8d7da;
+@media (prefers-color-scheme: light) {
+  :root:not(.dark-mode) {
+    /* Si applica solo se non forzato dark mode */
+    --color-bg: #f8f9fa;
+    --color-surface: #ffffff;
+    --color-surface-alt: #f1f3f5;
+    --color-border: #dee2e6;
+    --color-text-primary: #212529;
+    --color-text-secondary: #6c757d;
+    --color-accent-rgb: 0, 123, 255;
+    /* Blu standard per light */
+    --color-accent: rgb(var(--color-accent-rgb));
+    --color-accent-hover: #0056b3;
+    --color-accent-light: rgba(var(--color-accent-rgb), 0.1);
+    --color-accent-dark: #004085;
+    /* Non molto usato in light */
+    --color-shadow: rgba(0, 0, 0, 0.07);
+    --color-shadow-hover: rgba(0, 0, 0, 0.12);
+    --color-overlay-gradient-card: linear-gradient(to top, rgba(50, 50, 50, 0.7) 0%, rgba(50, 50, 50, 0.1) 50%, transparent 100%);
+    --color-overlay-modal: rgba(33, 37, 41, 0.75);
+    --color-image-overlay: rgba(50, 50, 50, 0.15);
+    --color-image-overlay-hover: rgba(50, 50, 50, 0.40);
+    --color-error-bg: #f8d7da;
+    --color-error-border: #f5c6cb;
+    --color-error-text: #721c24;
+    --typewriter-cursor-color: var(--color-accent-hover);
+    /* Cursore più scuro su chiaro */
   }
 }
 
+/* Forza Dark Mode se classe body presente */
 body.dark-mode {
-  --color-bg: #121212;
-  --color-surface: #1e1e1e;
-  --color-border: #383838;
-  --color-text-primary: #e0e0e0;
-  --color-text-secondary: #a0a0a0;
-  --color-accent: #4dabf7;
-  --color-accent-hover: #74c0fc;
-  --color-shadow: rgba(0, 0, 0, 0.25);
-  --color-shadow-hover: rgba(0, 0, 0, 0.35);
-  --color-overlay: rgba(0, 0, 0, 0.8);
-  --color-error-bg: #5c1a1e;
-  --color-error-border: #a73c45;
-  --color-error-text: #f8d7da;
+  /* Riassegna variabili dark qui, anche se sono già default in :root,
+       per assicurare priorità se l'utente non ha preferenza OS ma la classe c'è */
+  --color-bg: #1a1e23;
+  --color-surface: #242930;
+  --color-surface-alt: #2f353d;
+  --color-border: #404853;
+  --color-text-primary: #e1e8f0;
+  --color-text-secondary: #99a5b3;
+  --color-accent-rgb: 0, 160, 255;
+  --color-accent: rgb(var(--color-accent-rgb));
+  --color-accent-hover: rgb(50, 180, 255);
+  --color-accent-light: rgba(var(--color-accent-rgb), 0.15);
+  --color-accent-dark: rgb(0, 130, 220);
+  --color-shadow: rgba(0, 0, 0, 0.3);
+  --color-shadow-hover: rgba(0, 0, 0, 0.45);
+  --color-overlay-gradient-card: linear-gradient(to top, rgba(10, 10, 15, 0.85) 0%, rgba(10, 10, 15, 0.1) 60%, transparent 100%);
+  --color-overlay-modal: rgba(10, 12, 15, 0.88);
+  --color-image-overlay: rgba(10, 10, 15, 0.40);
+  --color-image-overlay-hover: rgba(10, 10, 15, 0.65);
+  --color-error-bg: #4d1f27;
+  --color-error-text: #ff8f9a;
+  --color-error-border: #ffacb3;
+  --typewriter-cursor-color: var(--color-accent);
 }
-
 
 /* =================================
    Reset e Stili Base
    ================================= */
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -82,17 +165,17 @@ body.dark-mode {
 
 html {
   font-size: var(--font-size-base);
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: var(--font-primary);
+  font-family: var(--font-body);
   background-color: var(--color-bg);
   color: var(--color-text-primary);
   line-height: var(--line-height-base);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+  transition: background-color var(--transition-speed) var(--transition-ease), color var(--transition-speed) var(--transition-ease);
 }
 
 h1,
@@ -101,574 +184,791 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: var(--spacing-md);
+  font-family: var(--font-heading);
   font-weight: 600;
+  margin-bottom: var(--space-4);
   line-height: 1.3;
+  color: var(--color-text-primary);
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 1.9rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.9rem;
 }
 
 p {
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--space-4);
+  font-weight: 300;
+  color: var(--color-text-secondary);
 }
 
+/* Leggero stile Futuro */
 ul,
 ol {
-  padding-left: var(--spacing-lg);
-  margin-bottom: var(--spacing-md);
+  padding-left: var(--space-5);
+  margin-bottom: var(--space-4);
 }
 
 li {
-  margin-bottom: var(--spacing-sm);
+  margin-bottom: var(--space-2);
+  padding-left: var(--space-2);
 }
 
+/* Più spazio */
 a {
   color: var(--color-accent);
   text-decoration: none;
-  transition: color var(--transition-speed) ease;
+  transition: color var(--transition-speed) var(--transition-ease);
 }
 
 a:hover {
   color: var(--color-accent-hover);
   text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 button {
-  font-family: inherit;
-  font-size: inherit;
+  font: inherit;
   cursor: pointer;
   background: none;
   border: none;
+  padding: 0;
   color: inherit;
 }
 
 input,
 select,
 textarea {
-  font-family: inherit;
-  font-size: inherit;
+  font: inherit;
+  color: var(--color-text-primary);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--space-3) var(--space-4);
+  transition: var(--transition-default);
 }
 
+input::placeholder {
+  color: var(--color-text-secondary);
+  opacity: 0.6;
+  font-style: italic;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 2px var(--color-accent-light);
+  background-color: var(--color-surface-alt);
+}
+
+*:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Visibilità focus */
+
 /* =================================
-   Header
+   Header - Pulito con font futuristico
    ================================= */
 header {
   background-color: var(--color-surface);
-  color: var(--color-text-primary);
-  padding: var(--spacing-md) var(--spacing-lg);
-  text-align: center;
+  padding: var(--space-4) var(--space-6);
   border-bottom: 1px solid var(--color-border);
-  box-shadow: 0 1px 3px var(--color-shadow);
-  transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px -3px var(--color-shadow);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: var(--transition-default);
 }
 
 header h1 {
   margin-bottom: 0;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  letter-spacing: 0.5px;
+}
+
+#recipe-counter {
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+  background-color: var(--color-surface-alt);
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-border);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: var(--transition-default);
+}
+
+#recipe-counter.error {
+  color: var(--color-error-text);
+  border-color: var(--color-error-border);
+  background-color: var(--color-error-bg);
+  font-weight: 600;
 }
 
 /* =================================
-   Layout Principale
+   Layout & Sidebar - Ibrido
    ================================= */
 .main-container {
   display: flex;
-  min-height: calc(100vh - 80px);
+  min-height: calc(100vh - 72px);
 }
 
-/* =================================
-   Sidebar
-   ================================= */
+/* Altezza header ~72px */
 .sidebar {
   flex: 0 0 280px;
+  /* Dimensione da Standard Clean */
   background: var(--color-surface);
+  /* Colore base scuro */
   border-right: 1px solid var(--color-border);
-  padding: var(--spacing-lg);
+  padding: var(--space-6);
   overflow-y: auto;
-  transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* Per ::before */
+  transition: var(--transition-default);
 }
 
 .sidebar h2 {
-  font-size: 1.1rem;
+  /* Stile sottotitolo pulito */
+  font-size: 0.85rem;
   color: var(--color-text-secondary);
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: var(--spacing-xl);
+  letter-spacing: 1.2px;
+  margin-bottom: var(--space-5);
+  font-weight: 600;
+  font-family: var(--font-body);
+  /* Non Orbitron qui */
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--color-border);
+  text-align: center;
 }
 
 #searchInput {
   width: 100%;
-  padding: var(--spacing-sm) var(--spacing-md);
-  margin-bottom: var(--spacing-lg);
-  border: 1px solid var(--color-border);
-  border-radius: var(--border-radius);
-  background-color: var(--color-bg);
-  color: var(--color-text-primary);
-  transition: border-color var(--transition-speed) ease, box-shadow var(--transition-speed) ease, background-color var(--transition-speed) ease;
+  margin-bottom: var(--space-5);
 }
 
-#searchInput::placeholder {
-  color: var(--color-text-secondary);
-  opacity: 0.8;
-}
-
-#searchInput:focus {
-  outline: none;
-  border-color: var(--color-accent);
-  background-color: var(--color-surface);
-  box-shadow: 0 0 0 3px rgba(var(--color-accent-rgb), 0.15);
-}
-
+/* Sidebar List & Flowing River Effect */
 #categoryList {
   list-style: none;
   padding: 0;
+  position: relative;
+  /* Per ::before */
+}
+
+#categoryList::before {
+  /* Flowing River */
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateY(var(--river-offset, 0px));
+  width: var(--sidebar-river-width);
+  height: var(--sidebar-li-height);
+  background-color: var(--color-accent);
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
+  z-index: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.4s cubic-bezier(0.6, -0.2, 0.7, 1.5), opacity 0.3s var(--transition-ease), height 0.2s var(--transition-ease);
+  /* Curva più dinamica */
+}
+
+#categoryList.river-active::before {
+  opacity: 1;
 }
 
 #categoryList li {
-  padding: var(--spacing-sm) var(--spacing-md);
-  margin-bottom: var(--spacing-xs);
+  padding: var(--space-3) var(--space-4) var(--space-3) calc(var(--space-4) + var(--sidebar-river-width) + var(--space-2));
+  margin-bottom: var(--space-2);
   cursor: pointer;
   border-radius: var(--border-radius);
-  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+  transition: var(--transition-default);
   color: var(--color-text-secondary);
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 0.95rem;
+  position: relative;
+  z-index: 1;
+  height: var(--sidebar-li-height);
+  display: flex;
+  align-items: center;
 }
 
 #categoryList li:hover {
-  background-color: rgba(var(--color-accent-rgb), 0.1);
   color: var(--color-text-primary);
-}
-
-#categoryList li:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px rgba(var(--color-accent-rgb), 0.25);
+  background-color: var(--color-surface-alt);
 }
 
 #categoryList li.active-category {
-  background-color: var(--color-accent);
-  color: #fff;
+  color: var(--color-accent);
   font-weight: 600;
+  background-color: transparent;
+  /* River fa il lavoro */
 }
 
 #categoryList li.active-category:hover {
-  background-color: var(--color-accent-hover);
-}
-
-#categoryList li:first-child {
-  font-weight: 600;
-  color: var(--color-text-primary);
-  margin-bottom: var(--spacing-md);
+  background-color: var(--color-surface-alt);
 }
 
 /* =================================
-   Area Contenuto
+   Contenuto e Galleria - Arioso (Standard Clean layout)
    ================================= */
 .content {
   flex: 1;
-  padding: var(--spacing-xl);
+  padding: var(--space-6) var(--space-7);
   overflow-y: auto;
+  background-color: var(--color-bg);
 }
 
 .gallery-controls {
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: var(--space-6);
   display: flex;
   align-items: center;
-  gap: var(--spacing-md);
-  padding: var(--spacing-md);
+  justify-content: flex-end;
+  gap: var(--space-4);
+  padding: var(--space-3) var(--space-4);
   background-color: var(--color-surface);
   border-radius: var(--border-radius);
   border: 1px solid var(--color-border);
-  transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+  box-shadow: 0 1px 3px var(--color-shadow);
 }
 
 .gallery-controls label {
   color: var(--color-text-secondary);
   font-weight: 500;
+  font-size: 0.8rem;
+  text-transform: uppercase;
 }
 
 #zoomSlider {
-  flex-grow: 1;
-  max-width: 200px;
+  width: 180px;
   cursor: pointer;
+  accent-color: var(--color-accent);
 }
 
-/* =================================
-   Galleria Ricette
-   ================================= */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: var(--spacing-lg);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-6);
 }
 
-#gallery p {
-  color: var(--color-text-secondary);
-  font-style: italic;
+#gallery p,
+.error-message {
   grid-column: 1 / -1;
   text-align: center;
-  padding: var(--spacing-xl) 0;
+  padding: var(--space-7) 0;
+  color: var(--color-text-secondary);
+  font-style: italic;
 }
 
 .error-message {
   color: var(--color-error-text);
-  font-weight: 500;
   background-color: var(--color-error-bg);
   border: 1px solid var(--color-error-border);
-  padding: var(--spacing-md);
+  padding: var(--space-4);
   border-radius: var(--border-radius);
-  text-align: center;
+  font-style: normal;
+  font-weight: 500;
 }
 
 /* =================================
-   Card Ricetta (Base - Senza Immagine)
+   Card Ricetta - Ibrido (Struttura Overlay Clean, Estetica Cyber)
    ================================= */
-.card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--border-radius);
-  padding: var(--spacing-lg);
-  cursor: pointer;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 3px 6px var(--color-shadow);
-  transition: transform calc(var(--transition-speed) * 1.1) ease,
-    box-shadow calc(var(--transition-speed) * 1.1) ease,
-    border-color var(--transition-speed) ease,
-    background-color var(--transition-speed) ease;
-  min-height: 300px;
+   .card {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    overflow: hidden; /* Importante per contenere pseudo-elementi */
+    position: relative; /* Necessario per posizionare pseudo-elementi */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 10px -2px var(--color-shadow);
+    transition: var(--transition-default), transform 0.2s ease-in-out;
+    min-height: 350px;
 }
-
 .card:hover {
-  transform: translateY(-5px);
-  border-color: var(--color-border);
-  box-shadow: 0 6px 15px var(--color-shadow-hover);
+    transform: translateY(-5px) scale(1.01);
+    box-shadow: 0 8px 18px -4px var(--color-shadow-hover);
+    border-color: var(--color-accent-dark);
 }
 
-.card:not(.card-has-image) h3 {
-  font-size: 1.2rem;
-  margin-bottom: var(--spacing-sm);
-  color: var(--color-text-primary);
-}
-
-.card:not(.card-has-image) p {
-  flex-grow: 1;
-  margin-bottom: var(--spacing-md);
-  font-size: 0.95rem;
-  color: var(--color-text-secondary);
-  line-height: 1.5;
-}
-
-.card:not(.card-has-image) .category-tag {
-  display: inline-block;
-  margin-top: auto;
-  padding: var(--spacing-xs) var(--spacing-sm);
-  font-size: 0.75rem;
-  font-weight: 500;
-  color: var(--color-text-secondary);
-  background-color: var(--color-bg);
-  border-radius: calc(var(--border-radius) * 2);
-  align-self: flex-start;
-  transition: background-color var(--transition-speed) ease;
-}
-
-
-/* =============================================
-   Card Ricetta CON Immagine (NUOVO STILE V3 - Overlay Pieno)
-   ============================================= */
-
+/* Card CON Immagine (NUOVO - Con Blur su Hover) */
 .card.card-has-image {
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #ffffff;
-  min-height: 300px;
-  border: 1px solid var(--color-border);
-  padding: 0;
-  /* Padding sarà nel wrapper */
-  box-shadow: 0 4px 8px var(--color-shadow);
-  background-color: var(--color-surface);
-  /* Fallback */
-  overflow: hidden;
-  /* Flex per posizionare wrapper (anche se ora occupa tutto) */
-  display: flex;
-  flex-direction: column;
+    padding: 0; /* Rimuoviamo padding base */
+    color: #fff;
+    border: 1px solid transparent;
+    background-color: var(--color-surface-alt); /* Fallback */
+    /* background-image non va qui! */
 }
 
-/* Overlay uniforme su tutta la card */
+/* Pseudo-elemento ::AFTER per l'IMMAGINE di sfondo */
+.card.card-has-image::after {
+    content: '';
+    position: absolute;
+    inset: 0; /* Copre tutta la card */
+    z-index: 0; /* Strato più basso */
+    border-radius: inherit; /* Segue il bordo della card */
+
+    /* Immagine di sfondo qui */
+    background-image: var(--card-bg-image);
+    background-size: cover;
+    background-position: center;
+
+    /* Transizione per filtro e trasformazione */
+    transition: filter var(--transition-speed) var(--transition-ease),
+                transform var(--transition-speed) var(--transition-ease);
+}
+
+/* Pseudo-elemento ::BEFORE per l'OVERLAY GRADIENTE */
 .card.card-has-image::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: var(--border-radius);
-  z-index: 1;
-  transition: background-color var(--transition-speed) ease;
-  /* === MODIFICA QUI la trasparenza (0.0 = trasparente, 1.0 = opaco) === */
-  background-color: rgba(0, 0, 0, 0.15);
-  /* Valore di esempio, più scuro */
-  /* Rimuoviamo mix-blend-mode per ora, rende difficile prevedere il risultato */
-  /* mix-blend-mode: multiply; */
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1; /* Sopra l'immagine (::after) */
+    border-radius: inherit;
+    background: var(--color-overlay-gradient-card);
+    pointer-events: none; /* Non interferisce */
+    transition: opacity var(--transition-speed) var(--transition-ease);
+    opacity: 1; /* Sempre visibile */
 }
 
-/* Wrapper per il contenuto (torna ad occupare tutto lo spazio) */
+/* Wrapper Contenuto (Sopra tutto) */
 .card-has-image .card-content-wrapper {
-  position: relative;
-  z-index: 2;
-  padding: var(--spacing-lg);
-  /* Padding standard */
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  /* Occupa altezza disponibile */
-  background-color: transparent;
-  /* Nessun background per il wrapper */
-  height: 100%;
+    position: relative; /* Necessario per z-index */
+    z-index: 2; /* Sopra immagine e overlay gradiente */
+    padding: var(--space-5);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background: none; /* NESSUN background qui ora */
 }
 
-/* Stile testo distribuito */
+/* Stili testo e tag su immagine */
 .card.card-has-image h3,
 .card.card-has-image p,
 .card.card-has-image .category-tag {
-  color: #ffffff;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
-  /* Ombra più forte necessaria */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Ombra testo necessaria */
 }
-
 .card.card-has-image h3 {
-  font-size: 1.3rem;
-  font-weight: 700;
-  margin-bottom: var(--spacing-sm);
-  line-height: 1.3;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: var(--space-3);
+    color: #fff; /* Assicura colore bianco */
 }
-
 .card.card-has-image p {
-  flex-grow: 1;
-  /* Permette al tag di andare in fondo */
-  margin-bottom: var(--spacing-md);
-  font-size: 0.9rem;
-  line-height: 1.5;
-  color: rgba(255, 255, 255, 0.9);
-  /* Leggermente meno bianco del titolo */
-  /* Limitiamo comunque la descrizione per non coprire troppo */
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  /* Max 4 righe */
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
+    font-family: var(--font-body); font-weight: 400; font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.95); line-height: 1.6; margin-bottom: var(--space-4); flex-grow: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden; text-overflow: ellipsis;
 }
-
 .card.card-has-image .category-tag {
-  margin-top: auto;
-  /* Spinge in fondo */
-  background-color: rgba(255, 255, 255, 0.15);
-  color: #ffffff;
-  backdrop-filter: blur(3px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  display: inline-block;
-  padding: var(--spacing-xs) var(--spacing-sm);
-  font-size: 0.75rem;
-  font-weight: 500;
-  border-radius: calc(var(--border-radius) * 2);
-  align-self: flex-start;
-  transition: background-color var(--transition-speed) ease;
+    background-color: rgba(255, 255, 255, 0.1); color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2); backdrop-filter: blur(2px);
+    padding: var(--space-1) var(--space-3); font-size: 0.7rem; font-weight: 500;
+    text-transform: uppercase; letter-spacing: 0.5px; border-radius: calc(var(--border-radius) / 2);
+    align-self: flex-start;
+    /* Spinto in fondo da p{flex-grow:1} */
 }
 
-/* Effetto hover (invariato) */
+/* ---- EFFETTO HOVER BLUR ---- */
 .card.card-has-image:hover::after {
-  filter: blur(3px) brightness(0.9);
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px var(--color-shadow-hover);
-  border-color: var(--color-accent);
+    filter: blur(5px) brightness(0.85); /* Applica blur e leggero scurimento all'immagine */
+    transform: scale(1.03); /* Leggero zoom per compensare bordi blur */
 }
 
-/* Overlay su hover diventa più scuro */
-.card.card-has-image:hover::before {
-  /* === MODIFICA QUI la trasparenza su hover === */
-  background-color: rgba(0, 0, 0, 0.65);
+/* Optional: Aumenta l'opacità dell'overlay gradiente su hover per leggibilità */
+/* .card.card-has-image:hover::before {
+    opacity: 0.95;
+} */
+
+
+/* Card SENZA Immagine (invariata) */
+.card:not(.card-has-image) {
+    padding: var(--space-5);
+    justify-content: space-between;
 }
-
-/* --- FINE NUOVA SEZIONE CARD V3 --- */
-
+.card:not(.card-has-image) h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--color-text-primary);
+}
+.card:not(.card-has-image) p {
+    font-size: 0.95rem;
+    flex-grow: 1;
+    color: var(--color-text-secondary);
+    display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; line-clamp: 5;
+    overflow: hidden;
+}
+.card:not(.card-has-image) .category-tag {
+    margin-top: var(--space-4); align-self: flex-start; padding: var(--space-1) var(--space-3);
+    font-size: 0.7rem; font-weight: 500; color: var(--color-text-secondary);
+    border: 1px solid var(--color-border); border-radius: calc(var(--border-radius) / 2);
+    background-color: transparent; text-transform: uppercase; letter-spacing: 0.5px;
+}
+/* ================================= FINE Sezione Card Ricetta ================================= */
 
 /* =================================
-   Modal
+   Modal - Layout Cyber-Clean
    ================================= */
 #recipeModal {
   display: none;
   position: fixed;
-  z-index: 1000;
+  z-index: 1050;
   inset: 0;
-  background-color: var(--color-overlay);
-  padding: var(--spacing-lg);
+  background-color: var(--color-overlay-modal);
+  padding: var(--space-5);
   overflow-y: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity var(--transition-speed) ease-in-out;
+  transition: opacity calc(var(--transition-speed) * 1.2) ease-in-out;
 }
 
-#recipeModal[style*="display: block"] {
+#recipeModal[style*="display: flex"] {
   opacity: 1;
 }
 
+/* JS usa flex per mostrarlo */
 .modal-content {
   background-color: var(--color-surface);
   border-radius: var(--border-radius);
   width: 100%;
-  max-width: 700px;
+  max-width: 1100px;
   max-height: 90vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   position: relative;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 35px -8px rgba(0, 0, 0, 0.4);
+  border: 1px solid var(--color-border);
   overflow: hidden;
-  transform: scale(0.95);
+  transform: translateY(-10px) scale(0.98);
   opacity: 0;
-  transition: transform calc(var(--transition-speed) * 1.5) ease-out, opacity calc(var(--transition-speed) * 1.5) ease-out, background-color var(--transition-speed) ease;
+  /* Entrata diversa */
+  transition: transform calc(var(--transition-speed) * 1.5) var(--transition-ease),
+    opacity calc(var(--transition-speed) * 1.5) var(--transition-ease),
+    background-color var(--transition-speed) var(--transition-ease);
 }
 
-#recipeModal[style*="display: block"] .modal-content {
-  transform: scale(1);
+#recipeModal[style*="display: flex"] .modal-content {
+  transform: translateY(0) scale(1);
   opacity: 1;
 }
 
+/* Layout a Due Colonne (da Futuristic) */
+.modal-text-content {
+  flex: 3;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  border-right: 1px solid var(--color-border);
+}
+
+.modal-image-container {
+  flex: 2;
+  min-width: 0;
+  position: relative;
+  background-color: var(--color-bg);
+  /* Sfondo immagine più scuro */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-image-container img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-image-container .image-error {
+  padding: var(--space-4);
+  color: var(--color-text-secondary);
+  font-style: italic;
+  text-align: center;
+}
+
 .modal-header {
-  padding: var(--spacing-md) var(--spacing-lg);
+  padding: var(--space-4) var(--space-6);
   border-bottom: 1px solid var(--color-border);
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
-  transition: border-color var(--transition-speed) ease;
 }
 
 .modal-header h2 {
   margin-bottom: 0;
-  font-size: 1.4rem;
-  color: var(--color-text-primary);
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .modal-close-button {
-  font-size: 1.8rem;
-  font-weight: 300;
+  font-size: 2rem;
+  font-weight: 200;
+  /* Più sottile */
   color: var(--color-text-secondary);
-  padding: 0 var(--spacing-sm);
+  padding: var(--space-1);
   line-height: 1;
   transition: color var(--transition-speed) ease;
 }
 
-.modal-close-button:hover,
-.modal-close-button:focus {
-  color: var(--color-text-primary);
-  outline: none;
-}
-
-.modal-close-button:focus-visible {
-  box-shadow: 0 0 0 2px rgba(var(--color-accent-rgb), 0.5);
-  border-radius: 4px;
+.modal-close-button:hover {
+  color: var(--color-accent);
 }
 
 .modal-body {
-  padding: var(--spacing-lg);
+  padding: var(--space-6);
   overflow-y: auto;
   flex-grow: 1;
 }
 
 .section-container {
-  margin-bottom: var(--spacing-xl);
-  padding-bottom: var(--spacing-lg);
-  border-bottom: 1px dashed var(--color-border);
-  transition: border-color var(--transition-speed) ease;
+  margin-bottom: var(--space-6);
+  padding-bottom: var(--space-5);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .section-container:last-child {
-  margin-bottom: 0;
-  padding-bottom: 0;
   border-bottom: none;
 }
 
+/* Titoli Sezione Modal */
 .section-title {
-  font-size: 1.15rem;
+  /* Usa accento come clean */
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 600;
   color: var(--color-accent);
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--space-4);
   border-bottom: 2px solid var(--color-accent);
-  padding-bottom: var(--spacing-xs);
+  padding-bottom: var(--space-2);
   display: inline-block;
-  transition: color var(--transition-speed) ease, border-color var(--transition-speed) ease;
 }
 
 .subsection-container {
-  margin-bottom: var(--spacing-lg);
-  padding-left: var(--spacing-md);
+  margin: var(--space-5) 0 var(--space-4) 0;
+  padding-left: var(--space-4);
   border-left: 2px solid var(--color-border);
-  transition: border-color var(--transition-speed) ease;
-}
-
-.subsection-container:last-child {
-  margin-bottom: 0;
 }
 
 .subsection-title {
+  /* Titolo secondario pulito */
+  font-family: var(--font-heading);
   font-size: 1rem;
   font-weight: 600;
   color: var(--color-text-primary);
-  margin-bottom: var(--spacing-sm);
+  margin-bottom: var(--space-3);
+  display: block;
 }
 
-.categoria-info,
-.descrizione-info,
-.vino-info {
-  margin-bottom: var(--spacing-lg);
+/* Testo Specifico Modal */
+.categoria-info {
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  margin-bottom: var(--space-4);
+}
+
+.categoria-info strong {
+  color: var(--color-text-primary);
+  font-weight: 500;
 }
 
 .descrizione-info {
-  color: var(--color-text-secondary);
-  font-style: italic;
+  /* Da modificare per typewriter */
+  color: var(--color-text-primary);
+  /* Testo più chiaro per leggibilità */
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: var(--space-6);
+  font-style: normal;
+  font-weight: 300;
+  /* Leggero stile Futuro */
+  transition: opacity var(--transition-speed);
+  /* Per fade-in post typewriter */
+}
+
+/* Classe Typewriter */
+.descrizione-info.typewriter {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  white-space: normal;
+  border-right: 3px solid var(--typewriter-cursor-color);
+  width: 0;
+  box-sizing: border-box;
+  height: auto;
+  max-height: 0;
+  letter-spacing: normal;
+  word-wrap: break-word;
+  animation: typing-multiline calc(var(--typewriter-duration) * (var(--typewriter-steps) / 60)) steps(var(--typewriter-steps), end) var(--typewriter-delay) forwards,
+    /* Velocità dipende da steps, base 60 */
+    blink-caret .75s step-end infinite var(--typewriter-delay);
+  animation-play-state: running;
+  color: var(--color-text-primary);
+  /* Rende testo visibile */
+}
+
+@keyframes typing-multiline {
+  from {
+    width: 0;
+    max-height: 0;
+    opacity: 0;
+  }
+
+  0.1% {
+    width: 0;
+    max-height: 1000px;
+    opacity: 1;
+  }
+
+  99.9% {
+    border-right-color: var(--typewriter-cursor-color);
+    width: 100%;
+    max-height: 1000px;
+    opacity: 1;
+  }
+
+  to {
+    width: 100%;
+    border-right-color: transparent;
+    max-height: 1000px;
+    opacity: 1;
+  }
+}
+
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: var(--typewriter-cursor-color);
+  }
 }
 
 .vino-info {
-  background-color: var(--color-bg);
-  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: var(--color-surface-alt);
+  padding: var(--space-3) var(--space-4);
   border-radius: var(--border-radius);
   border: 1px solid var(--color-border);
-  font-weight: 500;
-  transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+  margin-top: var(--space-5);
 }
 
 .modal-body ul,
 .modal-body ol {
-  padding-left: var(--spacing-lg);
+  padding-left: var(--space-5);
 }
 
 .modal-body li {
-  margin-bottom: var(--spacing-sm);
   color: var(--color-text-secondary);
+  line-height: 1.7;
+  padding-left: var(--space-3);
+  font-weight: 300;
 }
 
 .modal-body ul li::marker {
+  content: "▹ ";
   color: var(--color-accent);
 }
 
+/* Marker custom futuristico */
 .modal-body ol {
-  list-style-type: decimal;
+  list-style-type: none;
+  counter-reset: step-counter;
 }
 
-.modal-body ol li::marker {
+.modal-body ol li {
+  counter-increment: step-counter;
+}
+
+.modal-body ol li::before {
+  content: counter(step-counter) ". ";
   color: var(--color-text-primary);
   font-weight: 500;
+  margin-right: var(--space-2);
 }
 
-.modal-body ul {
-  list-style: disc;
+.pairing-note {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  opacity: 0.8;
+  margin-top: var(--space-1);
+  margin-left: var(--space-5);
+  font-style: italic;
 }
 
 /* =================================
-   Media Queries
+   Media Queries - Basati su esempi, adattati
    ================================= */
+@media (max-width: 1100px) {
+
+  /* Stesso breakpoint Futuristic */
+  .modal-content {
+    flex-direction: column;
+    max-width: 700px;
+    /* Dimensione più contenuta */
+  }
+
+  .modal-text-content {
+    flex: 1;
+    border-right: none;
+    border-bottom: 1px solid var(--color-border);
+    max-height: 55vh;
+  }
+
+  .modal-image-container {
+    flex: 0 0 30vh;
+    width: 100%;
+    order: -1;
+    /* Immagine sopra */
+    height: auto;
+  }
+}
+
 @media (max-width: 768px) {
+
+  /* Stesso breakpoint Standard Clean */
   .main-container {
     flex-direction: column;
-    min-height: auto;
   }
 
   .sidebar {
@@ -676,30 +976,85 @@ header h1 {
     width: 100%;
     border-right: none;
     border-bottom: 1px solid var(--color-border);
-    max-height: 40vh;
-    overflow-y: auto;
+    max-height: 35vh;
+    /* Meno spazio su mobile */
   }
 
   .content {
-    padding: var(--spacing-lg);
+    padding: var(--space-5);
   }
 
   .gallery {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: var(--spacing-md);
-  }
-
-  .modal-content {
-    max-width: 95%;
-    max-height: 90vh;
-    margin: var(--spacing-md) auto;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: var(--space-5);
   }
 
   .modal-header h2 {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 500px) {
+
+  /* Micro aggiustamenti mobile */
+  :root {
+    --font-size-base: 15px;
   }
 
-  .modal-close-button {
+  header {
+    padding: var(--space-3) var(--space-4);
+  }
+
+  header h1 {
     font-size: 1.5rem;
   }
+
+  #recipeModal {
+    padding: var(--space-2);
+  }
+
+  .modal-content {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0;
+    border: none;
+  }
+
+  .modal-image-container {
+    flex-basis: 25vh;
+  }
+
+  .modal-body {
+    padding: var(--space-4);
+  }
+}
+
+/* =================================
+   Chatbot - Minimale Cyber
+   ================================= */
+#chatling-embed-script+div button {
+  /* Selettore fragile ma necessario */
+  background-color: var(--color-surface) !important;
+  border: 1px solid var(--color-border) !important;
+  box-shadow: 0 3px 10px -2px var(--color-shadow) !important;
+  border-radius: 50% !important;
+  width: 55px !important;
+  height: 55px !important;
+  transition: var(--transition-default) !important;
+  transform: scale(0.95);
+}
+
+#chatling-embed-script+div button:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 5px 15px -3px var(--color-shadow-hover) !important;
+  border-color: var(--color-accent-dark) !important;
+}
+
+#chatling-embed-script+div button svg {
+  fill: var(--color-text-secondary) !important;
+  transition: fill var(--transition-speed) ease !important;
+}
+
+#chatling-embed-script+div button:hover svg {
+  fill: var(--color-accent) !important;
 }
