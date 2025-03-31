@@ -57,103 +57,145 @@ document.addEventListener('DOMContentLoaded', function () {
     // --- Funzioni di Rendering Specifiche per il Modal ---
 
     /**
-     * Renderizza la sezione Ingredienti nel modal.
-     */
-    function renderIngredienti(ingredientiData, gruppoNome) {
+ * Renderizza la sezione Ingredienti nel modal (NUOVA VERSIONE UNIFICATA).
+ */
+    function renderIngredienti(ingredientiData) {
+        // ingredientiData è ora SEMPRE un array di oggetti gruppo
+        if (!Array.isArray(ingredientiData) || ingredientiData.length === 0) return null;
+
         const containerDiv = createElement('div', 'ingredients section-container');
-        const titoloTesto = gruppoNome
-            ? gruppoNome.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase())
-            : 'Ingredienti';
-        containerDiv.appendChild(createElement('h3', 'section-title', titoloTesto));
+        containerDiv.appendChild(createElement('h3', 'section-title', 'Ingredienti')); // Titolo generico
         let hasContent = false;
-        if (Array.isArray(ingredientiData)) {
-            const listUl = createElement('ul');
-            ingredientiData.forEach(item => {
-                let text = '';
-                if (typeof item === 'object' && item !== null && item.ingrediente) {
-                    const quantita = item.quantita || item.quantità || '';
-                    const nota = item.note ? ` (${item.note})` : '';
-                    text = `${quantita} ${item.ingrediente}${nota}`.trim();
-                } else if (typeof item === 'string' && item.trim() !== '') { text = item; }
-                if (text) { listUl.appendChild(createElement('li', null, text)); hasContent = true; }
-            });
-            if (listUl.hasChildNodes()) containerDiv.appendChild(listUl);
-        } else if (typeof ingredientiData === 'object' && ingredientiData !== null && !Array.isArray(ingredientiData)) {
-            for (const key in ingredientiData) {
-                if (ingredientiData.hasOwnProperty(key)) {
-                    const sottoGruppoArray = ingredientiData[key];
-                    if (Array.isArray(sottoGruppoArray) && sottoGruppoArray.length > 0) {
-                        const sottoTitolo = key.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase());
-                        containerDiv.appendChild(createElement('h4', 'subsection-title', sottoTitolo));
-                        const subListUl = createElement('ul');
-                        sottoGruppoArray.forEach(item => {
-                            let text = '';
-                            if (typeof item === 'object' && item !== null && item.ingrediente) {
-                                const quantita = item.quantita || item.quantità || '';
-                                const per = item.per ? ` (per ${item.per})` : '';
-                                const nota = item.note ? ` (${item.note})` : '';
-                                text = `${quantita} ${item.ingrediente}${per}${nota}`.trim();
-                            } else if (typeof item === 'string' && item.trim() !== '') { text = item; }
-                            if (text) { subListUl.appendChild(createElement('li', null, text)); hasContent = true; }
-                        });
-                        if (subListUl.hasChildNodes()) containerDiv.appendChild(subListUl);
+
+        ingredientiData.forEach(gruppo => {
+            // Mostra il nome del gruppo se presente
+            if (gruppo.nome_gruppo) {
+                const gruppoNomeFormatted = gruppo.nome_gruppo.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase());
+                containerDiv.appendChild(createElement('h4', 'subsection-title', gruppoNomeFormatted));
+            }
+
+            // Processa la lista ingredienti del gruppo (che è sempre un array di oggetti)
+            if (Array.isArray(gruppo.lista_ingredienti) && gruppo.lista_ingredienti.length > 0) {
+                const listUl = createElement('ul');
+                gruppo.lista_ingredienti.forEach(item => {
+                    // Costruisce la stringa dell'ingrediente
+                    let text = '';
+                    if (item.ingrediente) { // Assicurati che l'ingrediente esista
+                        const quantita = item.quantita || ''; // Gestisce quantità mancante
+                        const per = item.per ? ` (per ${item.per})` : '';
+                        const nota = item.note ? ` (${item.note})` : '';
+                        text = `${quantita} ${item.ingrediente}${per}${nota}`.trim();
                     }
+                    if (text) {
+                        listUl.appendChild(createElement('li', null, text));
+                        hasContent = true;
+                    }
+                });
+                if (listUl.hasChildNodes()) {
+                    containerDiv.appendChild(listUl);
                 }
             }
-        }
+        });
+
         return hasContent ? containerDiv : null;
     }
 
+
     /**
-     * Renderizza la sezione Procedimento nel modal.
+     * Renderizza la sezione Procedimento nel modal (NUOVA VERSIONE UNIFICATA).
      */
     function renderProcedimento(procedimentoData) {
+        // procedimentoData è ora SEMPRE un array di oggetti fase
+        if (!Array.isArray(procedimentoData) || procedimentoData.length === 0) return null;
+
         const containerDiv = createElement('div', 'procedure section-container');
-        containerDiv.appendChild(createElement('h3', 'section-title', 'Procedimento'));
+        containerDiv.appendChild(createElement('h3', 'section-title', 'Procedimento')); // Titolo generico
         let hasContent = false;
-        if (Array.isArray(procedimentoData) && procedimentoData[0]?.fase && Array.isArray(procedimentoData[0]?.procedura)) {
-            procedimentoData.forEach((sezione) => {
-                if (sezione.fase && Array.isArray(sezione.procedura) && sezione.procedura.length > 0) {
-                    containerDiv.appendChild(createElement('h4', 'subsection-title', sezione.fase));
-                    const listOl = createElement('ol');
-                    sezione.procedura.forEach(step => {
-                        if (typeof step === 'string' && step.trim() !== '') {
-                            listOl.appendChild(createElement('li', null, step)); hasContent = true;
-                        }
-                    });
-                    if (listOl.hasChildNodes()) containerDiv.appendChild(listOl);
+
+        procedimentoData.forEach(faseObj => {
+            // Mostra il nome della fase se presente
+            if (faseObj.fase) {
+                containerDiv.appendChild(createElement('h4', 'subsection-title', faseObj.fase));
+            }
+
+            // Processa i passaggi della fase (che è sempre un array di stringhe)
+            if (Array.isArray(faseObj.passaggi) && faseObj.passaggi.length > 0) {
+                const listOl = createElement('ol'); // Usa sempre lista ordinata per i passaggi
+                faseObj.passaggi.forEach(step => {
+                    if (typeof step === 'string' && step.trim() !== '') {
+                        listOl.appendChild(createElement('li', null, step));
+                        hasContent = true;
+                    }
+                });
+                if (listOl.hasChildNodes()) {
+                    containerDiv.appendChild(listOl);
                 }
-            });
-        } else if (Array.isArray(procedimentoData)) {
-            const listOl = createElement('ol');
-            procedimentoData.forEach(step => {
-                if (typeof step === 'string' && step.trim() !== '') {
-                    listOl.appendChild(createElement('li', null, step)); hasContent = true;
-                }
-            });
-            if (listOl.hasChildNodes()) containerDiv.appendChild(listOl);
-        }
+            }
+        });
+
         return hasContent ? containerDiv : null;
     }
 
-
     /**
-     * Renderizza la sezione Varianti nel modal.
-     */
+  * Renderizza la sezione Varianti nel modal.
+  * CHIAMA le versioni aggiornate di renderIngredienti e renderProcedimento.
+  */
     function renderVarianti(variantiData) {
+        // variantiData è l'array ricetta.varianti
         if (!Array.isArray(variantiData) || variantiData.length === 0) return null;
+
         const containerDiv = createElement('div', 'varianti section-container');
         containerDiv.appendChild(createElement('h3', 'section-title', 'Varianti'));
-        let hasContent = false;
+        let hasContent = false; // Flag per vedere se c'è almeno una variante valida
+
         variantiData.forEach(variante => {
             const varianteDiv = createElement('div', 'sottoricetta subsection-container');
-            let varianteHasContent = false;
-            if (variante.nome) { varianteDiv.appendChild(createElement('h4', 'subsection-title', variante.nome)); varianteHasContent = true; }
-            if (variante.ingredienti) { const ingDiv = renderIngredienti(variante.ingredienti); if (ingDiv) { varianteDiv.appendChild(ingDiv); varianteHasContent = true; } }
-            if (variante.procedimento) { const procDiv = renderProcedimento(variante.procedimento); if (procDiv) { varianteDiv.appendChild(procDiv); varianteHasContent = true; } }
-            if (variante.applicazioni) { varianteDiv.appendChild(createElement('p', 'applicazioni-info', `Applicazioni: ${variante.applicazioni}`)); varianteHasContent = true; }
-            if (varianteHasContent) { containerDiv.appendChild(varianteDiv); hasContent = true; }
+            let varianteHasContent = false; // Flag per questa specifica variante
+
+            // Mostra il nome della variante
+            if (variante.nome) {
+                varianteDiv.appendChild(createElement('h4', 'subsection-title', variante.nome));
+                varianteHasContent = true;
+            }
+
+            // Renderizza ingredienti della variante (USA LA NUOVA FUNZIONE)
+            if (variante.ingredienti) { // Controlla se la chiave esiste
+                const ingDiv = renderIngredienti(variante.ingredienti); // Passa l'array di gruppi ingredienti
+                if (ingDiv) {
+                    varianteDiv.appendChild(ingDiv);
+                    varianteHasContent = true;
+                }
+            }
+
+            // Renderizza procedimento della variante (USA LA NUOVA FUNZIONE)
+            if (variante.procedimento) { // Controlla se la chiave esiste
+                const procDiv = renderProcedimento(variante.procedimento); // Passa l'array di fasi
+                if (procDiv) {
+                    varianteDiv.appendChild(procDiv);
+                    varianteHasContent = true;
+                }
+            }
+
+            // Renderizza eventuali altri campi specifici della variante
+            if (variante.applicazioni) {
+                varianteDiv.appendChild(createElement('p', 'applicazioni-info', `Applicazioni: ${variante.applicazioni}`));
+                varianteHasContent = true;
+            }
+            if (variante.descrizione) { // Aggiunto controllo descrizione variante
+                varianteDiv.appendChild(createElement('p', 'descrizione-info', variante.descrizione));
+                varianteHasContent = true;
+            }
+            // Aggiungi qui altri campi specifici delle varianti se necessario...
+
+
+            // Aggiunge il div della variante al contenitore principale solo se ha contenuto
+            if (varianteHasContent) {
+                containerDiv.appendChild(varianteDiv);
+                hasContent = true; // Imposta il flag generale a true
+            }
         });
+
+        // Ritorna il contenitore solo se almeno una variante aveva contenuto
         return hasContent ? containerDiv : null;
     }
 
@@ -390,7 +432,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const card = createElement('div', 'card');
         const imageFilename = generateImageFilename(ricetta.nome);
         const imageUrl = `img/${imageFilename}${IMAGE_EXTENSION}`; // Usa la costante per l'estensione
-        card.style.backgroundImage = `url('${imageUrl}')`;
+        // Imposta una variabile CSS per l'URL dell'immagine
+        card.style.setProperty('--card-bg-image', `url('${imageUrl}')`);
         card.classList.add('card-has-image');
         const contentWrapper = createElement('div', 'card-content-wrapper');
         contentWrapper.innerHTML = `<h3></h3><p></p><span class="category-tag"></span>`;
@@ -430,55 +473,122 @@ document.addEventListener('DOMContentLoaded', function () {
      * Aggiorna lo stato visivo della categoria attiva.
      */
     function setActiveCategory(targetElement) {
+        const categoryListElement = document.getElementById('categoryList');
+        if (!categoryListElement) return; // Sicurezza
+
+        // Rimuovi stato attivo precedente
         if (activeCategoryElement) {
             activeCategoryElement.classList.remove('active-category');
         }
+
         if (targetElement) {
+            // Categoria specifica selezionata
             targetElement.classList.add('active-category');
             activeCategoryElement = targetElement;
+
+            // --- Gestione Flowing River ---
+            const offsetTop = targetElement.offsetTop;
+            const liHeight = targetElement.offsetHeight; // Prendi l'altezza reale
+
+            categoryListElement.style.setProperty('--river-offset', `${offsetTop}px`);
+            categoryListElement.style.setProperty('--sidebar-li-height', `${liHeight}px`); // Aggiorna altezza dinamicamente
+            categoryListElement.classList.add('river-active'); // Mostra il river
+
         } else {
+            // "Mostra tutte" o Ricerca (nessuna categoria attiva)
             activeCategoryElement = null;
+            categoryListElement.classList.remove('river-active'); // Nascondi il river
+            // Potresti opzionalmente resettare l'offset a 0, anche se non visibile
+            // categoryListElement.style.setProperty('--river-offset', '0px');
         }
     }
 
     /**
      * Apre il modal con i dettagli della ricetta.
      */
+    /**
+     * Apre il modal con i dettagli della ricetta, con layout a due colonne (testo a sx, immagine a dx).
+     */
     function openModal(ricetta) {
         if (!modal || !modalContent) return;
-        modalContent.innerHTML = ''; // Pulisce
-        // Crea Header
+        modalContent.innerHTML = ''; // Pulisce contenuto precedente
+
+        // --- NUOVO: Contenitori per layout a due colonne ---
+        const textWrapper = createElement('div', 'modal-text-content');
+        const imageContainer = createElement('div', 'modal-image-container');
+        // ----------------------------------------------------
+
+        // --- Contenuto Testuale (Sinistra) ---
+        // Crea Header (come prima, ma lo appenderemo a textWrapper)
         const modalHeader = createElement('div', 'modal-header');
         const titleH2 = createElement('h2', null, ricetta.nome);
         const closeButton = createElement('button', 'modal-close-button', '\u00D7');
         closeButton.setAttribute('aria-label', 'Chiudi modal');
-        modalHeader.appendChild(titleH2); modalHeader.appendChild(closeButton);
-        modalContent.appendChild(modalHeader);
-        // Crea Body
+        modalHeader.appendChild(titleH2);
+        modalHeader.appendChild(closeButton);
+        textWrapper.appendChild(modalHeader); // Appendi header al wrapper testo
+
+        // Crea Body (come prima, ma lo appenderemo a textWrapper)
         const modalBody = createElement('div', 'modal-body');
+        // Aggiungi categoria e descrizione al body
         modalBody.appendChild(createElement('p', 'categoria-info')).innerHTML = `<strong>Categoria:</strong> ${ricetta.categoria}`;
         modalBody.appendChild(createElement('p', 'descrizione-info', ricetta.descrizione || 'Nessuna descrizione disponibile.'));
-        // Definisce le sezioni da renderizzare
+
+        // Definisce le sezioni da renderizzare (come prima)
         const sections = [
-            { key: 'ingredienti', renderFunc: renderIngredienti }, { key: 'procedimento', renderFunc: renderProcedimento },
-            { key: 'varianti', renderFunc: renderVarianti }, { key: 'utilizzo', renderFunc: renderUtilizzo },
-            { key: 'struttura_generale', renderFunc: renderStruttura }, { key: 'esempi_personalizzazione', renderFunc: renderEsempi },
-            { key: 'tips_tecnici', renderFunc: renderTips }, { key: 'note_tecniche', renderFunc: (data) => renderNote(data, 'note_tecniche') },
-            { key: 'note_finali', renderFunc: (data) => renderNote(data, 'note_finali') }, { key: 'finitura_consigliata', renderFunc: renderFinitura },
+            { key: 'ingredienti', renderFunc: renderIngredienti },
+            { key: 'procedimento', renderFunc: renderProcedimento },
+            { key: 'varianti', renderFunc: renderVarianti },
+            { key: 'utilizzo', renderFunc: renderUtilizzo },
+            { key: 'struttura_generale', renderFunc: renderStruttura },
+            { key: 'esempi_personalizzazione', renderFunc: renderEsempi },
+            { key: 'tips_tecnici', renderFunc: renderTips },
+            { key: 'note_tecniche', renderFunc: (data) => renderNote(data, 'note_tecniche') },
+            { key: 'note_finali', renderFunc: (data) => renderNote(data, 'note_finali') },
+            { key: 'finitura_consigliata', renderFunc: renderFinitura },
             { key: 'pairing_consigliato', renderFunc: renderPairing },
         ];
-        // Itera e aggiunge sezioni esistenti
+
+        // Itera e aggiunge sezioni esistenti al modalBody (come prima)
         sections.forEach(section => {
             if (ricetta[section.key] && (!Array.isArray(ricetta[section.key]) || ricetta[section.key].length > 0)) {
                 const sectionElement = section.renderFunc(ricetta[section.key]);
                 if (sectionElement) { modalBody.appendChild(sectionElement); }
             }
         });
-        // Aggiunge campi extra
+
+        // Aggiunge campi extra al modalBody (come prima)
         if (ricetta.vino_abbinato) { modalBody.appendChild(createElement('p', 'vino-info section-container', `Vino consigliato: ${ricetta.vino_abbinato}`)); }
-        // Finalizza e mostra
-        modalContent.appendChild(modalBody);
-        modal.style.display = 'block';
+
+        textWrapper.appendChild(modalBody); // Appendi body al wrapper testo
+        // --- Fine Contenuto Testuale ---
+
+
+        // --- Contenuto Immagine (Destra) ---
+        const imageFilename = generateImageFilename(ricetta.nome);
+        const imageUrl = `img/${imageFilename}${IMAGE_EXTENSION}`;
+        console.log("Tentativo di caricare l'immagine:", imageUrl);
+
+        // Crea elemento immagine
+        const recipeImage = createElement('img');
+        recipeImage.src = imageUrl;
+        recipeImage.alt = `Immagine di ${ricetta.nome}`;
+        // Aggiungi un fallback se l'immagine non carica (opzionale ma consigliato)
+        recipeImage.onerror = () => {
+            imageContainer.innerHTML = '<p class="image-error">Immagine non disponibile</p>'; // Mostra messaggio errore
+            imageContainer.style.backgroundColor = 'var(--color-surface-alt)'; // Sfondo placeholder
+        };
+
+        imageContainer.appendChild(recipeImage);
+        // --- Fine Contenuto Immagine ---
+
+
+        // --- Assembla il Modal ---
+        modalContent.appendChild(textWrapper);   // Aggiungi wrapper testo
+        modalContent.appendChild(imageContainer); // Aggiungi container immagine
+
+        // Mostra il modal (come prima)
+        modal.style.display = 'flex'; // Usa flex per centrare .modal-content
         titleH2.focus(); // Focus per accessibilità
     }
 
