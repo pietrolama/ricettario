@@ -1,5 +1,5 @@
 /* ==========================================================================
-   STYLE.CSS - RICETTARIO CYBER-CLEAN - OTTIMIZZATO
+   STYLE.CSS - RICETTARIO CYBER-CLEAN - COMPLETO E CORRETTO
    ========================================================================== */
 
 /* =================================
@@ -24,7 +24,6 @@
   --color-overlay-gradient-card: linear-gradient(to top, rgba(10, 10, 15, 0.85) 0%, rgba(10, 10, 15, 0.1) 60%, transparent 100%);
   --color-overlay-modal: rgba(10, 12, 15, 0.88);
   --color-image-overlay-card: rgba(10, 10, 15, 0.30);
-  /* Leggermente meno opaco di default */
   --color-image-overlay-card-hover: rgba(10, 10, 15, 0.65);
   --color-error-bg: #4d1f27;
   --color-error-text: #ff8f9a;
@@ -52,18 +51,14 @@
   --transition-ease: ease-out;
   --transition-default: all var(--transition-speed) var(--transition-ease);
 
-  /* Specifiche Effetti */
+  /* Specifiche Effetti JS */
   --sidebar-li-height: 44px;
   --river-offset: 0px;
   --sidebar-river-width: 4px;
-  --typewriter-duration: 2.0s;
-  --typewriter-steps: 50;
-  --typewriter-delay: 0.35s;
-  --typewriter-cursor-color: var(--color-accent);
 
   /* Altezze */
   --header-height: 68px;
-  /* Altezza approssimativa header per calcoli */
+  /* Altezza Header */
 }
 
 /* Modalità Chiara */
@@ -90,7 +85,6 @@
     --color-error-bg: #f8d7da;
     --color-error-border: #f5c6cb;
     --color-error-text: #721c24;
-    --typewriter-cursor-color: var(--color-accent-hover);
   }
 }
 
@@ -116,7 +110,6 @@ body.dark-mode {
   --color-error-bg: #4d1f27;
   --color-error-text: #ff8f9a;
   --color-error-border: #ffacb3;
-  --typewriter-cursor-color: var(--color-accent);
 }
 
 
@@ -144,9 +137,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: background-color var(--transition-speed) var(--transition-ease), color var(--transition-speed) var(--transition-ease);
-  min-height: 100vh;
+  height: 100vh;
+  /* Occupa tutta l'altezza viewport */
+  overflow: hidden;
+  /* Impedisce scroll globale BODY su DESKTOP */
   display: flex;
-  /* Necessario per flex-grow nel main container */
   flex-direction: column;
 }
 
@@ -236,7 +231,6 @@ textarea {
   padding: var(--space-3) var(--space-4);
   transition: var(--transition-default);
   width: 100%;
-  /* Default width */
 }
 
 input::placeholder {
@@ -261,7 +255,7 @@ textarea:focus {
 
 
 /* =================================
-   3. Layout (Header, Main, Sidebar, Content)
+   3. Layout (Header, Main, Sidebar, Content) - Desktop Focus
    ================================= */
 header {
   background-color: var(--color-surface);
@@ -271,12 +265,12 @@ header {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 5px -3px var(--color-shadow);
-  position: sticky;
-  top: 0;
+  /* Non sticky/fixed qui, è il primo flex item del body */
   z-index: 100;
-  /* Z-index base per header desktop */
+  /* Z-index base */
   height: var(--header-height);
-  /* Definisci altezza header */
+  flex-shrink: 0;
+  /* Non si restringe */
   transition: var(--transition-default);
 }
 
@@ -296,7 +290,6 @@ header h1 {
   border: 1px solid var(--color-border);
   text-transform: uppercase;
   letter-spacing: 1px;
-  transition: var(--transition-default);
   white-space: nowrap;
 }
 
@@ -309,24 +302,27 @@ header h1 {
 
 .main-container {
   display: flex;
+  /* Sidebar e Content affiancati */
   flex-grow: 1;
-  /* Occupa spazio verticale rimanente */
-  /* Non limitare l'altezza qui, lascia che body gestisca il flex */
+  /* Occupa spazio verticale sotto header */
+  overflow: hidden;
+  /* IMPEDISCE SCROLL di questo container */
 }
 
 .sidebar {
   flex: 0 0 280px;
-  /* Larghezza fissa su desktop */
+  /* Larghezza fissa */
   background: var(--color-surface);
   border-right: 1px solid var(--color-border);
   padding: var(--space-6);
-  overflow-y: auto;
   display: flex;
   flex-direction: column;
   position: relative;
-  /* Default position */
   transition: transform 0.35s cubic-bezier(0.7, 0, 0.3, 1), var(--transition-default);
-  /* No z-index qui di default */
+  overflow-y: auto;
+  /* <<<<<<<< SCROLL INTERNO SIDEBAR >>>>>>>> */
+  height: 100%;
+  /* Occupa tutta altezza del main-container */
 }
 
 .sidebar h2 {
@@ -343,19 +339,18 @@ header h1 {
 }
 
 #searchInput {
-  width: 100%;
   margin-bottom: var(--space-5);
 }
 
-/* Larghezza già 100% da base */
-
 .content {
   flex-grow: 1;
-  /* Prende lo spazio rimanente */
+  /* Occupa spazio orizzontale rimanente */
   padding: var(--space-6) var(--space-7);
-  overflow-y: auto;
-  /* Scroll solo per contenuto */
   background-color: var(--color-bg);
+  overflow-y: auto;
+  /* <<<<<<<< SCROLL INTERNO CONTENUTO >>>>>>>> */
+  height: 100%;
+  /* Occupa tutta altezza del main-container */
 }
 
 
@@ -366,7 +361,7 @@ header h1 {
 /* --- Mobile Menu --- */
 .menu-toggle {
   display: none;
-  /* Nascosto su desktop */
+  /* Nascosto di default */
   background: none;
   border: none;
   padding: var(--space-2);
@@ -376,9 +371,8 @@ header h1 {
   flex-direction: column;
   justify-content: space-around;
   position: relative;
-  /* Necessario per z-index interno */
   z-index: 1100;
-  /* Molto alto, SARA' VISIBILE dentro header mobile */
+  /* Più alto dentro header */
 }
 
 .hamburger-line {
@@ -390,7 +384,7 @@ header h1 {
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, var(--transition-default);
 }
 
-/* Hamburger -> X animation */
+/* Animazione X */
 .menu-open .menu-toggle .hamburger-line:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
@@ -405,7 +399,6 @@ header h1 {
 
 .menu-overlay {
   display: none;
-  /* Gestito da media query per apparire */
   position: fixed;
   inset: 0;
   background-color: var(--color-overlay-modal);
@@ -420,6 +413,7 @@ header h1 {
   pointer-events: auto;
 }
 
+
 /* --- Sidebar Category List --- */
 #categoryList {
   list-style: none;
@@ -429,7 +423,7 @@ header h1 {
 }
 
 #categoryList::before {
-  /* Flowing River Indicator */
+  /* River Indicator */
   content: '';
   position: absolute;
   left: 0;
@@ -449,6 +443,7 @@ header h1 {
   opacity: 1;
 }
 
+/* Gestito da JS */
 #categoryList li {
   padding: var(--space-3) var(--space-4) var(--space-3) calc(var(--space-4) + var(--sidebar-river-width) + var(--space-2));
   margin-bottom: var(--space-2);
@@ -466,7 +461,6 @@ header h1 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  /* Evita che testo lungo rompa layout */
 }
 
 #categoryList li:hover {
@@ -480,21 +474,8 @@ header h1 {
   background-color: var(--color-accent-light);
 }
 
-/* Nasconde river quando "Mostra tutte" (il primo LI senza dataset.categoryName) è attiva */
-#categoryList li:first-child.active-category~#categoryList::before,
-#categoryList:not(.river-active)::before {
-  opacity: 0;
-}
 
-/* Applica river solo se un LI specifico (non il primo) è attivo */
-#categoryList li:not(:first-child).active-category~#categoryList::before {
-  opacity: 1;
-  /* Questo potrebbe non funzionare come previsto con il JS che aggiunge river-active */
-  /* La logica JS di aggiungere river-active quando serve è più affidabile */
-}
-
-
-/* --- Gallery Controls & Gallery --- */
+/* --- Gallery --- */
 .gallery-controls {
   margin-bottom: var(--space-6);
   display: flex;
@@ -530,7 +511,6 @@ header h1 {
 
 .gallery p.gallery-empty-message,
 .gallery p.gallery-error-message {
-  /* Stile per messaggi galleria vuota/errore */
   grid-column: 1 / -1;
   text-align: center;
   padding: var(--space-7) 0;
@@ -570,31 +550,27 @@ header h1 {
   border-color: var(--color-accent-dark);
 }
 
-/* Card CON Immagine (Blur Hover) */
+/* Card CON Immagine */
 .card.card-has-image {
   padding: 0;
   color: #fff;
   border: 1px solid transparent;
   background-color: var(--color-surface-alt);
-  /* Fallback */
 }
 
 .card.card-has-image::after {
-  /* Immagine Background */
   content: '';
   position: absolute;
   inset: 0;
   z-index: 0;
   border-radius: inherit;
   background-image: var(--card-bg-image, linear-gradient(var(--color-surface-alt), var(--color-surface)));
-  /* Gradiente fallback */
   background-size: cover;
   background-position: center;
   transition: filter var(--transition-speed) var(--transition-ease), transform var(--transition-speed) var(--transition-ease);
 }
 
 .card.card-has-image::before {
-  /* Overlay Gradiente */
   content: '';
   position: absolute;
   inset: 0;
@@ -606,7 +582,6 @@ header h1 {
 }
 
 .card-has-image .card-content-wrapper {
-  /* Contenuto Testuale */
   position: relative;
   z-index: 2;
   padding: var(--space-5);
@@ -659,7 +634,6 @@ header h1 {
   margin-top: auto;
 }
 
-/* Effetto Hover Blur */
 .card.card-has-image:hover::after {
   filter: blur(5px) brightness(0.85);
   transform: scale(1.03);
@@ -708,11 +682,11 @@ header h1 {
   display: none;
   position: fixed;
   z-index: 1200;
-  /* Più alto di header */
   inset: 0;
   background-color: var(--color-overlay-modal);
   padding: var(--space-5);
-  overflow-y: auto;
+  overflow-y: hidden;
+  /* Impedisce doppio scroll */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -736,6 +710,7 @@ header h1 {
   box-shadow: 0 10px 35px -8px rgba(0, 0, 0, 0.4);
   border: 1px solid var(--color-border);
   overflow: hidden;
+  /* Importante! */
   transform: translateY(-10px) scale(0.98);
   opacity: 0;
   transition: transform calc(var(--transition-speed) * 1.5) var(--transition-ease),
@@ -748,12 +723,18 @@ header h1 {
   opacity: 1;
 }
 
+/* Contenitori interni modale - scroll individuale */
+.modal-text-content,
+.modal-image-container {
+  height: 100%;
+  overflow-y: auto;
+}
+
 .modal-text-content {
   flex: 3;
   min-width: 0;
   display: flex;
   flex-direction: column;
-  overflow-y: auto;
   border-right: 1px solid var(--color-border);
 }
 
@@ -765,13 +746,19 @@ header h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: var(--space-5);
+  /* Padding per img/errore */
 }
 
 .modal-image-container img {
   display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  /* Mostra intera immagine */
+  border-radius: var(--border-radius);
 }
 
 .modal-image-container .image-error {
@@ -781,6 +768,7 @@ header h1 {
   text-align: center;
 }
 
+/* Stili Modale Interni */
 .modal-header {
   padding: var(--space-4) var(--space-6);
   border-bottom: 1px solid var(--color-border);
@@ -813,8 +801,8 @@ header h1 {
 
 .modal-body {
   padding: var(--space-6);
-  overflow-y: auto;
   flex-grow: 1;
+  /* Permette scroll se text-content è flex-column */
 }
 
 .section-container {
@@ -877,64 +865,7 @@ header h1 {
   transition: opacity var(--transition-speed);
 }
 
-/* Stile Typewriter */
-.descrizione-info.typewriter {
-  display: inline-block;
-  vertical-align: top;
-  overflow: hidden;
-  white-space: normal;
-  border-right: 3px solid var(--typewriter-cursor-color);
-  width: 0;
-  box-sizing: border-box;
-  height: auto;
-  max-height: 0;
-  letter-spacing: normal;
-  word-wrap: break-word;
-  animation: typing-multiline calc(var(--typewriter-duration) * (var(--typewriter-steps) / 60)) steps(var(--typewriter-steps), end) var(--typewriter-delay) forwards, blink-caret .75s step-end infinite var(--typewriter-delay);
-  animation-play-state: running;
-  color: var(--color-text-primary);
-}
-
-@keyframes typing-multiline {
-  from {
-    width: 0;
-    max-height: 0;
-    opacity: 0;
-  }
-
-  0.1% {
-    width: 0;
-    max-height: 1000px;
-    opacity: 1;
-  }
-
-  99.9% {
-    border-right-color: var(--typewriter-cursor-color);
-    width: 100%;
-    max-height: 1000px;
-    opacity: 1;
-  }
-
-  to {
-    width: 100%;
-    border-right-color: transparent;
-    max-height: 1000px;
-    opacity: 1;
-  }
-}
-
-@keyframes blink-caret {
-
-  from,
-  to {
-    border-color: transparent
-  }
-
-  50% {
-    border-color: var(--typewriter-cursor-color);
-  }
-}
-
+/* No Typewriter Styles */
 .vino-info {
   background-color: var(--color-surface-alt);
   padding: var(--space-3) var(--space-4);
@@ -979,41 +910,14 @@ header h1 {
 }
 
 .pairing-note {
+  display: block;
   font-size: 0.85rem;
   color: var(--color-text-secondary);
   opacity: 0.8;
   margin-top: var(--space-1);
-  margin-left: var(--space-5);
+  padding-left: calc(var(--space-5) + var(--space-3));
   font-style: italic;
 }
-
-/* --- Chatbot (Esempio) --- */
-#chatling-embed-script+div button {
-  background-color: var(--color-surface) !important;
-  border: 1px solid var(--color-border) !important;
-  box-shadow: 0 3px 10px -2px var(--color-shadow) !important;
-  border-radius: 50% !important;
-  width: 55px !important;
-  height: 55px !important;
-  transition: var(--transition-default) !important;
-  transform: scale(0.95);
-}
-
-#chatling-embed-script+div button:hover {
-  transform: scale(1.05) !important;
-  box-shadow: 0 5px 15px -3px var(--color-shadow-hover) !important;
-  border-color: var(--color-accent-dark) !important;
-}
-
-#chatling-embed-script+div button svg {
-  fill: var(--color-text-secondary) !important;
-  transition: fill var(--transition-speed) ease !important;
-}
-
-#chatling-embed-script+div button:hover svg {
-  fill: var(--color-accent) !important;
-}
-
 
 /* =================================
    5. Media Queries (Mobile Optimizations)
@@ -1032,6 +936,7 @@ header h1 {
     border-right: none;
     border-bottom: 1px solid var(--color-border);
     max-height: 62vh;
+    /* Altezza testo ridotta */
     order: 2;
   }
 
@@ -1039,18 +944,8 @@ header h1 {
     flex: 0 0 28vh;
     width: 100%;
     order: 1;
-    height: auto;
     max-height: 250px;
-    align-items: center;
-    background-color: var(--color-bg);
-    overflow: hidden;
-  }
-
-  .modal-image-container img {
-    object-position: center center;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    /* Limite altezza immagine */
   }
 }
 
@@ -1060,24 +955,30 @@ header h1 {
     --font-size-base: 15.5px;
   }
 
+  /* Abilita scroll del body su mobile (a meno che menu non sia aperto) */
+  body {
+    height: auto;
+    overflow: auto;
+  }
+
   body.menu-open {
     overflow: hidden;
   }
 
-  /* Blocca scroll body */
-
-  /* Header con Menu Toggle */
+  /* Header diventa sticky e necessita z-index */
   header {
-    padding: var(--space-3) var(--space-4);
+    position: sticky;
+    top: 0;
     z-index: 1050;
-    /* Assicura sia SOPRA la sidebar mobile */
+    /* Sopra sidebar/overlay */
+    padding: var(--space-3) var(--space-4);
     height: calc(var(--header-height) - 8px);
-    /* Leggermente più basso */
   }
 
   .menu-toggle {
     display: flex;
     order: -1;
+    /* Mostra bottone */
   }
 
   header h1 {
@@ -1089,49 +990,57 @@ header h1 {
 
   #recipe-counter {
     display: none;
+    /* Nascondi contatore */
   }
 
-  /* Main Container */
+  /* Main container perde overflow e altezza specifica */
   .main-container {
     flex-direction: column;
+    overflow: visible;
+    height: auto;
   }
 
-  /* Sidebar diventa Menu Mobile */
+  /* Sidebar diventa Menu Fisso */
   .sidebar {
     position: fixed;
     top: 0;
     left: 0;
     width: 280px;
     height: 100vh;
-    max-height: 100vh;
     border-right: 1px solid var(--color-border);
     border-bottom: none;
     transform: translateX(-100%);
     box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.2);
     padding: var(--space-6);
-    /* Riduci padding verticale se necessario */
     padding-top: calc(var(--header-height) + var(--space-4));
-    /* Spazio per header fisso */
+    /* Spazio per header */
     z-index: 999;
     /* Sotto header, sopra overlay */
+    overflow-y: auto;
+    /* Scroll interno se menu è lungo */
     max-height: none;
-    /* Rimuovi limite altezza */
+    /* Rimuovi restrizione altezza */
   }
 
   .menu-open .sidebar {
     transform: translateX(0);
   }
 
-  /* Overlay Mobile */
+  /* Mostra sidebar */
   .menu-overlay {
     display: block;
   }
 
-  /* Contenuto */
+  /* Mostra overlay */
+
+  /* Contenuto perde gestione scroll/altezza specifica */
   .content {
     padding: var(--space-5);
+    overflow-y: visible;
+    height: auto;
   }
 
+  /* Altri aggiustamenti Mobile */
   .gallery {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: var(--space-4);
@@ -1153,16 +1062,26 @@ header h1 {
     font-size: 0.85rem;
   }
 
-  /* Modale Mobile (Layout già stackato da 1100px) */
+  .card.card-has-image p {
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+  }
+
+  .card:not(.card-has-image) p {
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+  }
+
   .modal-text-content {
     max-height: none;
     flex-grow: 1;
   }
 
-  /* Testo prende spazio rimanente */
+  /* Rimuovi limite testo modale */
   .modal-image-container {
     flex-basis: 25vh;
     max-height: 180px;
+    /* Immagine più piccola */
   }
 
   .modal-header h2 {
@@ -1255,8 +1174,10 @@ header h1 {
     gap: var(--space-4);
   }
 
+  /* Forza una colonna */
   .gallery-controls {
     display: none;
+    /* Nascondi controlli zoom */
   }
 
   .card {
@@ -1289,9 +1210,11 @@ header h1 {
     margin: 0;
   }
 
+  /* Stile Fullscreen */
   .modal-image-container {
     flex-basis: 22vh;
     max-height: 150px;
+    /* Immagine molto piccola */
   }
 
   .modal-body {
