@@ -1,66 +1,42 @@
-/* style.css - Tema Ibrido "Cyber-Clean" */
+/* ==========================================================================
+   STYLE.CSS - RICETTARIO CYBER-CLEAN - OTTIMIZZATO
+   ========================================================================== */
 
 /* =================================
-   CSS Variables (Design Tokens) - Ibrido
+   1. CSS Variables (Design Tokens)
    ================================= */
 :root {
-  /* Palette Colori - Base scura (Futuristic), Accento Neon (Futuristic) */
+  /* Palette Colori - Base scura (Default) */
   --color-bg: #1a1e23;
-  /* Leggermente più blu del nero puro */
   --color-surface: #242930;
-  /* Superficie leggermente più chiara */
   --color-surface-alt: #2f353d;
-  /* Ancora più chiara */
   --color-border: #404853;
-  /* Bordi definiti ma non duri */
   --color-text-primary: #e1e8f0;
-  /* Testo primario chiaro */
   --color-text-secondary: #99a5b3;
-  /* Testo secondario più morbido */
-
-  /* Accento Neon Blu (Futuristic) */
   --color-accent-rgb: 0, 160, 255;
-  /* Leggermente aggiustato per visibilità */
+  /* Blu Neon */
   --color-accent: rgb(var(--color-accent-rgb));
   --color-accent-hover: rgb(50, 180, 255);
   --color-accent-light: rgba(var(--color-accent-rgb), 0.15);
-  /* Più visibile su scuro */
   --color-accent-dark: rgb(0, 130, 220);
-  /* Per ombre o dettagli scuri accento */
-
-  /* Ombre e Overlay */
   --color-shadow: rgba(0, 0, 0, 0.3);
-  /* Ombra più evidente su scuro */
   --color-shadow-hover: rgba(0, 0, 0, 0.45);
-  --color-overlay-gradient-card: linear-gradient(
-      to top,
-      rgba(10, 10, 15, 0.95) 0%, /* ERA 0.85 -> Molto scuro in basso */
-      rgba(10, 10, 15, 0.5) 60%,  /* ERA 0.1  -> Più scuro a metà */
-      transparent 100%
-  );
-  /* Overlay specifico per card immagine */
+  --color-overlay-gradient-card: linear-gradient(to top, rgba(10, 10, 15, 0.85) 0%, rgba(10, 10, 15, 0.1) 60%, transparent 100%);
   --color-overlay-modal: rgba(10, 12, 15, 0.88);
-  /* Overlay modale scuro */
-  --color-image-overlay: rgba(10, 10, 15, 0.40);
-  /* Overlay leggero su img card */
-  --color-image-overlay-hover: rgba(10, 10, 15, 0.65);
-  /* Overlay più scuro su hover */
-
-  /* Errori */
+  --color-image-overlay-card: rgba(10, 10, 15, 0.30);
+  /* Leggermente meno opaco di default */
+  --color-image-overlay-card-hover: rgba(10, 10, 15, 0.65);
   --color-error-bg: #4d1f27;
   --color-error-text: #ff8f9a;
   --color-error-border: #ffacb3;
 
-  /* Tipografia - Combinata (Futuristic Font, Clean Line Height) */
-  --font-body: 'Roboto', sans-serif;
-  /* Pulito e leggibile */
+  /* Tipografia */
+  --font-body: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   --font-heading: 'Orbitron', sans-serif;
-  /* Futuristico per titoli */
   --font-size-base: 16px;
   --line-height-base: 1.65;
-  /* Leggermente più arioso */
 
-  /* Spaziature (Scala definita come Futuristic --space-X) */
+  /* Spaziature */
   --space-1: 4px;
   --space-2: 8px;
   --space-3: 12px;
@@ -70,34 +46,29 @@
   --space-7: 48px;
   --space-8: 64px;
 
-  /* Altri Token (Forma ibrida) */
+  /* Forme e Transizioni */
   --border-radius: 4px;
-  /* Compromesso tra sharp (2px) e rounded (6px) */
   --transition-speed: 0.28s;
-  /* Leggermente più veloce */
   --transition-ease: ease-out;
   --transition-default: all var(--transition-speed) var(--transition-ease);
 
-  /* Variabili Specifiche per Effetti Sidebar/Modal */
+  /* Specifiche Effetti */
   --sidebar-li-height: 44px;
-  /* Altezza stimata item sidebar */
   --river-offset: 0px;
-  /* Offset river (gestito da JS) */
   --sidebar-river-width: 4px;
   --typewriter-duration: 2.0s;
-  /* Durata typewriter (base) */
   --typewriter-steps: 50;
-  /* Passi typewriter (base, JS può sovrascrivere) */
   --typewriter-delay: 0.35s;
   --typewriter-cursor-color: var(--color-accent);
+
+  /* Altezze */
+  --header-height: 68px;
+  /* Altezza approssimativa header per calcoli */
 }
 
-/* =================================
-   Light Mode Theme (Basato su Standard Clean)
-   ================================= */
+/* Modalità Chiara */
 @media (prefers-color-scheme: light) {
   :root:not(.dark-mode) {
-    /* Si applica solo se non forzato dark mode */
     --color-bg: #f8f9fa;
     --color-surface: #ffffff;
     --color-surface-alt: #f1f3f5;
@@ -105,30 +76,26 @@
     --color-text-primary: #212529;
     --color-text-secondary: #6c757d;
     --color-accent-rgb: 0, 123, 255;
-    /* Blu standard per light */
+    /* Blu Standard */
     --color-accent: rgb(var(--color-accent-rgb));
     --color-accent-hover: #0056b3;
     --color-accent-light: rgba(var(--color-accent-rgb), 0.1);
     --color-accent-dark: #004085;
-    /* Non molto usato in light */
     --color-shadow: rgba(0, 0, 0, 0.07);
     --color-shadow-hover: rgba(0, 0, 0, 0.12);
     --color-overlay-gradient-card: linear-gradient(to top, rgba(50, 50, 50, 0.7) 0%, rgba(50, 50, 50, 0.1) 50%, transparent 100%);
     --color-overlay-modal: rgba(33, 37, 41, 0.75);
-    --color-image-overlay: rgba(50, 50, 50, 0.15);
-    --color-image-overlay-hover: rgba(50, 50, 50, 0.40);
+    --color-image-overlay-card: rgba(50, 50, 50, 0.10);
+    --color-image-overlay-card-hover: rgba(50, 50, 50, 0.40);
     --color-error-bg: #f8d7da;
     --color-error-border: #f5c6cb;
     --color-error-text: #721c24;
     --typewriter-cursor-color: var(--color-accent-hover);
-    /* Cursore più scuro su chiaro */
   }
 }
 
-/* Forza Dark Mode se classe body presente */
+/* Forza Dark Mode */
 body.dark-mode {
-  /* Riassegna variabili dark qui, anche se sono già default in :root,
-       per assicurare priorità se l'utente non ha preferenza OS ma la classe c'è */
   --color-bg: #1a1e23;
   --color-surface: #242930;
   --color-surface-alt: #2f353d;
@@ -144,16 +111,17 @@ body.dark-mode {
   --color-shadow-hover: rgba(0, 0, 0, 0.45);
   --color-overlay-gradient-card: linear-gradient(to top, rgba(10, 10, 15, 0.85) 0%, rgba(10, 10, 15, 0.1) 60%, transparent 100%);
   --color-overlay-modal: rgba(10, 12, 15, 0.88);
-  --color-image-overlay: rgba(10, 10, 15, 0.40);
-  --color-image-overlay-hover: rgba(10, 10, 15, 0.65);
+  --color-image-overlay-card: rgba(10, 10, 15, 0.30);
+  --color-image-overlay-card-hover: rgba(10, 10, 15, 0.65);
   --color-error-bg: #4d1f27;
   --color-error-text: #ff8f9a;
   --color-error-border: #ffacb3;
   --typewriter-cursor-color: var(--color-accent);
 }
 
+
 /* =================================
-   Reset e Stili Base
+   2. Reset & Base Styles
    ================================= */
 *,
 *::before,
@@ -176,6 +144,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: background-color var(--transition-speed) var(--transition-ease), color var(--transition-speed) var(--transition-ease);
+  min-height: 100vh;
+  display: flex;
+  /* Necessario per flex-grow nel main container */
+  flex-direction: column;
 }
 
 h1,
@@ -188,23 +160,22 @@ h6 {
   font-weight: 600;
   margin-bottom: var(--space-4);
   line-height: 1.3;
-  color: var(--color-text-primary);
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
 }
 
 h2 {
-  font-size: 1.9rem;
+  font-size: 1.8rem;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 h4 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 h5 {
@@ -221,7 +192,6 @@ p {
   color: var(--color-text-secondary);
 }
 
-/* Leggero stile Futuro */
 ul,
 ol {
   padding-left: var(--space-5);
@@ -233,7 +203,6 @@ li {
   padding-left: var(--space-2);
 }
 
-/* Più spazio */
 a {
   color: var(--color-accent);
   text-decoration: none;
@@ -266,6 +235,8 @@ textarea {
   border-radius: var(--border-radius);
   padding: var(--space-3) var(--space-4);
   transition: var(--transition-default);
+  width: 100%;
+  /* Default width */
 }
 
 input::placeholder {
@@ -288,10 +259,9 @@ textarea:focus {
   outline-offset: 2px;
 }
 
-/* Visibilità focus */
 
 /* =================================
-   Header - Pulito con font futuristico
+   3. Layout (Header, Main, Sidebar, Content)
    ================================= */
 header {
   background-color: var(--color-surface);
@@ -304,11 +274,14 @@ header {
   position: sticky;
   top: 0;
   z-index: 100;
+  /* Z-index base per header desktop */
+  height: var(--header-height);
+  /* Definisci altezza header */
   transition: var(--transition-default);
 }
 
 header h1 {
-  margin-bottom: 0;
+  margin: 0;
   font-size: 1.7rem;
   letter-spacing: 0.5px;
 }
@@ -324,6 +297,7 @@ header h1 {
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: var(--transition-default);
+  white-space: nowrap;
 }
 
 #recipe-counter.error {
@@ -333,32 +307,29 @@ header h1 {
   font-weight: 600;
 }
 
-/* =================================
-   Layout & Sidebar - Ibrido
-   ================================= */
 .main-container {
   display: flex;
-  min-height: calc(100vh - 72px);
+  flex-grow: 1;
+  /* Occupa spazio verticale rimanente */
+  /* Non limitare l'altezza qui, lascia che body gestisca il flex */
 }
 
-/* Altezza header ~72px */
 .sidebar {
   flex: 0 0 280px;
-  /* Dimensione da Standard Clean */
+  /* Larghezza fissa su desktop */
   background: var(--color-surface);
-  /* Colore base scuro */
   border-right: 1px solid var(--color-border);
   padding: var(--space-6);
   overflow-y: auto;
   display: flex;
   flex-direction: column;
   position: relative;
-  /* Per ::before */
-  transition: var(--transition-default);
+  /* Default position */
+  transition: transform 0.35s cubic-bezier(0.7, 0, 0.3, 1), var(--transition-default);
+  /* No z-index qui di default */
 }
 
 .sidebar h2 {
-  /* Stile sottotitolo pulito */
   font-size: 0.85rem;
   color: var(--color-text-secondary);
   text-transform: uppercase;
@@ -366,7 +337,6 @@ header h1 {
   margin-bottom: var(--space-5);
   font-weight: 600;
   font-family: var(--font-body);
-  /* Non Orbitron qui */
   padding-bottom: var(--space-2);
   border-bottom: 1px solid var(--color-border);
   text-align: center;
@@ -377,16 +347,89 @@ header h1 {
   margin-bottom: var(--space-5);
 }
 
-/* Sidebar List & Flowing River Effect */
+/* Larghezza già 100% da base */
+
+.content {
+  flex-grow: 1;
+  /* Prende lo spazio rimanente */
+  padding: var(--space-6) var(--space-7);
+  overflow-y: auto;
+  /* Scroll solo per contenuto */
+  background-color: var(--color-bg);
+}
+
+
+/* =================================
+   4. Components
+   ================================= */
+
+/* --- Mobile Menu --- */
+.menu-toggle {
+  display: none;
+  /* Nascosto su desktop */
+  background: none;
+  border: none;
+  padding: var(--space-2);
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  /* Necessario per z-index interno */
+  z-index: 1100;
+  /* Molto alto, SARA' VISIBILE dentro header mobile */
+}
+
+.hamburger-line {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: var(--color-text-primary);
+  border-radius: 1px;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, var(--transition-default);
+}
+
+/* Hamburger -> X animation */
+.menu-open .menu-toggle .hamburger-line:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.menu-open .menu-toggle .hamburger-line:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-open .menu-toggle .hamburger-line:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.menu-overlay {
+  display: none;
+  /* Gestito da media query per apparire */
+  position: fixed;
+  inset: 0;
+  background-color: var(--color-overlay-modal);
+  z-index: 998;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.menu-open .menu-overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* --- Sidebar Category List --- */
 #categoryList {
   list-style: none;
   padding: 0;
   position: relative;
-  /* Per ::before */
+  margin: 0;
 }
 
 #categoryList::before {
-  /* Flowing River */
+  /* Flowing River Indicator */
   content: '';
   position: absolute;
   left: 0;
@@ -400,7 +443,6 @@ header h1 {
   opacity: 0;
   pointer-events: none;
   transition: transform 0.4s cubic-bezier(0.6, -0.2, 0.7, 1.5), opacity 0.3s var(--transition-ease), height 0.2s var(--transition-ease);
-  /* Curva più dinamica */
 }
 
 #categoryList.river-active::before {
@@ -421,6 +463,10 @@ header h1 {
   height: var(--sidebar-li-height);
   display: flex;
   align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* Evita che testo lungo rompa layout */
 }
 
 #categoryList li:hover {
@@ -431,24 +477,24 @@ header h1 {
 #categoryList li.active-category {
   color: var(--color-accent);
   font-weight: 600;
-  background-color: transparent;
-  /* River fa il lavoro */
+  background-color: var(--color-accent-light);
 }
 
-#categoryList li.active-category:hover {
-  background-color: var(--color-surface-alt);
+/* Nasconde river quando "Mostra tutte" (il primo LI senza dataset.categoryName) è attiva */
+#categoryList li:first-child.active-category~#categoryList::before,
+#categoryList:not(.river-active)::before {
+  opacity: 0;
 }
 
-/* =================================
-   Contenuto e Galleria - Arioso (Standard Clean layout)
-   ================================= */
-.content {
-  flex: 1;
-  padding: var(--space-6) var(--space-7);
-  overflow-y: auto;
-  background-color: var(--color-bg);
+/* Applica river solo se un LI specifico (non il primo) è attivo */
+#categoryList li:not(:first-child).active-category~#categoryList::before {
+  opacity: 1;
+  /* Questo potrebbe non funzionare come previsto con il JS che aggiunge river-active */
+  /* La logica JS di aggiungere river-active quando serve è più affidabile */
 }
 
+
+/* --- Gallery Controls & Gallery --- */
 .gallery-controls {
   margin-bottom: var(--space-6);
   display: flex;
@@ -460,6 +506,7 @@ header h1 {
   border-radius: var(--border-radius);
   border: 1px solid var(--color-border);
   box-shadow: 0 1px 3px var(--color-shadow);
+  transition: var(--transition-default);
 }
 
 .gallery-controls label {
@@ -469,14 +516,21 @@ header h1 {
   text-transform: uppercase;
 }
 
+#zoomSlider {
+  width: 180px;
+  cursor: pointer;
+  accent-color: var(--color-accent);
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: var(--space-6);
 }
 
-#gallery p,
-.error-message {
+.gallery p.gallery-empty-message,
+.gallery p.gallery-error-message {
+  /* Stile per messaggi galleria vuota/errore */
   grid-column: 1 / -1;
   text-align: center;
   padding: var(--space-7) 0;
@@ -484,7 +538,7 @@ header h1 {
   font-style: italic;
 }
 
-.error-message {
+.gallery p.gallery-error-message {
   color: var(--color-error-text);
   background-color: var(--color-error-bg);
   border: 1px solid var(--color-error-border);
@@ -494,153 +548,167 @@ header h1 {
   font-weight: 500;
 }
 
-/* =================================
-   Card Ricetta - Ibrido (Struttura Overlay Clean, Estetica Cyber)
-   ================================= */
-   .card {
-    background-color: var(--color-surface);
-    border: 1px solid var(--color-border);
-    border-radius: var(--border-radius);
-    cursor: pointer;
-    overflow: hidden; /* Importante per contenere pseudo-elementi */
-    position: relative; /* Necessario per posizionare pseudo-elementi */
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 4px 10px -2px var(--color-shadow);
-    transition: var(--transition-default), transform 0.2s ease-in-out;
-    min-height: 350px;
+
+/* --- Recipe Card --- */
+.card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 10px -2px var(--color-shadow);
+  transition: var(--transition-default), transform 0.2s ease-in-out;
+  min-height: 350px;
 }
+
 .card:hover {
-    transform: translateY(-5px) scale(1.01);
-    box-shadow: 0 8px 18px -4px var(--color-shadow-hover);
-    border-color: var(--color-accent-dark);
+  transform: translateY(-5px) scale(1.01);
+  box-shadow: 0 8px 18px -4px var(--color-shadow-hover);
+  border-color: var(--color-accent-dark);
 }
 
-/* Card CON Immagine (NUOVO - Con Blur su Hover) */
+/* Card CON Immagine (Blur Hover) */
 .card.card-has-image {
-    padding: 0; /* Rimuoviamo padding base */
-    color: #fff;
-    border: 1px solid transparent;
-    background-color: var(--color-surface-alt); /* Fallback */
-    /* background-image non va qui! */
+  padding: 0;
+  color: #fff;
+  border: 1px solid transparent;
+  background-color: var(--color-surface-alt);
+  /* Fallback */
 }
 
-/* Pseudo-elemento ::AFTER per l'IMMAGINE di sfondo */
 .card.card-has-image::after {
-    content: '';
-    position: absolute;
-    inset: 0; /* Copre tutta la card */
-    z-index: 0; /* Strato più basso */
-    border-radius: inherit; /* Segue il bordo della card */
-
-    /* Immagine di sfondo qui */
-    background-image: var(--card-bg-image);
-    background-size: cover;
-    background-position: center;
-
-    /* Transizione per filtro e trasformazione */
-    transition: filter var(--transition-speed) var(--transition-ease),
-                transform var(--transition-speed) var(--transition-ease);
+  /* Immagine Background */
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
+  background-image: var(--card-bg-image, linear-gradient(var(--color-surface-alt), var(--color-surface)));
+  /* Gradiente fallback */
+  background-size: cover;
+  background-position: center;
+  transition: filter var(--transition-speed) var(--transition-ease), transform var(--transition-speed) var(--transition-ease);
 }
 
-/* Pseudo-elemento ::BEFORE per l'OVERLAY GRADIENTE */
 .card.card-has-image::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    z-index: 1; /* Sopra l'immagine (::after) */
-    border-radius: inherit;
-    background: var(--color-overlay-gradient-card);
-    pointer-events: none; /* Non interferisce */
-    transition: opacity var(--transition-speed) var(--transition-ease);
-    opacity: 1; /* Sempre visibile */
+  /* Overlay Gradiente */
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+  background: var(--color-overlay-gradient-card);
+  pointer-events: none;
+  transition: opacity var(--transition-speed) var(--transition-ease);
 }
 
-/* Wrapper Contenuto (Sopra tutto) */
 .card-has-image .card-content-wrapper {
-    position: relative; /* Necessario per z-index */
-    z-index: 2; /* Sopra immagine e overlay gradiente */
-    padding: var(--space-5);
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    background: none; /* NESSUN background qui ora */
+  /* Contenuto Testuale */
+  position: relative;
+  z-index: 2;
+  padding: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background: none;
 }
 
-/* Stili testo e tag su immagine */
 .card.card-has-image h3,
 .card.card-has-image p,
 .card.card-has-image .category-tag {
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Ombra testo necessaria */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  color: #fff;
 }
+
 .card.card-has-image h3 {
-    font-size: 1.7rem;
-    font-weight: 700;
-    margin-bottom: var(--space-3);
-    color: #fff; /* Assicura colore bianco */
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: var(--space-3);
 }
+
 .card.card-has-image p {
-    font-family: var(--font-body); font-weight: 400; font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.95); line-height: 1.6; margin-bottom: var(--space-4); flex-grow: 1;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden; text-overflow: ellipsis;
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.95);
+  line-height: 1.6;
+  margin-bottom: var(--space-4);
+  flex-grow: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+
 .card.card-has-image .category-tag {
-    background-color: rgba(255, 255, 255, 0.1); color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.2); backdrop-filter: blur(2px);
-    padding: var(--space-1) var(--space-3); font-size: 0.7rem; font-weight: 500;
-    text-transform: uppercase; letter-spacing: 0.5px; border-radius: calc(var(--border-radius) / 2);
-    align-self: flex-start;
-    /* Spinto in fondo da p{flex-grow:1} */
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(2px);
+  padding: var(--space-1) var(--space-3);
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: calc(var(--border-radius) / 2);
+  align-self: flex-start;
+  margin-top: auto;
 }
 
-/* ---- EFFETTO HOVER BLUR ---- */
+/* Effetto Hover Blur */
 .card.card-has-image:hover::after {
-    filter: blur(5px) brightness(0.85); /* Applica blur e leggero scurimento all'immagine */
-    transform: scale(1.03); /* Leggero zoom per compensare bordi blur */
+  filter: blur(5px) brightness(0.85);
+  transform: scale(1.03);
 }
 
-/* Optional: Aumenta l'opacità dell'overlay gradiente su hover per leggibilità */
-/* .card.card-has-image:hover::before {
-    opacity: 0.95;
-} */
-
-
-/* Card SENZA Immagine (invariata) */
+/* Card SENZA Immagine */
 .card:not(.card-has-image) {
-    padding: var(--space-5);
-    justify-content: space-between;
+  padding: var(--space-5);
+  justify-content: space-between;
 }
-.card:not(.card-has-image) h3 {
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: var(--color-text-primary);
-}
-.card:not(.card-has-image) p {
-    font-size: 0.95rem;
-    flex-grow: 1;
-    color: var(--color-text-secondary);
-    display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; line-clamp: 5;
-    overflow: hidden;
-}
-.card:not(.card-has-image) .category-tag {
-    margin-top: var(--space-4); align-self: flex-start; padding: var(--space-1) var(--space-3);
-    font-size: 0.7rem; font-weight: 500; color: var(--color-text-secondary);
-    border: 1px solid var(--color-border); border-radius: calc(var(--border-radius) / 2);
-    background-color: transparent; text-transform: uppercase; letter-spacing: 0.5px;
-}
-/* ================================= FINE Sezione Card Ricetta ================================= */
 
-/* =================================
-   Modal - Layout Cyber-Clean
-   ================================= */
+.card:not(.card-has-image) h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.card:not(.card-has-image) p {
+  font-size: 0.95rem;
+  flex-grow: 1;
+  color: var(--color-text-secondary);
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card:not(.card-has-image) .category-tag {
+  margin-top: var(--space-4);
+  align-self: flex-start;
+  padding: var(--space-1) var(--space-3);
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: calc(var(--border-radius) / 2);
+  background-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+
+/* --- Recipe Modal --- */
 #recipeModal {
   display: none;
   position: fixed;
-  z-index: 1050;
+  z-index: 1200;
+  /* Più alto di header */
   inset: 0;
   background-color: var(--color-overlay-modal);
   padding: var(--space-5);
@@ -656,7 +724,6 @@ header h1 {
   opacity: 1;
 }
 
-/* JS usa flex per mostrarlo */
 .modal-content {
   background-color: var(--color-surface);
   border-radius: var(--border-radius);
@@ -671,10 +738,9 @@ header h1 {
   overflow: hidden;
   transform: translateY(-10px) scale(0.98);
   opacity: 0;
-  /* Entrata diversa */
   transition: transform calc(var(--transition-speed) * 1.5) var(--transition-ease),
     opacity calc(var(--transition-speed) * 1.5) var(--transition-ease),
-    background-color var(--transition-speed) var(--transition-ease);
+    var(--transition-default);
 }
 
 #recipeModal[style*="display: flex"] .modal-content {
@@ -682,7 +748,6 @@ header h1 {
   opacity: 1;
 }
 
-/* Layout a Due Colonne (da Futuristic) */
 .modal-text-content {
   flex: 3;
   min-width: 0;
@@ -697,7 +762,6 @@ header h1 {
   min-width: 0;
   position: relative;
   background-color: var(--color-bg);
-  /* Sfondo immagine più scuro */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -735,15 +799,16 @@ header h1 {
 .modal-close-button {
   font-size: 2rem;
   font-weight: 200;
-  /* Più sottile */
   color: var(--color-text-secondary);
   padding: var(--space-1);
   line-height: 1;
   transition: color var(--transition-speed) ease;
+  border-radius: 50%;
 }
 
 .modal-close-button:hover {
   color: var(--color-accent);
+  background-color: var(--color-surface-alt);
 }
 
 .modal-body {
@@ -760,11 +825,11 @@ header h1 {
 
 .section-container:last-child {
   border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-/* Titoli Sezione Modal */
 .section-title {
-  /* Usa accento come clean */
   font-family: var(--font-heading);
   font-size: 1.2rem;
   font-weight: 600;
@@ -782,7 +847,6 @@ header h1 {
 }
 
 .subsection-title {
-  /* Titolo secondario pulito */
   font-family: var(--font-heading);
   font-size: 1rem;
   font-weight: 600;
@@ -791,34 +855,29 @@ header h1 {
   display: block;
 }
 
-/* Testo Specifico Modal */
 .categoria-info {
   font-size: 0.8rem;
   color: var(--color-text-secondary);
   text-transform: uppercase;
   margin-bottom: var(--space-4);
+  font-weight: 500;
 }
 
 .categoria-info strong {
   color: var(--color-text-primary);
-  font-weight: 500;
 }
 
 .descrizione-info {
-  /* Da modificare per typewriter */
   color: var(--color-text-primary);
-  /* Testo più chiaro per leggibilità */
   font-size: 1.05rem;
   line-height: 1.7;
   margin-bottom: var(--space-6);
   font-style: normal;
   font-weight: 300;
-  /* Leggero stile Futuro */
   transition: opacity var(--transition-speed);
-  /* Per fade-in post typewriter */
 }
 
-/* Classe Typewriter */
+/* Stile Typewriter */
 .descrizione-info.typewriter {
   display: inline-block;
   vertical-align: top;
@@ -831,12 +890,9 @@ header h1 {
   max-height: 0;
   letter-spacing: normal;
   word-wrap: break-word;
-  animation: typing-multiline calc(var(--typewriter-duration) * (var(--typewriter-steps) / 60)) steps(var(--typewriter-steps), end) var(--typewriter-delay) forwards,
-    /* Velocità dipende da steps, base 60 */
-    blink-caret .75s step-end infinite var(--typewriter-delay);
+  animation: typing-multiline calc(var(--typewriter-duration) * (var(--typewriter-steps) / 60)) steps(var(--typewriter-steps), end) var(--typewriter-delay) forwards, blink-caret .75s step-end infinite var(--typewriter-delay);
   animation-play-state: running;
   color: var(--color-text-primary);
-  /* Rende testo visibile */
 }
 
 @keyframes typing-multiline {
@@ -885,6 +941,7 @@ header h1 {
   border-radius: var(--border-radius);
   border: 1px solid var(--color-border);
   margin-top: var(--space-5);
+  font-size: 0.95rem;
 }
 
 .modal-body ul,
@@ -902,9 +959,9 @@ header h1 {
 .modal-body ul li::marker {
   content: "▹ ";
   color: var(--color-accent);
+  font-size: 1.1em;
 }
 
-/* Marker custom futuristico */
 .modal-body ol {
   list-style-type: none;
   counter-reset: step-counter;
@@ -930,104 +987,8 @@ header h1 {
   font-style: italic;
 }
 
-/* =================================
-   Media Queries - Basati su esempi, adattati
-   ================================= */
-@media (max-width: 1100px) {
-
-  /* Stesso breakpoint Futuristic */
-  .modal-content {
-    flex-direction: column;
-    max-width: 700px;
-    /* Dimensione più contenuta */
-  }
-
-  .modal-text-content {
-    flex: 1;
-    border-right: none;
-    border-bottom: 1px solid var(--color-border);
-    max-height: 55vh;
-  }
-
-  .modal-image-container {
-    flex: 0 0 30vh;
-    width: 100%;
-    order: -1;
-    /* Immagine sopra */
-    height: auto;
-  }
-}
-
-@media (max-width: 768px) {
-
-  /* Stesso breakpoint Standard Clean */
-  .main-container {
-    flex-direction: column;
-  }
-
-  .sidebar {
-    flex: 0 0 auto;
-    width: 100%;
-    border-right: none;
-    border-bottom: 1px solid var(--color-border);
-    max-height: 35vh;
-    /* Meno spazio su mobile */
-  }
-
-  .content {
-    padding: var(--space-5);
-  }
-
-  .gallery {
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: var(--space-5);
-  }
-
-  .modal-header h2 {
-    font-size: 1.6rem;
-  }
-}
-
-@media (max-width: 500px) {
-
-  /* Micro aggiustamenti mobile */
-  :root {
-    --font-size-base: 15px;
-  }
-
-  header {
-    padding: var(--space-3) var(--space-4);
-  }
-
-  header h1 {
-    font-size: 1.5rem;
-  }
-
-  #recipeModal {
-    padding: var(--space-2);
-  }
-
-  .modal-content {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 0;
-    border: none;
-  }
-
-  .modal-image-container {
-    flex-basis: 25vh;
-  }
-
-  .modal-body {
-    padding: var(--space-4);
-  }
-}
-
-/* =================================
-   Chatbot - Minimale Cyber
-   ================================= */
+/* --- Chatbot (Esempio) --- */
 #chatling-embed-script+div button {
-  /* Selettore fragile ma necessario */
   background-color: var(--color-surface) !important;
   border: 1px solid var(--color-border) !important;
   box-shadow: 0 3px 10px -2px var(--color-shadow) !important;
@@ -1051,4 +1012,319 @@ header h1 {
 
 #chatling-embed-script+div button:hover svg {
   fill: var(--color-accent) !important;
+}
+
+
+/* =================================
+   5. Media Queries (Mobile Optimizations)
+   ================================= */
+
+/* Tablet & Landscape Phones */
+@media (max-width: 1100px) {
+  .modal-content {
+    flex-direction: column;
+    max-width: 700px;
+    max-height: 95vh;
+  }
+
+  .modal-text-content {
+    flex: 1 1 auto;
+    border-right: none;
+    border-bottom: 1px solid var(--color-border);
+    max-height: 62vh;
+    order: 2;
+  }
+
+  .modal-image-container {
+    flex: 0 0 28vh;
+    width: 100%;
+    order: 1;
+    height: auto;
+    max-height: 250px;
+    align-items: center;
+    background-color: var(--color-bg);
+    overflow: hidden;
+  }
+
+  .modal-image-container img {
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Mobile Portrait & Small Tablets */
+@media (max-width: 768px) {
+  :root {
+    --font-size-base: 15.5px;
+  }
+
+  body.menu-open {
+    overflow: hidden;
+  }
+
+  /* Blocca scroll body */
+
+  /* Header con Menu Toggle */
+  header {
+    padding: var(--space-3) var(--space-4);
+    z-index: 1050;
+    /* Assicura sia SOPRA la sidebar mobile */
+    height: calc(var(--header-height) - 8px);
+    /* Leggermente più basso */
+  }
+
+  .menu-toggle {
+    display: flex;
+    order: -1;
+  }
+
+  header h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 var(--space-3);
+    font-size: 1.4rem;
+  }
+
+  #recipe-counter {
+    display: none;
+  }
+
+  /* Main Container */
+  .main-container {
+    flex-direction: column;
+  }
+
+  /* Sidebar diventa Menu Mobile */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 100vh;
+    max-height: 100vh;
+    border-right: 1px solid var(--color-border);
+    border-bottom: none;
+    transform: translateX(-100%);
+    box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.2);
+    padding: var(--space-6);
+    /* Riduci padding verticale se necessario */
+    padding-top: calc(var(--header-height) + var(--space-4));
+    /* Spazio per header fisso */
+    z-index: 999;
+    /* Sotto header, sopra overlay */
+    max-height: none;
+    /* Rimuovi limite altezza */
+  }
+
+  .menu-open .sidebar {
+    transform: translateX(0);
+  }
+
+  /* Overlay Mobile */
+  .menu-overlay {
+    display: block;
+  }
+
+  /* Contenuto */
+  .content {
+    padding: var(--space-5);
+  }
+
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--space-4);
+  }
+
+  .card {
+    min-height: 300px;
+  }
+
+  .card.card-has-image h3 {
+    font-size: 1.5rem;
+  }
+
+  .card:not(.card-has-image) h3 {
+    font-size: 1.3rem;
+  }
+
+  .card p {
+    font-size: 0.85rem;
+  }
+
+  /* Modale Mobile (Layout già stackato da 1100px) */
+  .modal-text-content {
+    max-height: none;
+    flex-grow: 1;
+  }
+
+  /* Testo prende spazio rimanente */
+  .modal-image-container {
+    flex-basis: 25vh;
+    max-height: 180px;
+  }
+
+  .modal-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .modal-close-button {
+    font-size: 1.8rem;
+    padding: var(--space-2);
+  }
+
+  .modal-body {
+    padding: var(--space-5);
+  }
+
+  .section-title {
+    font-size: 1.1rem;
+  }
+
+  .subsection-title {
+    font-size: 0.9rem;
+  }
+
+  .descrizione-info {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+}
+
+/* Small Mobile Portrait */
+@media (max-width: 500px) {
+  :root {
+    --font-size-base: 15px;
+  }
+
+  header {
+    padding: var(--space-2) var(--space-3);
+    height: calc(var(--header-height) - 12px);
+  }
+
+  header h1 {
+    font-size: 1.3rem;
+    letter-spacing: 0;
+  }
+
+  .menu-toggle {
+    width: 35px;
+    height: 35px;
+  }
+
+  .hamburger-line {
+    height: 2px;
+  }
+
+  .menu-open .menu-toggle .hamburger-line:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+  }
+
+  .menu-open .menu-toggle .hamburger-line:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+
+  .sidebar {
+    width: 250px;
+    padding-top: calc(var(--header-height) - 12px + var(--space-3));
+  }
+
+  .sidebar h2 {
+    font-size: 0.7rem;
+    margin-bottom: var(--space-4);
+  }
+
+  #searchInput {
+    font-size: 0.85rem;
+    padding: var(--space-2) var(--space-3);
+    margin-bottom: var(--space-4);
+  }
+
+  #categoryList li {
+    height: calc(var(--sidebar-li-height) - 6px);
+    font-size: 0.85rem;
+  }
+
+  .content {
+    padding: var(--space-4);
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  .gallery-controls {
+    display: none;
+  }
+
+  .card {
+    min-height: 280px;
+  }
+
+  .card.card-has-image h3 {
+    font-size: 1.4rem;
+    margin-bottom: var(--space-2);
+  }
+
+  .card:not(.card-has-image) h3 {
+    font-size: 1.2rem;
+  }
+
+  .card p {
+    font-size: 0.8rem;
+  }
+
+  #recipeModal {
+    padding: var(--space-1);
+  }
+
+  .modal-content {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .modal-image-container {
+    flex-basis: 22vh;
+    max-height: 150px;
+  }
+
+  .modal-body {
+    padding: var(--space-4);
+  }
+
+  .modal-header h2 {
+    font-size: 1.4rem;
+  }
+
+  .modal-close-button {
+    font-size: 1.7rem;
+  }
+
+  .section-title {
+    font-size: 1rem;
+  }
+
+  .subsection-title {
+    font-size: 0.85rem;
+  }
+
+  .modal-body li {
+    line-height: 1.6;
+  }
+
+  .modal-body ul,
+  .modal-body ol {
+    padding-left: var(--space-4);
+  }
+
+  .vino-info {
+    padding: var(--space-2) var(--space-3);
+    font-size: 0.85rem;
+  }
 }
