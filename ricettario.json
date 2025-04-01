@@ -1181,7 +1181,7 @@
               ]
             }
           ],
-          "passaggi": [
+          "procedimento": [
             {
               "fase": "Preparazione iniziale",
               "passaggi": [
@@ -3592,7 +3592,7 @@
               "note": "Tannicità gentile, ideale per dialogare con la dolcezza della zucca e la caramellatura."
             }
           ],
-          "variante": {
+          "varianti": {
             "nome": "Variante carnivora",
             "descrizione": "Aggiungi pancetta affumicata croccante o salsiccia sbriciolata rosolata alla crema di zucca per un tocco rustico e deciso.",
             "ingredienti": null,
@@ -4978,7 +4978,7 @@
               ]
             }
           ],
-          "varianti_ultra_gourmet": [
+          "varianti": [
             {
               "nome": "Cioccolato caramellato",
               "note": "Usa chocolate caramel, spennella con burro fuso."
@@ -6169,7 +6169,7 @@
               ]
             }
           ],
-          "variante": {
+          "varianti": {
             "nome": "Torrone al Pistacchio",
             "descrizione": "Sostituisci la Nutella con crema spalmabile al pistacchio. Puoi anche sostituire parte delle nocciole con pistacchi tostati per un gusto più intenso e bilanciato.",
             "ingredienti": null,
@@ -7156,121 +7156,242 @@
       "ricette": [
         {
           "nome": "Carota Nuda",
-          "descrizione": "Carote nude, immerse nella salamoia, si trasformano in un accompagnamento vivo e acido. Perfette con piatti grassi o affumicati.",
+          "descrizione": "Fermentazione lattica – carote in salamoia croccanti e acidule.",
           "ingredienti": [
             {
-              "nome_gruppo": "Base",
+              "nome_gruppo": null,
               "lista_ingredienti": [
-                { "quantita": "q.b.", "ingrediente": "Carote biologiche", "note": null, "per": null },
-                { "quantita": "q.b.", "ingrediente": "Acqua non clorata", "note": null, "per": null },
-                { "quantita": "2,5%", "ingrediente": "Sale", "note": "del peso dell'acqua", "per": null },
-                { "quantita": "facoltative", "ingrediente": "Spezie", "note": "semi di senape, pepe, aneto", "per": null }
+                {
+                  "quantita": "q.b.",
+                  "ingrediente": "Carote biologiche",
+                  "note": null,
+                  "per": null
+                },
+                {
+                  "quantita": "q.b.",
+                  "ingrediente": "Acqua non clorata",
+                  "note": null,
+                  "per": null
+                },
+                {
+                  "quantita": "2,5%",
+                  "ingrediente": "Sale",
+                  "note": "del peso dell'acqua",
+                  "per": null
+                },
+                {
+                  "quantita": "facoltative",
+                  "ingrediente": "Spezie",
+                  "note": "semi di senape, pepe, aneto",
+                  "per": null
+                }
               ]
             }
           ],
           "procedimento": [
             {
-              "fase": "Fermentazione lattica",
+              "fase": "Preparazione",
               "passaggi": [
                 "Taglia le carote a bastoncino.",
-                "Prepara una salamoia con acqua e sale (2,5%).",
-                "Aggiungi eventuali spezie.",
-                "Immergi le carote in barattolo, copri con la salamoia.",
-                "Chiudi con tappo ermetico o valvola.",
+                "Prepara la salamoia con acqua e sale.",
+                "Inserisci le carote in un barattolo e copri completamente con la salamoia.",
+                "Chiudi con tappo ermetico o valvola di fermentazione.",
                 "Fermenta a 20°C per 7–14 giorni.",
-                "Conserva in frigorifero una volta completata la fermentazione."
+                "Conserva in frigorifero una volta terminata la fermentazione."
               ]
             }
-          ]
+          ],
+          "usi": {
+            "carote": [
+              "In purezza, come contorno acidulo e croccante",
+              "Tagliate fini in tartare (di carne, pesce o vegetale)",
+              "In emulsione: frullate con olio e kefir per salsa lattica vegetale",
+              "Saltate brevemente con burro e pepe, effetto pickled caldo",
+              "Tritate in impasto di pane o focacce"
+            ],
+            "liquido": [
+              "Come starter per nuove fermentazioni",
+              "In cocktail analcolici fermentati",
+              "Per acidificare vinaigrette o maionesi"
+            ]
+          }
         },
         {
           "nome": "Aglio e Oro",
-          "descrizione": "Fermentazione osmotica in miele. L’aglio si trasforma in un balsamo dorato e profumato, perfetto per salse e carni.",
+          "descrizione": "Fermentazione osmotica – aglio nel miele, dolce e balsamico.",
           "ingredienti": [
             {
-              "nome_gruppo": "Fermento",
+              "nome_gruppo": null,
               "lista_ingredienti": [
-                { "quantita": "q.b.", "ingrediente": "Spicchi d’aglio fresco, pelati", "note": null, "per": null },
-                { "quantita": "q.b.", "ingrediente": "Miele grezzo non pastorizzato", "note": "millefiori o castagno", "per": null }
+                {
+                  "quantita": "q.b.",
+                  "ingrediente": "Spicchi d’aglio fresco, pelati",
+                  "note": null,
+                  "per": null
+                },
+                {
+                  "quantita": "q.b.",
+                  "ingrediente": "Miele grezzo non pastorizzato",
+                  "note": "millefiori o castagno",
+                  "per": null
+                }
               ]
             }
           ],
           "procedimento": [
             {
-              "fase": "Fermentazione osmotica",
+              "fase": "Fermentazione",
               "passaggi": [
-                "Metti gli spicchi d’aglio in un barattolo.",
-                "Copri completamente con miele, lasciando spazio in cima.",
-                "Ogni 1–2 giorni muovi il contenuto per favorire la fermentazione.",
-                "Dopo 2–3 settimane il miele sarà più liquido, l’aglio più scuro.",
-                "Conserva al fresco e utilizza in creme, riduzioni, carni."
+                "Inserisci gli spicchi d'aglio in un barattolo pulito.",
+                "Copri completamente con miele, lasciando un po’ di spazio in cima.",
+                "Ogni 1–2 giorni muovi il contenuto per far salire le bolle.",
+                "Dopo 2–3 settimane l’aglio sarà scuro e il miele più liquido.",
+                "Conserva al fresco, lontano dalla luce diretta."
               ]
             }
-          ]
+          ],
+          "usi": {
+            "aglio": [
+              "Spalmato su pane con burro acido o robiola",
+              "Frullato in crema per nappatura di carni o verdure",
+              "In maionese fermentata (con miele e limone)"
+            ],
+            "miele": [
+              "Glasse per carni arrostite o CBT",
+              "Salse agrodolci orientali",
+              "Condimento su formaggi stagionati o erborinati",
+              "Ganache, cioccolatini salati o dolci speziati"
+            ]
+          }
         },
         {
           "nome": "Nube Salata",
-          "descrizione": "Fermentazione enzimatica della panna con miso o koji, da montare come una mousse salata e sorprendente.",
+          "descrizione": "Fermentazione enzimatica – panna con miso o shio-koji, montata.",
           "ingredienti": [
             {
-              "nome_gruppo": "Base",
+              "nome_gruppo": null,
               "lista_ingredienti": [
-                { "quantita": "200 ml", "ingrediente": "Panna fresca liquida", "note": null, "per": null },
-                { "quantita": "1 cucchiaino", "ingrediente": "Miso bianco crudo", "note": "oppure shio-koji", "per": null }
+                {
+                  "quantita": "200 ml",
+                  "ingrediente": "Panna fresca liquida",
+                  "note": null,
+                  "per": null
+                },
+                {
+                  "quantita": "1 cucchiaino",
+                  "ingrediente": "Miso bianco crudo",
+                  "note": "oppure shio-koji",
+                  "per": null
+                }
               ]
             }
           ],
           "procedimento": [
             {
-              "fase": "Fermentazione enzimatica",
+              "fase": "Fermentazione e montaggio",
               "passaggi": [
-                "Unisci panna e miso in barattolo chiuso ma non ermetico.",
-                "Fermenta per 48h a 18–22°C.",
-                "Quando odora di panna acida e pane, raffredda bene.",
-                "Monta a freddo per ottenere una mousse leggera.",
-                "Usa su pesce, dessert, risotti."
+                "Unisci la panna e il miso in un barattolo pulito, chiuso ma non ermetico.",
+                "Fermenta a 18–22°C per 48 ore.",
+                "Quando odora di panna acida e pane, raffredda in frigorifero.",
+                "Monta a freddo fino a ottenere una texture leggera ma stabile."
               ]
             }
-          ]
+          ],
+          "usi": {
+            "panna_fermentata": [
+              "Su crudi di pesce, carne o vegetali",
+              "In dessert umami (ganache fondente, pere al forno, castagne)",
+              "Per mantecare risotti, vellutate o purè",
+              "Come base per mousse salate o spume fredde",
+              "Per farcire bignè o tartellette salate"
+            ]
+          }
         },
         {
           "nome": "Tisana di Kombucha",
-          "descrizione": "Fermentazione simbiotica con SCOBY e tè dolcificato. Una bevanda viva e bilanciata, da aromatizzare a piacere.",
+          "descrizione": "Fermentazione simbiotica – kombucha artigianale non aromatizzato.",
           "ingredienti": [
             {
-              "nome_gruppo": "Infuso",
+              "nome_gruppo": null,
               "lista_ingredienti": [
-                { "quantita": "1 L", "ingrediente": "Tè verde o nero dolcificato", "note": "con 80 g di zucchero", "per": null },
-                { "quantita": "150 ml", "ingrediente": "Kombucha madre", "note": "non aromatizzata", "per": null },
-                { "quantita": "1", "ingrediente": "SCOBY", "note": null, "per": null }
+                {
+                  "quantita": "1 L",
+                  "ingrediente": "Tè verde o nero dolcificato",
+                  "note": "80 g di zucchero",
+                  "per": null
+                },
+                {
+                  "quantita": "150 ml",
+                  "ingrediente": "Kombucha madre",
+                  "note": "non aromatizzato",
+                  "per": null
+                },
+                {
+                  "quantita": "1",
+                  "ingrediente": "SCOBY",
+                  "note": null,
+                  "per": null
+                }
               ]
             }
           ],
           "procedimento": [
             {
-              "fase": "Fermentazione simbiotica",
+              "fase": "Fermentazione",
               "passaggi": [
-                "Prepara il tè con zucchero, lascialo raffreddare.",
-                "Versa il tè in vaso con SCOBY e starter.",
-                "Copri con garza.",
-                "Fermenta per 7–10 giorni.",
-                "Filtra e imbottiglia.",
-                "Effettua una seconda fermentazione con frutta o erbe per aromatizzare."
+                "Prepara il tè, aggiungi lo zucchero e lascia raffreddare.",
+                "Versa in un vaso di vetro con kombucha madre e SCOBY.",
+                "Copri con una garza traspirante.",
+                "Fermenta per 7–10 giorni a temperatura ambiente.",
+                "Filtra e imbottiglia. Puoi aromatizzare durante la seconda fermentazione."
               ]
             }
-          ]
+          ],
+          "usi": {
+            "kombucha": [
+              "Bevanda fermentata da abbinamento",
+              "Ridotto a sciroppo per cocktail o salse",
+              "Emulsionato in vinaigrette fruttate",
+              "Per sfumare cotture leggere",
+              "In dessert: sorbetti, granite, gelatine"
+            ],
+            "scoby": [
+              "Essiccato e frullato per ottenere polvere acidula",
+              "Candito o marinato per texture insolite"
+            ]
+          }
         },
         {
           "nome": "Cuore di Buccia",
-          "descrizione": "Fermentazione acetica degli scarti di mela. Da fruttato zuccherino a aceto affilato e vivo.",
+          "descrizione": "Fermentazione acetica – aceto da scarti di frutta.",
           "ingredienti": [
             {
-              "nome_gruppo": "Scarti",
+              "nome_gruppo": null,
               "lista_ingredienti": [
-                { "quantita": "q.b.", "ingrediente": "Scarti di mela", "note": "torsoli, bucce", "per": null },
-                { "quantita": "q.b.", "ingrediente": "Acqua", "note": null, "per": null },
-                { "quantita": "20–30 g/L", "ingrediente": "Zucchero", "note": null, "per": null },
-                { "quantita": "1 cucchiaio", "ingrediente": "Aceto madre", "note": "facoltativo", "per": null }
+                {
+                  "quantita": "q.b.",
+                  "ingrediente": "Scarti di mela",
+                  "note": "torsoli, bucce",
+                  "per": null
+                },
+                {
+                  "quantita": "q.b.",
+                  "ingrediente": "Acqua",
+                  "note": null,
+                  "per": null
+                },
+                {
+                  "quantita": "20–30 g/L",
+                  "ingrediente": "Zucchero",
+                  "note": null,
+                  "per": null
+                },
+                {
+                  "quantita": "1 cucchiaio",
+                  "ingrediente": "Aceto madre",
+                  "note": "opzionale",
+                  "per": null
+                }
               ]
             }
           ],
@@ -7278,43 +7399,75 @@
             {
               "fase": "Fermentazione acetica",
               "passaggi": [
-                "Metti gli scarti in vaso con acqua e zucchero.",
-                "Copri con garza e fermenta 2 settimane.",
-                "Filtra il liquido.",
-                "Aggiungi aceto madre se desiderato.",
-                "Lascia acidificare altre 3–4 settimane.",
-                "Conserva in bottiglia per glassare, deglassare o condire."
+                "Inserisci gli scarti in un vaso capiente con acqua e zucchero.",
+                "Copri con garza traspirante.",
+                "Fermenta 2 settimane a temperatura ambiente.",
+                "Filtra il liquido e aggiungi aceto madre (se disponibile).",
+                "Fermenta ancora 3–4 settimane fino a raggiungere acidità desiderata.",
+                "Conserva in bottiglia ben chiusa al fresco."
               ]
             }
-          ]
+          ],
+          "usi": {
+            "aceto": [
+              "Deglassatura di fondi o carni",
+              "In riduzione per nappatura vegetale",
+              "Marinature: cipolla rossa, frutta, pesce",
+              "In dessert (fragole, gelato, frolla)",
+              "Base speziata per shrub e cocktail"
+            ]
+          }
         },
         {
           "nome": "Frutto Invertito",
-          "descrizione": "Fermentazione alcolica spontanea della frutta. Il frutto bolle, si trasforma e racconta una nuova storia.",
+          "descrizione": "Fermentazione alcolica – frutta fermentata spontaneamente.",
           "ingredienti": [
             {
-              "nome_gruppo": "Frutta",
+              "nome_gruppo": null,
               "lista_ingredienti": [
-                { "quantita": "q.b.", "ingrediente": "Frutta matura", "note": "uva, fico, pesca", "per": null },
-                { "quantita": "facoltativo", "ingrediente": "Zucchero", "note": null, "per": null }
+                {
+                  "quantita": "q.b.",
+                  "ingrediente": "Frutta matura",
+                  "note": "uva, fico, pesca",
+                  "per": null
+                },
+                {
+                  "quantita": "facoltativo",
+                  "ingrediente": "Zucchero",
+                  "note": "per attivare fermentazione",
+                  "per": null
+                }
               ]
             }
           ],
           "procedimento": [
             {
-              "fase": "Fermentazione alcolica",
+              "fase": "Fermentazione spontanea",
               "passaggi": [
-                "Schiaccia la frutta e mettila in contenitore coperto con garza.",
-                "Fermenta 3–6 giorni a temperatura ambiente, mescolando ogni giorno.",
-                "Quando inizia a frizzare, filtra il liquido.",
-                "Usa il succo fermentato per vinaigrette, marinate o salse.",
-                "La polpa può diventare riduzione, salsa o sorbetto."
+                "Schiaccia la frutta e inseriscila in un contenitore pulito.",
+                "Copri con garza o telo traspirante.",
+                "Fermenta a temperatura ambiente per 3–6 giorni, mescolando ogni giorno.",
+                "Quando inizia a frizzare, filtra.",
+                "Conserva il succo in frigo per usi creativi."
               ]
             }
-          ]
+          ],
+          "usi": {
+            "succo": [
+              "Sfumature aromatiche in cocktail o marinate",
+              "Base per sorbetti o granite fermentate",
+              "Glassa alcolica per carni o pesce affumicato",
+              "Bevanda fermentata aromatizzata (soda artigianale)"
+            ],
+            "polpa": [
+              "Confettura fermentata con spezie",
+              "Nappatura su formaggi o dolci rustici",
+              "Emulsione con senape per carni bianche"
+            ]
+          }
         }
       ]
-    },    
+    },
     {
       "nome": "🧠 Tecniche Avanzate e Molecolari",
       "ricette": [
