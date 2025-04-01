@@ -38,10 +38,25 @@
 
     <!-- Modal per visualizzare tutti i dettagli della ricetta -->
     <div id="recipeModal" class="modal">
-        <div class="modal-content" id="modalContent">
-            <!-- Il contenuto del modal viene generato dinamicamente -->
+        <div id="modalContent" class="modal-content">
+          <div class="modal-pages-wrapper">
+            <!-- Pagina 1: Titolo, descrizione e foto -->
+            <div class="modal-page modal-page-1 active">
+              <!-- Qui inserisci titolo, descrizione e foto -->
+            </div>
+            <!-- Pagina 2: Dettagli ricetta -->
+            <div class="modal-page modal-page-2">
+              <!-- Qui inserisci ingredienti, procedimento, note, ecc. -->
+            </div>
+          </div>
+          <!-- Pulsanti di navigazione -->
+          <div class="modal-nav">
+            <button id="prevPage" class="nav-button">Indietro</button>
+            <button id="nextPage" class="nav-button">Avanti</button>
+          </div>
         </div>
-    </div>
+      </div>
+      
 
     <script src="script.js"></script>
     <script> window.chtlConfig = { chatbotId: "7468254199" } </script>
