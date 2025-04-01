@@ -703,14 +703,12 @@ header h1 {
   border-radius: var(--border-radius);
   width: 100%;
   max-width: 1100px;
-  max-height: 90vh;
-  display: flex;
-  flex-direction: row;
+  height: 90vh;
+  /* Altezza forzata per stabilire il limite */
   position: relative;
   box-shadow: 0 10px 35px -8px rgba(0, 0, 0, 0.4);
   border: 1px solid var(--color-border);
   overflow: hidden;
-  /* Importante! */
   transform: translateY(-10px) scale(0.98);
   opacity: 0;
   transition: transform calc(var(--transition-speed) * 1.5) var(--transition-ease),
@@ -723,10 +721,63 @@ header h1 {
   opacity: 1;
 }
 
-/* Contenitori interni modale - scroll individuale */
+/* Wrapper per le pagine del modal */
+.modal-pages-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* il wrapper mantiene la dimensione, le pagine scrollano individualmente */
+}
+
+/* Ogni pagina del modal ora permette lo scrolling */
+.modal-page {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  /* Scroll abilitato per ogni pagina */
+  transition: left 0.3s ease-in-out;
+}
+
+.modal-page.active {
+  left: 0;
+}
+
+.modal-page.prev {
+  left: -100%;
+}
+
+/* Pulsanti di navigazione */
+.modal-nav {
+  position: absolute;
+  bottom: var(--space-3);
+  right: var(--space-3);
+  display: flex;
+  gap: var(--space-2);
+}
+
+.nav-button {
+  padding: var(--space-2) var(--space-4);
+  background-color: var(--color-surface-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  color: var(--color-text-primary);
+  cursor: pointer;
+  transition: background-color var(--transition-speed) ease;
+}
+
+.nav-button:hover {
+  background-color: var(--color-accent-light);
+}
+
+/* Contenitori interni per le pagine */
 .modal-text-content,
 .modal-image-container {
   height: 100%;
+  min-height: 0;
   overflow-y: auto;
 }
 
@@ -736,6 +787,7 @@ header h1 {
   display: flex;
   flex-direction: column;
   border-right: 1px solid var(--color-border);
+  padding: var(--space-5);
 }
 
 .modal-image-container {
@@ -747,7 +799,6 @@ header h1 {
   align-items: center;
   justify-content: center;
   padding: var(--space-5);
-  /* Padding per img/errore */
 }
 
 .modal-image-container img {
@@ -757,7 +808,6 @@ header h1 {
   width: auto;
   height: auto;
   object-fit: contain;
-  /* Mostra intera immagine */
   border-radius: var(--border-radius);
 }
 
@@ -768,7 +818,7 @@ header h1 {
   text-align: center;
 }
 
-/* Stili Modale Interni */
+/* Stili per il contenuto testuale interno */
 .modal-header {
   padding: var(--space-4) var(--space-6);
   border-bottom: 1px solid var(--color-border);
@@ -792,6 +842,7 @@ header h1 {
   line-height: 1;
   transition: color var(--transition-speed) ease;
   border-radius: 50%;
+  background: none;
 }
 
 .modal-close-button:hover {
@@ -799,12 +850,14 @@ header h1 {
   background-color: var(--color-surface-alt);
 }
 
+/* Il corpo del contenuto testuale */
 .modal-body {
   padding: var(--space-6);
   flex-grow: 1;
-  /* Permette scroll se text-content è flex-column */
+  min-height: 0;
 }
 
+/* Stili per le sezioni interne */
 .section-container {
   margin-bottom: var(--space-6);
   padding-bottom: var(--space-5);
@@ -919,91 +972,6 @@ header h1 {
   font-style: italic;
 }
 
-/* =================================
-   5. Media Queries (Mobile Optimizations)
-   ================================= */
-
-/* Tablet & Landscape Phones */
-@media (max-width: 1100px) {
-  /* Assicurati che questo sia all'interno del tuo breakpoint mobile (es. <= 1100px o <= 768px) */
-  @media (max-width: 1100px) {
-    /* O il tuo breakpoint preferito per lo stacking */
-
-    .modal-content {
-      flex-direction: column;
-      max-width: 700px;
-      /* OK */
-      max-height: 95vh;
-      /* OK */
-      /* Assicura overflow: hidden per evitare doppio scroll */
-      overflow: hidden;
-    }
-
-    .modal-text-content {
-      flex: 1 1 auto;
-      /* OK, prende spazio verticale */
-      border-right: none;
-      border-bottom: 1px solid var(--color-border);
-      /* Separatore OK */
-      /* max-height: 62vh; - Rimuoviamo/commentiamo questa! */
-      order: 2;
-      /* Testo sotto OK */
-      /* ++ CRUCIALE: Aggiungi overflow per scroll ++ */
-      overflow-y: auto;
-      /* Rimuovere max-height permette allo scroll di funzionare sull'altezza
-         rimanente effettiva, è generalmente più robusto su diverse altezze schermo */
-    }
-
-    /* L'Header sticky DEVE mantenere queste proprietà ANCHE qui */
-    .modal-header {
-      position: sticky;
-      /* CONFERMA */
-      top: 0;
-      /* CONFERMA */
-      background-color: var(--color-surface);
-      /* CONFERMA (necessario!) */
-      z-index: 10;
-      /* CONFERMA (sopra il modal-body) */
-      border-bottom: 1px solid var(--color-border);
-      /* Sovrascrivi se diverso */
-      flex-shrink: 0;
-      /* Mantiene l'altezza */
-      /* Padding e font size mobile possono essere aggiunti qui */
-      padding: var(--space-4) var(--space-5);
-    }
-
-    .modal-header h2 {
-      font-size: 1.6rem;
-      /* Esempio ridotto mobile */
-    }
-
-    .modal-image-container {
-      flex: 0 0 28vh;
-      /* OK */
-      width: 100%;
-      /* OK */
-      order: 1;
-      /* Immagine sopra OK */
-      max-height: 250px;
-      /* Limite OK */
-      background-color: var(--color-bg);
-      /* Aggiunto per sicurezza */
-      overflow: hidden;
-      /* Nasconde parti eccedenti immagine */
-      /* Non serve aggiungere altro qui */
-    }
-
-    .modal-image-container img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center;
-      /* OK */
-    }
-
-    /* ... eventuali altre regole mobile ... */
-  }
-}
 
 /* Mobile Portrait & Small Tablets */
 @media (max-width: 768px) {
@@ -1133,12 +1101,12 @@ header h1 {
     flex-grow: 1;
   }
 
-  /* Rimuovi limite testo modale */
   .modal-image-container {
-    flex-basis: 25vh;
-    max-height: 180px;
-    /* Immagine più piccola */
+    border: 1px solid red;
+    min-width: 300px;
+    min-height: 300px;
   }
+
 
   .modal-header h2 {
     font-size: 1.6rem;
@@ -1268,9 +1236,9 @@ header h1 {
 
   /* Stile Fullscreen */
   .modal-image-container {
-    flex-basis: 22vh;
-    max-height: 150px;
-    /* Immagine molto piccola */
+    border: 1px solid red;
+    min-width: 300px;
+    min-height: 300px;
   }
 
   .modal-body {
