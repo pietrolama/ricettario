@@ -5000,6 +5000,179 @@
           ]
         },
         {
+          "nome": "Panettone – Il Respiro dell’Attesa",
+          "descrizione": "Due impasti, una notte di veglia e il lento sbocciare del profumo. Il tempo si fa mollica, la pazienza diventa dolcezza.",
+          "ingredienti": [
+            {
+              "nome_gruppo": "Primo Impasto – L’alba del corpo",
+              "lista_ingredienti": [
+                {
+                  "quantita": "240 g",
+                  "ingrediente": "Farina W 320/350",
+                  "note": null,
+                  "per": null
+                },
+                {
+                  "quantita": "90 g",
+                  "ingrediente": "Acqua",
+                  "note": "a temperatura ambiente",
+                  "per": null
+                },
+                {
+                  "quantita": "85 g",
+                  "ingrediente": "Burro",
+                  "note": "morbido",
+                  "per": null
+                },
+                {
+                  "quantita": "60 g",
+                  "ingrediente": "Lievito madre solido",
+                  "note": "rinfrescato 3 volte",
+                  "per": null
+                },
+                {
+                  "quantita": "75 g",
+                  "ingrediente": "Zucchero semolato",
+                  "note": null,
+                  "per": null
+                },
+                {
+                  "quantita": "60 g",
+                  "ingrediente": "Tuorli",
+                  "note": "30 + 30 g",
+                  "per": null
+                }
+              ]
+            },
+            {
+              "nome_gruppo": "Secondo Impasto – Il canto della mollica",
+              "lista_ingredienti": [
+                {
+                  "quantita": "60 g",
+                  "ingrediente": "Farina W 320/350",
+                  "note": null,
+                  "per": null
+                },
+                {
+                  "quantita": "30 g",
+                  "ingrediente": "Miele d'acacia",
+                  "note": null,
+                  "per": null
+                },
+                {
+                  "quantita": "80 g",
+                  "ingrediente": "Tuorli",
+                  "note": "divisi in 3 inserimenti",
+                  "per": null
+                },
+                {
+                  "quantita": "60 g",
+                  "ingrediente": "Zucchero semolato",
+                  "note": null,
+                  "per": null
+                },
+                {
+                  "quantita": "90 g",
+                  "ingrediente": "Burro",
+                  "note": "morbido",
+                  "per": null
+                },
+                {
+                  "quantita": "40 g",
+                  "ingrediente": "Acqua",
+                  "note": "per regolare la consistenza",
+                  "per": null
+                },
+                {
+                  "quantita": "4 g",
+                  "ingrediente": "Sale fino",
+                  "note": null,
+                  "per": null
+                },
+                {
+                  "quantita": "30 g",
+                  "ingrediente": "Cedro candito",
+                  "note": "a cubetti",
+                  "per": null
+                },
+                {
+                  "quantita": "60 g",
+                  "ingrediente": "Arancia candita",
+                  "note": "a cubetti",
+                  "per": null
+                },
+                {
+                  "quantita": "120 g",
+                  "ingrediente": "Uvetta sultanina",
+                  "note": "reidratata e asciutta",
+                  "per": null
+                },
+                {
+                  "quantita": "1",
+                  "ingrediente": "Scorza di limone",
+                  "note": "grattugiata",
+                  "per": null
+                },
+                {
+                  "quantita": "1",
+                  "ingrediente": "Bacca di vaniglia",
+                  "note": "semi",
+                  "per": null
+                }
+              ]
+            }
+          ],
+          "procedimento": [
+            {
+              "fase": "Primo Impasto – Creazione del cuore",
+              "passaggi": [
+                "Versa nella ciotola farina, zucchero e acqua. Lavora con gancio K a velocità minima per 10 minuti.",
+                "Aggiungi burro morbido in più volte. Poi 30 g di tuorli, il lievito madre a pezzi, infine i restanti 30 g di tuorli.",
+                "Incorda bene: la massa dev’essere liscia, omogenea e setosa. Attenzione alla temperatura: mai sopra i 26°C.",
+                "Se l’incordatura non arriva, alterna gancio a foglia e spirale.",
+                "Una volta pronta, preleva un pezzo per usarlo come ‘spia di lievitazione’ e metti il resto in una ciotola capiente.",
+                "Copri con pellicola e lascia lievitare a 28-30°C per circa 12 ore, o fino a triplicazione del volume."
+              ]
+            },
+            {
+              "fase": "Secondo Impasto – L’ascesa",
+              "passaggi": [
+                "Riponi il primo impasto in frigo per 30 minuti.",
+                "Unisci in ciotola: primo impasto, farina, miele, scorza di limone e semi di vaniglia. Lavora a bassa velocità per 5 minuti.",
+                "Aggiungi lo zucchero in tre volte, sempre dopo completo assorbimento.",
+                "Incorpora i tuorli battuti, un terzo per volta. Poi il sale e ancora un terzo di tuorli.",
+                "Quando la pasta torna omogenea, aggiungi il burro morbido a più riprese, seguito dagli ultimi tuorli.",
+                "Aggiungi acqua solo se necessario per la consistenza (fino a 40 g).",
+                "Infine, incorpora la frutta candita e l’uvetta. Lavora fino a distribuzione omogenea."
+              ]
+            },
+            {
+              "fase": "Formatura – La geometria della cura",
+              "passaggi": [
+                "Lascia riposare l’impasto 30 minuti coperto, poi 15 minuti all’aria.",
+                "Pesa la quantità in base allo stampo (es. 825 g per uno da 750), pirlando l’impasto con gesti rotondi.",
+                "Lascia puntare 15 minuti, poi esegui una seconda pirlatura e trasferisci nel pirottino.",
+                "Fai lievitare a 28-30°C fino a 2 cm dal bordo (6–8 ore)."
+              ]
+            },
+            {
+              "fase": "Cottura – L’alchimia finale",
+              "passaggi": [
+                "Scopri il panettone per 30 minuti per creare la pellicina.",
+                "Incidi a croce, aggiungi fiocchetti di burro al centro.",
+                "Inforna a 165°C statico nella parte bassa del forno. Cuoci per 45–55 minuti (dipende dal peso).",
+                "Appena sfornato, infilzalo con aghi da panettone e capovolgilo. Lascialo raffreddare a testa in giù per 2 ore.",
+                "Dopo il raffreddamento, attendi almeno 10 ore prima di imbustare."
+              ]
+            }
+          ],
+          "note_finali": [
+            "Conservare in sacchetto alimentare ben chiuso, con un pezzetto di ovatta imbevuta di alcool per alimenti.",
+            "Questo panettone è un gesto d’amore lento, una danza tra temperatura e impasto, tra attesa e leggerezza.",
+            "Il tempo, qui, è l’ingrediente segreto."
+          ]
+        },
+        {
           "nome": "Tortino al Cioccolato e Ganache al Pistacchio",
           "descrizione": "Il cuore che esplode. Caldo e morbido, un abbraccio verde nascosto.",
           "ingredienti": [
@@ -5481,141 +5654,107 @@
           "descrizione": "Frolla burrosa, ricotta mantecata, grano profumato agli agrumi: un rito pasquale che profuma di famiglia.",
           "ingredienti": [
             {
-              "nome_gruppo": "Per La Frolla",
+              "nome_gruppo": "Pasta Frolla",
               "lista_ingredienti": [
                 {
-                  "quantita": "1 kg",
-                  "ingrediente": "farina",
-                  "note": null,
-                  "per": null
-                },
-                {
-                  "quantita": "500 g",
-                  "ingrediente": "burro",
-                  "note": null,
-                  "per": null
-                },
-                {
-                  "quantita": "4",
-                  "ingrediente": "tuorli",
-                  "note": null,
-                  "per": null
-                },
-                {
-                  "quantita": "2",
-                  "ingrediente": "uova",
-                  "note": null,
-                  "per": null
-                },
-                {
-                  "quantita": "400 g",
-                  "ingrediente": "zucchero",
-                  "note": null,
-                  "per": null
-                },
-                {
-                  "quantita": "½ limone",
-                  "ingrediente": "scorza limone",
-                  "note": null,
-                  "per": null
-                },
-                {
-                  "quantita": "2 cucchiaini",
-                  "ingrediente": "vaniglia",
-                  "note": null,
-                  "per": null
-                },
-                {
-                  "quantita": "q.b.",
-                  "ingrediente": "sale",
-                  "note": null,
-                  "per": null
-                }
-              ]
-            },
-            {
-              "nome_gruppo": "Per Il Ripieno Di Grano",
-              "lista_ingredienti": [
-                {
-                  "quantita": "1740 g",
-                  "ingrediente": "grano",
+                  "quantita": "300 g",
+                  "ingrediente": "Farina 00",
                   "note": null,
                   "per": null
                 },
                 {
                   "quantita": "150 g",
-                  "ingrediente": "burro",
+                  "ingrediente": "Burro",
+                  "note": "freddo di frigorifero",
+                  "per": null
+                },
+                {
+                  "quantita": "100 g",
+                  "ingrediente": "Zucchero",
+                  "note": "semolato o a velo",
+                  "per": null
+                },
+                {
+                  "quantita": "3",
+                  "ingrediente": "Tuorli d'uovo",
+                  "note": "circa 40 g totali",
+                  "per": null
+                }
+              ]
+            },
+            {
+              "nome_gruppo": "Ripieno",
+              "lista_ingredienti": [
+                {
+                  "quantita": "333 g",
+                  "ingrediente": "Grano cotto per pastiera",
                   "note": null,
                   "per": null
                 },
                 {
-                  "quantita": "150 g",
-                  "ingrediente": "latte",
+                  "quantita": "29 g",
+                  "ingrediente": "Latte intero",
+                  "note": "circa 29 ml",
+                  "per": null
+                },
+                {
+                  "quantita": "29 g",
+                  "ingrediente": "Burro",
                   "note": null,
+                  "per": null
+                },
+                {
+                  "quantita": "1 pizzico",
+                  "ingrediente": "Sale",
+                  "note": null,
+                  "per": null
+                },
+                {
+                  "quantita": "1/3",
+                  "ingrediente": "Scorza di limone non trattato",
+                  "note": "grattugiata",
+                  "per": null
+                },
+                {
+                  "quantita": "1/3 cucchiaino",
+                  "ingrediente": "Estratto di vaniglia",
+                  "note": "o poche gocce",
+                  "per": "grano"
+                },
+                {
+                  "quantita": "383 g",
+                  "ingrediente": "Ricotta fresca",
+                  "note": "ben scolata, preferibilmente di pecora o mista",
+                  "per": null
+                },
+                {
+                  "quantita": "364 g",
+                  "ingrediente": "Zucchero semolato",
+                  "note": null,
+                  "per": null
+                },
+                {
+                  "quantita": "5",
+                  "ingrediente": "Uova intere medie",
+                  "note": "250–275 g sgusciate (oppure 4 grandi da 240–260 g)",
+                  "per": null
+                },
+                {
+                  "quantita": "1/2 fiala",
+                  "ingrediente": "Acqua di fiori d’arancio",
+                  "note": "o q.b. secondo gusto",
                   "per": null
                 },
                 {
                   "quantita": "2 cucchiaini",
-                  "ingrediente": "vaniglia",
-                  "note": null,
+                  "ingrediente": "Estratto di vaniglia",
+                  "note": "o semi di bacca, aggiuntivo a quello nel grano",
                   "per": null
                 },
                 {
-                  "quantita": "1 e ½ limone",
-                  "ingrediente": "scorza di limone",
-                  "note": null,
-                  "per": null
-                },
-                {
-                  "quantita": "q.b.",
-                  "ingrediente": "sale",
-                  "note": null,
-                  "per": null
-                }
-              ]
-            },
-            {
-              "nome_gruppo": "Per La Ricotta Mantecata",
-              "lista_ingredienti": [
-                {
-                  "quantita": "2 kg",
-                  "ingrediente": "ricotta",
-                  "note": null,
-                  "per": null
-                },
-                {
-                  "quantita": "1,9 kg",
-                  "ingrediente": "zucchero",
-                  "note": null,
-                  "per": null
-                },
-                {
-                  "quantita": "24",
-                  "ingrediente": "uova",
-                  "note": null,
-                  "per": null
-                }
-              ]
-            },
-            {
-              "nome_gruppo": "Odori Per L'impasto",
-              "lista_ingredienti": [
-                {
-                  "quantita": "3 fiale",
-                  "ingrediente": "millefiori",
-                  "note": null,
-                  "per": null
-                },
-                {
-                  "quantita": "10 cucchiaini",
-                  "ingrediente": "vaniglia",
-                  "note": null,
-                  "per": null
-                },
-                {
-                  "quantita": "1 cucchiaino",
-                  "ingrediente": "cannella",
-                  "note": null,
+                  "quantita": "1/4 cucchiaino",
+                  "ingrediente": "Cannella in polvere",
+                  "note": "o q.b. secondo gusto",
                   "per": null
                 }
               ]
