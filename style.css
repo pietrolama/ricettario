@@ -1476,37 +1476,29 @@ header h1 {
 }
 
 
-/* =============================
-     Layout Specifico Card Sezione Singola
-   ============================= */
+/* Card della Sezione Singola */
 .sezione-card {
   border: 1px solid var(--color-border);
   background: var(--color-surface);
   border-radius: 12px;
-  /* Stondatura maggiore */
   padding: 1.5rem;
-  /* Spaziatura interna */
-  margin: 1.5rem 0;
-  /* Spazio sopra/sotto */
+  margin: 0 0 var(--space-6) 0;
   transition: all 0.3s ease;
 }
 
 .sezione-title {
-  /* Stile per il titolo H2 dentro .sezione-card */
+  /* Titolo H2 della sezione */
   font-size: 1.8rem;
   margin-bottom: 1rem;
   color: var(--color-text-primary);
-  /* Usa colore primario */
-  /* Rimuovi stile specifico .section-title se questo è per la card */
 }
 
 .sezione-controls {
-  /* Contenitore bottoni Testo/Ricette/Entrambi */
+  /* Contenitore bottoni Testo/Ricette */
   display: flex;
   gap: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   flex-wrap: wrap;
-  /* Permette ai bottoni di andare a capo */
 }
 
 .sezione-toggle-btn {
@@ -1518,7 +1510,6 @@ header h1 {
   border-radius: 6px;
   cursor: pointer;
   font-weight: 500;
-  /* Peso medio */
   transition: var(--transition-default);
   font-size: 0.85rem;
 }
@@ -1529,37 +1520,40 @@ header h1 {
   border-color: var(--color-accent);
 }
 
+/* Stile per il bottone ATTIVO */
 .sezione-toggle-btn.active {
-  /* Bottone attivo */
   background-color: var(--color-accent);
   color: #fff;
-  /* Testo bianco su accento */
   border-color: var(--color-accent-dark);
+  font-weight: 600;
 }
 
-.sezione-wrapper {
-  /* Contenitore per testo e ricette affiancati */
-  display: flex;
-  flex-direction: row;
-  gap: 1.5rem;
-  /* Spazio tra colonna testo e ricette */
-  flex-wrap: wrap;
-  /* Su mobile vanno in colonna */
+/* Wrapper per testo e griglia ricette */
+.sezione-content-wrapper {
+  /* Nessuno stile specifico necessario qui */
 }
 
-.sezione-testo,
-.sezione-ricette {
-  flex: 1 1 45%;
-  /* Occupano circa metà spazio, permettendo wrap */
-  min-width: 250px;
-  /* Larghezza minima prima di andare a capo */
+/* Testo introduttivo della sezione */
+.sezione-testo {
+  /* display gestito da JS */
+  margin-bottom: 1.5rem;
 }
 
 .sezione-testo p {
   white-space: pre-line;
-  /* Mantiene a capo dal JSON */
   line-height: 1.7;
   color: var(--color-text-secondary);
+}
+
+/* Contenitore per le ricette della sezione (GRIGLIA) */
+.section-recipe-grid {
+  /* Nuova classe per lo stile a griglia */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* Layout responsive grid */
+  gap: var(--space-5);
+  /* Spazio tra le card */
+  /* display gestito da JS (sarà 'grid' o 'none') */
 }
 
 /* Classi per mostrare/nascondere testo/ricette */
