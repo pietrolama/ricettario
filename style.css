@@ -1,5 +1,5 @@
 /* ==========================================================================
-   STYLE.CSS - RICETTARIO CYBER-CLEAN - COMPLETO E CORRETTO
+   STYLE.CSS - RICETTARIO CYBER-CLEAN - COMPLETO E CORRETTO (con fix modal)
    ========================================================================== */
 
 /* =================================
@@ -58,7 +58,6 @@
 
   /* Altezze */
   --header-height: 68px;
-  /* Altezza Header */
 }
 
 /* Modalità Chiara */
@@ -71,7 +70,6 @@
     --color-text-primary: #212529;
     --color-text-secondary: #6c757d;
     --color-accent-rgb: 0, 123, 255;
-    /* Blu Standard */
     --color-accent: rgb(var(--color-accent-rgb));
     --color-accent-hover: #0056b3;
     --color-accent-light: rgba(var(--color-accent-rgb), 0.1);
@@ -112,10 +110,9 @@ body.dark-mode {
   --color-error-border: #ffacb3;
 }
 
-
 /* =================================
-   2. Reset & Base Styles
-   ================================= */
+         2. Reset & Base Styles
+         ================================= */
 *,
 *::before,
 *::after {
@@ -138,9 +135,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   transition: background-color var(--transition-speed) var(--transition-ease), color var(--transition-speed) var(--transition-ease);
   height: 100vh;
-  /* Occupa tutta l'altezza viewport */
-  overflow: hidden;
-  /* Impedisce scroll globale BODY su DESKTOP */
+  /* Rimosso overflow: hidden; per body, gestito dal JS e media query */
   display: flex;
   flex-direction: column;
 }
@@ -253,10 +248,9 @@ textarea:focus {
   outline-offset: 2px;
 }
 
-
 /* =================================
-   3. Layout (Header, Main, Sidebar, Content) - Desktop Focus
-   ================================= */
+     3. Layout (Header, Main, Sidebar, Content) - Desktop Focus
+     ================================= */
 header {
   background-color: var(--color-surface);
   padding: var(--space-4) var(--space-6);
@@ -265,12 +259,9 @@ header {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 5px -3px var(--color-shadow);
-  /* Non sticky/fixed qui, è il primo flex item del body */
   z-index: 100;
-  /* Z-index base */
   height: var(--header-height);
   flex-shrink: 0;
-  /* Non si restringe */
   transition: var(--transition-default);
 }
 
@@ -302,16 +293,13 @@ header h1 {
 
 .main-container {
   display: flex;
-  /* Sidebar e Content affiancati */
   flex-grow: 1;
-  /* Occupa spazio verticale sotto header */
   overflow: hidden;
-  /* IMPEDISCE SCROLL di questo container */
+  /* Nasconde overflow dei figli (.sidebar, .content) */
 }
 
 .sidebar {
   flex: 0 0 280px;
-  /* Larghezza fissa */
   background: var(--color-surface);
   border-right: 1px solid var(--color-border);
   padding: var(--space-6);
@@ -320,9 +308,8 @@ header h1 {
   position: relative;
   transition: transform 0.35s cubic-bezier(0.7, 0, 0.3, 1), var(--transition-default);
   overflow-y: auto;
-  /* <<<<<<<< SCROLL INTERNO SIDEBAR >>>>>>>> */
-  height: 100%;
-  /* Occupa tutta altezza del main-container */
+  /* Scroll interno se necessario */
+  /* Altezza gestita dal flex-grow del .main-container */
 }
 
 .sidebar h2 {
@@ -344,19 +331,16 @@ header h1 {
 
 .content {
   flex-grow: 1;
-  /* Occupa spazio orizzontale rimanente */
   padding: var(--space-6) var(--space-7);
   background-color: var(--color-bg);
   overflow-y: auto;
-  /* <<<<<<<< SCROLL INTERNO CONTENUTO >>>>>>>> */
-  height: 100%;
-  /* Occupa tutta altezza del main-container */
+  /* Scroll interno se necessario */
+  /* Altezza gestita dal flex-grow del .main-container */
 }
 
-
 /* =================================
-   4. Components
-   ================================= */
+     4. Components
+     ================================= */
 
 /* --- Mobile Menu --- */
 .menu-toggle {
@@ -372,7 +356,7 @@ header h1 {
   justify-content: space-around;
   position: relative;
   z-index: 1100;
-  /* Più alto dentro header */
+  /* Sopra l'header */
 }
 
 .hamburger-line {
@@ -381,10 +365,10 @@ header h1 {
   height: 3px;
   background-color: var(--color-text-primary);
   border-radius: 1px;
-  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, var(--transition-default);
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, background-color var(--transition-speed) var(--transition-ease);
 }
 
-/* Animazione X */
+/* Animazioni hamburger quando il menu è aperto (.menu-open su body) */
 .menu-open .menu-toggle .hamburger-line:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
@@ -397,12 +381,15 @@ header h1 {
   transform: translateY(-8px) rotate(-45deg);
 }
 
+/* Overlay per menu mobile */
 .menu-overlay {
   display: none;
+  /* Nascosto di default */
   position: fixed;
   inset: 0;
   background-color: var(--color-overlay-modal);
   z-index: 998;
+  /* Sotto il menu, sopra il contenuto */
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
   pointer-events: none;
@@ -420,32 +407,38 @@ header h1 {
   padding: 0;
   position: relative;
   margin: 0;
+  /* Rimuovi margini di default */
 }
 
+/* River effect (elemento ::before) */
 #categoryList::before {
-  /* River Indicator */
   content: '';
   position: absolute;
   left: 0;
   top: 0;
+  /* Parte dall'alto */
   transform: translateY(var(--river-offset, 0px));
+  /* Posizione verticale controllata da JS */
   width: var(--sidebar-river-width);
   height: var(--sidebar-li-height);
   background-color: var(--color-accent);
   border-radius: 0 var(--border-radius) var(--border-radius) 0;
   z-index: 0;
+  /* Dietro i li */
   opacity: 0;
+  /* Nascosto di default */
   pointer-events: none;
   transition: transform 0.4s cubic-bezier(0.6, -0.2, 0.7, 1.5), opacity 0.3s var(--transition-ease), height 0.2s var(--transition-ease);
 }
 
 #categoryList.river-active::before {
   opacity: 1;
+  /* Mostra l'effetto river quando attivo */
 }
 
-/* Gestito da JS */
 #categoryList li {
   padding: var(--space-3) var(--space-4) var(--space-3) calc(var(--space-4) + var(--sidebar-river-width) + var(--space-2));
+  /* Padding sinistro per fare spazio al river */
   margin-bottom: var(--space-2);
   cursor: pointer;
   border-radius: var(--border-radius);
@@ -454,8 +447,11 @@ header h1 {
   font-weight: 400;
   font-size: 0.95rem;
   position: relative;
+  /* Per z-index */
   z-index: 1;
+  /* Davanti al river */
   height: var(--sidebar-li-height);
+  /* Altezza fissa per il calcolo del river */
   display: flex;
   align-items: center;
   white-space: nowrap;
@@ -503,15 +499,19 @@ header h1 {
   accent-color: var(--color-accent);
 }
 
-.gallery {
+/* La galleria di base (#gallery) e il contenitore per tutte le ricette (#allRecipesContainer) */
+.gallery,
+#allRecipesContainer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: var(--space-6);
 }
 
+/* Messaggi di errore/vuoto per la galleria */
 .gallery p.gallery-empty-message,
 .gallery p.gallery-error-message {
   grid-column: 1 / -1;
+  /* Occupa tutta la larghezza */
   text-align: center;
   padding: var(--space-7) 0;
   color: var(--color-text-secondary);
@@ -536,66 +536,90 @@ header h1 {
   border-radius: var(--border-radius);
   cursor: pointer;
   overflow: hidden;
+  /* Nasconde parti che eccedono (es. immagine scalata on hover) */
   position: relative;
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 10px -2px var(--color-shadow);
   transition: var(--transition-default), transform 0.2s ease-in-out;
   min-height: 350px;
+  /* Altezza minima per coerenza */
 }
 
 .card:hover {
   transform: translateY(-5px) scale(1.01);
+  /* Leggero effetto lift */
   box-shadow: 0 8px 18px -4px var(--color-shadow-hover);
   border-color: var(--color-accent-dark);
+  /* Bordo accentuato on hover */
 }
 
-/* Card CON Immagine */
+/* Stili specifici per card con immagine di sfondo */
 .card.card-has-image {
   padding: 0;
+  /* Rimuove padding interno */
   color: #fff;
+  /* Testo bianco su immagine */
   border: 1px solid transparent;
+  /* Nasconde bordo base */
   background-color: var(--color-surface-alt);
+  /* Fallback se immagine non carica */
 }
 
+/* Pseudo-elemento ::after per l'immagine di sfondo */
 .card.card-has-image::after {
   content: '';
   position: absolute;
   inset: 0;
   z-index: 0;
+  /* Dietro il contenuto */
   border-radius: inherit;
+  /* Stessa stondatura della card */
   background-image: var(--card-bg-image, linear-gradient(var(--color-surface-alt), var(--color-surface)));
+  /* Immagine da variabile JS, con fallback */
   background-size: cover;
   background-position: center;
   transition: filter var(--transition-speed) var(--transition-ease), transform var(--transition-speed) var(--transition-ease);
 }
 
+/* Pseudo-elemento ::before per il gradiente overlay scuro */
 .card.card-has-image::before {
   content: '';
   position: absolute;
   inset: 0;
   z-index: 1;
+  /* Sopra l'immagine, sotto il testo */
   border-radius: inherit;
   background: var(--color-overlay-gradient-card);
+  /* Gradiente scuro dal basso */
   pointer-events: none;
+  /* Non interagibile */
   transition: opacity var(--transition-speed) var(--transition-ease);
 }
 
+/* Wrapper per il contenuto testuale nella card con immagine */
 .card-has-image .card-content-wrapper {
   position: relative;
+  /* Per z-index */
   z-index: 2;
+  /* Sopra il gradiente e l'immagine */
   padding: var(--space-5);
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  /* Occupa lo spazio disponibile */
   background: none;
+  /* Sfondo trasparente */
 }
 
+/* Stili per testo e tag su card con immagine */
 .card.card-has-image h3,
 .card.card-has-image p,
 .card.card-has-image .category-tag {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  /* Ombra per leggibilità */
   color: #fff;
+  /* Testo bianco */
 }
 
 .card.card-has-image h3 {
@@ -612,6 +636,8 @@ header h1 {
   line-height: 1.6;
   margin-bottom: var(--space-4);
   flex-grow: 1;
+  /* Spinge il tag in basso */
+  /* Limita testo a 3 righe con ellipsis */
   display: -webkit-box;
   -webkit-line-clamp: 3;
   line-clamp: 3;
@@ -622,8 +648,10 @@ header h1 {
 
 .card.card-has-image .category-tag {
   background-color: rgba(255, 255, 255, 0.1);
+  /* Sfondo semi-trasparente */
   border: 1px solid rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(2px);
+  /* Effetto frosted glass */
   padding: var(--space-1) var(--space-3);
   font-size: 0.7rem;
   font-weight: 500;
@@ -631,18 +659,24 @@ header h1 {
   letter-spacing: 0.5px;
   border-radius: calc(var(--border-radius) / 2);
   align-self: flex-start;
+  /* Si posiziona a sinistra */
   margin-top: auto;
+  /* Spinto in basso dal flex-grow del paragrafo */
 }
 
+/* Effetto hover sull'immagine di sfondo */
 .card.card-has-image:hover::after {
   filter: blur(5px) brightness(0.85);
+  /* Sfoca e scurisce leggermente */
   transform: scale(1.03);
+  /* Leggero zoom */
 }
 
-/* Card SENZA Immagine */
+/* Stili per card senza immagine di sfondo */
 .card:not(.card-has-image) {
   padding: var(--space-5);
   justify-content: space-between;
+  /* Distribuisce contenuto verticalmente */
 }
 
 .card:not(.card-has-image) h3 {
@@ -655,6 +689,7 @@ header h1 {
   font-size: 0.95rem;
   flex-grow: 1;
   color: var(--color-text-secondary);
+  /* Limita testo a 5 righe con ellipsis */
   display: -webkit-box;
   -webkit-line-clamp: 5;
   line-clamp: 5;
@@ -676,39 +711,55 @@ header h1 {
   letter-spacing: 0.5px;
 }
 
+/* --- Recipe Modal (FIXED) --- */
 
-/* --- Recipe Modal --- */
+/* Regola base per il modal: posizionato, centrato, inizialmente invisibile */
 #recipeModal {
-  display: none;
   position: fixed;
-  z-index: 1200;
+  /* Occupa tutta la viewport */
   inset: 0;
-  background-color: var(--color-overlay-modal);
-  padding: var(--space-5);
-  overflow-y: hidden;
-  /* Impedisce doppio scroll */
+  /* Equivalente a top: 0; right: 0; bottom: 0; left: 0; */
   display: flex;
+  /* Per centrare modal-content */
   align-items: center;
   justify-content: center;
+  background-color: var(--color-overlay-modal);
+  /* Sfondo scuro semi-trasparente */
+  z-index: 2000;
+  /* Assicura sia sopra altri elementi */
+
   opacity: 0;
+  /* Inizia invisibile */
+  pointer-events: none;
+  /* Non interagibile quando invisibile */
   transition: opacity calc(var(--transition-speed) * 1.2) ease-in-out;
+  /* Transizione solo per opacità */
 }
 
-#recipeModal[style*="display: flex"] {
+/* Quando il modal è attivo (classe .active aggiunta via JS) */
+#recipeModal.active {
   opacity: 1;
+  /* Diventa visibile */
+  pointer-events: auto;
+  /* Diventa interagibile */
 }
 
+/* Contenuto del modal: stile base e stato iniziale animazione */
 .modal-content {
   background-color: var(--color-surface);
   border-radius: var(--border-radius);
   width: 100%;
   max-width: 1100px;
-  height: 90vh;
-  /* Altezza forzata per stabilire il limite */
+  max-height: 90vh;
+  display: flex;
+  flex-direction: row;
+  /* Default Desktop */
   position: relative;
   box-shadow: 0 10px 35px -8px rgba(0, 0, 0, 0.4);
   border: 1px solid var(--color-border);
-  overflow: hidden;
+  /* overflow: hidden; */
+  /* RIMOSSA QUESTA RIGA */
+
   transform: translateY(-10px) scale(0.98);
   opacity: 0;
   transition: transform calc(var(--transition-speed) * 1.5) var(--transition-ease),
@@ -716,80 +767,34 @@ header h1 {
     var(--transition-default);
 }
 
-#recipeModal[style*="display: flex"] .modal-content {
+/* Quando il modal è attivo, anima il contenuto allo stato finale */
+#recipeModal.active .modal-content {
   transform: translateY(0) scale(1);
+  /* Torna alla posizione e scala normale */
   opacity: 1;
+  /* Diventa completamente visibile */
 }
 
-/* Wrapper per le pagine del modal */
-.modal-pages-wrapper {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  /* il wrapper mantiene la dimensione, le pagine scrollano individualmente */
-}
-
-/* Ogni pagina del modal ora permette lo scrolling */
-.modal-page {
-  position: absolute;
-  top: 0;
-  left: 100%;
-  width: 100%;
-  height: 100%;
-  overflow-y: auto;
-  /* Scroll abilitato per ogni pagina */
-  transition: left 0.3s ease-in-out;
-}
-
-.modal-page.active {
-  left: 0;
-}
-
-.modal-page.prev {
-  left: -100%;
-}
-
-/* Pulsanti di navigazione */
-.modal-nav {
-  position: absolute;
-  bottom: var(--space-3);
-  right: var(--space-3);
-  display: flex;
-  gap: var(--space-2);
-}
-
-.nav-button {
-  padding: var(--space-2) var(--space-4);
-  background-color: var(--color-surface-alt);
-  border: 1px solid var(--color-border);
-  border-radius: var(--border-radius);
-  color: var(--color-text-primary);
-  cursor: pointer;
-  transition: background-color var(--transition-speed) ease;
-}
-
-.nav-button:hover {
-  background-color: var(--color-accent-light);
-}
-
-/* Contenitori interni per le pagine */
+/* Contenitori interni del modal (colonna testo e colonna immagine) */
 .modal-text-content,
 .modal-image-container {
-  height: 100%;
-  min-height: 0;
+  /* height: 100%; */
+  /* Rimuovi height: 100% se usi flex-grow/shrink */
   overflow-y: auto;
+  /* Abilita scroll verticale se necessario */
 }
 
+/* Colonna del testo */
 .modal-text-content {
   flex: 3;
   min-width: 0;
   display: flex;
   flex-direction: column;
   border-right: 1px solid var(--color-border);
-  padding: var(--space-5);
+  /* overflow-y: auto; GIÀ PRESENTE SOPRA */
 }
 
+/* Colonna dell'immagine */
 .modal-image-container {
   flex: 2;
   min-width: 0;
@@ -799,18 +804,28 @@ header h1 {
   align-items: center;
   justify-content: center;
   padding: var(--space-5);
+  /* overflow-y: auto; GIÀ PRESENTE SOPRA, MA POTREBBE ESSERE hidden SE NON SERVE MAI SCROLL */
+  overflow: hidden;
+  /* L'immagine di solito non deve scrollare, impostiamo hidden */
 }
 
 .modal-image-container img {
   display: block;
+  /* Rimuove spazio extra sotto l'immagine */
   max-width: 100%;
+  /* Limita larghezza */
   max-height: 100%;
+  /* Limita altezza */
   width: auto;
+  /* Mantiene proporzioni */
   height: auto;
+  /* Mantiene proporzioni */
   object-fit: contain;
+  /* Adatta l'immagine senza tagliarla */
   border-radius: var(--border-radius);
 }
 
+/* Messaggio di errore se l'immagine non carica */
 .modal-image-container .image-error {
   padding: var(--space-4);
   color: var(--color-text-secondary);
@@ -818,84 +833,60 @@ header h1 {
   text-align: center;
 }
 
-/* Stili per il contenuto testuale interno */
+/* Header del modal */
 .modal-header {
   padding: var(--space-4) var(--space-6);
   border-bottom: 1px solid var(--color-border);
   display: flex;
   justify-content: space-between;
+  /* Titolo a sinistra, bottone a destra */
   align-items: center;
   flex-shrink: 0;
+  /* Impedisce all'header di restringersi */
 }
 
 .modal-header h2 {
   margin-bottom: 0;
+  /* Sovrascrive margine di default */
   font-size: 2rem;
   font-weight: 500;
 }
 
+/* Bottone di chiusura */
 .modal-close-button {
   font-size: 2rem;
   font-weight: 200;
+  /* Leggero */
   color: var(--color-text-secondary);
   padding: var(--space-1);
+  /* Area cliccabile */
   line-height: 1;
-  transition: color var(--transition-speed) ease;
+  /* Allineamento verticale */
+  transition: color var(--transition-speed) ease, background-color var(--transition-speed) ease;
   border-radius: 50%;
-  background: none;
+  /* Cerchio */
 }
 
 .modal-close-button:hover {
   color: var(--color-accent);
   background-color: var(--color-surface-alt);
+  /* Sfondo leggero on hover */
 }
 
-/* Il corpo del contenuto testuale */
+/* Corpo del modal (area contenuto principale testo) */
 .modal-body {
   padding: var(--space-6);
   flex-grow: 1;
-  min-height: 0;
+  /* Occupa lo spazio rimanente nella colonna testo */
+  /* Lo scroll è gestito dal parent .modal-text-content */
 }
 
-/* Stili per le sezioni interne */
-.section-container {
-  margin-bottom: var(--space-6);
-  padding-bottom: var(--space-5);
-  border-bottom: 1px solid var(--color-border);
-}
+/* --- Stili Contenuto Specifico Modal --- */
 
-.section-container:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
+/* Contenitori di sezioni/sottosezioni (se usati dentro modal) */
+/* .section-container, .subsection-container ... (stessi stili di fuori) */
 
-.section-title {
-  font-family: var(--font-heading);
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--color-accent);
-  margin-bottom: var(--space-4);
-  border-bottom: 2px solid var(--color-accent);
-  padding-bottom: var(--space-2);
-  display: inline-block;
-}
-
-.subsection-container {
-  margin: var(--space-5) 0 var(--space-4) 0;
-  padding-left: var(--space-4);
-  border-left: 2px solid var(--color-border);
-}
-
-.subsection-title {
-  font-family: var(--font-heading);
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--color-text-primary);
-  margin-bottom: var(--space-3);
-  display: block;
-}
-
+/* Info Categoria e Descrizione */
 .categoria-info {
   font-size: 0.8rem;
   color: var(--color-text-secondary);
@@ -916,9 +907,10 @@ header h1 {
   font-style: normal;
   font-weight: 300;
   transition: opacity var(--transition-speed);
+  /* Potrebbe servire per effetti JS */
 }
 
-/* No Typewriter Styles */
+/* Info Vino/Pairing */
 .vino-info {
   background-color: var(--color-surface-alt);
   padding: var(--space-3) var(--space-4);
@@ -928,40 +920,6 @@ header h1 {
   font-size: 0.95rem;
 }
 
-.modal-body ul,
-.modal-body ol {
-  padding-left: var(--space-5);
-}
-
-.modal-body li {
-  color: var(--color-text-secondary);
-  line-height: 1.7;
-  padding-left: var(--space-3);
-  font-weight: 300;
-}
-
-.modal-body ul li::marker {
-  content: "▹ ";
-  color: var(--color-accent);
-  font-size: 1.1em;
-}
-
-.modal-body ol {
-  list-style-type: none;
-  counter-reset: step-counter;
-}
-
-.modal-body ol li {
-  counter-increment: step-counter;
-}
-
-.modal-body ol li::before {
-  content: counter(step-counter) ". ";
-  color: var(--color-text-primary);
-  font-weight: 500;
-  margin-right: var(--space-2);
-}
-
 .pairing-note {
   display: block;
   font-size: 0.85rem;
@@ -969,7 +927,141 @@ header h1 {
   opacity: 0.8;
   margin-top: var(--space-1);
   padding-left: calc(var(--space-5) + var(--space-3));
+  /* Allineato con lista */
   font-style: italic;
+}
+
+
+/* Liste nel Modal */
+.modal-body ul,
+.modal-body ol {
+  padding-left: var(--space-5);
+  /* Indentazione */
+  margin-bottom: var(--space-4);
+  /* Spazio sotto la lista */
+}
+
+.modal-body li {
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  padding-left: var(--space-3);
+  /* Spazio tra marker e testo */
+  font-weight: 300;
+  margin-bottom: var(--space-2);
+  /* Spazio tra elementi lista */
+}
+
+/* Stile marker per liste non ordinate (ul) */
+.modal-body ul li::marker {
+  content: "▹ ";
+  /* Carattere custom */
+  color: var(--color-accent);
+  font-size: 1.1em;
+}
+
+/* Stile marker per liste ordinate (ol) */
+.modal-body ol {
+  list-style-type: none;
+  /* Rimuove numeri di default */
+  counter-reset: step-counter;
+  /* Inizializza contatore */
+}
+
+.modal-body ol li {
+  counter-increment: step-counter;
+  /* Incrementa per ogni li */
+}
+
+.modal-body ol li::before {
+  content: counter(step-counter) ". ";
+  /* Mostra numero e punto */
+  color: var(--color-text-primary);
+  font-weight: 500;
+  margin-right: var(--space-2);
+  /* Spazio dopo il numero */
+  display: inline-block;
+  /* Per allineamento corretto */
+}
+
+/* =================================
+     5. Media Queries (Mobile Optimizations)
+     ================================= */
+/* Tablet & Landscape Phones */
+@media (max-width: 1100px) {
+  .modal-content {
+    flex-direction: column;
+    /* Layout a colonna: Immagine sopra, Testo sotto */
+    max-width: 700px;
+    /* Più stretto */
+    max-height: 95vh;
+    /* Leggermente più alto */
+    /* overflow: hidden; già impostato */
+  }
+
+  /* Colonna Testo */
+  .modal-text-content {
+    flex: 1 1 auto;
+    /* Occupa spazio rimanente */
+    border-right: none;
+    /* Rimuove bordo laterale */
+    border-bottom: 1px solid var(--color-border);
+    /* Aggiunge bordo sotto */
+    order: 2;
+    /* Sposta sotto l'immagine */
+    overflow-y: auto;
+    /* Scroll verticale */
+  }
+
+  /* Header Testo (diventa sticky) */
+  .modal-header {
+    position: sticky;
+    /* Rimane visibile durante lo scroll del body */
+    top: 0;
+    /* Si attacca in alto */
+    background-color: var(--color-surface);
+    /* Serve sfondo perché è sticky */
+    z-index: 10;
+    /* Sopra il body */
+    border-bottom: 1px solid var(--color-border);
+    /* Mantiene separatore */
+    flex-shrink: 0;
+    /* Non si restringe */
+    padding: var(--space-4) var(--space-5);
+    /* Padding leggermente ridotto */
+  }
+
+  .modal-header h2 {
+    font-size: 1.6rem;
+    /* Titolo più piccolo */
+  }
+
+  /* Colonna Immagine */
+  .modal-image-container {
+    flex: 0 0 28vh;
+    /* Altezza fissa (circa 28% viewport height) */
+    width: 100%;
+    /* Larghezza piena */
+    order: 1;
+    /* Sposta sopra il testo */
+    max-height: 250px;
+    /* Limite massimo altezza */
+    background-color: var(--color-bg);
+    overflow: hidden;
+    /* Nasconde parti immagine che eccedono */
+    padding: 0;
+    /* Rimuove padding se immagine copre tutto */
+  }
+
+  .modal-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Copre tutta l'area, tagliando se necessario */
+    object-position: center;
+    /* Centra l'immagine */
+    border-radius: 0;
+    /* Rimuove stondatura angoli */
+  }
 }
 
 
@@ -977,101 +1069,122 @@ header h1 {
 @media (max-width: 768px) {
   :root {
     --font-size-base: 15.5px;
+    /* Font leggermente più piccolo */
   }
 
-  /* Abilita scroll del body su mobile (a meno che menu non sia aperto) */
+  /* Ripristina overflow su body per scroll pagina */
   body {
     height: auto;
+    /* Altezza automatica */
     overflow: auto;
+    /* Abilita scroll normale */
   }
 
+  /* Blocca scroll solo quando menu mobile è aperto */
   body.menu-open {
     overflow: hidden;
   }
 
-  /* Header diventa sticky e necessita z-index */
+  /* Header diventa sticky */
   header {
     position: sticky;
     top: 0;
     z-index: 1050;
-    /* Sopra sidebar/overlay */
+    /* Sopra il contenuto ma sotto il menu mobile */
     padding: var(--space-3) var(--space-4);
     height: calc(var(--header-height) - 8px);
+    /* Leggermente più basso */
   }
 
+  /* Mostra bottone hamburger e riordina elementi header */
   .menu-toggle {
     display: flex;
+    /* Mostra il bottone */
     order: -1;
-    /* Mostra bottone */
+    /* Lo sposta all'inizio */
   }
 
   header h1 {
     flex-grow: 1;
+    /* Occupa spazio centrale */
     text-align: center;
     margin: 0 var(--space-3);
+    /* Margini laterali */
     font-size: 1.4rem;
+    /* Titolo più piccolo */
   }
 
   #recipe-counter {
     display: none;
-    /* Nascondi contatore */
+    /* Nasconde contatore ricette */
   }
 
-  /* Main container perde overflow e altezza specifica */
+  /* Main container e Sidebar per menu mobile */
   .main-container {
     flex-direction: column;
+    /* Layout verticale */
     overflow: visible;
+    /* Permette al contenuto di scorrere */
     height: auto;
+    /* Altezza automatica */
   }
 
-  /* Sidebar diventa Menu Fisso */
   .sidebar {
     position: fixed;
+    /* Posizione fissa per slide-in */
     top: 0;
     left: 0;
     width: 280px;
     height: 100vh;
+    /* Altezza piena viewport */
     border-right: 1px solid var(--color-border);
-    border-bottom: none;
     transform: translateX(-100%);
+    /* Nascosto fuori schermo a sinistra */
     box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.2);
+    /* Ombra laterale */
     padding: var(--space-6);
     padding-top: calc(var(--header-height) + var(--space-4));
     /* Spazio per header */
     z-index: 999;
-    /* Sotto header, sopra overlay */
+    /* Sopra overlay, sotto toggle */
     overflow-y: auto;
-    /* Scroll interno se menu è lungo */
+    /* Scroll interno se necessario */
     max-height: none;
-    /* Rimuovi restrizione altezza */
+    /* Rimuove limite altezza */
+    transition: transform 0.35s cubic-bezier(0.7, 0, 0.3, 1);
+    /* Transizione slide-in */
   }
 
   .menu-open .sidebar {
     transform: translateX(0);
+    /* Mostra sidebar */
   }
 
-  /* Mostra sidebar */
   .menu-overlay {
     display: block;
+    /* Rende overlay visibile (ma trasparente di base) */
   }
 
-  /* Mostra overlay */
-
-  /* Contenuto perde gestione scroll/altezza specifica */
+  /* Contenuto principale */
   .content {
     padding: var(--space-5);
     overflow-y: visible;
+    /* Scroll gestito dal body */
     height: auto;
   }
 
-  /* Altri aggiustamenti Mobile */
-  .gallery {
+  /* Galleria e Card */
+  .gallery,
+  #allRecipesContainer {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    /* Colonne più strette */
     gap: var(--space-4);
+    /* Gap ridotto */
   }
 
   .card {
     min-height: 300px;
+    /* Altezza minima ridotta */
   }
 
   .card.card-has-image h3 {
@@ -1091,22 +1204,27 @@ header h1 {
     line-clamp: 2;
   }
 
+  /* Meno righe */
   .card:not(.card-has-image) p {
     -webkit-line-clamp: 3;
     line-clamp: 3;
   }
 
+  /* Meno righe */
+
+  /* Modal (adattamenti per schermi più piccoli) */
   .modal-text-content {
     max-height: none;
+    /* Rimuove limite altezza */
     flex-grow: 1;
+    /* Occupa spazio disponibile */
   }
 
   .modal-image-container {
-    border: 1px solid red;
-    min-width: 300px;
-    min-height: 300px;
+    flex-basis: 25vh;
+    /* Altezza immagine ridotta */
+    max-height: 180px;
   }
-
 
   .modal-header h2 {
     font-size: 1.6rem;
@@ -1121,6 +1239,7 @@ header h1 {
     padding: var(--space-5);
   }
 
+  /* Titoli sezioni/sottosezioni (se usati) */
   .section-title {
     font-size: 1.1rem;
   }
@@ -1135,12 +1254,15 @@ header h1 {
   }
 }
 
+
 /* Small Mobile Portrait */
 @media (max-width: 500px) {
   :root {
     --font-size-base: 15px;
+    /* Font ancora più piccolo */
   }
 
+  /* Header ancora più compatto */
   header {
     padding: var(--space-2) var(--space-3);
     height: calc(var(--header-height) - 12px);
@@ -1168,6 +1290,7 @@ header h1 {
     transform: translateY(-6px) rotate(-45deg);
   }
 
+  /* Sidebar più stretta */
   .sidebar {
     width: 250px;
     padding-top: calc(var(--header-height) - 12px + var(--space-3));
@@ -1189,21 +1312,23 @@ header h1 {
     font-size: 0.85rem;
   }
 
+  /* Contenuto e Galleria */
   .content {
     padding: var(--space-4);
   }
 
-  .gallery {
+  .gallery,
+  #allRecipesContainer {
     grid-template-columns: 1fr;
+    /* Una colonna */
     gap: var(--space-4);
   }
 
-  /* Forza una colonna */
   .gallery-controls {
     display: none;
-    /* Nascondi controlli zoom */
   }
 
+  /* Nasconde controlli zoom */
   .card {
     min-height: 280px;
   }
@@ -1221,24 +1346,30 @@ header h1 {
     font-size: 0.8rem;
   }
 
+  /* Modal a tutto schermo */
   #recipeModal {
-    padding: var(--space-1);
+    padding: 0;
+    /* Rimuove padding esterno */
   }
 
   .modal-content {
     max-width: 100%;
     max-height: 100%;
+    height: 100%;
+    /* Occupa tutta l'altezza */
+    width: 100%;
+    /* Occupa tutta la larghezza */
     border-radius: 0;
+    /* Angoli retti */
     border: none;
     box-shadow: none;
     margin: 0;
   }
 
-  /* Stile Fullscreen */
   .modal-image-container {
-    border: 1px solid red;
-    min-width: 300px;
-    min-height: 300px;
+    flex-basis: 22vh;
+    /* Immagine ancora più piccola */
+    max-height: 150px;
   }
 
   .modal-body {
@@ -1253,6 +1384,7 @@ header h1 {
     font-size: 1.7rem;
   }
 
+  /* Testi nel modal */
   .section-title {
     font-size: 1rem;
   }
@@ -1274,4 +1406,203 @@ header h1 {
     padding: var(--space-2) var(--space-3);
     font-size: 0.85rem;
   }
+}
+
+
+/* =============================
+     Nuove Regole per Contenitori Viste
+   ============================= */
+
+/* Classe per nascondere i contenitori delle viste */
+#allRecipesContainer.hidden,
+#singleSezioneContainer.hidden,
+#gallery.hidden,
+/* Nasconde anche la vecchia galleria se usi le nuove viste */
+#sectionIntro.hidden {
+  display: none;
+}
+
+/* Layout per la galleria di tutte le ricette (già definito sopra) */
+#allRecipesContainer {
+  padding: var(--space-6);
+  /* Padding specifico se diverso da .content */
+  overflow-y: auto;
+  /* Scroll interno */
+  height: 100%;
+  /* Occupa altezza .content */
+}
+
+/* Adattamenti mobile già coperti dalle regole per .gallery */
+@media (max-width: 768px) {
+  #allRecipesContainer {
+    padding: var(--space-5);
+  }
+}
+
+@media (max-width: 500px) {
+  #allRecipesContainer {
+    padding: var(--space-4);
+  }
+}
+
+/* Layout per la visualizzazione di una singola sezione */
+#singleSezioneContainer {
+  display: block;
+  /* O flex se vuoi layout più complessi */
+  padding: var(--space-6);
+  /* Padding specifico se diverso da .content */
+  overflow-y: auto;
+  /* Scroll interno */
+  height: 100%;
+  /* Occupa altezza .content */
+}
+
+/* Adattamenti mobile */
+@media (max-width: 768px) {
+  #singleSezioneContainer {
+    padding: var(--space-5);
+  }
+}
+
+@media (max-width: 500px) {
+  #singleSezioneContainer {
+    padding: var(--space-4);
+  }
+}
+
+/* Margine per le card dentro la sezione singola */
+#singleSezioneContainer .sezione-card {
+  margin-bottom: var(--space-6);
+}
+
+
+/* =============================
+     Layout Specifico Card Sezione Singola
+   ============================= */
+.sezione-card {
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  border-radius: 12px;
+  /* Stondatura maggiore */
+  padding: 1.5rem;
+  /* Spaziatura interna */
+  margin: 1.5rem 0;
+  /* Spazio sopra/sotto */
+  transition: all 0.3s ease;
+}
+
+.sezione-title {
+  /* Stile per il titolo H2 dentro .sezione-card */
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: var(--color-text-primary);
+  /* Usa colore primario */
+  /* Rimuovi stile specifico .section-title se questo è per la card */
+}
+
+.sezione-controls {
+  /* Contenitore bottoni Testo/Ricette/Entrambi */
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  /* Permette ai bottoni di andare a capo */
+}
+
+.sezione-toggle-btn {
+  /* Stile bottoni toggle */
+  background: var(--color-surface-alt);
+  border: 1px solid var(--color-border);
+  padding: 0.5rem 1rem;
+  color: var(--color-text-secondary);
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  /* Peso medio */
+  transition: var(--transition-default);
+  font-size: 0.85rem;
+}
+
+.sezione-toggle-btn:hover {
+  background-color: var(--color-accent-light);
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.sezione-toggle-btn.active {
+  /* Bottone attivo */
+  background-color: var(--color-accent);
+  color: #fff;
+  /* Testo bianco su accento */
+  border-color: var(--color-accent-dark);
+}
+
+.sezione-wrapper {
+  /* Contenitore per testo e ricette affiancati */
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  /* Spazio tra colonna testo e ricette */
+  flex-wrap: wrap;
+  /* Su mobile vanno in colonna */
+}
+
+.sezione-testo,
+.sezione-ricette {
+  flex: 1 1 45%;
+  /* Occupano circa metà spazio, permettendo wrap */
+  min-width: 250px;
+  /* Larghezza minima prima di andare a capo */
+}
+
+.sezione-testo p {
+  white-space: pre-line;
+  /* Mantiene a capo dal JSON */
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+}
+
+/* Classi per mostrare/nascondere testo/ricette */
+.mode-testo .sezione-ricette {
+  display: none;
+}
+
+.mode-ricette .sezione-testo {
+  display: none;
+}
+
+.mode-entrambi .sezione-testo,
+.mode-entrambi .sezione-ricette {
+  display: block;
+}
+
+/* Default: mostra entrambi */
+
+
+.ricetta-mini-card {
+  /* Card piccola per ricetta nella sezione */
+  background: var(--color-surface-alt);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  /* Spazio tra mini-card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--color-border);
+}
+
+.ricetta-mini-card h4 {
+  font-size: 1rem;
+  margin-bottom: var(--space-2);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+  /* Usa font body per leggibilità */
+  font-weight: 600;
+}
+
+.ricetta-mini-card p {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+  margin-bottom: 0;
+  /* Rimuove margine sotto ultimo paragrafo */
 }
