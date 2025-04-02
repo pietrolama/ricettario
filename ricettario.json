@@ -1,7 +1,8 @@
 {
   "categorie": [
     {
-      "nome": "🧱 Basi, Fondi e Preparazioni Madri",
+      "id": "basi_fondi_preparazioni",
+      "nome": "BASI, FONDI E PREPARAZIONI MADRI",
       "ricette": [
         {
           "nome": "Brodo Vegetale",
@@ -699,7 +700,8 @@
       ]
     },
     {
-      "nome": "🥩 Carne e Vegetali in CBT",
+      "id": "carne_e_vegetali_in_cbt",
+      "nome": "CARNE E VEGETALI IN CBT",
       "ricette": [
         {
           "nome": "Petto d’Anatra CBT al Limoncello",
@@ -1636,7 +1638,8 @@
       ]
     },
     {
-      "nome": "🍽️ Fine-Dining e Antipasti Creativi",
+      "id": "fine_dining_e_antipasti_creativi",
+      "nome": "FINE-DINING E ANTIPASTI CREATIVI",
       "ricette": [
         {
           "nome": "Bacio Bruciato",
@@ -2972,7 +2975,8 @@
       ]
     },
     {
-      "nome": "🍝 Primi Piatti Creativi",
+      "id": "primi_piatti_creativi",
+      "nome": "PRIMI PIATTI CREATIVI",
       "ricette": [
         {
           "nome": "Spaghetti Aglio e Olio Gourmet",
@@ -4014,7 +4018,8 @@
       ]
     },
     {
-      "nome": "🍕 Pizza e Pane",
+      "id": "pizza_e_pane",
+      "nome": "PIZZA E PANE",
       "ricette": [
         {
           "nome": "Pizza in Pala Romana – Metodo Pietro Lama",
@@ -4680,7 +4685,8 @@
       ]
     },
     {
-      "nome": "🍮 Dolci d’Autore",
+      "id": "dolci_d_autore",
+      "nome": "DOLCI D’AUTORE",
       "ricette": [
         {
           "nome": "Pan Brioche al Caramello Salato Ultra",
@@ -6802,7 +6808,8 @@
       ]
     },
     {
-      "nome": "🍫 Cioccolatini e Ganache",
+      "id": "cioccolatini_e_ganache",
+      "nome": "CIOCCOLATINI E GANACHE",
       "ricette": [
         {
           "nome": "Cioccolatino “Pop Acido”",
@@ -7152,7 +7159,8 @@
       ]
     },
     {
-      "nome": "🧪 Fermentazioni",
+      "id": "fermentazione",
+      "nome": "FERMENTAZIONE",
       "ricette": [
         {
           "nome": "Carota Nuda",
@@ -7469,7 +7477,8 @@
       ]
     },
     {
-      "nome": "🧠 Tecniche Avanzate e Molecolari",
+      "id": "tecniche_avanzate_e_molecolari",
+      "nome": "TECNICHE AVANZATE E MOLECOLARI",
       "ricette": [
         {
           "nome": "Finto Caviale – Tecnica Base",
