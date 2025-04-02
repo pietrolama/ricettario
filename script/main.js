@@ -18,8 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Funzione per aggiornare l'interfaccia del ricettario
   const updateUI = () => {
-    console.log("updateUI chiamata."); // Debug
-
     // Renderizza le categorie (include "Mostra tutte")
     renderCategories(
       categoryList,
