@@ -1,38 +1,47 @@
 [
   {
-    "nome": "Basi, Fondi e Preparazioni",
-    "intro": "BASI, FONDI E PREPARAZIONI – IL CODICE NASCOSTO\n\nOgni grande costruzione ha le sue fondamenta invisibili. Le basi non cercano applausi, ma reggono l’intero impianto del gusto. Qui si scrive il codice sorgente della cucina: emulsioni, fondi, roux, impasti. Strati su cui costruire, sezioni in cui il sapore prende forma silenziosamente.\n\nNon è la ricetta a parlare, ma ciò che la sostiene. Ogni salsa madre è una promessa di profondità. Ogni fondo è un’eco antica che risuona nel piatto finale. Qui, il gesto è calcolo e sensibilità, rigore e ascolto.\n\nEntrare in questa sezione significa decodificare il linguaggio segreto del sapore."
+    "id": "basi_fondi_preparazioni",
+    "titolo": "BASI, FONDI E PREPARAZIONI MADRI",
+    "introduzione": "Ogni grande costruzione ha le sue fondamenta invisibili. Le basi non cercano applausi, ma reggono l’intero impianto del gusto. Qui si scrive il codice sorgente della cucina: emulsioni, fondi, roux, impasti. Strati su cui costruire, sezioni in cui il sapore prende forma silenziosamente.\n\nNon è la ricetta a parlare, ma ciò che la sostiene. Ogni salsa madre è una promessa di profondità. Ogni fondo è un’eco antica che risuona nel piatto finale. Qui, il gesto è calcolo e sensibilità, rigore e ascolto.\n\nEntrare in questa sezione significa decodificare il linguaggio segreto del sapore."
   },
   {
-    "nome": "Carne e Vegetali in CBT",
-    "intro": "CARNE E VEGETALI IN CBT – LA MATERIA E IL TEMPO\n\nSotto vuoto, ogni elemento torna a sé stesso. La carne abbandona le tensioni. I vegetali si addolciscono, si arrendono alla temperatura costante. Nella cottura a bassa temperatura, il tempo non è più nemico: è alleato, scultore, alchimista.\n\nQui si cuoce senza violenza. Si trasforma senza urgenza. La precisione diventa poesia. Il confine tra crudo e cotto si dissolve e nasce una terza consistenza, una nuova identità della materia.\n\nÈ un tempo sospeso. Una forma di rispetto."
+    "id": "carne_e_vegetali_in_cbt",
+    "titolo": "CARNE E VEGETALI IN CBT",
+    "introduzione": "Sotto vuoto, ogni elemento torna a sé stesso. La carne abbandona le tensioni. I vegetali si addolciscono, si arrendono alla temperatura costante. Nella cottura a bassa temperatura, il tempo non è più nemico: è alleato, scultore, alchimista.\n\nQui si cuoce senza violenza. Si trasforma senza urgenza. La precisione diventa poesia. Il confine tra crudo e cotto si dissolve e nasce una terza consistenza, una nuova identità della materia.\n\nÈ un tempo sospeso. Una forma di rispetto."
   },
   {
-    "nome": "Fine-Dining e Antipasti Creativi",
-    "intro": "FINE-DINING E ANTIPASTI CREATIVI – IL TEATRO DEL PRIMO GESTO\n\nUn antipasto non è solo inizio. È dichiarazione d’intenti. È un prologo che sussurra cosa accadrà, ma mai tutto. In questi piatti piccoli e intensi, ogni elemento è scelto con cura chirurgica. Le porzioni sono minime, ma il senso è massimo.\n\nQui si gioca con la forma, con l’illusione, con l’equilibrio. Qui il piatto è scena, l’impiattamento è regia, e il gusto è il colpo di scena. È fine-dining: luogo dove arte e tecnica non sono separabili.\n\nBenvenuto nel palcoscenico del dettaglio."
+    "id": "fine_dining_e_antipasti_creativi",
+    "titolo": "FINE-DINING E ANTIPASTI CREATIVI",
+    "introduzione": "Un antipasto non è solo inizio. È dichiarazione d’intenti. È un prologo che sussurra cosa accadrà, ma mai tutto. In questi piatti piccoli e intensi, ogni elemento è scelto con cura chirurgica. Le porzioni sono minime, ma il senso è massimo.\n\nQui si gioca con la forma, con l’illusione, con l’equilibrio. Qui il piatto è scena, l’impiattamento è regia, e il gusto è il colpo di scena. È fine-dining: luogo dove arte e tecnica non sono separabili.\n\nBenvenuto nel palcoscenico del dettaglio."
   },
   {
-    "nome": "Primi Piatti Creativi",
-    "intro": "PRIMI PIATTI CREATIVI – LA MEMORIA IN FERMENTO\n\nLa pasta e il riso non sono solo alimenti. Sono archetipi. Linguaggi. Scritture collettive. E in questa sezione si riscrivono. Senza mai dimenticare, ma sempre trasformando.\n\nOgni primo piatto è una tensione tra ciò che è stato e ciò che potrebbe essere. Un brodo che vibra come una nota lunga. Una pasta ripensata nella texture, nell’equilibrio, nella narrazione.\n\nÈ memoria che si ribella alla ripetizione. È tradizione che si lascia contaminare."
+    "id": "primi_piatti_creativi",
+    "titolo": "PRIMI PIATTI CREATIVI",
+    "introduzione": "La pasta e il riso non sono solo alimenti. Sono archetipi. Linguaggi. Scritture collettive. E in questa sezione si riscrivono. Senza mai dimenticare, ma sempre trasformando.\n\nOgni primo piatto è una tensione tra ciò che è stato e ciò che potrebbe essere. Un brodo che vibra come una nota lunga. Una pasta ripensata nella texture, nell’equilibrio, nella narrazione.\n\nÈ memoria che si ribella alla ripetizione. È tradizione che si lascia contaminare."
   },
   {
-    "nome": "Pizza e Pane",
-    "intro": "PIZZA E PANE – IL RESPIRO DELLA FARINA\n\nQui si impasta l’attesa. Si accarezza la fermentazione. Si ascolta la voce del glutine che si tende, si rilassa, si organizza.\n\nIl pane e la pizza sono atti di fede. Il calore li compie, ma è il tempo a renderli vivi. Alveoli come costellazioni. Croste come croste terrestri. Morbidezze che parlano di mani e scelte.\n\nIn questa sezione si celebra il miracolo quotidiano del lievito che alza la terra."
+    "id": "pizza_e_pane",
+    "titolo": "PIZZA E PANE",
+    "introduzione": "Qui si impasta l’attesa. Si accarezza la fermentazione. Si ascolta la voce del glutine che si tende, si rilassa, si organizza.\n\nIl pane e la pizza sono atti di fede. Il calore li compie, ma è il tempo a renderli vivi. Alveoli come costellazioni. Croste come croste terrestri. Morbidezze che parlano di mani e scelte.\n\nIn questa sezione si celebra il miracolo quotidiano del lievito che alza la terra."
   },
   {
-    "nome": "Dolci d’Autore",
-    "intro": "DOLCI D’AUTORE – L’ILLUSIONE PERFETTA\n\nI dolci sono l’ultimo sguardo, l’ultima parola. Ma spesso sono anche la prima emozione. Qui si compone con zuccheri, acidi, strutture, come un architetto invisibile della consolazione.\n\nUn dolce ben fatto non è solo buono. È logico, equilibrato, sorprendente. È la chiusura circolare di un discorso. O, a volte, l’apertura verso un altro.\n\nQuesta sezione è una danza tra matematica e poesia."
+    "id": "dolci_d_autore",
+    "titolo": "DOLCI D’AUTORE",
+    "introduzione": "I dolci sono l’ultimo sguardo, l’ultima parola. Ma spesso sono anche la prima emozione. Qui si compone con zuccheri, acidi, strutture, come un architetto invisibile della consolazione.\n\nUn dolce ben fatto non è solo buono. È logico, equilibrato, sorprendente. È la chiusura circolare di un discorso. O, a volte, l’apertura verso un altro.\n\nQuesta sezione è una danza tra matematica e poesia."
   },
   {
-    "nome": "Cioccolatini e Ganache",
-    "intro": "CIOCCOLATINI E GANACHE – IL CUORE CHE SI SCIOGLIE\n\nCiò che è piccolo può contenere l’infinito. Il cioccolatino è un atto miniaturizzato di complessità. Ganache, ripieni, stratificazioni. In pochi grammi si condensano texture, contrasti, racconti.\n\nQui si lavora con precisione quasi orafa. Si colano sogni fondenti, si bilanciano grassi e liquidi come in un laboratorio sensoriale.\n\nÈ una sezione intima. Quasi segreta."
+    "id": "cioccolatini_e_ganache",
+    "titolo": "CIOCCOLATINI E GANACHE",
+    "introduzione": "Ciò che è piccolo può contenere l’infinito. Il cioccolatino è un atto miniaturizzato di complessità. Ganache, ripieni, stratificazioni. In pochi grammi si condensano texture, contrasti, racconti.\n\nQui si lavora con precisione quasi orafa. Si colano sogni fondenti, si bilanciano grassi e liquidi come in un laboratorio sensoriale.\n\nÈ una sezione intima. Quasi segreta."
   },
   {
-    "nome": "Fermentazioni",
-    "intro": "FERMENTAZIONE – IL TEMPO CHE PARLA\n\nNel silenzio di un barattolo sigillato, si compie un rito primordiale. Nulla è immobile: ogni cosa pulsa, cambia, evolve. È il respiro lento del tempo che trasforma, che scava nei tessuti del vegetale e lo riscrive, un battito alla volta. La fermentazione non è solo tecnica: è attesa, ascolto, fiducia. È lasciare che il caos generi armonia.\n\nI nostri antenati la praticavano senza comprenderla, guidati dall’istinto e dalla fame. Oggi la riscopriamo con occhi nuovi, come alchimisti del sapore. In ogni fermento c’è memoria e futuro. In ogni bollicina che sale c’è vita che lavora.\n\nFermentare è una scelta radicale. È scegliere la lentezza in un mondo che corre. È celebrare la materia che cambia, che si difende, che si esprime. È cucinare senza fuoco, creare senza forzare.\n\nEd è anche rischio. Non tutto va come previsto. Ma proprio lì, nell’imprevisto, si nasconde la voce della trasformazione.\n\nBenvenuti nel regno vivo della cucina. Dove il tempo parla, e noi impariamo ad ascoltarlo."
+    "id": "fermentazione",
+    "titolo": "FERMENTAZIONE",
+    "introduzione": "Nel silenzio di un barattolo sigillato, si compie un rito primordiale. Nulla è immobile: ogni cosa pulsa, cambia, evolve. È il respiro lento del tempo che trasforma, che scava nei tessuti del vegetale e lo riscrive, un battito alla volta. La fermentazione non è solo tecnica: è attesa, ascolto, fiducia. È lasciare che il caos generi armonia.\n\nI nostri antenati la praticavano senza comprenderla, guidati dall’istinto e dalla fame. Oggi la riscopriamo con occhi nuovi, come alchimisti del sapore. In ogni fermento c’è memoria e futuro. In ogni bollicina che sale c’è vita che lavora.\n\nFermentare è una scelta radicale. È scegliere la lentezza in un mondo che corre. È celebrare la materia che cambia, che si difende, che si esprime. È cucinare senza fuoco, creare senza forzare.\n\nEd è anche rischio. Non tutto va come previsto. Ma proprio lì, nell’imprevisto, si nasconde la voce della trasformazione.\n\nBenvenuti nel regno vivo della cucina. Dove il tempo parla, e noi impariamo ad ascoltarlo."
   },
   {
-    "nome": "Tecniche Avanzate e Molecolari",
-    "intro": "TECNICHE AVANZATE E MOLECOLARI – IL LABORATORIO DELL’IMMAGINAZIONE\n\nQuando la cucina smette di essere solo gesto e diventa indagine. In questa sezione si apre lo spazio per le reazioni invisibili, le trasformazioni radicali, le strutture nuove.\n\nQui si sferifica, si distilla, si emulsiona al limite della chimica. Ma non per stupire. Per comprendere. Per espandere i confini del possibile.\n\nNon è un gioco: è un rito scientifico. Dove tutto è progettato, ma il risultato resta magico."
+    "id": "tecniche_avanzate_e_molecolari",
+    "titolo": "TECNICHE AVANZATE E MOLECOLARI",
+    "introduzione": "Qui la materia non è solo trasformata: è interrogata, scomposta, ricomposta. La cucina diventa laboratorio, il gesto si fa esperimento. Non si segue la natura, la si sfida con le sue stesse leggi fisiche e chimiche.\n\nGelatine che non sono gelatine, arie che sanno di terra, sfere liquide che esplodono in bocca. È un gioco di prestigio sensoriale, dove nulla è come sembra, ma tutto è calcolato al milligrammo, al grado centigrado. La precisione non è solo rigore, è la chiave per sbloccare nuove dimensioni del gusto e della texture.\n\nEntrare qui significa guardare l'ingrediente fino al suo atomo invisibile. È la tecnica al servizio dell'idea più audace, la scienza che libera la fantasia. Non è negare la tradizione, ma esplorare cosa c'è oltre il conosciuto."
   }
 ]
