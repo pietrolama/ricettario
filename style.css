@@ -1528,11 +1528,6 @@ header h1 {
   font-weight: 600;
 }
 
-/* Wrapper per testo e griglia ricette */
-.sezione-content-wrapper {
-  /* Nessuno stile specifico necessario qui */
-}
-
 /* Testo introduttivo della sezione */
 .sezione-testo {
   /* display gestito da JS */
@@ -1599,4 +1594,61 @@ header h1 {
   line-height: 1.5;
   margin-bottom: 0;
   /* Rimuove margine sotto ultimo paragrafo */
+}
+
+.servings-selector {
+  margin-bottom: 1rem; /* Spazio prima degli ingredienti */
+  display: flex;
+  align-items: center;
+  gap: 0.8rem; /* Spazio tra label e counter */
+  font-size: 0.95rem;
+}
+
+.servings-label {
+  font-weight: 600;
+   color: var(--color-text-secondary); /* O il colore che preferisci */
+}
+
+.servings-counter {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--color-border); /* Bordo per raggruppare */
+  border-radius: 4px;
+  overflow: hidden; /* Per arrotondare gli angoli dei bottoni interni */
+}
+
+.servings-button {
+  background-color: var(--color-surface-alt);
+  color: var(--color-text-primary);
+  border: none;
+  padding: 0.4em 0.8em;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  line-height: 1; /* Aggiustamento allineamento verticale */
+}
+
+.servings-button:hover {
+  background-color: var(--color-surface-hover); /* Colore al passaggio del mouse */
+}
+
+.servings-button:active {
+   background-color: var(--color-primary-muted); /* Colore al click */
+}
+
+.servings-button.minus {
+  border-right: 1px solid var(--color-border);
+}
+
+.servings-button.plus {
+  border-left: 1px solid var(--color-border);
+}
+
+.servings-display {
+  padding: 0.4em 1em; /* Spazio interno per il numero */
+  font-weight: bold;
+  min-width: 2em; /* Larghezza minima per evitare scatti */
+  text-align: center;
+  background-color: var(--color-surface); /* Sfondo leggermente diverso? */
+  user-select: none; /* Evita la selezione del numero */
 }
