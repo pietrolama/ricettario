@@ -6240,7 +6240,7 @@
                 {
                     "nome": "Pastiera Napoletana di Nonna Nina",
                     "descrizione": "Frolla burrosa, ricotta mantecata, grano profumato agli agrumi: un rito pasquale che profuma di famiglia.",
-                    "porzioni_base": null,
+                    "porzioni_base": 1,
                     "ingredienti": [
                         {
                             "nome_gruppo": "Pasta Frolla",
