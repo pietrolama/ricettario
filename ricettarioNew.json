@@ -251,7 +251,7 @@
                 {
                     "nome": "Velluto Bianco – Salsa al Parmigiano",
                     "descrizione": "Il profumo del latte, il respiro dell’alloro, il calore che fonde la memoria del burro con l’intensità sapida del Parmigiano.",
-                    "porzioni_base": null,
+                    "porzioni_base": 10,
                     "ingredienti": [
                         {
                             "nome_gruppo": null,
@@ -1316,7 +1316,7 @@
                 {
                     "nome": "Pulled Pork – Sfilacci di Fumo e Tempo",
                     "descrizione": "Una poesia lunga ore. Il maiale che si fa seta, la memoria che si scioglie nel miele.",
-                    "porzioni_base": null,
+                    "porzioni_base": 10,
                     "ingredienti": [
                         {
                             "nome_gruppo": "Materia Prima",
@@ -5288,7 +5288,7 @@
                 {
                     "nome": "Pan Brioche al Caramello Salato Ultra",
                     "descrizione": "Un pan brioche dal cuore morbido e dal contrasto irresistibile, rivisitato in chiave ultra gourmet.",
-                    "porzioni_base": null,
+                    "porzioni_base": 10,
                     "ingredienti": [
                         {
                             "nome_gruppo": "Poolish",
@@ -5303,7 +5303,7 @@
                                 {
                                     "quantita_num": 170,
                                     "unita": "ml",
-                                    "ingrediente": "Latte tiepido",
+                                    "ingrediente": "Latte",
                                     "note": null,
                                     "opzionale": false
                                 },
@@ -5484,7 +5484,7 @@
                 {
                     "nome": "Ultra Pangoccioli",
                     "descrizione": "Lievitazione perfetta, cioccolato che scioglie. Merenda stellata.",
-                    "porzioni_base": null,
+                    "porzioni_base": 12,
                     "ingredienti": [
                         {
                             "nome_gruppo": "Impasto",
@@ -5638,7 +5638,7 @@
                 {
                     "nome": "Panettone – Il Respiro dell’Attesa",
                     "descrizione": "Due impasti, una notte di veglia e il lento sbocciare del profumo. Il tempo si fa mollica, la pazienza diventa dolcezza.",
-                    "porzioni_base": null,
+                    "porzioni_base": 1,
                     "ingredienti": [
                         {
                             "nome_gruppo": "Primo Impasto – L’alba del corpo",
@@ -5830,7 +5830,7 @@
                 {
                     "nome": "Tortino al Cioccolato e Ganache al Pistacchio",
                     "descrizione": "Il cuore che esplode. Caldo e morbido, un abbraccio verde nascosto.",
-                    "porzioni_base": null,
+                    "porzioni_base": 1,
                     "ingredienti": [
                         {
                             "nome_gruppo": "Per Il Tortino",
@@ -5959,7 +5959,7 @@
                 {
                     "nome": "Mini Torta Estiva con Namelaka allo Yogurt",
                     "descrizione": "Bisquit al lampone, confit di bosco, guscio di nocciola: un dessert che unisce tradizione e innovazione per una freschezza futuristica.",
-                    "porzioni_base": null,
+                    "porzioni_base": 1,
                     "ingredienti": [
                         {
                             "nome_gruppo": "Per La Frolla Alla Nocciola",
@@ -6167,7 +6167,7 @@
                 {
                     "nome": "Crostata al Caramello Salato con Ganache al Tè Matcha",
                     "descrizione": "Un contrasto elegante tra dolce, amaro e salato. Frolla al cacao, caramello cremoso, ganache al tè verde giapponese.",
-                    "porzioni_base": null,
+                    "porzioni_base": 1,
                     "ingredienti": [
                         {
                             "nome_gruppo": "Frolla Cioccolato Mandorle",
@@ -6507,7 +6507,7 @@
                 {
                     "nome": "Torta Caprese",
                     "descrizione": "Mandorle tostate, cioccolato fondente, limoncello: un errore diventato capolavoro senza farina.",
-                    "porzioni_base": null,
+                    "porzioni_base": 1,
                     "ingredienti": [
                         {
                             "nome_gruppo": null,
@@ -6595,7 +6595,7 @@
                 {
                     "nome": "Torta Bavarese ai Pop Corn con Gelèe ai Frutti Rossi e Glassa al Caramello Salato",
                     "descrizione": "Latte ai pop corn, cuore di frutti rossi, vetro dorato di caramello: il comfort si fa haute pâtisserie.",
-                    "porzioni_base": null,
+                    "porzioni_base": 1,
                     "ingredienti": [
                         {
                             "nome_gruppo": "Bavarese Al Popcorn",
@@ -6799,7 +6799,7 @@
                 {
                     "nome": "Zeppole di Nonna Nina",
                     "descrizione": "Patate e farina, profumi di limone e vaniglia, frittura lieve: dolcezza che danza nell’olio e nel ricordo.",
-                    "porzioni_base": null,
+                    "porzioni_base": 20,
                     "ingredienti": [
                         {
                             "nome_gruppo": null,
@@ -6905,7 +6905,7 @@
                 {
                     "nome": "Veli di Festa – Le Chiacchiere di Carnevale",
                     "descrizione": "Sfoglie leggere, fragranti e profumate di tradizione. Un dolce che danza nell'olio e si veste di zucchero come di neve.",
-                    "porzioni_base": null,
+                    "porzioni_base": 36,
                     "ingredienti": [
                         {
                             "nome_gruppo": null,
@@ -7043,7 +7043,7 @@
                 {
                     "nome": "Torrone Fondente alle Nocciole e Vaniglia",
                     "descrizione": "Strati fondenti e cuore cremoso: un torrone morbido, tostato e profumato alla vaniglia. Variante al pistacchio disponibile.",
-                    "porzioni_base": null,
+                    "porzioni_base": 1,
                     "ingredienti": [
                         {
                             "nome_gruppo": "Camicia Di Cioccolato",
@@ -7117,7 +7117,7 @@
                 {
                     "nome": "Struffoli - Sal De Riso",
                     "descrizione": "Gnocchetti dorati, miele caldo, agrumi in festa: una pioggia di Natale in ogni boccone.",
-                    "porzioni_base": null,
+                    "porzioni_base": 10,
                     "ingredienti": [
                         {
                             "nome_gruppo": null,
@@ -7206,7 +7206,7 @@
                 {
                     "nome": "Babà: Alchimia dell'Estasi Liquida",
                     "descrizione": "Un dolce che è rito, trasformazione, estasi. Il pane che si fa corpo e accoglie il nettare dello sciroppo.",
-                    "porzioni_base": null,
+                    "porzioni_base": 20,
                     "ingredienti": [
                         {
                             "nome_gruppo": null,
@@ -7348,7 +7348,7 @@
                 {
                     "nome": "Migliaccio - Famiglia Dell'Aria",
                     "descrizione": "Semolino, ricotta e limone, forno lento: tra budino e torta, il sapore dell’attesa.",
-                    "porzioni_base": null,
+                    "porzioni_base": 1,
                     "ingredienti": [
                         {
                             "nome_gruppo": null,
@@ -7453,7 +7453,7 @@
                 {
                     "nome": "Savoiardi - Massari",
                     "descrizione": "Montata perfetta, zucchero a velo, struttura friabile: il biscotto che regge l’eleganza.",
-                    "porzioni_base": null,
+                    "porzioni_base": 24,
                     "ingredienti": [
                         {
                             "nome_gruppo": null,
@@ -7541,7 +7541,7 @@
                 {
                     "nome": "Tiramisù",
                     "descrizione": "Caffè amaro, mascarpone montato, savoiardi inzuppati: il dolce che si sussurra.",
-                    "porzioni_base": null,
+                    "porzioni_base": 12,
                     "ingredienti": [
                         {
                             "nome_gruppo": null,
@@ -7610,7 +7610,7 @@
                 {
                     "nome": "Meringhe - Massari",
                     "descrizione": "Albumi lucidi, zucchero calibrato, forno aperto: la geometria della leggerezza.",
-                    "porzioni_base": null,
+                    "porzioni_base": 28,
                     "ingredienti": [
                         {
                             "nome_gruppo": null,
@@ -7655,7 +7655,7 @@
                 {
                     "nome": "Plumcake senza lattosio - Massari",
                     "descrizione": "Agrumi freschi, olio d’oliva, impasto arioso: comfort cake che non esclude nessuno.",
-                    "porzioni_base": null,
+                    "porzioni_base": 1,
                     "ingredienti": [
                         {
                             "nome_gruppo": "Per Il Plumcake",
@@ -7810,7 +7810,7 @@
                 {
                     "nome": "Cioccolatino “Pop Acido”",
                     "descrizione": "Doppia ganache, camicia colorata, cuore liquido. Una pralina che racconta.",
-                    "porzioni_base": null,
+                    "porzioni_base": 16,
                     "ingredienti": [
                         {
                             "nome_gruppo": "Camicia",
@@ -7936,7 +7936,7 @@
                 {
                     "nome": "Notturno – Datterino e Peperoncino",
                     "descrizione": "Pomodoro e piccante in ganache, su base sablé al cacao.",
-                    "porzioni_base": null,
+                    "porzioni_base": 35,
                     "ingredienti": [
                         {
                             "nome_gruppo": "Ganache Al Pomodoro E Peperoncino",
@@ -8070,7 +8070,7 @@
                 {
                     "nome": "Cioccolatini al pistacchio",
                     "descrizione": "Guscio fondente e cuore verde vellutato: ganache al pistacchio con note di cioccolato bianco e panna.",
-                    "porzioni_base": null,
+                    "porzioni_base": 50,
                     "ingredienti": [
                         {
                             "nome_gruppo": "Per La Camicia",
@@ -8135,7 +8135,7 @@
                 {
                     "nome": "Cioccolatini al limoncello",
                     "descrizione": "Scorza fondente e anima solare: ganache profumata al limoncello che esplode in dolcezza liquorosa.",
-                    "porzioni_base": null,
+                    "porzioni_base": 50,
                     "ingredienti": [
                         {
                             "nome_gruppo": "Per La Camicia",
