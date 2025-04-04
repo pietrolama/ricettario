@@ -1060,6 +1060,129 @@
                     ]
                 },
                 {
+  "nome": "Guance di Nebbia e Radici",
+  "descrizione": "Guance di manzo CBT al Barolo, fondo ristretto, crema di sedano rapa affumicato, croccante di polenta e polvere di alloro.",
+  "porzioni_base": 4,
+  "ingredienti": [
+    {
+      "nome_gruppo": "Guancia di manzo",
+      "lista_ingredienti": [
+        { "quantita_num": 4, "unita": "pz", "ingrediente": "Guance di manzo", "note": "(circa 200–250 g l’una)", "opzionale": false },
+        { "quantita_num": 750, "unita": "ml", "ingrediente": "Barolo", "note": null, "opzionale": false },
+        { "quantita_num": 1, "unita": "pz", "ingrediente": "Cipolla", "note": null, "opzionale": false },
+        { "quantita_num": 1, "unita": "costa", "ingrediente": "Sedano", "note": null, "opzionale": false },
+        { "quantita_num": 1, "unita": "pz", "ingrediente": "Carota", "note": null, "opzionale": false },
+        { "quantita_num": 2, "unita": "spicchi", "ingrediente": "Aglio", "note": "schiacciati", "opzionale": false },
+        { "quantita_num": 2, "unita": "foglie", "ingrediente": "Alloro", "note": null, "opzionale": false },
+        { "quantita_num": 5, "unita": "pz", "ingrediente": "Bacche di ginepro", "note": null, "opzionale": false },
+        { "quantita_num": 1, "unita": "cucchiaino", "ingrediente": "Pepe nero in grani", "note": null, "opzionale": false },
+        { "quantita_num": 1, "unita": "rametto", "ingrediente": "Rosmarino", "note": null, "opzionale": false },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "Olio extravergine d’oliva", "note": null, "opzionale": false },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "Sale", "note": null, "opzionale": false }
+      ]
+    },
+    {
+      "nome_gruppo": "Crema di sedano rapa affumicato",
+      "lista_ingredienti": [
+        { "quantita_num": 500, "unita": "g", "ingrediente": "Sedano rapa", "note": null, "opzionale": false },
+        { "quantita_num": 30, "unita": "g", "ingrediente": "Burro", "note": null, "opzionale": false },
+        { "quantita_num": 100, "unita": "ml", "ingrediente": "Latte intero", "note": null, "opzionale": false },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "Sale e pepe bianco", "note": null, "opzionale": false },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "Fumo", "note": "chips di faggio o affumicatura a freddo (opzionale)", "opzionale": true }
+      ]
+    },
+    {
+      "nome_gruppo": "Polenta croccante",
+      "lista_ingredienti": [
+        { "quantita_num": 150, "unita": "g", "ingrediente": "Farina di mais per polenta", "note": null, "opzionale": false },
+        { "quantita_num": 600, "unita": "ml", "ingrediente": "Acqua", "note": null, "opzionale": false },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "Sale grosso", "note": null, "opzionale": false },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "Olio per frittura o forno", "note": null, "opzionale": false }
+      ]
+    },
+    {
+      "nome_gruppo": "Finitura",
+      "lista_ingredienti": [
+        { "quantita_num": 2, "unita": "foglie", "ingrediente": "Alloro essiccato", "note": null, "opzionale": false },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "Olio extravergine d’oliva", "note": "per nappatura", "opzionale": false }
+      ]
+    }
+  ],
+  "procedimento": [
+    {
+      "fase": "Marinatura",
+      "passaggi": [
+        "Unisci Barolo, mirepoix di cipolla/sedano/carota, aglio, ginepro, pepe, alloro e rosmarino.",
+        "Immergi le guance e lascia marinare in frigo per 12 ore, coperte."
+      ]
+    },
+    {
+      "fase": "Rosolatura",
+      "passaggi": [
+        "Scola e asciuga le guance.",
+        "Rosolale in padella rovente con poco olio su tutti i lati fino a formare crosta caramellata."
+      ]
+    },
+    {
+      "fase": "Cottura CBT",
+      "passaggi": [
+        "Sigilla sottovuoto con poco olio, cucchiaio di marinatura e sale.",
+        "Cuoci a 68°C per 36 ore.",
+        "Abbatti rapidamente e conserva o rigenera al momento."
+      ]
+    },
+    {
+      "fase": "Fondo al Barolo",
+      "passaggi": [
+        "Filtra la marinatura, riducila in casseruola fino a consistenza lucida e densa.",
+        "Filtra nuovamente e regola di sale."
+      ]
+    },
+    {
+      "fase": "Crema di sedano rapa affumicato",
+      "passaggi": [
+        "Affumica il sedano rapa (opzionale), poi pelalo e taglialo a cubi.",
+        "Cuoci con burro, latte, sale e pepe fino a morbidezza.",
+        "Frulla e passa al setaccio fine."
+      ]
+    },
+    {
+      "fase": "Polenta croccante",
+      "passaggi": [
+        "Cuoci la polenta in acqua salata per almeno 40 minuti.",
+        "Versa in stampo basso, lascia raffreddare.",
+        "Taglia a cubi, friggi o cuoci in forno ventilato a 200°C finché dorata."
+      ]
+    },
+    {
+      "fase": "Polvere di alloro",
+      "passaggi": [
+        "Essicca le foglie, tritale e setacciale fino a ottenere una polvere fine."
+      ]
+    },
+    {
+      "fase": "Finitura e impiattamento",
+      "passaggi": [
+        "Riscalda le guance nappandole con il fondo caldo.",
+        "Disponi sul piatto una base di crema di sedano rapa.",
+        "Adagia la guancia sopra.",
+        "Aggiungi un cubo di polenta croccante.",
+        "Spolvera con polvere di alloro e irrora con fondo caldo."
+      ]
+    }
+  ],
+  "pairing_consigliato": [
+    {
+      "bevanda": "Barolo Riserva (10+ anni)",
+      "note": "Maturo, terziario, perfetto per accompagnare la profondità del piatto."
+    },
+    {
+      "bevanda": "Pane ai cereali con burro salato affumicato",
+      "note": "Servito tiepido a lato come gesto evocativo."
+    }
+  ]
+},
+                {
                     "nome": "Brisket Texano – Il Tempo del Fumo",
                     "descrizione": "Un rito texano di fuoco, legno e pazienza. Il brisket si trasforma in burro dopo ore di affumicatura lenta.",
                     "porzioni_base": 8,
