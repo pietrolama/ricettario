@@ -4467,6 +4467,88 @@
                     ]
                 },
                 {
+  "nome": "Paccaro nel Vento dell’Orto",
+  "descrizione": "Crema di Melanzana confit, Pomodorini in dolce attesa e Ricotta salata di Pecora. Un piatto di terra e sole, che parla il linguaggio dell’estate e della calma.",
+  "porzioni_base": 4,
+  "ingredienti": [
+    {
+      "nome_gruppo": "Crema di melanzane confit",
+      "lista_ingredienti": [
+        { "quantita_num": 2, "unita": "pz", "ingrediente": "melanzane viola grandi", "note": null, "opzionale": false },
+        { "quantita_num": 3, "unita": "spicchi", "ingrediente": "aglio in camicia", "note": null, "opzionale": false },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "olio extravergine di oliva", "note": null, "opzionale": false },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "sale grosso", "note": null, "opzionale": false },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "timo fresco", "note": null, "opzionale": false },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "buccia di limone", "note": "opzionale", "opzionale": true }
+      ]
+    },
+    {
+      "nome_gruppo": "Pomodorini confit",
+      "lista_ingredienti": [
+        { "quantita_num": 300, "unita": "g", "ingrediente": "pomodorini ciliegino o datterini", "note": null, "opzionale": false },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "zucchero di canna", "note": null, "opzionale": false },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "sale", "note": null, "opzionale": false },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "origano secco", "note": null, "opzionale": false },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "olio extravergine di oliva", "note": null, "opzionale": false },
+        { "quantita_num": 1, "unita": "spicchio", "ingrediente": "aglio", "note": "schiacciato", "opzionale": false },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "aceto di vino rosso", "note": "qualche goccia", "opzionale": false }
+      ]
+    },
+    {
+      "nome_gruppo": "Pasta e completamento",
+      "lista_ingredienti": [
+        { "quantita_num": 400, "unita": "g", "ingrediente": "paccheri di Gragnano IGP", "note": null, "opzionale": false },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "ricotta salata di pecora stagionata", "note": "da grattugiare", "opzionale": false },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "basilico fresco", "note": "per guarnire", "opzionale": false },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "pepe nero macinato fresco", "note": null, "opzionale": false }
+      ]
+    }
+  ],
+  "procedimento": [
+    {
+      "fase": "Melanzane confit",
+      "passaggi": [
+        "Taglia le melanzane a metà nel senso della lunghezza, incidi la polpa a griglia con un coltello.",
+        "Disponile in una teglia con carta forno, con gli spicchi d’aglio in camicia, rametti di timo, sale grosso e abbondante olio EVO.",
+        "Cuoci in forno statico a 150°C per circa 2 ore, finché la polpa sarà morbida e brunita.",
+        "Preleva la polpa e frullala con un filo d’olio e (se desideri) un tocco di buccia di limone grattugiata. Tieni da parte."
+      ]
+    },
+    {
+      "fase": "Pomodorini confit",
+      "passaggi": [
+        "Taglia i pomodorini a metà e disponili su una teglia con la parte tagliata verso l’alto.",
+        "Cospargili con zucchero di canna, sale, origano, aglio e un filo d’olio EVO.",
+        "Aggiungi qualche goccia di aceto di vino rosso.",
+        "Inforna a 100°C per 2-3 ore, finché saranno appassiti, concentrati, caramellati ma ancora succosi."
+      ]
+    },
+    {
+      "fase": "Cottura e mantecatura",
+      "passaggi": [
+        "Cuoci i paccheri in abbondante acqua salata fino a due minuti prima del tempo indicato.",
+        "In una padella ampia, scalda la crema di melanzane con un mestolo di acqua di cottura.",
+        "Scola i paccheri e saltali nella crema, facendoli legare dolcemente.",
+        "Aggiungi i pomodorini confit fuori fuoco, mescola delicatamente per non romperli."
+      ]
+    },
+    {
+      "fase": "Impiattamento",
+      "passaggi": [
+        "Disponi i paccheri in un nido centrale oppure verticali, come colonne erbacee.",
+        "Grattugia abbondante ricotta salata di pecora sul piatto ancora caldo, così da farla fondere parzialmente.",
+        "Aggiungi qualche foglia di basilico fresco e una macinata di pepe nero. Servi subito."
+      ]
+    }
+  ],
+  "pairing_consigliato": [
+    {
+      "bevanda": "Cerasuolo d’Abruzzo ben strutturato oppure un Etna rosato",
+      "note": "per accompagnare la dolcezza vegetale con freschezza minerale e struttura"
+    }
+  ]
+},
+                {
                     "nome": "Paccaro con Crema di Zucca Confit e Cipolla Caramellata",
                     "descrizione": "Un viaggio tra dolcezza arrostita e abbracci fondenti.",
                     "porzioni_base": 4,
