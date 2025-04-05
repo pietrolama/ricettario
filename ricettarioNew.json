@@ -3789,13 +3789,58 @@
       ]
     },
     {
-      "nome_gruppo": "Pomodorini campani (6 varietà)",
-      "lista_ingredienti": [
-        { "quantita_num": null, "unita": "", "ingrediente": "pomodorini campani (6 varietà diverse)" },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "olio extravergine d’oliva campano" },
-        { "quantita_num": 2, "unita": "spicchi", "ingrediente": "aglio in camicia" }
-      ]
+  "nome_gruppo": "Pomodorini campani (6 varietà)",
+  "lista_ingredienti": [
+    {
+      "quantita_num": 2,
+      "unita": "pz",
+      "ingrediente": "pomodorini datterino giallo",
+      "note": null
     },
+    {
+      "quantita_num": 2,
+      "unita": "pz",
+      "ingrediente": "pomodorini datterino rosso",
+      "note": null
+    },
+    {
+      "quantita_num": 2,
+      "unita": "pz",
+      "ingrediente": "pomodorini corbarino",
+      "note": null
+    },
+    {
+      "quantita_num": 2,
+      "unita": "pz",
+      "ingrediente": "pomodorini del piennolo",
+      "note": null
+    },
+    {
+      "quantita_num": 2,
+      "unita": "pz",
+      "ingrediente": "pomodorini pendolino",
+      "note": null
+    },
+    {
+      "quantita_num": 2,
+      "unita": "pz",
+      "ingrediente": "pomodorini alterino rosso",
+      "note": null
+    },
+    {
+      "quantita_num": 2,
+      "unita": "spicchi",
+      "ingrediente": "aglio in camicia",
+      "note": "uno per ogni padella"
+    },
+    {
+      "quantita_num": null,
+      "unita": "q.b.",
+      "ingrediente": "olio extravergine d’oliva campano",
+      "note": "per la cottura"
+    }
+  ]
+},
     {
       "nome_gruppo": "Finti pomodori - Involucro",
       "lista_ingredienti": [
