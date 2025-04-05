@@ -1487,6 +1487,285 @@
                     ]
                 },
                 {
+  "nome": "Ventre Acido",
+  "descrizione": "Calamaro fermentato in kombucha, crema di porro arrostito, estratto di mela verde e aceto di sambuco. Un piatto viscerale, che esplora l'acido come tensione e il calamaro come carne bianca da amare con cautela. Fermento, fumo e freschezza in un equilibrio tagliente.",
+  "porzioni_base": 4,
+  "ingredienti": [
+    {
+      "nome_gruppo": "Calamaro fermentato",
+      "lista_ingredienti": [
+        {
+          "quantita_num": 500,
+          "unita": "g",
+          "ingrediente": "calamaro freschissimo",
+          "note": "pulito, separare corpo e tentacoli",
+          "opzionale": false
+        },
+        {
+          "quantita_num": 400,
+          "unita": "ml",
+          "ingrediente": "kombucha non pastorizzato",
+          "note": "gusto neutro o leggermente floreale",
+          "opzionale": false
+        },
+        {
+          "quantita_num": 5,
+          "unita": "g",
+          "ingrediente": "sale fino",
+          "note": null,
+          "opzionale": false
+        }
+      ]
+    },
+    {
+      "nome_gruppo": "Crema di porro arrostito",
+      "lista_ingredienti": [
+        {
+          "quantita_num": 2,
+          "unita": "pz",
+          "ingrediente": "porri grandi",
+          "note": "interi, lavati",
+          "opzionale": false
+        },
+        {
+          "quantita_num": 100,
+          "unita": "ml",
+          "ingrediente": "brodo vegetale",
+          "note": null,
+          "opzionale": false
+        },
+        {
+          "quantita_num": 20,
+          "unita": "g",
+          "ingrediente": "burro",
+          "note": null,
+          "opzionale": true
+        },
+        {
+          "quantita_num": 10,
+          "unita": "ml",
+          "ingrediente": "olio extravergine",
+          "note": null,
+          "opzionale": false
+        }
+      ]
+    },
+    {
+      "nome_gruppo": "Salsa cruda di mela verde",
+      "lista_ingredienti": [
+        {
+          "quantita_num": 2,
+          "unita": "pz",
+          "ingrediente": "mele verdi",
+          "note": "Granny Smith",
+          "opzionale": false
+        },
+        {
+          "quantita_num": 10,
+          "unita": "ml",
+          "ingrediente": "aceto di sambuco",
+          "note": "oppure aceto di mela delicato",
+          "opzionale": false
+        },
+        {
+          "quantita_num": 1,
+          "unita": "g",
+          "ingrediente": "sale",
+          "note": null,
+          "opzionale": false
+        }
+      ]
+    }
+  ],
+  "procedimento": [
+    {
+      "fase": "Fermentazione del calamaro",
+      "passaggi": [
+        "Tagliare i calamari a strisce regolari.",
+        "Inserirli in un vaso sterilizzato con il kombucha e il sale.",
+        "Fermentare in frigo o cantina a 4–6°C per 48 ore.",
+        "Scolare e asciugare delicatamente prima di cuocere."
+      ]
+    },
+    {
+      "fase": "Crema di porro arrostito",
+      "passaggi": [
+        "Bruciare i porri interi direttamente su fiamma viva fino a carbonizzazione esterna.",
+        "Tagliare a metà e rimuovere la parte esterna bruciata.",
+        "Frullare il cuore tenero con brodo vegetale, burro e olio fino a crema liscia.",
+        "Aggiustare di sale e passare al setaccio fine."
+      ]
+    },
+    {
+      "fase": "Salsa cruda di mela verde",
+      "passaggi": [
+        "Centrifugare o estrarre a freddo il succo delle mele.",
+        "Emulsionare con l’aceto di sambuco e un pizzico di sale.",
+        "Conservare in frigo fino al servizio."
+      ]
+    },
+    {
+      "fase": "Cottura e impiattamento",
+      "passaggi": [
+        "Scottare i calamari fermentati su padella molto calda 30 secondi per lato.",
+        "Adagiare al centro del piatto una cucchiaiata di crema di porro.",
+        "Sopra, disporre il calamaro scottato a forma fluida.",
+        "Finire con la salsa di mela a filo e germogli acidi o microacetosella."
+      ]
+    }
+  ],
+  "pairing_consigliato": [
+    {
+      "bevanda": "Vino orange macerato di uva bianca",
+      "note": "con note tanniche e floreali"
+    },
+    {
+      "bevanda": "Kombucha affinato in legno chiaro",
+      "note": "con profilo secco"
+    }
+  ]
+},
+                {
+  "nome": "Anima Bianca",
+  "descrizione": "Baccalà mantecato con latte di mandorla fermentato, neve di yuzu e croccante di pane al nero. Un piatto di silenzi e soglie. Bianco su bianco, latte e sale, memoria e purezza. Una carezza lattica e marina che si dissolve in freschezza agrumata.",
+  "porzioni_base": 4,
+  "ingredienti": [
+    {
+      "nome_gruppo": "Baccalà mantecato",
+      "lista_ingredienti": [
+        {
+          "quantita_num": 400,
+          "unita": "g",
+          "ingrediente": "baccalà dissalato",
+          "note": "ammollato per 2 giorni",
+          "opzionale": false
+        },
+        {
+          "quantita_num": 200,
+          "unita": "ml",
+          "ingrediente": "latte di mandorla fermentato",
+          "note": "ottenuto con fermenti o kefir",
+          "opzionale": false
+        },
+        {
+          "quantita_num": 80,
+          "unita": "ml",
+          "ingrediente": "olio extravergine d'oliva delicato",
+          "note": null,
+          "opzionale": false
+        },
+        {
+          "quantita_num": 1,
+          "unita": "spicchio",
+          "ingrediente": "aglio",
+          "note": null,
+          "opzionale": true
+        }
+      ]
+    },
+    {
+      "nome_gruppo": "Neve di yuzu",
+      "lista_ingredienti": [
+        {
+          "quantita_num": 1,
+          "unita": "pz",
+          "ingrediente": "yuzu fresco o succo",
+          "note": "in alternativa, lime e cedro",
+          "opzionale": false
+        },
+        {
+          "quantita_num": 1,
+          "unita": "g",
+          "ingrediente": "sale fino",
+          "note": null,
+          "opzionale": false
+        }
+      ]
+    },
+    {
+      "nome_gruppo": "Croccante al nero",
+      "lista_ingredienti": [
+        {
+          "quantita_num": 100,
+          "unita": "g",
+          "ingrediente": "pane raffermo",
+          "note": "meglio se integrale o con lievito madre",
+          "opzionale": false
+        },
+        {
+          "quantita_num": 1,
+          "unita": "sacchetto",
+          "ingrediente": "nero di seppia",
+          "note": "facoltativo ma consigliato",
+          "opzionale": true
+        },
+        {
+          "quantita_num": 15,
+          "unita": "ml",
+          "ingrediente": "olio extravergine",
+          "note": null,
+          "opzionale": false
+        }
+      ]
+    }
+  ],
+  "procedimento": [
+    {
+      "fase": "Fermentazione del latte di mandorla",
+      "passaggi": [
+        "Inoculare il latte di mandorla con fermenti per kefir o uno starter simile.",
+        "Lasciare fermentare a temperatura ambiente (22–24°C) per 24–36 ore fino a leggero addensamento e acidità percepibile.",
+        "Conservare in frigorifero e agitare prima dell’uso."
+      ]
+    },
+    {
+      "fase": "Preparazione del baccalà mantecato",
+      "passaggi": [
+        "Cuocere il baccalà in acqua appena sotto il bollore (85–90°C) per 10–12 minuti, con lo spicchio d’aglio se desiderato.",
+        "Scolare, eliminare pelle e spine, e frullare il pesce caldo aggiungendo a filo il latte di mandorla fermentato e l’olio.",
+        "Mantecare fino a ottenere una crema liscia e lucida. Regolare di sale se necessario."
+      ]
+    },
+    {
+      "fase": "Preparazione della neve di yuzu",
+      "passaggi": [
+        "Congelare il succo di yuzu con un pizzico di sale in una placca sottile.",
+        "Grattare al momento dell’impiattamento con una microplane per ottenere cristalli leggeri e freddi."
+      ]
+    },
+    {
+      "fase": "Croccante al nero",
+      "passaggi": [
+        "Frullare il pane raffermo con il nero di seppia e l’olio fino a ottenere delle briciole nere umide.",
+        "Tostare in padella o in forno fino a croccantezza asciutta, evitando bruciature."
+      ]
+    },
+    {
+      "fase": "Impiattamento",
+      "passaggi": [
+        "Disporre il baccalà mantecato a cucchiaiate morbide sul piatto.",
+        "Spolverare lateralmente con il croccante nero.",
+        "Completare con neve di yuzu appena grattata sopra ogni porzione.",
+        "Guarnire, se desiderato, con microfiori bianchi o germogli d’acetosella per chiudere la palette."
+      ]
+    }
+  ],
+  "pairing_consigliato": [
+    {
+      "bevanda": "Fiano in anfora",
+      "note": "bianco secco ma floreale"
+    },
+    {
+      "bevanda": "Sake junmai",
+      "note": null
+    },
+    {
+      "bevanda": "Acqua tonica al bergamotto",
+      "note": "pairing analcolico minerale e agrumato"
+    }
+  ]
+},
+                {
                     "nome": "Bistecca di Anguria CBT BBQ",
                     "descrizione": "Un ortaggio che gioca a essere carne. Fumo, marinatura, crosta e burro.",
                     "porzioni_base": 2,
