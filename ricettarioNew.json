@@ -3842,22 +3842,53 @@
   ]
 },
     {
-      "nome_gruppo": "Finti pomodori - Involucro",
-      "lista_ingredienti": [
-        { "quantita_num": 200, "unita": "g", "ingrediente": "salsa di pomodoro liscia e filtrata" },
-        { "quantita_num": 1, "unita": "g", "ingrediente": "carragenina kappa" },
-        { "quantita_num": 1, "unita": "pizzico", "ingrediente": "sale" }
-      ]
+  "nome_gruppo": "Finti pomodori – Involucro e Ripieno",
+  "lista_ingredienti": [
+    {
+      "quantita_num": 100,
+      "unita": "g",
+      "ingrediente": "panna fresca",
+      "note": null
     },
     {
-      "nome_gruppo": "Finti pomodori - Ripieno",
-      "lista_ingredienti": [
-        { "quantita_num": 100, "unita": "g", "ingrediente": "panna fresca" },
-        { "quantita_num": 40, "unita": "g", "ingrediente": "Parmigiano Reggiano 36 mesi grattugiato" },
-        { "quantita_num": 0.2, "unita": "g", "ingrediente": "xantana" },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "sale" }
-      ]
+      "quantita_num": 40,
+      "unita": "g",
+      "ingrediente": "Parmigiano Reggiano 36 mesi grattugiato",
+      "note": null
     },
+    {
+      "quantita_num": 0.3,
+      "unita": "g",
+      "ingrediente": "xantana",
+      "note": "per stabilizzazione"
+    },
+    {
+      "quantita_num": 1,
+      "unita": "g",
+      "ingrediente": "gelatina in fogli",
+      "note": "oppure 0,5 g agar agar, opzionale per maggiore solidità"
+    },
+    {
+      "quantita_num": 200,
+      "unita": "g",
+      "ingrediente": "salsa di pomodoro filtrata",
+      "note": "liscia e setosa"
+    },
+    {
+      "quantita_num": 1,
+      "unita": "g",
+      "ingrediente": "carragenina kappa",
+      "note": null
+    },
+    {
+      "quantita_num": null,
+      "unita": "q.b.",
+      "ingrediente": "zucchero o aceto",
+      "note": "facoltativo, per bilanciare l’acidità"
+    }
+  ]
+}
+,
     {
       "nome_gruppo": "Polvere di basilico",
       "lista_ingredienti": [
@@ -3903,23 +3934,18 @@
       ]
     },
     {
-      "fase": "Preparazione dei finti pomodori - involucro",
-      "passaggi": [
-        "Scaldare la salsa di pomodoro liscia fino a circa 85°C.",
-        "Aggiungere la carragenina kappa a pioggia mescolando con frusta.",
-        "Colare il composto in stampi a semisfera creando un sottile strato aderente alle pareti.",
-        "Lasciar raffreddare finché il gel si stabilizza."
-      ]
-    },
-    {
-      "fase": "Preparazione dei finti pomodori - ripieno",
-      "passaggi": [
-        "Scaldare leggermente la panna e sciogliere il Parmigiano al suo interno.",
-        "Frullare il composto con la xantana fino a completa emulsione.",
-        "Regolare di sale e far raffreddare.",
-        "Riempire le semisfere gelificate con la crema di parmigiano e chiuderle sigillando le due metà."
-      ]
-    },
+  "fase": "Preparazione dei finti pomodori (ripieno e guscio)",
+  "passaggi": [
+    "Scalda la panna con il Parmigiano finché completamente fuso.",
+    "Aggiungi xantana e, se desideri maggiore solidità, la gelatina o agar. Frulla per ottenere una crema omogenea.",
+    "Versa il composto in stampi a semisfera piccoli e raffredda in frigo o abbattitore fino a solidificazione.",
+    "Sforma le semisfere di crema al Parmigiano.",
+    "Scalda la salsa di pomodoro a 85°C, aggiungi la carragenina kappa frustando energicamente.",
+    "Raffredda leggermente la salsa per evitare lo scioglimento del cuore di parmigiano.",
+    "Immergi ogni sfera per pochi secondi nella salsa per formare un sottile involucro lucido.",
+    "Lascia raffreddare e stabilizzare su un tappetino in silicone (Silpat)."
+  ]
+},
     {
       "fase": "Preparazione della polvere di basilico",
       "passaggi": [
