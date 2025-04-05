@@ -5744,7 +5744,130 @@
                             ]
                         }
                     ]
-                }
+                },
+                {
+  "nome": "Bao al Basilico",
+  "descrizione": "Bao al vapore profumati al basilico fresco, con impasto verde aromatico e sofficità tipica. Perfetti per accogliere ripieni asiatici o mediterranei.",
+  "porzioni_base": 10,
+  "ingredienti": [
+    {
+      "nome_gruppo": "Impasto verde al basilico",
+      "lista_ingredienti": [
+        {
+          "quantita_num": 250,
+          "unita": "g",
+          "ingrediente": "farina 00",
+          "note": "W260–280",
+          "opzionale": false
+        },
+        {
+          "quantita_num": 130,
+          "unita": "g",
+          "ingrediente": "latte intero",
+          "note": "oppure acqua tiepida",
+          "opzionale": false
+        },
+        {
+          "quantita_num": 25,
+          "unita": "g",
+          "ingrediente": "basilico fresco",
+          "note": "foglie pulite",
+          "opzionale": false
+        },
+        {
+          "quantita_num": 4,
+          "unita": "g",
+          "ingrediente": "lievito secco attivo",
+          "note": "oppure 12 g fresco",
+          "opzionale": false
+        },
+        {
+          "quantita_num": 30,
+          "unita": "g",
+          "ingrediente": "zucchero",
+          "note": null,
+          "opzionale": false
+        },
+        {
+          "quantita_num": 20,
+          "unita": "g",
+          "ingrediente": "olio di semi",
+          "note": "oppure olio di riso",
+          "opzionale": false
+        },
+        {
+          "quantita_num": 2,
+          "unita": "g",
+          "ingrediente": "sale fino",
+          "note": null,
+          "opzionale": false
+        },
+        {
+          "quantita_num": 2,
+          "unita": "g",
+          "ingrediente": "bicarbonato",
+          "note": "opzionale, per stabilizzare il pH",
+          "opzionale": true
+        }
+      ]
+    }
+  ],
+  "procedimento": [
+    {
+      "fase": "Emulsione verde",
+      "passaggi": [
+        "Frulla il basilico con il latte tiepido (non caldo!) e l’olio, fino a ottenere un liquido liscio e omogeneo.",
+        "Per un colore più brillante, sbollenta prima le foglie per 10 secondi e raffreddale in acqua e ghiaccio."
+      ]
+    },
+    {
+      "fase": "Impasto",
+      "passaggi": [
+        "Mescola farina, zucchero e lievito secco in una ciotola.",
+        "Aggiungi gradualmente l’emulsione verde e inizia a impastare.",
+        "Quando l’impasto prende forma, aggiungi il sale e lavora fino a renderlo liscio, morbido e non appiccicoso (10–12 min a mano o 8 min in planetaria)."
+      ]
+    },
+    {
+      "fase": "Prima lievitazione",
+      "passaggi": [
+        "Copri l’impasto e lascia lievitare 1,5–2 ore a 26–28°C finché raddoppia.",
+        "Mantieni un ambiente umido o usa pellicola per evitare che secchi."
+      ]
+    },
+    {
+      "fase": "Formatura dei bao",
+      "passaggi": [
+        "Dividi l’impasto in 10 palline da circa 40 g.",
+        "Stendile leggermente in forma ovale, spennella un lato con olio e ripiegale a metà.",
+        "Sistema ogni bao su un quadrato di carta forno."
+      ]
+    },
+    {
+      "fase": "Seconda lievitazione",
+      "passaggi": [
+        "Copri i bao formati e lasciali lievitare per 30–45 minuti finché morbidi e gonfi."
+      ]
+    },
+    {
+      "fase": "Cottura a vapore",
+      "passaggi": [
+        "Cuoci a vapore medio (non forte) per 10 minuti.",
+        "Spegni il fuoco e lascia i bao nel cestello per altri 3 minuti con coperchio chiuso per evitare il collasso da shock termico."
+      ]
+    }
+  ],
+  "pairing_consigliato": [
+    {
+      "bevanda": "Tè verde al gelsomino",
+      "note": "aromatico e delicato, in linea con le note erbacee"
+    },
+    {
+      "bevanda": "Bianchi secchi aromatici",
+      "note": "come Sauvignon Blanc o Falanghina"
+    }
+  ]
+}
             ]
         },
         {
