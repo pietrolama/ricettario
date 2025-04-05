@@ -3502,66 +3502,66 @@
     {
       "nome_gruppo": "Salsa San Marzano (base)",
       "lista_ingredienti": [
-        {"quantita_num": 500, "unita": "g", "ingrediente": "pomodori San Marzano interi"},
-        {"quantita_num": 1, "unita": "", "ingrediente": "cipolla dorata (piccola)"},
-        {"quantita_num": 2, "unita": "rametti", "ingrediente": "basilico fresco"},
-        {"quantita_num": null, "unita": "", "ingrediente": "olio extravergine d’oliva campano"},
-        {"quantita_num": null, "unita": "", "ingrediente": "sale"}
+        { "quantita_num": 500, "unita": "g", "ingrediente": "pomodori San Marzano interi" },
+        { "quantita_num": 1, "unita": "", "ingrediente": "cipolla dorata (piccola)" },
+        { "quantita_num": 2, "unita": "rametti", "ingrediente": "basilico fresco" },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "olio extravergine d’oliva campano" },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "sale" }
       ]
     },
     {
       "nome_gruppo": "Pomodorini campani (6 varietà)",
       "lista_ingredienti": [
-        {"quantita_num": null, "unita": "", "ingrediente": "pomodorini campani (6 varietà diverse)"},
-        {"quantita_num": null, "unita": "", "ingrediente": "olio extravergine d’oliva campano"},
-        {"quantita_num": 2, "unita": "spicchi", "ingrediente": "aglio in camicia"}
+        { "quantita_num": null, "unita": "", "ingrediente": "pomodorini campani (6 varietà diverse)" },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "olio extravergine d’oliva campano" },
+        { "quantita_num": 2, "unita": "spicchi", "ingrediente": "aglio in camicia" }
       ]
     },
     {
       "nome_gruppo": "Finti pomodori - Involucro",
       "lista_ingredienti": [
-        {"quantita_num": 200, "unita": "g", "ingrediente": "salsa di pomodoro liscia e filtrata"},
-        {"quantita_num": 1, "unita": "g", "ingrediente": "carragenina kappa"},
-        {"quantita_num": 1, "unita": "pizzico", "ingrediente": "sale"}
+        { "quantita_num": 200, "unita": "g", "ingrediente": "salsa di pomodoro liscia e filtrata" },
+        { "quantita_num": 1, "unita": "g", "ingrediente": "carragenina kappa" },
+        { "quantita_num": 1, "unita": "pizzico", "ingrediente": "sale" }
       ]
     },
     {
       "nome_gruppo": "Finti pomodori - Ripieno",
       "lista_ingredienti": [
-        {"quantita_num": 100, "unita": "g", "ingrediente": "panna fresca"},
-        {"quantita_num": 40, "unita": "g", "ingrediente": "Parmigiano Reggiano 36 mesi grattugiato"},
-        {"quantita_num": 0.2, "unita": "g", "ingrediente": "xantana"},
-        {"quantita_num": null, "unita": "", "ingrediente": "sale"}
+        { "quantita_num": 100, "unita": "g", "ingrediente": "panna fresca" },
+        { "quantita_num": 40, "unita": "g", "ingrediente": "Parmigiano Reggiano 36 mesi grattugiato" },
+        { "quantita_num": 0.2, "unita": "g", "ingrediente": "xantana" },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "sale" }
       ]
     },
     {
       "nome_gruppo": "Polvere di basilico",
       "lista_ingredienti": [
-        {"quantita_num": 50, "unita": "ml", "ingrediente": "olio neutro (vinacciolo o riso)"},
-        {"quantita_num": 20, "unita": "g", "ingrediente": "basilico fresco sbollentato"},
-        {"quantita_num": 15, "unita": "g", "ingrediente": "maltodestrina"},
-        {"quantita_num": null, "unita": "", "ingrediente": "sale"}
+        { "quantita_num": 50, "unita": "ml", "ingrediente": "olio neutro (vinacciolo o riso)" },
+        { "quantita_num": 20, "unita": "g", "ingrediente": "basilico fresco sbollentato" },
+        { "quantita_num": 15, "unita": "g", "ingrediente": "maltodestrina" },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "sale" }
       ]
     },
     {
       "nome_gruppo": "Pasta",
       "lista_ingredienti": [
-        {"quantita_num": 160, "unita": "g", "ingrediente": "spaghetti di Gragnano trafilati al bronzo"},
-        {"quantita_num": null, "unita": "", "ingrediente": "acqua salata q.b."}
+        { "quantita_num": 160, "unita": "g", "ingrediente": "spaghetti di Gragnano trafilati al bronzo" },
+        { "quantita_num": null, "unita": "q.b.", "ingrediente": "acqua salata" }
       ]
     },
     {
       "nome_gruppo": "Finitura",
       "lista_ingredienti": [
-        {"quantita_num": null, "unita": "", "ingrediente": "germogli di basilico"},
-        {"quantita_num": null, "unita": "", "ingrediente": "pane al vapore al basilico (accompagnamento)"}
+        { "quantita_num": null, "unita": "", "ingrediente": "germogli di basilico" },
+        { "quantita_num": null, "unita": "", "ingrediente": "pane al vapore al basilico (accompagnamento)" }
       ]
     }
   ],
   "procedimento": [
     {
       "fase": "Preparazione della salsa San Marzano",
-      "procedura": [
+      "passaggi": [
         "In casseruola, aggiungere olio evo, cipolla affettata sottilmente e un rametto di basilico.",
         "Far appassire dolcemente la cipolla senza bruciarla.",
         "Aggiungere i pomodori San Marzano interi, un pizzico di sale e altro basilico.",
@@ -3571,7 +3571,7 @@
     },
     {
       "fase": "Cottura delle sei varietà di pomodorini",
-      "procedura": [
+      "passaggi": [
         "In padella, scaldare l'olio evo con aglio in camicia finché dorato.",
         "Aggiungere una varietà di pomodorini per volta e cuocerli brevemente finché morbidi.",
         "Ripetere il processo per tutte e sei le varietà.",
@@ -3580,7 +3580,7 @@
     },
     {
       "fase": "Preparazione dei finti pomodori - involucro",
-      "procedura": [
+      "passaggi": [
         "Scaldare la salsa di pomodoro liscia fino a circa 85°C.",
         "Aggiungere la carragenina kappa a pioggia mescolando con frusta.",
         "Colare il composto in stampi a semisfera creando un sottile strato aderente alle pareti.",
@@ -3589,7 +3589,7 @@
     },
     {
       "fase": "Preparazione dei finti pomodori - ripieno",
-      "procedura": [
+      "passaggi": [
         "Scaldare leggermente la panna e sciogliere il Parmigiano al suo interno.",
         "Frullare il composto con la xantana fino a completa emulsione.",
         "Regolare di sale e far raffreddare.",
@@ -3598,7 +3598,7 @@
     },
     {
       "fase": "Preparazione della polvere di basilico",
-      "procedura": [
+      "passaggi": [
         "Sbollentare il basilico per 5 secondi, raffreddare in acqua e ghiaccio e strizzare bene.",
         "Frullare con olio neutro fino a ottenere un'emulsione liscia.",
         "Filtrare e versare lentamente sulla maltodestrina mescolando fino ad ottenere una polvere asciutta.",
@@ -3607,7 +3607,7 @@
     },
     {
       "fase": "Cottura e mantecatura della pasta",
-      "procedura": [
+      "passaggi": [
         "Cuocere gli spaghetti in acqua salata per 9 minuti.",
         "Trasferire nella salsa San Marzano e completare la cottura per 2 minuti.",
         "Spegnere il fuoco e mantecare con un filo di olio evo biologico."
@@ -3615,7 +3615,7 @@
     },
     {
       "fase": "Impiattamento",
-      "procedura": [
+      "passaggi": [
         "Formare un nido di spaghetti nel piatto.",
         "Disporre intorno i pomodorini delle sei varietà ben caldi.",
         "Aggiungere i finti pomodori ripieni di crema di parmigiano.",
@@ -3625,7 +3625,16 @@
       ]
     }
   ],
-  "pairing_consigliato": "Vino bianco campano minerale o tè verde affumicato"
+  "pairing_consigliato": [
+    {
+      "bevanda": "Vino bianco campano minerale",
+      "note": "Come un Fiano di Avellino o un Greco di Tufo"
+    },
+    {
+      "bevanda": "Tè verde affumicato",
+      "note": "Lapsang Souchong freddo"
+    }
+  ]
 },
                 {
                     "nome": "Carbonara CBT – Chef Pirotta",
