@@ -1766,6 +1766,97 @@
   ]
 },
                 {
+  "nome": "Polpo nel Silenzio Termico",
+  "descrizione": "Cottura a Bassa Temperatura – Metodo delicato, profondamente trasformativo. Una consistenza che vibra sotto i denti, tra il tenero e l'intatto.",
+  "porzioni_base": 4,
+  "ingredienti": [
+    {
+      "nome_gruppo": "Polpo CBT",
+      "lista_ingredienti": [
+        {
+          "quantita_num": 1.3,
+          "unita": "kg",
+          "ingrediente": "polpo intero",
+          "note": "decongelato (1,2–1,5 kg)",
+          "opzionale": false
+        },
+        {
+          "quantita_num": 1,
+          "unita": "foglia",
+          "ingrediente": "alloro",
+          "note": "opzionale",
+          "opzionale": true
+        },
+        {
+          "quantita_num": 1,
+          "unita": "cucchiaino",
+          "ingrediente": "aceto di vino bianco",
+          "note": "facoltativo, per fissare il colore",
+          "opzionale": true
+        },
+        {
+          "quantita_num": 3,
+          "unita": "pz",
+          "ingrediente": "grani di pepe nero",
+          "note": "opzionale",
+          "opzionale": true
+        }
+      ]
+    }
+  ],
+  "procedimento": [
+    {
+      "fase": "Pulizia e preparazione",
+      "passaggi": [
+        "Se il polpo è fresco, congelarlo per almeno 24h per favorire la rottura delle fibre.",
+        "Scongelato, eliminare becco, occhi e interiora della testa.",
+        "Sciacquare bene in acqua fredda."
+      ]
+    },
+    {
+      "fase": "Sottovuoto",
+      "passaggi": [
+        "Inserire il polpo in un sacchetto sottovuoto resistente al calore.",
+        "Aggiungere eventuali aromi: alloro, pepe nero, aceto.",
+        "Sigillare sottovuoto al massimo livello."
+      ]
+    },
+    {
+      "fase": "Cottura CBT",
+      "passaggi": [
+        "Impostare il roner a 72°C stabili.",
+        "Immergere il sacchetto e cuocere per 7–9 ore:",
+        "• 7h → carnoso e tonico",
+        "• 8h → morbido ma compatto",
+        "• 9h → burroso, da taglio al cucchiaio"
+      ]
+    },
+    {
+      "fase": "Raffreddamento",
+      "passaggi": [
+        "Terminata la cottura, raffreddare immediatamente in acqua e ghiaccio o abbattitore.",
+        "Conservare in frigorifero fino a 3 giorni o congelare."
+      ]
+    },
+    {
+      "fase": "Finitura e rigenerazione",
+      "passaggi": [
+        "Al momento del servizio, scegliere la finitura:",
+        "• Griglia o piastra con leggero olio per crosticina saporita.",
+        "• Forno a 200°C per 5 minuti con glassa al fondo di cottura.",
+        "• Freddo in insalata con sedano, prezzemolo e limone."
+      ]
+    }
+  ],
+  "pairing_consigliato": [
+    {
+      "bevanda": "Vermentino di Gallura o un sake junmai secco",
+      "note": "per esaltare il profilo marino senza coprire la delicatezza"
+    }
+  ]
+},
+
+                {
                     "nome": "Bistecca di Anguria CBT BBQ",
                     "descrizione": "Un ortaggio che gioca a essere carne. Fumo, marinatura, crosta e burro.",
                     "porzioni_base": 2,
