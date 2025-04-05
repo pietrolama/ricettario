@@ -9105,6 +9105,145 @@
                     }
                 },
                 {
+  "nome": "Ketchup di Friarielli Fermentati – Verde che Morde",
+  "descrizione": "Nel grembo del tempo, l’amaro si fa balsamo. I friarielli, testardi figli del Vesuvio, si tuffano nella salamoia per lasciarsi corrodere dalla vita, fino a diventare crema acida, dolce, carnale. Questa non è una salsa, è una rivolta vegetale: ketchup che parla napoletano, mordendo come il Vesuvio quando sogna.",
+  "porzioni_base": 200,
+  "ingredienti": [
+    {
+      "nome_gruppo": "Fermentazione lattica",
+      "lista_ingredienti": [
+        {
+          "quantita_num": 200,
+          "unita": "g",
+          "ingrediente": "friarielli crudi",
+          "note": "puliti",
+          "opzionale": false
+        },
+        {
+          "quantita_num": 50,
+          "unita": "g",
+          "ingrediente": "cipolla bianca",
+          "note": null,
+          "opzionale": false
+        },
+        {
+          "quantita_num": 1,
+          "unita": "spicchio",
+          "ingrediente": "aglio",
+          "note": null,
+          "opzionale": false
+        },
+        {
+          "quantita_num": 6,
+          "unita": "g",
+          "ingrediente": "sale",
+          "note": "3%",
+          "opzionale": false
+        },
+        {
+          "quantita_num": null,
+          "unita": "q.b.",
+          "ingrediente": "acqua",
+          "note": "quanto basta per coprire",
+          "opzionale": false
+        },
+        {
+          "quantita_num": 1,
+          "unita": "foglia",
+          "ingrediente": "alloro",
+          "note": "opzionale",
+          "opzionale": true
+        }
+      ]
+    },
+    {
+      "nome_gruppo": "Fase di trasformazione",
+      "lista_ingredienti": [
+        {
+          "quantita_num": 30,
+          "unita": "g",
+          "ingrediente": "zucchero di canna grezzo",
+          "note": null,
+          "opzionale": false
+        },
+        {
+          "quantita_num": 25,
+          "unita": "g",
+          "ingrediente": "aceto di mele non pastorizzato",
+          "note": null,
+          "opzionale": false
+        },
+        {
+          "quantita_num": 1,
+          "unita": "cucchiaino",
+          "ingrediente": "senape in grani",
+          "note": null,
+          "opzionale": false
+        },
+        {
+          "quantita_num": 1,
+          "unita": "pizzico",
+          "ingrediente": "pepe nero",
+          "note": null,
+          "opzionale": false
+        },
+        {
+          "quantita_num": 1,
+          "unita": "cucchiaio",
+          "ingrediente": "olio extravergine d'oliva",
+          "note": null,
+          "opzionale": false
+        }
+      ]
+    }
+  ],
+  "procedimento": [
+    {
+      "fase": "Fermentazione",
+      "passaggi": [
+        "Taglia i friarielli e la cipolla a pezzi grossi.",
+        "Inseriscili in un barattolo da fermentazione insieme all’aglio schiacciato, al sale e all’alloro.",
+        "Aggiungi acqua quanto basta per coprire e assicurati che tutto resti sommerso.",
+        "Fermenta a temperatura ambiente (18–22°C) per circa 6 giorni, fino a quando la salamoia sarà leggermente frizzante e profumata."
+      ]
+    },
+    {
+      "fase": "Riduzione e bilanciamento",
+      "passaggi": [
+        "Filtra i vegetali dalla salamoia, tenendone da parte un po’.",
+        "Frulla il composto con una parte della salamoia filtrata fino a ottenere una crema liscia.",
+        "Trasferisci in un pentolino, aggiungi zucchero, aceto, senape e pepe.",
+        "Riduci a fuoco dolce finché non raggiunge la consistenza di un ketchup. Aggiusta con altra salamoia se serve.",
+        "Emulsiona con olio EVO a filo, usando un mixer a immersione."
+      ]
+    }
+  ],
+  "note_tecniche": [
+    "Dopo la fermentazione, frulla molto bene i friarielli fermentati, poi passa il composto in un colino fine o chinois per ottenere una base liscia.",
+    "Riduci a fuoco dolce per 10–15 minuti per mantenere colore e ottenere viscosità classica da ketchup.",
+    "L’olio EVO crea corpo, lucidità e consistenza cremosa.",
+    "Per regolare la densità, usa salamoia fermentata e non acqua o aceto puro, per mantenere il profilo aromatico."
+  ],
+  "pairing_consigliato": [
+    {
+      "bevanda": null,
+      "note": "Con pulled pork CBT o spalla di maiale glassata"
+    },
+    {
+      "bevanda": null,
+      "note": "Su burger vegetali a base di legumi e funghi"
+    },
+    {
+      "bevanda": null,
+      "note": "In sandwich gourmet con provola affumicata e pane cafone"
+    },
+    {
+      "bevanda": null,
+      "note": "Come intingolo per patate dolci arrosto"
+    }
+  ]
+},
+                {
                     "nome": "Nube Salata",
                     "descrizione": "Fermentazione enzimatica – panna con miso o shio-koji, montata.",
                     "porzioni_base": null,
