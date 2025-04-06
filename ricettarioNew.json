@@ -1060,6 +1060,136 @@
                     ]
                 },
                 {
+  "nome": "Carrè di Maiale CBT con Friarielli Fermentati e Gel di Mela",
+  "descrizione": "Un carrè fondente, glassato al miele di castagno, adagiato su crema di friarielli e gel di mela verde. Tra fumo, dolcezza e acidità, il piatto unisce memoria rustica e precisione tecnica.",
+  "porzioni_base": 4,
+  "ingredienti": [
+    {
+      "nome_gruppo": "Carrè di maiale",
+      "lista_ingredienti": [
+        {"quantita_num": 800, "unita": "g", "ingrediente": "carrè di maiale intero", "note": "con osso"},
+        {"quantita_num": 30, "unita": "g", "ingrediente": "sale grosso"},
+        {"quantita_num": 15, "unita": "g", "ingrediente": "zucchero di canna"},
+        {"quantita_num": 1, "unita": "pz", "ingrediente": "scorza di limone"},
+        {"quantita_num": 1, "unita": "rametto", "ingrediente": "rosmarino fresco"},
+        {"quantita_num": 1, "unita": "cucchiaino", "ingrediente": "pepe nero", "note": "in grani schiacciati"},
+        {"quantita_num": 20, "unita": "g", "ingrediente": "burro"},
+        {"quantita_num": 1, "unita": "spicchio", "ingrediente": "aglio", "note": "schiacciato"},
+        {"quantita_num": 2, "unita": "foglie", "ingrediente": "salvia"},
+        {"quantita_num": 1, "unita": "cucchiaio", "ingrediente": "miele di castagno"},
+        {"quantita_num": 50, "unita": "ml", "ingrediente": "fondo bruno"}
+      ]
+    },
+    {
+      "nome_gruppo": "Crema di friarielli",
+      "lista_ingredienti": [
+        {"quantita_num": 400, "unita": "g", "ingrediente": "friarielli freschi"},
+        {"quantita_num": 2, "unita": "filetti", "ingrediente": "acciuga sott’olio"},
+        {"quantita_num": 1, "unita": "spicchio", "ingrediente": "aglio nero"},
+        {"quantita_num": 50, "unita": "ml", "ingrediente": "brodo vegetale"},
+        {"quantita_num": 1, "unita": "cucchiaio", "ingrediente": "olio extravergine d'oliva"},
+        {"quantita_num": 1, "unita": "cucchiaino", "ingrediente": "burro nocciola"},
+        {"quantita_num": null, "unita": "q.b.", "ingrediente": "sale"},
+        {"quantita_num": 150, "unita": "g", "ingrediente": "friarielli fermentati", "note": "opzionale, fermentati 5 giorni con 2% sale", "opzionale": true}
+      ]
+    },
+    {
+      "nome_gruppo": "Gel di mela verde",
+      "lista_ingredienti": [
+        {"quantita_num": 200, "unita": "ml", "ingrediente": "centrifuga di mela verde"},
+        {"quantita_num": 20, "unita": "ml", "ingrediente": "aceto di mele affumicato"},
+        {"quantita_num": 2, "unita": "g", "ingrediente": "agar agar"}
+      ]
+    },
+    {
+      "nome_gruppo": "Cotenna croccante",
+      "lista_ingredienti": [
+        {"quantita_num": 1, "unita": "pz", "ingrediente": "cotenna di maiale"},
+        {"quantita_num": null, "unita": "q.b.", "ingrediente": "sale"},
+        {"quantita_num": null, "unita": "q.b.", "ingrediente": "pepe di Sichuan in polvere"}
+      ]
+    },
+    {
+      "nome_gruppo": "Foglia di friariello marinata",
+      "lista_ingredienti": [
+        {"quantita_num": 4, "unita": "pz", "ingrediente": "foglie di friariello"},
+        {"quantita_num": null, "unita": "q.b.", "ingrediente": "olio extravergine d'oliva"},
+        {"quantita_num": null, "unita": "q.b.", "ingrediente": "succo di limone"},
+        {"quantita_num": null, "unita": "q.b.", "ingrediente": "miele"},
+        {"quantita_num": null, "unita": "q.b.", "ingrediente": "sale"}
+      ]
+    }
+  ],
+  "procedimento": [
+    {
+      "fase": "Marinatura e CBT del carrè",
+      "passaggi": [
+        "Mescolare sale, zucchero, pepe, scorza e rosmarino e massaggiare il carrè.",
+        "Marinare sottovuoto per 12h in frigo.",
+        "Risciacquare, asciugare e confezionare sottovuoto.",
+        "Cuocere a 62°C per 8 ore.",
+        "Raffreddare in acqua e ghiaccio. Conservare in frigo."
+      ]
+    },
+    {
+      "fase": "Crema di friarielli",
+      "passaggi": [
+        "Sbollentare i friarielli, raffreddare in acqua e ghiaccio.",
+        "Brasare con aglio, acciuga e brodo.",
+        "Frullare con olio e burro nocciola. Filtrare.",
+        "Aggiungere i friarielli fermentati (opzionali) prima della frullatura."
+      ]
+    },
+    {
+      "fase": "Gel di mela verde",
+      "passaggi": [
+        "Portare a ebollizione la centrifuga con aceto e agar.",
+        "Versare in contenitore largo e raffreddare.",
+        "Frullare in gel liscio e inserire in biberon."
+      ]
+    },
+    {
+      "fase": "Cotenna croccante",
+      "passaggi": [
+        "Sbollentare per 1h, rimuovere il grasso.",
+        "Essiccare in forno ventilato a 65°C per 8–10h.",
+        "Friggere a 200°C finché gonfia. Salare e spolverare con pepe Sichuan."
+      ]
+    },
+    {
+      "fase": "Foglia di friariello marinata",
+      "passaggi": [
+        "Marinare con olio, limone, miele e sale.",
+        "Bruciare leggermente i bordi col cannello.",
+        "Laccare con fondo di cottura."
+      ]
+    },
+    {
+      "fase": "Rigenerazione e impiattamento",
+      "passaggi": [
+        "Rosolare il carrè in padella con burro, aglio e salvia.",
+        "Ridurre fondo e miele, glassare il carrè.",
+        "Impiattare con crema, carrè scaloppato, gocce di gel, cotenna verticale e foglia laccata.",
+        "Opzionale: affumicare sotto cloche."
+      ]
+    }
+  ],
+  "pairing_consigliato": [
+    {
+      "bevanda": "Fiano di Avellino Riserva",
+      "note": "leggermente affinato in legno, elegante e minerale"
+    },
+    {
+      "bevanda": "Kombucha di mela verde e fieno affumicato",
+      "note": "fresco, acido, leggermente tannico"
+    },
+    {
+      "bevanda": "Saison rustica in botte",
+      "note": "birra secca con pepe bianco e frutta acerba"
+    }
+  ]
+},
+                {
   "nome": "Guance di Nebbia e Radici",
   "descrizione": "Guance di manzo CBT al Barolo, fondo ristretto, crema di sedano rapa affumicato, croccante di polenta e polvere di alloro.",
   "porzioni_base": 4,
