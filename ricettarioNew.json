@@ -1060,258 +1060,521 @@
                     ]
                 },
                 {
-  "nome": "Carrè di Maiale CBT con Friarielli Fermentati e Gel di Mela",
-  "descrizione": "Un carrè fondente, glassato al miele di castagno, adagiato su crema di friarielli e gel di mela verde. Tra fumo, dolcezza e acidità, il piatto unisce memoria rustica e precisione tecnica.",
-  "porzioni_base": 4,
-  "ingredienti": [
-    {
-      "nome_gruppo": "Carrè di maiale",
-      "lista_ingredienti": [
-        {"quantita_num": 800, "unita": "g", "ingrediente": "carrè di maiale intero", "note": "con osso"},
-        {"quantita_num": 30, "unita": "g", "ingrediente": "sale grosso"},
-        {"quantita_num": 15, "unita": "g", "ingrediente": "zucchero di canna"},
-        {"quantita_num": 1, "unita": "pz", "ingrediente": "scorza di limone"},
-        {"quantita_num": 1, "unita": "rametto", "ingrediente": "rosmarino fresco"},
-        {"quantita_num": 1, "unita": "cucchiaino", "ingrediente": "pepe nero", "note": "in grani schiacciati"},
-        {"quantita_num": 20, "unita": "g", "ingrediente": "burro"},
-        {"quantita_num": 1, "unita": "spicchio", "ingrediente": "aglio", "note": "schiacciato"},
-        {"quantita_num": 2, "unita": "foglie", "ingrediente": "salvia"},
-        {"quantita_num": 1, "unita": "cucchiaio", "ingrediente": "miele di castagno"},
-        {"quantita_num": 50, "unita": "ml", "ingrediente": "fondo bruno"}
-      ]
-    },
-    {
-      "nome_gruppo": "Crema di friarielli",
-      "lista_ingredienti": [
-        {"quantita_num": 400, "unita": "g", "ingrediente": "friarielli freschi"},
-        {"quantita_num": 2, "unita": "filetti", "ingrediente": "acciuga sott’olio"},
-        {"quantita_num": 1, "unita": "spicchio", "ingrediente": "aglio nero"},
-        {"quantita_num": 50, "unita": "ml", "ingrediente": "brodo vegetale"},
-        {"quantita_num": 1, "unita": "cucchiaio", "ingrediente": "olio extravergine d'oliva"},
-        {"quantita_num": 1, "unita": "cucchiaino", "ingrediente": "burro nocciola"},
-        {"quantita_num": null, "unita": "q.b.", "ingrediente": "sale"},
-        {"quantita_num": 150, "unita": "g", "ingrediente": "friarielli fermentati", "note": "opzionale, fermentati 5 giorni con 2% sale", "opzionale": true}
-      ]
-    },
-    {
-      "nome_gruppo": "Gel di mela verde",
-      "lista_ingredienti": [
-        {"quantita_num": 200, "unita": "ml", "ingrediente": "centrifuga di mela verde"},
-        {"quantita_num": 20, "unita": "ml", "ingrediente": "aceto di mele affumicato"},
-        {"quantita_num": 2, "unita": "g", "ingrediente": "agar agar"}
-      ]
-    },
-    {
-      "nome_gruppo": "Cotenna croccante",
-      "lista_ingredienti": [
-        {"quantita_num": 1, "unita": "pz", "ingrediente": "cotenna di maiale"},
-        {"quantita_num": null, "unita": "q.b.", "ingrediente": "sale"},
-        {"quantita_num": null, "unita": "q.b.", "ingrediente": "pepe di Sichuan in polvere"}
-      ]
-    },
-    {
-      "nome_gruppo": "Foglia di friariello marinata",
-      "lista_ingredienti": [
-        {"quantita_num": 4, "unita": "pz", "ingrediente": "foglie di friariello"},
-        {"quantita_num": null, "unita": "q.b.", "ingrediente": "olio extravergine d'oliva"},
-        {"quantita_num": null, "unita": "q.b.", "ingrediente": "succo di limone"},
-        {"quantita_num": null, "unita": "q.b.", "ingrediente": "miele"},
-        {"quantita_num": null, "unita": "q.b.", "ingrediente": "sale"}
-      ]
-    }
-  ],
-  "procedimento": [
-    {
-      "fase": "Marinatura e CBT del carrè",
-      "passaggi": [
-        "Mescolare sale, zucchero, pepe, scorza e rosmarino e massaggiare il carrè.",
-        "Marinare sottovuoto per 12h in frigo.",
-        "Risciacquare, asciugare e confezionare sottovuoto.",
-        "Cuocere a 62°C per 8 ore.",
-        "Raffreddare in acqua e ghiaccio. Conservare in frigo."
-      ]
-    },
-    {
-      "fase": "Crema di friarielli",
-      "passaggi": [
-        "Sbollentare i friarielli, raffreddare in acqua e ghiaccio.",
-        "Brasare con aglio, acciuga e brodo.",
-        "Frullare con olio e burro nocciola. Filtrare.",
-        "Aggiungere i friarielli fermentati (opzionali) prima della frullatura."
-      ]
-    },
-    {
-      "fase": "Gel di mela verde",
-      "passaggi": [
-        "Portare a ebollizione la centrifuga con aceto e agar.",
-        "Versare in contenitore largo e raffreddare.",
-        "Frullare in gel liscio e inserire in biberon."
-      ]
-    },
-    {
-      "fase": "Cotenna croccante",
-      "passaggi": [
-        "Sbollentare per 1h, rimuovere il grasso.",
-        "Essiccare in forno ventilato a 65°C per 8–10h.",
-        "Friggere a 200°C finché gonfia. Salare e spolverare con pepe Sichuan."
-      ]
-    },
-    {
-      "fase": "Foglia di friariello marinata",
-      "passaggi": [
-        "Marinare con olio, limone, miele e sale.",
-        "Bruciare leggermente i bordi col cannello.",
-        "Laccare con fondo di cottura."
-      ]
-    },
-    {
-      "fase": "Rigenerazione e impiattamento",
-      "passaggi": [
-        "Rosolare il carrè in padella con burro, aglio e salvia.",
-        "Ridurre fondo e miele, glassare il carrè.",
-        "Impiattare con crema, carrè scaloppato, gocce di gel, cotenna verticale e foglia laccata.",
-        "Opzionale: affumicare sotto cloche."
-      ]
-    }
-  ],
-  "pairing_consigliato": [
-    {
-      "bevanda": "Fiano di Avellino Riserva",
-      "note": "leggermente affinato in legno, elegante e minerale"
-    },
-    {
-      "bevanda": "Kombucha di mela verde e fieno affumicato",
-      "note": "fresco, acido, leggermente tannico"
-    },
-    {
-      "bevanda": "Saison rustica in botte",
-      "note": "birra secca con pepe bianco e frutta acerba"
-    }
-  ]
-},
+                    "nome": "Carrè di Maiale CBT con Friarielli Fermentati e Gel di Mela",
+                    "descrizione": "Un carrè fondente, glassato al miele di castagno, adagiato su crema di friarielli e gel di mela verde. Tra fumo, dolcezza e acidità, il piatto unisce memoria rustica e precisione tecnica.",
+                    "porzioni_base": 4,
+                    "ingredienti": [
+                        {
+                            "nome_gruppo": "Carrè di maiale",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 800,
+                                    "unita": "g",
+                                    "ingrediente": "carrè di maiale intero",
+                                    "note": "con osso"
+                                },
+                                {
+                                    "quantita_num": 30,
+                                    "unita": "g",
+                                    "ingrediente": "sale grosso"
+                                },
+                                {
+                                    "quantita_num": 15,
+                                    "unita": "g",
+                                    "ingrediente": "zucchero di canna"
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "pz",
+                                    "ingrediente": "scorza di limone"
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "rametto",
+                                    "ingrediente": "rosmarino fresco"
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "cucchiaino",
+                                    "ingrediente": "pepe nero",
+                                    "note": "in grani schiacciati"
+                                },
+                                {
+                                    "quantita_num": 20,
+                                    "unita": "g",
+                                    "ingrediente": "burro"
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "spicchio",
+                                    "ingrediente": "aglio",
+                                    "note": "schiacciato"
+                                },
+                                {
+                                    "quantita_num": 2,
+                                    "unita": "foglie",
+                                    "ingrediente": "salvia"
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "cucchiaio",
+                                    "ingrediente": "miele di castagno"
+                                },
+                                {
+                                    "quantita_num": 50,
+                                    "unita": "ml",
+                                    "ingrediente": "fondo bruno"
+                                }
+                            ]
+                        },
+                        {
+                            "nome_gruppo": "Crema di friarielli",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 400,
+                                    "unita": "g",
+                                    "ingrediente": "friarielli freschi"
+                                },
+                                {
+                                    "quantita_num": 2,
+                                    "unita": "filetti",
+                                    "ingrediente": "acciuga sott’olio"
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "spicchio",
+                                    "ingrediente": "aglio nero"
+                                },
+                                {
+                                    "quantita_num": 50,
+                                    "unita": "ml",
+                                    "ingrediente": "brodo vegetale"
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "cucchiaio",
+                                    "ingrediente": "olio extravergine d'oliva"
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "cucchiaino",
+                                    "ingrediente": "burro nocciola"
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "sale"
+                                },
+                                {
+                                    "quantita_num": 150,
+                                    "unita": "g",
+                                    "ingrediente": "friarielli fermentati",
+                                    "note": "opzionale, fermentati 5 giorni con 2% sale",
+                                    "opzionale": true
+                                }
+                            ]
+                        },
+                        {
+                            "nome_gruppo": "Gel di mela verde",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 200,
+                                    "unita": "ml",
+                                    "ingrediente": "centrifuga di mela verde"
+                                },
+                                {
+                                    "quantita_num": 20,
+                                    "unita": "ml",
+                                    "ingrediente": "aceto di mele affumicato"
+                                },
+                                {
+                                    "quantita_num": 2,
+                                    "unita": "g",
+                                    "ingrediente": "agar agar"
+                                }
+                            ]
+                        },
+                        {
+                            "nome_gruppo": "Cotenna croccante",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "pz",
+                                    "ingrediente": "cotenna di maiale"
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "sale"
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "pepe di Sichuan in polvere"
+                                }
+                            ]
+                        },
+                        {
+                            "nome_gruppo": "Foglia di friariello marinata",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 4,
+                                    "unita": "pz",
+                                    "ingrediente": "foglie di friariello"
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "olio extravergine d'oliva"
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "succo di limone"
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "miele"
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "sale"
+                                }
+                            ]
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "fase": "Marinatura e CBT del carrè",
+                            "passaggi": [
+                                "Mescolare sale, zucchero, pepe, scorza e rosmarino e massaggiare il carrè.",
+                                "Marinare sottovuoto per 12h in frigo.",
+                                "Risciacquare, asciugare e confezionare sottovuoto.",
+                                "Cuocere a 62°C per 8 ore.",
+                                "Raffreddare in acqua e ghiaccio. Conservare in frigo."
+                            ]
+                        },
+                        {
+                            "fase": "Crema di friarielli",
+                            "passaggi": [
+                                "Sbollentare i friarielli, raffreddare in acqua e ghiaccio.",
+                                "Brasare con aglio, acciuga e brodo.",
+                                "Frullare con olio e burro nocciola. Filtrare.",
+                                "Aggiungere i friarielli fermentati (opzionali) prima della frullatura."
+                            ]
+                        },
+                        {
+                            "fase": "Gel di mela verde",
+                            "passaggi": [
+                                "Portare a ebollizione la centrifuga con aceto e agar.",
+                                "Versare in contenitore largo e raffreddare.",
+                                "Frullare in gel liscio e inserire in biberon."
+                            ]
+                        },
+                        {
+                            "fase": "Cotenna croccante",
+                            "passaggi": [
+                                "Sbollentare per 1h, rimuovere il grasso.",
+                                "Essiccare in forno ventilato a 65°C per 8–10h.",
+                                "Friggere a 200°C finché gonfia. Salare e spolverare con pepe Sichuan."
+                            ]
+                        },
+                        {
+                            "fase": "Foglia di friariello marinata",
+                            "passaggi": [
+                                "Marinare con olio, limone, miele e sale.",
+                                "Bruciare leggermente i bordi col cannello.",
+                                "Laccare con fondo di cottura."
+                            ]
+                        },
+                        {
+                            "fase": "Rigenerazione e impiattamento",
+                            "passaggi": [
+                                "Rosolare il carrè in padella con burro, aglio e salvia.",
+                                "Ridurre fondo e miele, glassare il carrè.",
+                                "Impiattare con crema, carrè scaloppato, gocce di gel, cotenna verticale e foglia laccata.",
+                                "Opzionale: affumicare sotto cloche."
+                            ]
+                        }
+                    ],
+                    "pairing_consigliato": [
+                        {
+                            "bevanda": "Fiano di Avellino Riserva",
+                            "note": "leggermente affinato in legno, elegante e minerale"
+                        },
+                        {
+                            "bevanda": "Kombucha di mela verde e fieno affumicato",
+                            "note": "fresco, acido, leggermente tannico"
+                        },
+                        {
+                            "bevanda": "Saison rustica in botte",
+                            "note": "birra secca con pepe bianco e frutta acerba"
+                        }
+                    ]
+                },
                 {
-  "nome": "Guance di Nebbia e Radici",
-  "descrizione": "Guance di manzo CBT al Barolo, fondo ristretto, crema di sedano rapa affumicato, croccante di polenta e polvere di alloro.",
-  "porzioni_base": 4,
-  "ingredienti": [
-    {
-      "nome_gruppo": "Guancia di manzo",
-      "lista_ingredienti": [
-        { "quantita_num": 4, "unita": "pz", "ingrediente": "Guance di manzo", "note": "(circa 200–250 g l’una)", "opzionale": false },
-        { "quantita_num": 750, "unita": "ml", "ingrediente": "Barolo", "note": null, "opzionale": false },
-        { "quantita_num": 1, "unita": "pz", "ingrediente": "Cipolla", "note": null, "opzionale": false },
-        { "quantita_num": 1, "unita": "costa", "ingrediente": "Sedano", "note": null, "opzionale": false },
-        { "quantita_num": 1, "unita": "pz", "ingrediente": "Carota", "note": null, "opzionale": false },
-        { "quantita_num": 2, "unita": "spicchi", "ingrediente": "Aglio", "note": "schiacciati", "opzionale": false },
-        { "quantita_num": 2, "unita": "foglie", "ingrediente": "Alloro", "note": null, "opzionale": false },
-        { "quantita_num": 5, "unita": "pz", "ingrediente": "Bacche di ginepro", "note": null, "opzionale": false },
-        { "quantita_num": 1, "unita": "cucchiaino", "ingrediente": "Pepe nero in grani", "note": null, "opzionale": false },
-        { "quantita_num": 1, "unita": "rametto", "ingrediente": "Rosmarino", "note": null, "opzionale": false },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "Olio extravergine d’oliva", "note": null, "opzionale": false },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "Sale", "note": null, "opzionale": false }
-      ]
-    },
-    {
-      "nome_gruppo": "Crema di sedano rapa affumicato",
-      "lista_ingredienti": [
-        { "quantita_num": 500, "unita": "g", "ingrediente": "Sedano rapa", "note": null, "opzionale": false },
-        { "quantita_num": 30, "unita": "g", "ingrediente": "Burro", "note": null, "opzionale": false },
-        { "quantita_num": 100, "unita": "ml", "ingrediente": "Latte intero", "note": null, "opzionale": false },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "Sale e pepe bianco", "note": null, "opzionale": false },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "Fumo", "note": "chips di faggio o affumicatura a freddo (opzionale)", "opzionale": true }
-      ]
-    },
-    {
-      "nome_gruppo": "Polenta croccante",
-      "lista_ingredienti": [
-        { "quantita_num": 150, "unita": "g", "ingrediente": "Farina di mais per polenta", "note": null, "opzionale": false },
-        { "quantita_num": 600, "unita": "ml", "ingrediente": "Acqua", "note": null, "opzionale": false },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "Sale grosso", "note": null, "opzionale": false },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "Olio per frittura o forno", "note": null, "opzionale": false }
-      ]
-    },
-    {
-      "nome_gruppo": "Finitura",
-      "lista_ingredienti": [
-        { "quantita_num": 2, "unita": "foglie", "ingrediente": "Alloro essiccato", "note": null, "opzionale": false },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "Olio extravergine d’oliva", "note": "per nappatura", "opzionale": false }
-      ]
-    }
-  ],
-  "procedimento": [
-    {
-      "fase": "Marinatura",
-      "passaggi": [
-        "Unisci Barolo, mirepoix di cipolla/sedano/carota, aglio, ginepro, pepe, alloro e rosmarino.",
-        "Immergi le guance e lascia marinare in frigo per 12 ore, coperte."
-      ]
-    },
-    {
-      "fase": "Rosolatura",
-      "passaggi": [
-        "Scola e asciuga le guance.",
-        "Rosolale in padella rovente con poco olio su tutti i lati fino a formare crosta caramellata."
-      ]
-    },
-    {
-      "fase": "Cottura CBT",
-      "passaggi": [
-        "Sigilla sottovuoto con poco olio, cucchiaio di marinatura e sale.",
-        "Cuoci a 68°C per 36 ore.",
-        "Abbatti rapidamente e conserva o rigenera al momento."
-      ]
-    },
-    {
-      "fase": "Fondo al Barolo",
-      "passaggi": [
-        "Filtra la marinatura, riducila in casseruola fino a consistenza lucida e densa.",
-        "Filtra nuovamente e regola di sale."
-      ]
-    },
-    {
-      "fase": "Crema di sedano rapa affumicato",
-      "passaggi": [
-        "Affumica il sedano rapa (opzionale), poi pelalo e taglialo a cubi.",
-        "Cuoci con burro, latte, sale e pepe fino a morbidezza.",
-        "Frulla e passa al setaccio fine."
-      ]
-    },
-    {
-      "fase": "Polenta croccante",
-      "passaggi": [
-        "Cuoci la polenta in acqua salata per almeno 40 minuti.",
-        "Versa in stampo basso, lascia raffreddare.",
-        "Taglia a cubi, friggi o cuoci in forno ventilato a 200°C finché dorata."
-      ]
-    },
-    {
-      "fase": "Polvere di alloro",
-      "passaggi": [
-        "Essicca le foglie, tritale e setacciale fino a ottenere una polvere fine."
-      ]
-    },
-    {
-      "fase": "Finitura e impiattamento",
-      "passaggi": [
-        "Riscalda le guance nappandole con il fondo caldo.",
-        "Disponi sul piatto una base di crema di sedano rapa.",
-        "Adagia la guancia sopra.",
-        "Aggiungi un cubo di polenta croccante.",
-        "Spolvera con polvere di alloro e irrora con fondo caldo."
-      ]
-    }
-  ],
-  "pairing_consigliato": [
-    {
-      "bevanda": "Barolo Riserva (10+ anni)",
-      "note": "Maturo, terziario, perfetto per accompagnare la profondità del piatto."
-    },
-    {
-      "bevanda": "Pane ai cereali con burro salato affumicato",
-      "note": "Servito tiepido a lato come gesto evocativo."
-    }
-  ]
-},
+                    "nome": "Guance di Nebbia e Radici",
+                    "descrizione": "Guance di manzo CBT al Barolo, fondo ristretto, crema di sedano rapa affumicato, croccante di polenta e polvere di alloro.",
+                    "porzioni_base": 4,
+                    "ingredienti": [
+                        {
+                            "nome_gruppo": "Guancia di manzo",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 4,
+                                    "unita": "pz",
+                                    "ingrediente": "Guance di manzo",
+                                    "note": "(circa 200–250 g l’una)",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 750,
+                                    "unita": "ml",
+                                    "ingrediente": "Barolo",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "pz",
+                                    "ingrediente": "Cipolla",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "costa",
+                                    "ingrediente": "Sedano",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "pz",
+                                    "ingrediente": "Carota",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 2,
+                                    "unita": "spicchi",
+                                    "ingrediente": "Aglio",
+                                    "note": "schiacciati",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 2,
+                                    "unita": "foglie",
+                                    "ingrediente": "Alloro",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 5,
+                                    "unita": "pz",
+                                    "ingrediente": "Bacche di ginepro",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "cucchiaino",
+                                    "ingrediente": "Pepe nero in grani",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "rametto",
+                                    "ingrediente": "Rosmarino",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "Olio extravergine d’oliva",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "Sale",
+                                    "note": null,
+                                    "opzionale": false
+                                }
+                            ]
+                        },
+                        {
+                            "nome_gruppo": "Crema di sedano rapa affumicato",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 500,
+                                    "unita": "g",
+                                    "ingrediente": "Sedano rapa",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 30,
+                                    "unita": "g",
+                                    "ingrediente": "Burro",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 100,
+                                    "unita": "ml",
+                                    "ingrediente": "Latte intero",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "Sale e pepe bianco",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "Fumo",
+                                    "note": "chips di faggio o affumicatura a freddo (opzionale)",
+                                    "opzionale": true
+                                }
+                            ]
+                        },
+                        {
+                            "nome_gruppo": "Polenta croccante",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 150,
+                                    "unita": "g",
+                                    "ingrediente": "Farina di mais per polenta",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 600,
+                                    "unita": "ml",
+                                    "ingrediente": "Acqua",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "Sale grosso",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "Olio per frittura o forno",
+                                    "note": null,
+                                    "opzionale": false
+                                }
+                            ]
+                        },
+                        {
+                            "nome_gruppo": "Finitura",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 2,
+                                    "unita": "foglie",
+                                    "ingrediente": "Alloro essiccato",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "Olio extravergine d’oliva",
+                                    "note": "per nappatura",
+                                    "opzionale": false
+                                }
+                            ]
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "fase": "Marinatura",
+                            "passaggi": [
+                                "Unisci Barolo, mirepoix di cipolla/sedano/carota, aglio, ginepro, pepe, alloro e rosmarino.",
+                                "Immergi le guance e lascia marinare in frigo per 12 ore, coperte."
+                            ]
+                        },
+                        {
+                            "fase": "Rosolatura",
+                            "passaggi": [
+                                "Scola e asciuga le guance.",
+                                "Rosolale in padella rovente con poco olio su tutti i lati fino a formare crosta caramellata."
+                            ]
+                        },
+                        {
+                            "fase": "Cottura CBT",
+                            "passaggi": [
+                                "Sigilla sottovuoto con poco olio, cucchiaio di marinatura e sale.",
+                                "Cuoci a 68°C per 36 ore.",
+                                "Abbatti rapidamente e conserva o rigenera al momento."
+                            ]
+                        },
+                        {
+                            "fase": "Fondo al Barolo",
+                            "passaggi": [
+                                "Filtra la marinatura, riducila in casseruola fino a consistenza lucida e densa.",
+                                "Filtra nuovamente e regola di sale."
+                            ]
+                        },
+                        {
+                            "fase": "Crema di sedano rapa affumicato",
+                            "passaggi": [
+                                "Affumica il sedano rapa (opzionale), poi pelalo e taglialo a cubi.",
+                                "Cuoci con burro, latte, sale e pepe fino a morbidezza.",
+                                "Frulla e passa al setaccio fine."
+                            ]
+                        },
+                        {
+                            "fase": "Polenta croccante",
+                            "passaggi": [
+                                "Cuoci la polenta in acqua salata per almeno 40 minuti.",
+                                "Versa in stampo basso, lascia raffreddare.",
+                                "Taglia a cubi, friggi o cuoci in forno ventilato a 200°C finché dorata."
+                            ]
+                        },
+                        {
+                            "fase": "Polvere di alloro",
+                            "passaggi": [
+                                "Essicca le foglie, tritale e setacciale fino a ottenere una polvere fine."
+                            ]
+                        },
+                        {
+                            "fase": "Finitura e impiattamento",
+                            "passaggi": [
+                                "Riscalda le guance nappandole con il fondo caldo.",
+                                "Disponi sul piatto una base di crema di sedano rapa.",
+                                "Adagia la guancia sopra.",
+                                "Aggiungi un cubo di polenta croccante.",
+                                "Spolvera con polvere di alloro e irrora con fondo caldo."
+                            ]
+                        }
+                    ],
+                    "pairing_consigliato": [
+                        {
+                            "bevanda": "Barolo Riserva (10+ anni)",
+                            "note": "Maturo, terziario, perfetto per accompagnare la profondità del piatto."
+                        },
+                        {
+                            "bevanda": "Pane ai cereali con burro salato affumicato",
+                            "note": "Servito tiepido a lato come gesto evocativo."
+                        }
+                    ]
+                },
                 {
                     "nome": "Brisket Texano – Il Tempo del Fumo",
                     "descrizione": "Un rito texano di fuoco, legno e pazienza. Il brisket si trasforma in burro dopo ore di affumicatura lenta.",
@@ -1617,375 +1880,374 @@
                     ]
                 },
                 {
-  "nome": "Calamaro - Ventre Acido",
-  "descrizione": "Calamaro fermentato in kombucha, crema di porro arrostito, estratto di mela verde e aceto di sambuco. Un piatto viscerale, che esplora l'acido come tensione e il calamaro come carne bianca da amare con cautela. Fermento, fumo e freschezza in un equilibrio tagliente.",
-  "porzioni_base": 4,
-  "ingredienti": [
-    {
-      "nome_gruppo": "Calamaro fermentato",
-      "lista_ingredienti": [
-        {
-          "quantita_num": 600,
-          "unita": "g",
-          "ingrediente": "calamaro freschissimo",
-          "note": "pulito, separare corpo e tentacoli",
-          "opzionale": false
-        },
-        {
-          "quantita_num": 400,
-          "unita": "ml",
-          "ingrediente": "kombucha non pastorizzato",
-          "note": "gusto neutro o leggermente floreale",
-          "opzionale": false
-        },
-        {
-          "quantita_num": 5,
-          "unita": "g",
-          "ingrediente": "sale fino",
-          "note": null,
-          "opzionale": false
-        }
-      ]
-    },
-    {
-      "nome_gruppo": "Crema di porro arrostito",
-      "lista_ingredienti": [
-        {
-          "quantita_num": 2,
-          "unita": "pz",
-          "ingrediente": "porri grandi",
-          "note": "interi, lavati",
-          "opzionale": false
-        },
-        {
-          "quantita_num": 100,
-          "unita": "ml",
-          "ingrediente": "brodo vegetale",
-          "note": null,
-          "opzionale": false
-        },
-        {
-          "quantita_num": 20,
-          "unita": "g",
-          "ingrediente": "burro",
-          "note": null,
-          "opzionale": true
-        },
-        {
-          "quantita_num": 10,
-          "unita": "ml",
-          "ingrediente": "olio extravergine",
-          "note": null,
-          "opzionale": false
-        }
-      ]
-    },
-    {
-      "nome_gruppo": "Salsa cruda di mela verde",
-      "lista_ingredienti": [
-        {
-          "quantita_num": 2,
-          "unita": "pz",
-          "ingrediente": "mele verdi",
-          "note": "Granny Smith",
-          "opzionale": false
-        },
-        {
-          "quantita_num": 10,
-          "unita": "ml",
-          "ingrediente": "aceto di sambuco",
-          "note": "oppure aceto di mela delicato",
-          "opzionale": false
-        },
-        {
-          "quantita_num": 1,
-          "unita": "g",
-          "ingrediente": "sale",
-          "note": null,
-          "opzionale": false
-        }
-      ]
-    }
-  ],
-  "procedimento": [
-    {
-      "fase": "Fermentazione del calamaro",
-      "passaggi": [
-        "Tagliare i calamari a strisce regolari.",
-        "Inserirli in un vaso sterilizzato con il kombucha e il sale.",
-        "Fermentare in frigo o cantina a 4–6°C per 48 ore.",
-        "Scolare e asciugare delicatamente prima di cuocere."
-      ]
-    },
-    {
-      "fase": "Crema di porro arrostito",
-      "passaggi": [
-        "Bruciare i porri interi direttamente su fiamma viva fino a carbonizzazione esterna.",
-        "Tagliare a metà e rimuovere la parte esterna bruciata.",
-        "Frullare il cuore tenero con brodo vegetale, burro e olio fino a crema liscia.",
-        "Aggiustare di sale e passare al setaccio fine."
-      ]
-    },
-    {
-      "fase": "Salsa cruda di mela verde",
-      "passaggi": [
-        "Centrifugare o estrarre a freddo il succo delle mele.",
-        "Emulsionare con l’aceto di sambuco e un pizzico di sale.",
-        "Conservare in frigo fino al servizio."
-      ]
-    },
-    {
-      "fase": "Cottura e impiattamento",
-      "passaggi": [
-        "Scottare i calamari fermentati su padella molto calda 30 secondi per lato.",
-        "Adagiare al centro del piatto una cucchiaiata di crema di porro.",
-        "Sopra, disporre il calamaro scottato a forma fluida.",
-        "Finire con la salsa di mela a filo e germogli acidi o microacetosella."
-      ]
-    }
-  ],
-  "pairing_consigliato": [
-    {
-      "bevanda": "Vino orange macerato di uva bianca",
-      "note": "con note tanniche e floreali"
-    },
-    {
-      "bevanda": "Kombucha affinato in legno chiaro",
-      "note": "con profilo secco"
-    }
-  ]
-},
+                    "nome": "Calamaro - Ventre Acido",
+                    "descrizione": "Calamaro fermentato in kombucha, crema di porro arrostito, estratto di mela verde e aceto di sambuco. Un piatto viscerale, che esplora l'acido come tensione e il calamaro come carne bianca da amare con cautela. Fermento, fumo e freschezza in un equilibrio tagliente.",
+                    "porzioni_base": 4,
+                    "ingredienti": [
+                        {
+                            "nome_gruppo": "Calamaro fermentato",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 600,
+                                    "unita": "g",
+                                    "ingrediente": "calamaro freschissimo",
+                                    "note": "pulito, separare corpo e tentacoli",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 400,
+                                    "unita": "ml",
+                                    "ingrediente": "kombucha non pastorizzato",
+                                    "note": "gusto neutro o leggermente floreale",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 5,
+                                    "unita": "g",
+                                    "ingrediente": "sale fino",
+                                    "note": null,
+                                    "opzionale": false
+                                }
+                            ]
+                        },
+                        {
+                            "nome_gruppo": "Crema di porro arrostito",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 2,
+                                    "unita": "pz",
+                                    "ingrediente": "porri grandi",
+                                    "note": "interi, lavati",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 100,
+                                    "unita": "ml",
+                                    "ingrediente": "brodo vegetale",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 20,
+                                    "unita": "g",
+                                    "ingrediente": "burro",
+                                    "note": null,
+                                    "opzionale": true
+                                },
+                                {
+                                    "quantita_num": 10,
+                                    "unita": "ml",
+                                    "ingrediente": "olio extravergine",
+                                    "note": null,
+                                    "opzionale": false
+                                }
+                            ]
+                        },
+                        {
+                            "nome_gruppo": "Salsa cruda di mela verde",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 2,
+                                    "unita": "pz",
+                                    "ingrediente": "mele verdi",
+                                    "note": "Granny Smith",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 10,
+                                    "unita": "ml",
+                                    "ingrediente": "aceto di sambuco",
+                                    "note": "oppure aceto di mela delicato",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "g",
+                                    "ingrediente": "sale",
+                                    "note": null,
+                                    "opzionale": false
+                                }
+                            ]
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "fase": "Fermentazione del calamaro",
+                            "passaggi": [
+                                "Tagliare i calamari a strisce regolari.",
+                                "Inserirli in un vaso sterilizzato con il kombucha e il sale.",
+                                "Fermentare in frigo o cantina a 4–6°C per 48 ore.",
+                                "Scolare e asciugare delicatamente prima di cuocere."
+                            ]
+                        },
+                        {
+                            "fase": "Crema di porro arrostito",
+                            "passaggi": [
+                                "Bruciare i porri interi direttamente su fiamma viva fino a carbonizzazione esterna.",
+                                "Tagliare a metà e rimuovere la parte esterna bruciata.",
+                                "Frullare il cuore tenero con brodo vegetale, burro e olio fino a crema liscia.",
+                                "Aggiustare di sale e passare al setaccio fine."
+                            ]
+                        },
+                        {
+                            "fase": "Salsa cruda di mela verde",
+                            "passaggi": [
+                                "Centrifugare o estrarre a freddo il succo delle mele.",
+                                "Emulsionare con l’aceto di sambuco e un pizzico di sale.",
+                                "Conservare in frigo fino al servizio."
+                            ]
+                        },
+                        {
+                            "fase": "Cottura e impiattamento",
+                            "passaggi": [
+                                "Scottare i calamari fermentati su padella molto calda 30 secondi per lato.",
+                                "Adagiare al centro del piatto una cucchiaiata di crema di porro.",
+                                "Sopra, disporre il calamaro scottato a forma fluida.",
+                                "Finire con la salsa di mela a filo e germogli acidi o microacetosella."
+                            ]
+                        }
+                    ],
+                    "pairing_consigliato": [
+                        {
+                            "bevanda": "Vino orange macerato di uva bianca",
+                            "note": "con note tanniche e floreali"
+                        },
+                        {
+                            "bevanda": "Kombucha affinato in legno chiaro",
+                            "note": "con profilo secco"
+                        }
+                    ]
+                },
                 {
-  "nome": "Baccalà - Anima Bianca",
-  "descrizione": "Baccalà mantecato con latte di mandorla fermentato, neve di yuzu e croccante di pane al nero. Un piatto di silenzi e soglie. Bianco su bianco, latte e sale, memoria e purezza. Una carezza lattica e marina che si dissolve in freschezza agrumata.",
-  "porzioni_base": 4,
-  "ingredienti": [
-    {
-      "nome_gruppo": "Baccalà mantecato",
-      "lista_ingredienti": [
-        {
-          "quantita_num": 600,
-          "unita": "g",
-          "ingrediente": "baccalà dissalato",
-          "note": "ammollato per 2 giorni",
-          "opzionale": false
-        },
-        {
-          "quantita_num": 200,
-          "unita": "ml",
-          "ingrediente": "latte di mandorla fermentato",
-          "note": "ottenuto con fermenti o kefir",
-          "opzionale": false
-        },
-        {
-          "quantita_num": 80,
-          "unita": "ml",
-          "ingrediente": "olio extravergine d'oliva delicato",
-          "note": null,
-          "opzionale": false
-        },
-        {
-          "quantita_num": 1,
-          "unita": "spicchio",
-          "ingrediente": "aglio",
-          "note": null,
-          "opzionale": true
-        }
-      ]
-    },
-    {
-      "nome_gruppo": "Neve di yuzu",
-      "lista_ingredienti": [
-        {
-          "quantita_num": 1,
-          "unita": "pz",
-          "ingrediente": "yuzu fresco o succo",
-          "note": "in alternativa, lime e cedro",
-          "opzionale": false
-        },
-        {
-          "quantita_num": 1,
-          "unita": "g",
-          "ingrediente": "sale fino",
-          "note": null,
-          "opzionale": false
-        }
-      ]
-    },
-    {
-      "nome_gruppo": "Croccante al nero",
-      "lista_ingredienti": [
-        {
-          "quantita_num": 100,
-          "unita": "g",
-          "ingrediente": "pane raffermo",
-          "note": "meglio se integrale o con lievito madre",
-          "opzionale": false
-        },
-        {
-          "quantita_num": 1,
-          "unita": "sacchetto",
-          "ingrediente": "nero di seppia",
-          "note": "facoltativo ma consigliato",
-          "opzionale": true
-        },
-        {
-          "quantita_num": 15,
-          "unita": "ml",
-          "ingrediente": "olio extravergine",
-          "note": null,
-          "opzionale": false
-        }
-      ]
-    }
-  ],
-  "procedimento": [
-    {
-      "fase": "Fermentazione del latte di mandorla",
-      "passaggi": [
-        "Inoculare il latte di mandorla con fermenti per kefir o uno starter simile.",
-        "Lasciare fermentare a temperatura ambiente (22–24°C) per 24–36 ore fino a leggero addensamento e acidità percepibile.",
-        "Conservare in frigorifero e agitare prima dell’uso."
-      ]
-    },
-    {
-      "fase": "Preparazione del baccalà mantecato",
-      "passaggi": [
-        "Cuocere il baccalà in acqua appena sotto il bollore (85–90°C) per 10–12 minuti, con lo spicchio d’aglio se desiderato.",
-        "Scolare, eliminare pelle e spine, e frullare il pesce caldo aggiungendo a filo il latte di mandorla fermentato e l’olio.",
-        "Mantecare fino a ottenere una crema liscia e lucida. Regolare di sale se necessario."
-      ]
-    },
-    {
-      "fase": "Preparazione della neve di yuzu",
-      "passaggi": [
-        "Congelare il succo di yuzu con un pizzico di sale in una placca sottile.",
-        "Grattare al momento dell’impiattamento con una microplane per ottenere cristalli leggeri e freddi."
-      ]
-    },
-    {
-      "fase": "Croccante al nero",
-      "passaggi": [
-        "Frullare il pane raffermo con il nero di seppia e l’olio fino a ottenere delle briciole nere umide.",
-        "Tostare in padella o in forno fino a croccantezza asciutta, evitando bruciature."
-      ]
-    },
-    {
-      "fase": "Impiattamento",
-      "passaggi": [
-        "Disporre il baccalà mantecato a cucchiaiate morbide sul piatto.",
-        "Spolverare lateralmente con il croccante nero.",
-        "Completare con neve di yuzu appena grattata sopra ogni porzione.",
-        "Guarnire, se desiderato, con microfiori bianchi o germogli d’acetosella per chiudere la palette."
-      ]
-    }
-  ],
-  "pairing_consigliato": [
-    {
-      "bevanda": "Fiano in anfora",
-      "note": "bianco secco ma floreale"
-    },
-    {
-      "bevanda": "Sake junmai",
-      "note": null
-    },
-    {
-      "bevanda": "Acqua tonica al bergamotto",
-      "note": "pairing analcolico minerale e agrumato"
-    }
-  ]
-},
+                    "nome": "Baccalà - Anima Bianca",
+                    "descrizione": "Baccalà mantecato con latte di mandorla fermentato, neve di yuzu e croccante di pane al nero. Un piatto di silenzi e soglie. Bianco su bianco, latte e sale, memoria e purezza. Una carezza lattica e marina che si dissolve in freschezza agrumata.",
+                    "porzioni_base": 4,
+                    "ingredienti": [
+                        {
+                            "nome_gruppo": "Baccalà mantecato",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 600,
+                                    "unita": "g",
+                                    "ingrediente": "baccalà dissalato",
+                                    "note": "ammollato per 2 giorni",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 200,
+                                    "unita": "ml",
+                                    "ingrediente": "latte di mandorla fermentato",
+                                    "note": "ottenuto con fermenti o kefir",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 80,
+                                    "unita": "ml",
+                                    "ingrediente": "olio extravergine d'oliva delicato",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "spicchio",
+                                    "ingrediente": "aglio",
+                                    "note": null,
+                                    "opzionale": true
+                                }
+                            ]
+                        },
+                        {
+                            "nome_gruppo": "Neve di yuzu",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "pz",
+                                    "ingrediente": "yuzu fresco o succo",
+                                    "note": "in alternativa, lime e cedro",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "g",
+                                    "ingrediente": "sale fino",
+                                    "note": null,
+                                    "opzionale": false
+                                }
+                            ]
+                        },
+                        {
+                            "nome_gruppo": "Croccante al nero",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 100,
+                                    "unita": "g",
+                                    "ingrediente": "pane raffermo",
+                                    "note": "meglio se integrale o con lievito madre",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "sacchetto",
+                                    "ingrediente": "nero di seppia",
+                                    "note": "facoltativo ma consigliato",
+                                    "opzionale": true
+                                },
+                                {
+                                    "quantita_num": 15,
+                                    "unita": "ml",
+                                    "ingrediente": "olio extravergine",
+                                    "note": null,
+                                    "opzionale": false
+                                }
+                            ]
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "fase": "Fermentazione del latte di mandorla",
+                            "passaggi": [
+                                "Inoculare il latte di mandorla con fermenti per kefir o uno starter simile.",
+                                "Lasciare fermentare a temperatura ambiente (22–24°C) per 24–36 ore fino a leggero addensamento e acidità percepibile.",
+                                "Conservare in frigorifero e agitare prima dell’uso."
+                            ]
+                        },
+                        {
+                            "fase": "Preparazione del baccalà mantecato",
+                            "passaggi": [
+                                "Cuocere il baccalà in acqua appena sotto il bollore (85–90°C) per 10–12 minuti, con lo spicchio d’aglio se desiderato.",
+                                "Scolare, eliminare pelle e spine, e frullare il pesce caldo aggiungendo a filo il latte di mandorla fermentato e l’olio.",
+                                "Mantecare fino a ottenere una crema liscia e lucida. Regolare di sale se necessario."
+                            ]
+                        },
+                        {
+                            "fase": "Preparazione della neve di yuzu",
+                            "passaggi": [
+                                "Congelare il succo di yuzu con un pizzico di sale in una placca sottile.",
+                                "Grattare al momento dell’impiattamento con una microplane per ottenere cristalli leggeri e freddi."
+                            ]
+                        },
+                        {
+                            "fase": "Croccante al nero",
+                            "passaggi": [
+                                "Frullare il pane raffermo con il nero di seppia e l’olio fino a ottenere delle briciole nere umide.",
+                                "Tostare in padella o in forno fino a croccantezza asciutta, evitando bruciature."
+                            ]
+                        },
+                        {
+                            "fase": "Impiattamento",
+                            "passaggi": [
+                                "Disporre il baccalà mantecato a cucchiaiate morbide sul piatto.",
+                                "Spolverare lateralmente con il croccante nero.",
+                                "Completare con neve di yuzu appena grattata sopra ogni porzione.",
+                                "Guarnire, se desiderato, con microfiori bianchi o germogli d’acetosella per chiudere la palette."
+                            ]
+                        }
+                    ],
+                    "pairing_consigliato": [
+                        {
+                            "bevanda": "Fiano in anfora",
+                            "note": "bianco secco ma floreale"
+                        },
+                        {
+                            "bevanda": "Sake junmai",
+                            "note": null
+                        },
+                        {
+                            "bevanda": "Acqua tonica al bergamotto",
+                            "note": "pairing analcolico minerale e agrumato"
+                        }
+                    ]
+                },
                 {
-  "nome": "Polpo nel Silenzio Termico",
-  "descrizione": "Cottura a Bassa Temperatura – Metodo delicato, profondamente trasformativo. Una consistenza che vibra sotto i denti, tra il tenero e l'intatto.",
-  "porzioni_base": 4,
-  "ingredienti": [
-    {
-      "nome_gruppo": "Polpo CBT",
-      "lista_ingredienti": [
-        {
-          "quantita_num": 1.3,
-          "unita": "kg",
-          "ingrediente": "polpo intero",
-          "note": "decongelato (1,2–1,5 kg)",
-          "opzionale": false
-        },
-        {
-          "quantita_num": 1,
-          "unita": "foglia",
-          "ingrediente": "alloro",
-          "note": "opzionale",
-          "opzionale": true
-        },
-        {
-          "quantita_num": 1,
-          "unita": "cucchiaino",
-          "ingrediente": "aceto di vino bianco",
-          "note": "facoltativo, per fissare il colore",
-          "opzionale": true
-        },
-        {
-          "quantita_num": 3,
-          "unita": "pz",
-          "ingrediente": "grani di pepe nero",
-          "note": "opzionale",
-          "opzionale": true
-        }
-      ]
-    }
-  ],
-  "procedimento": [
-    {
-      "fase": "Pulizia e preparazione",
-      "passaggi": [
-        "Se il polpo è fresco, congelarlo per almeno 24h per favorire la rottura delle fibre.",
-        "Scongelato, eliminare becco, occhi e interiora della testa.",
-        "Sciacquare bene in acqua fredda."
-      ]
-    },
-    {
-      "fase": "Sottovuoto",
-      "passaggi": [
-        "Inserire il polpo in un sacchetto sottovuoto resistente al calore.",
-        "Aggiungere eventuali aromi: alloro, pepe nero, aceto.",
-        "Sigillare sottovuoto al massimo livello."
-      ]
-    },
-    {
-      "fase": "Cottura CBT",
-      "passaggi": [
-        "Impostare il roner a 72°C stabili.",
-        "Immergere il sacchetto e cuocere per 7–9 ore:",
-        "• 7h → carnoso e tonico",
-        "• 8h → morbido ma compatto",
-        "• 9h → burroso, da taglio al cucchiaio"
-      ]
-    },
-    {
-      "fase": "Raffreddamento",
-      "passaggi": [
-        "Terminata la cottura, raffreddare immediatamente in acqua e ghiaccio o abbattitore.",
-        "Conservare in frigorifero fino a 3 giorni o congelare."
-      ]
-    },
-    {
-      "fase": "Finitura e rigenerazione",
-      "passaggi": [
-        "Al momento del servizio, scegliere la finitura:",
-        "• Griglia o piastra con leggero olio per crosticina saporita.",
-        "• Forno a 200°C per 5 minuti con glassa al fondo di cottura.",
-        "• Freddo in insalata con sedano, prezzemolo e limone."
-      ]
-    }
-  ],
-  "pairing_consigliato": [
-    {
-      "bevanda": "Vermentino di Gallura o un sake junmai secco",
-      "note": "per esaltare il profilo marino senza coprire la delicatezza"
-    }
-  ]
-},
-
+                    "nome": "Polpo nel Silenzio Termico",
+                    "descrizione": "Cottura a Bassa Temperatura – Metodo delicato, profondamente trasformativo. Una consistenza che vibra sotto i denti, tra il tenero e l'intatto.",
+                    "porzioni_base": 4,
+                    "ingredienti": [
+                        {
+                            "nome_gruppo": "Polpo CBT",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 1.3,
+                                    "unita": "kg",
+                                    "ingrediente": "polpo intero",
+                                    "note": "decongelato (1,2–1,5 kg)",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "foglia",
+                                    "ingrediente": "alloro",
+                                    "note": "opzionale",
+                                    "opzionale": true
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "cucchiaino",
+                                    "ingrediente": "aceto di vino bianco",
+                                    "note": "facoltativo, per fissare il colore",
+                                    "opzionale": true
+                                },
+                                {
+                                    "quantita_num": 3,
+                                    "unita": "pz",
+                                    "ingrediente": "grani di pepe nero",
+                                    "note": "opzionale",
+                                    "opzionale": true
+                                }
+                            ]
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "fase": "Pulizia e preparazione",
+                            "passaggi": [
+                                "Se il polpo è fresco, congelarlo per almeno 24h per favorire la rottura delle fibre.",
+                                "Scongelato, eliminare becco, occhi e interiora della testa.",
+                                "Sciacquare bene in acqua fredda."
+                            ]
+                        },
+                        {
+                            "fase": "Sottovuoto",
+                            "passaggi": [
+                                "Inserire il polpo in un sacchetto sottovuoto resistente al calore.",
+                                "Aggiungere eventuali aromi: alloro, pepe nero, aceto.",
+                                "Sigillare sottovuoto al massimo livello."
+                            ]
+                        },
+                        {
+                            "fase": "Cottura CBT",
+                            "passaggi": [
+                                "Impostare il roner a 72°C stabili.",
+                                "Immergere il sacchetto e cuocere per 7–9 ore:",
+                                "• 7h → carnoso e tonico",
+                                "• 8h → morbido ma compatto",
+                                "• 9h → burroso, da taglio al cucchiaio"
+                            ]
+                        },
+                        {
+                            "fase": "Raffreddamento",
+                            "passaggi": [
+                                "Terminata la cottura, raffreddare immediatamente in acqua e ghiaccio o abbattitore.",
+                                "Conservare in frigorifero fino a 3 giorni o congelare."
+                            ]
+                        },
+                        {
+                            "fase": "Finitura e rigenerazione",
+                            "passaggi": [
+                                "Al momento del servizio, scegliere la finitura:",
+                                "• Griglia o piastra con leggero olio per crosticina saporita.",
+                                "• Forno a 200°C per 5 minuti con glassa al fondo di cottura.",
+                                "• Freddo in insalata con sedano, prezzemolo e limone."
+                            ]
+                        }
+                    ],
+                    "pairing_consigliato": [
+                        {
+                            "bevanda": "Vermentino di Gallura o un sake junmai secco",
+                            "note": "per esaltare il profilo marino senza coprire la delicatezza"
+                        }
+                    ]
+                },
                 {
                     "nome": "Bistecca di Anguria CBT BBQ",
                     "descrizione": "Un ortaggio che gioca a essere carne. Fumo, marinatura, crosta e burro.",
@@ -3995,218 +4257,269 @@
                     ]
                 },
                 {
-  "nome": "Spaghetto ai 7 Pomodori",
-  "descrizione": "Chef Domenico Candela – George Restaurant, Napoli (ricostruzione tecnica)",
-  "porzioni_base": 2,
-  "ingredienti": [
-    {
-      "nome_gruppo": "Salsa San Marzano (base)",
-      "lista_ingredienti": [
-        { "quantita_num": 500, "unita": "g", "ingrediente": "pomodori San Marzano interi" },
-        { "quantita_num": 1, "unita": "", "ingrediente": "cipolla dorata (piccola)" },
-        { "quantita_num": 2, "unita": "rametti", "ingrediente": "basilico fresco" },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "olio extravergine d’oliva campano" },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "sale" }
-      ]
-    },
-    {
-  "nome_gruppo": "Pomodorini campani (6 varietà)",
-  "lista_ingredienti": [
-    {
-      "quantita_num": 2,
-      "unita": "pz",
-      "ingrediente": "pomodorini datterino giallo",
-      "note": null
-    },
-    {
-      "quantita_num": 2,
-      "unita": "pz",
-      "ingrediente": "pomodorini datterino rosso",
-      "note": null
-    },
-    {
-      "quantita_num": 2,
-      "unita": "pz",
-      "ingrediente": "pomodorini corbarino",
-      "note": null
-    },
-    {
-      "quantita_num": 2,
-      "unita": "pz",
-      "ingrediente": "pomodorini del piennolo",
-      "note": null
-    },
-    {
-      "quantita_num": 2,
-      "unita": "pz",
-      "ingrediente": "pomodorini pendolino",
-      "note": null
-    },
-    {
-      "quantita_num": 2,
-      "unita": "pz",
-      "ingrediente": "pomodorini alterino rosso",
-      "note": null
-    },
-    {
-      "quantita_num": 2,
-      "unita": "spicchi",
-      "ingrediente": "aglio in camicia",
-      "note": "uno per ogni padella"
-    },
-    {
-      "quantita_num": null,
-      "unita": "q.b.",
-      "ingrediente": "olio extravergine d’oliva campano",
-      "note": "per la cottura"
-    }
-  ]
-},
-    {
-  "nome_gruppo": "Finti pomodori – Involucro e Ripieno",
-  "lista_ingredienti": [
-    {
-      "quantita_num": 100,
-      "unita": "g",
-      "ingrediente": "panna fresca",
-      "note": null
-    },
-    {
-      "quantita_num": 40,
-      "unita": "g",
-      "ingrediente": "Parmigiano Reggiano 36 mesi grattugiato",
-      "note": null
-    },
-    {
-      "quantita_num": 0.3,
-      "unita": "g",
-      "ingrediente": "xantana",
-      "note": "per stabilizzazione"
-    },
-    {
-      "quantita_num": 1,
-      "unita": "g",
-      "ingrediente": "gelatina in fogli",
-      "note": "oppure 0,5 g agar agar, opzionale per maggiore solidità"
-    },
-    {
-      "quantita_num": 200,
-      "unita": "g",
-      "ingrediente": "salsa di pomodoro filtrata",
-      "note": "liscia e setosa"
-    },
-    {
-      "quantita_num": 1,
-      "unita": "g",
-      "ingrediente": "carragenina kappa",
-      "note": null
-    },
-    {
-      "quantita_num": null,
-      "unita": "q.b.",
-      "ingrediente": "zucchero o aceto",
-      "note": "facoltativo, per bilanciare l’acidità"
-    }
-  ]
-}
-,
-    {
-      "nome_gruppo": "Polvere di basilico",
-      "lista_ingredienti": [
-        { "quantita_num": 50, "unita": "ml", "ingrediente": "olio neutro (vinacciolo o riso)" },
-        { "quantita_num": 20, "unita": "g", "ingrediente": "basilico fresco sbollentato" },
-        { "quantita_num": 15, "unita": "g", "ingrediente": "maltodestrina" },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "sale" }
-      ]
-    },
-    {
-      "nome_gruppo": "Pasta",
-      "lista_ingredienti": [
-        { "quantita_num": 160, "unita": "g", "ingrediente": "spaghetti di Gragnano trafilati al bronzo" },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "acqua salata" }
-      ]
-    },
-    {
-      "nome_gruppo": "Finitura",
-      "lista_ingredienti": [
-        { "quantita_num": null, "unita": "", "ingrediente": "germogli di basilico" },
-        { "quantita_num": null, "unita": "", "ingrediente": "pane al vapore al basilico (accompagnamento)" }
-      ]
-    }
-  ],
-  "procedimento": [
-    {
-      "fase": "Preparazione della salsa San Marzano",
-      "passaggi": [
-        "In casseruola, aggiungere olio evo, cipolla affettata sottilmente e un rametto di basilico.",
-        "Far appassire dolcemente la cipolla senza bruciarla.",
-        "Aggiungere i pomodori San Marzano interi, un pizzico di sale e altro basilico.",
-        "Cuocere a fuoco dolce per 1–2 ore.",
-        "Passare la salsa ottenuta al passaverdure per ottenere una consistenza liscia e concentrata."
-      ]
-    },
-    {
-      "fase": "Cottura delle sei varietà di pomodorini",
-      "passaggi": [
-        "In padella, scaldare l'olio evo con aglio in camicia finché dorato.",
-        "Aggiungere una varietà di pomodorini per volta e cuocerli brevemente finché morbidi.",
-        "Ripetere il processo per tutte e sei le varietà.",
-        "Conservare ogni varietà separatamente oppure scaldarle tutte insieme poco prima dell'impiattamento."
-      ]
-    },
-    {
-  "fase": "Preparazione dei finti pomodori (ripieno e guscio)",
-  "passaggi": [
-    "Scalda la panna con il Parmigiano finché completamente fuso.",
-    "Aggiungi xantana e, se desideri maggiore solidità, la gelatina o agar. Frulla per ottenere una crema omogenea.",
-    "Versa il composto in stampi a semisfera piccoli e raffredda in frigo o abbattitore fino a solidificazione.",
-    "Sforma le semisfere di crema al Parmigiano.",
-    "Scalda la salsa di pomodoro a 85°C, aggiungi la carragenina kappa frustando energicamente.",
-    "Raffredda leggermente la salsa per evitare lo scioglimento del cuore di parmigiano.",
-    "Immergi ogni sfera per pochi secondi nella salsa per formare un sottile involucro lucido.",
-    "Lascia raffreddare e stabilizzare su un tappetino in silicone (Silpat)."
-  ]
-},
-    {
-      "fase": "Preparazione della polvere di basilico",
-      "passaggi": [
-        "Sbollentare il basilico per 5 secondi, raffreddare in acqua e ghiaccio e strizzare bene.",
-        "Frullare con olio neutro fino a ottenere un'emulsione liscia.",
-        "Filtrare e versare lentamente sulla maltodestrina mescolando fino ad ottenere una polvere asciutta.",
-        "Regolare di sale."
-      ]
-    },
-    {
-      "fase": "Cottura e mantecatura della pasta",
-      "passaggi": [
-        "Cuocere gli spaghetti in acqua salata per 9 minuti.",
-        "Trasferire nella salsa San Marzano e completare la cottura per 2 minuti.",
-        "Spegnere il fuoco e mantecare con un filo di olio evo biologico."
-      ]
-    },
-    {
-      "fase": "Impiattamento",
-      "passaggi": [
-        "Formare un nido di spaghetti nel piatto.",
-        "Disporre intorno i pomodorini delle sei varietà ben caldi.",
-        "Aggiungere i finti pomodori ripieni di crema di parmigiano.",
-        "Spolverare con la polvere di basilico.",
-        "Decorare con germogli freschi di basilico.",
-        "Servire con il pane al vapore al basilico."
-      ]
-    }
-  ],
-  "pairing_consigliato": [
-    {
-      "bevanda": "Vino bianco campano minerale",
-      "note": "Come un Fiano di Avellino o un Greco di Tufo"
-    },
-    {
-      "bevanda": "Tè verde affumicato",
-      "note": "Lapsang Souchong freddo"
-    }
-  ]
-},
+                    "nome": "Spaghetto ai 7 Pomodori",
+                    "descrizione": "Chef Domenico Candela – George Restaurant, Napoli (ricostruzione tecnica)",
+                    "porzioni_base": 2,
+                    "ingredienti": [
+                        {
+                            "nome_gruppo": "Salsa San Marzano (base)",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 500,
+                                    "unita": "g",
+                                    "ingrediente": "pomodori San Marzano interi"
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "",
+                                    "ingrediente": "cipolla dorata (piccola)"
+                                },
+                                {
+                                    "quantita_num": 2,
+                                    "unita": "rametti",
+                                    "ingrediente": "basilico fresco"
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "olio extravergine d’oliva campano"
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "sale"
+                                }
+                            ]
+                        },
+                        {
+                            "nome_gruppo": "Pomodorini campani (6 varietà)",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 2,
+                                    "unita": "pz",
+                                    "ingrediente": "pomodorini datterino giallo",
+                                    "note": null
+                                },
+                                {
+                                    "quantita_num": 2,
+                                    "unita": "pz",
+                                    "ingrediente": "pomodorini datterino rosso",
+                                    "note": null
+                                },
+                                {
+                                    "quantita_num": 2,
+                                    "unita": "pz",
+                                    "ingrediente": "pomodorini corbarino",
+                                    "note": null
+                                },
+                                {
+                                    "quantita_num": 2,
+                                    "unita": "pz",
+                                    "ingrediente": "pomodorini del piennolo",
+                                    "note": null
+                                },
+                                {
+                                    "quantita_num": 2,
+                                    "unita": "pz",
+                                    "ingrediente": "pomodorini pendolino",
+                                    "note": null
+                                },
+                                {
+                                    "quantita_num": 2,
+                                    "unita": "pz",
+                                    "ingrediente": "pomodorini alterino rosso",
+                                    "note": null
+                                },
+                                {
+                                    "quantita_num": 2,
+                                    "unita": "spicchi",
+                                    "ingrediente": "aglio in camicia",
+                                    "note": "uno per ogni padella"
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "olio extravergine d’oliva campano",
+                                    "note": "per la cottura"
+                                }
+                            ]
+                        },
+                        {
+                            "nome_gruppo": "Finti pomodori – Involucro e Ripieno",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 100,
+                                    "unita": "g",
+                                    "ingrediente": "panna fresca",
+                                    "note": null
+                                },
+                                {
+                                    "quantita_num": 40,
+                                    "unita": "g",
+                                    "ingrediente": "Parmigiano Reggiano 36 mesi grattugiato",
+                                    "note": null
+                                },
+                                {
+                                    "quantita_num": 0.3,
+                                    "unita": "g",
+                                    "ingrediente": "xantana",
+                                    "note": "per stabilizzazione"
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "g",
+                                    "ingrediente": "gelatina in fogli",
+                                    "note": "oppure 0,5 g agar agar, opzionale per maggiore solidità"
+                                },
+                                {
+                                    "quantita_num": 200,
+                                    "unita": "g",
+                                    "ingrediente": "salsa di pomodoro filtrata",
+                                    "note": "liscia e setosa"
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "g",
+                                    "ingrediente": "carragenina kappa",
+                                    "note": null
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "zucchero o aceto",
+                                    "note": "facoltativo, per bilanciare l’acidità"
+                                }
+                            ]
+                        },
+                        {
+                            "nome_gruppo": "Polvere di basilico",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 50,
+                                    "unita": "ml",
+                                    "ingrediente": "olio neutro (vinacciolo o riso)"
+                                },
+                                {
+                                    "quantita_num": 20,
+                                    "unita": "g",
+                                    "ingrediente": "basilico fresco sbollentato"
+                                },
+                                {
+                                    "quantita_num": 15,
+                                    "unita": "g",
+                                    "ingrediente": "maltodestrina"
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "sale"
+                                }
+                            ]
+                        },
+                        {
+                            "nome_gruppo": "Pasta",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 160,
+                                    "unita": "g",
+                                    "ingrediente": "spaghetti di Gragnano trafilati al bronzo"
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "acqua salata"
+                                }
+                            ]
+                        },
+                        {
+                            "nome_gruppo": "Finitura",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": null,
+                                    "unita": "",
+                                    "ingrediente": "germogli di basilico"
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "",
+                                    "ingrediente": "pane al vapore al basilico (accompagnamento)"
+                                }
+                            ]
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "fase": "Preparazione della salsa San Marzano",
+                            "passaggi": [
+                                "In casseruola, aggiungere olio evo, cipolla affettata sottilmente e un rametto di basilico.",
+                                "Far appassire dolcemente la cipolla senza bruciarla.",
+                                "Aggiungere i pomodori San Marzano interi, un pizzico di sale e altro basilico.",
+                                "Cuocere a fuoco dolce per 1–2 ore.",
+                                "Passare la salsa ottenuta al passaverdure per ottenere una consistenza liscia e concentrata."
+                            ]
+                        },
+                        {
+                            "fase": "Cottura delle sei varietà di pomodorini",
+                            "passaggi": [
+                                "In padella, scaldare l'olio evo con aglio in camicia finché dorato.",
+                                "Aggiungere una varietà di pomodorini per volta e cuocerli brevemente finché morbidi.",
+                                "Ripetere il processo per tutte e sei le varietà.",
+                                "Conservare ogni varietà separatamente oppure scaldarle tutte insieme poco prima dell'impiattamento."
+                            ]
+                        },
+                        {
+                            "fase": "Preparazione dei finti pomodori (ripieno e guscio)",
+                            "passaggi": [
+                                "Scalda la panna con il Parmigiano finché completamente fuso.",
+                                "Aggiungi xantana e, se desideri maggiore solidità, la gelatina o agar. Frulla per ottenere una crema omogenea.",
+                                "Versa il composto in stampi a semisfera piccoli e raffredda in frigo o abbattitore fino a solidificazione.",
+                                "Sforma le semisfere di crema al Parmigiano.",
+                                "Scalda la salsa di pomodoro a 85°C, aggiungi la carragenina kappa frustando energicamente.",
+                                "Raffredda leggermente la salsa per evitare lo scioglimento del cuore di parmigiano.",
+                                "Immergi ogni sfera per pochi secondi nella salsa per formare un sottile involucro lucido.",
+                                "Lascia raffreddare e stabilizzare su un tappetino in silicone (Silpat)."
+                            ]
+                        },
+                        {
+                            "fase": "Preparazione della polvere di basilico",
+                            "passaggi": [
+                                "Sbollentare il basilico per 5 secondi, raffreddare in acqua e ghiaccio e strizzare bene.",
+                                "Frullare con olio neutro fino a ottenere un'emulsione liscia.",
+                                "Filtrare e versare lentamente sulla maltodestrina mescolando fino ad ottenere una polvere asciutta.",
+                                "Regolare di sale."
+                            ]
+                        },
+                        {
+                            "fase": "Cottura e mantecatura della pasta",
+                            "passaggi": [
+                                "Cuocere gli spaghetti in acqua salata per 9 minuti.",
+                                "Trasferire nella salsa San Marzano e completare la cottura per 2 minuti.",
+                                "Spegnere il fuoco e mantecare con un filo di olio evo biologico."
+                            ]
+                        },
+                        {
+                            "fase": "Impiattamento",
+                            "passaggi": [
+                                "Formare un nido di spaghetti nel piatto.",
+                                "Disporre intorno i pomodorini delle sei varietà ben caldi.",
+                                "Aggiungere i finti pomodori ripieni di crema di parmigiano.",
+                                "Spolverare con la polvere di basilico.",
+                                "Decorare con germogli freschi di basilico.",
+                                "Servire con il pane al vapore al basilico."
+                            ]
+                        }
+                    ],
+                    "pairing_consigliato": [
+                        {
+                            "bevanda": "Vino bianco campano minerale",
+                            "note": "Come un Fiano di Avellino o un Greco di Tufo"
+                        },
+                        {
+                            "bevanda": "Tè verde affumicato",
+                            "note": "Lapsang Souchong freddo"
+                        }
+                    ]
+                },
                 {
                     "nome": "Carbonara CBT – Chef Pirotta",
                     "descrizione": "La carbonara destrutturata e ricomposta: salsa a bassa temperatura, guanciale in parallelepipedi.",
@@ -4688,87 +5001,189 @@
                     ]
                 },
                 {
-  "nome": "Paccaro nel Vento dell’Orto",
-  "descrizione": "Crema di Melanzana confit, Pomodorini in dolce attesa e Ricotta salata di Pecora. Un piatto di terra e sole, che parla il linguaggio dell’estate e della calma.",
-  "porzioni_base": 4,
-  "ingredienti": [
-    {
-      "nome_gruppo": "Crema di melanzane confit",
-      "lista_ingredienti": [
-        { "quantita_num": 2, "unita": "pz", "ingrediente": "melanzane viola grandi", "note": null, "opzionale": false },
-        { "quantita_num": 3, "unita": "spicchi", "ingrediente": "aglio in camicia", "note": null, "opzionale": false },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "olio extravergine di oliva", "note": null, "opzionale": false },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "sale grosso", "note": null, "opzionale": false },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "timo fresco", "note": null, "opzionale": false },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "buccia di limone", "note": "opzionale", "opzionale": true }
-      ]
-    },
-    {
-      "nome_gruppo": "Pomodorini confit",
-      "lista_ingredienti": [
-        { "quantita_num": 300, "unita": "g", "ingrediente": "pomodorini ciliegino o datterini", "note": null, "opzionale": false },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "zucchero di canna", "note": null, "opzionale": false },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "sale", "note": null, "opzionale": false },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "origano secco", "note": null, "opzionale": false },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "olio extravergine di oliva", "note": null, "opzionale": false },
-        { "quantita_num": 1, "unita": "spicchio", "ingrediente": "aglio", "note": "schiacciato", "opzionale": false },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "aceto di vino rosso", "note": "qualche goccia", "opzionale": false }
-      ]
-    },
-    {
-      "nome_gruppo": "Pasta e completamento",
-      "lista_ingredienti": [
-        { "quantita_num": 400, "unita": "g", "ingrediente": "paccheri di Gragnano IGP", "note": null, "opzionale": false },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "ricotta salata di pecora stagionata", "note": "da grattugiare", "opzionale": false },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "basilico fresco", "note": "per guarnire", "opzionale": false },
-        { "quantita_num": null, "unita": "q.b.", "ingrediente": "pepe nero macinato fresco", "note": null, "opzionale": false }
-      ]
-    }
-  ],
-  "procedimento": [
-    {
-      "fase": "Melanzane confit",
-      "passaggi": [
-        "Taglia le melanzane a metà nel senso della lunghezza, incidi la polpa a griglia con un coltello.",
-        "Disponile in una teglia con carta forno, con gli spicchi d’aglio in camicia, rametti di timo, sale grosso e abbondante olio EVO.",
-        "Cuoci in forno statico a 150°C per circa 2 ore, finché la polpa sarà morbida e brunita.",
-        "Preleva la polpa e frullala con un filo d’olio e (se desideri) un tocco di buccia di limone grattugiata. Tieni da parte."
-      ]
-    },
-    {
-      "fase": "Pomodorini confit",
-      "passaggi": [
-        "Taglia i pomodorini a metà e disponili su una teglia con la parte tagliata verso l’alto.",
-        "Cospargili con zucchero di canna, sale, origano, aglio e un filo d’olio EVO.",
-        "Aggiungi qualche goccia di aceto di vino rosso.",
-        "Inforna a 100°C per 2-3 ore, finché saranno appassiti, concentrati, caramellati ma ancora succosi."
-      ]
-    },
-    {
-      "fase": "Cottura e mantecatura",
-      "passaggi": [
-        "Cuoci i paccheri in abbondante acqua salata fino a due minuti prima del tempo indicato.",
-        "In una padella ampia, scalda la crema di melanzane con un mestolo di acqua di cottura.",
-        "Scola i paccheri e saltali nella crema, facendoli legare dolcemente.",
-        "Aggiungi i pomodorini confit fuori fuoco, mescola delicatamente per non romperli."
-      ]
-    },
-    {
-      "fase": "Impiattamento",
-      "passaggi": [
-        "Disponi i paccheri in un nido centrale oppure verticali, come colonne erbacee.",
-        "Grattugia abbondante ricotta salata di pecora sul piatto ancora caldo, così da farla fondere parzialmente.",
-        "Aggiungi qualche foglia di basilico fresco e una macinata di pepe nero. Servi subito."
-      ]
-    }
-  ],
-  "pairing_consigliato": [
-    {
-      "bevanda": "Cerasuolo d’Abruzzo ben strutturato oppure un Etna rosato",
-      "note": "per accompagnare la dolcezza vegetale con freschezza minerale e struttura"
-    }
-  ]
-},
+                    "nome": "Paccaro nel Vento dell’Orto",
+                    "descrizione": "Crema di Melanzana confit, Pomodorini in dolce attesa e Ricotta salata di Pecora. Un piatto di terra e sole, che parla il linguaggio dell’estate e della calma.",
+                    "porzioni_base": 4,
+                    "ingredienti": [
+                        {
+                            "nome_gruppo": "Crema di melanzane confit",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 2,
+                                    "unita": "pz",
+                                    "ingrediente": "melanzane viola grandi",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 3,
+                                    "unita": "spicchi",
+                                    "ingrediente": "aglio in camicia",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "olio extravergine di oliva",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "sale grosso",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "timo fresco",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "buccia di limone",
+                                    "note": "opzionale",
+                                    "opzionale": true
+                                }
+                            ]
+                        },
+                        {
+                            "nome_gruppo": "Pomodorini confit",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 300,
+                                    "unita": "g",
+                                    "ingrediente": "pomodorini ciliegino o datterini",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "zucchero di canna",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "sale",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "origano secco",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "olio extravergine di oliva",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "spicchio",
+                                    "ingrediente": "aglio",
+                                    "note": "schiacciato",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "aceto di vino rosso",
+                                    "note": "qualche goccia",
+                                    "opzionale": false
+                                }
+                            ]
+                        },
+                        {
+                            "nome_gruppo": "Pasta e completamento",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 400,
+                                    "unita": "g",
+                                    "ingrediente": "paccheri di Gragnano IGP",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "ricotta salata di pecora stagionata",
+                                    "note": "da grattugiare",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "basilico fresco",
+                                    "note": "per guarnire",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "pepe nero macinato fresco",
+                                    "note": null,
+                                    "opzionale": false
+                                }
+                            ]
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "fase": "Melanzane confit",
+                            "passaggi": [
+                                "Taglia le melanzane a metà nel senso della lunghezza, incidi la polpa a griglia con un coltello.",
+                                "Disponile in una teglia con carta forno, con gli spicchi d’aglio in camicia, rametti di timo, sale grosso e abbondante olio EVO.",
+                                "Cuoci in forno statico a 150°C per circa 2 ore, finché la polpa sarà morbida e brunita.",
+                                "Preleva la polpa e frullala con un filo d’olio e (se desideri) un tocco di buccia di limone grattugiata. Tieni da parte."
+                            ]
+                        },
+                        {
+                            "fase": "Pomodorini confit",
+                            "passaggi": [
+                                "Taglia i pomodorini a metà e disponili su una teglia con la parte tagliata verso l’alto.",
+                                "Cospargili con zucchero di canna, sale, origano, aglio e un filo d’olio EVO.",
+                                "Aggiungi qualche goccia di aceto di vino rosso.",
+                                "Inforna a 100°C per 2-3 ore, finché saranno appassiti, concentrati, caramellati ma ancora succosi."
+                            ]
+                        },
+                        {
+                            "fase": "Cottura e mantecatura",
+                            "passaggi": [
+                                "Cuoci i paccheri in abbondante acqua salata fino a due minuti prima del tempo indicato.",
+                                "In una padella ampia, scalda la crema di melanzane con un mestolo di acqua di cottura.",
+                                "Scola i paccheri e saltali nella crema, facendoli legare dolcemente.",
+                                "Aggiungi i pomodorini confit fuori fuoco, mescola delicatamente per non romperli."
+                            ]
+                        },
+                        {
+                            "fase": "Impiattamento",
+                            "passaggi": [
+                                "Disponi i paccheri in un nido centrale oppure verticali, come colonne erbacee.",
+                                "Grattugia abbondante ricotta salata di pecora sul piatto ancora caldo, così da farla fondere parzialmente.",
+                                "Aggiungi qualche foglia di basilico fresco e una macinata di pepe nero. Servi subito."
+                            ]
+                        }
+                    ],
+                    "pairing_consigliato": [
+                        {
+                            "bevanda": "Cerasuolo d’Abruzzo ben strutturato oppure un Etna rosato",
+                            "note": "per accompagnare la dolcezza vegetale con freschezza minerale e struttura"
+                        }
+                    ]
+                },
                 {
                     "nome": "Paccaro con Crema di Zucca Confit e Cipolla Caramellata",
                     "descrizione": "Un viaggio tra dolcezza arrostita e abbracci fondenti.",
@@ -6075,128 +6490,128 @@
                     ]
                 },
                 {
-  "nome": "Bao al Basilico",
-  "descrizione": "Bao al vapore profumati al basilico fresco, con impasto verde aromatico e sofficità tipica. Perfetti per accogliere ripieni asiatici o mediterranei.",
-  "porzioni_base": 10,
-  "ingredienti": [
-    {
-      "nome_gruppo": "Impasto verde al basilico",
-      "lista_ingredienti": [
-        {
-          "quantita_num": 250,
-          "unita": "g",
-          "ingrediente": "farina 00",
-          "note": "W260–280",
-          "opzionale": false
-        },
-        {
-          "quantita_num": 130,
-          "unita": "g",
-          "ingrediente": "latte intero",
-          "note": "oppure acqua tiepida",
-          "opzionale": false
-        },
-        {
-          "quantita_num": 25,
-          "unita": "g",
-          "ingrediente": "basilico fresco",
-          "note": "foglie pulite",
-          "opzionale": false
-        },
-        {
-          "quantita_num": 4,
-          "unita": "g",
-          "ingrediente": "lievito secco attivo",
-          "note": "oppure 12 g fresco",
-          "opzionale": false
-        },
-        {
-          "quantita_num": 30,
-          "unita": "g",
-          "ingrediente": "zucchero",
-          "note": null,
-          "opzionale": false
-        },
-        {
-          "quantita_num": 20,
-          "unita": "g",
-          "ingrediente": "olio di semi",
-          "note": "oppure olio di riso",
-          "opzionale": false
-        },
-        {
-          "quantita_num": 2,
-          "unita": "g",
-          "ingrediente": "sale fino",
-          "note": null,
-          "opzionale": false
-        },
-        {
-          "quantita_num": 2,
-          "unita": "g",
-          "ingrediente": "bicarbonato",
-          "note": "opzionale, per stabilizzare il pH",
-          "opzionale": true
-        }
-      ]
-    }
-  ],
-  "procedimento": [
-    {
-      "fase": "Emulsione verde",
-      "passaggi": [
-        "Frulla il basilico con il latte tiepido (non caldo!) e l’olio, fino a ottenere un liquido liscio e omogeneo.",
-        "Per un colore più brillante, sbollenta prima le foglie per 10 secondi e raffreddale in acqua e ghiaccio."
-      ]
-    },
-    {
-      "fase": "Impasto",
-      "passaggi": [
-        "Mescola farina, zucchero e lievito secco in una ciotola.",
-        "Aggiungi gradualmente l’emulsione verde e inizia a impastare.",
-        "Quando l’impasto prende forma, aggiungi il sale e lavora fino a renderlo liscio, morbido e non appiccicoso (10–12 min a mano o 8 min in planetaria)."
-      ]
-    },
-    {
-      "fase": "Prima lievitazione",
-      "passaggi": [
-        "Copri l’impasto e lascia lievitare 1,5–2 ore a 26–28°C finché raddoppia.",
-        "Mantieni un ambiente umido o usa pellicola per evitare che secchi."
-      ]
-    },
-    {
-      "fase": "Formatura dei bao",
-      "passaggi": [
-        "Dividi l’impasto in palline da circa 40 g.",
-        "Stendile leggermente in forma ovale, spennella un lato con olio e ripiegale a metà.",
-        "Sistema ogni bao su un quadrato di carta forno."
-      ]
-    },
-    {
-      "fase": "Seconda lievitazione",
-      "passaggi": [
-        "Copri i bao formati e lasciali lievitare per 30–45 minuti finché morbidi e gonfi."
-      ]
-    },
-    {
-      "fase": "Cottura a vapore",
-      "passaggi": [
-        "Cuoci a vapore medio (non forte) per 10 minuti.",
-        "Spegni il fuoco e lascia i bao nel cestello per altri 3 minuti con coperchio chiuso per evitare il collasso da shock termico."
-      ]
-    }
-  ],
-  "pairing_consigliato": [
-    {
-      "bevanda": "Tè verde al gelsomino",
-      "note": "aromatico e delicato, in linea con le note erbacee"
-    },
-    {
-      "bevanda": "Bianchi secchi aromatici",
-      "note": "come Sauvignon Blanc o Falanghina"
-    }
-  ]
-}
+                    "nome": "Bao al Basilico",
+                    "descrizione": "Bao al vapore profumati al basilico fresco, con impasto verde aromatico e sofficità tipica. Perfetti per accogliere ripieni asiatici o mediterranei.",
+                    "porzioni_base": 10,
+                    "ingredienti": [
+                        {
+                            "nome_gruppo": "Impasto verde al basilico",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 250,
+                                    "unita": "g",
+                                    "ingrediente": "farina 00",
+                                    "note": "W260–280",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 130,
+                                    "unita": "g",
+                                    "ingrediente": "latte intero",
+                                    "note": "oppure acqua tiepida",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 25,
+                                    "unita": "g",
+                                    "ingrediente": "basilico fresco",
+                                    "note": "foglie pulite",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 4,
+                                    "unita": "g",
+                                    "ingrediente": "lievito secco attivo",
+                                    "note": "oppure 12 g fresco",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 30,
+                                    "unita": "g",
+                                    "ingrediente": "zucchero",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 20,
+                                    "unita": "g",
+                                    "ingrediente": "olio di semi",
+                                    "note": "oppure olio di riso",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 2,
+                                    "unita": "g",
+                                    "ingrediente": "sale fino",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 2,
+                                    "unita": "g",
+                                    "ingrediente": "bicarbonato",
+                                    "note": "opzionale, per stabilizzare il pH",
+                                    "opzionale": true
+                                }
+                            ]
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "fase": "Emulsione verde",
+                            "passaggi": [
+                                "Frulla il basilico con il latte tiepido (non caldo!) e l’olio, fino a ottenere un liquido liscio e omogeneo.",
+                                "Per un colore più brillante, sbollenta prima le foglie per 10 secondi e raffreddale in acqua e ghiaccio."
+                            ]
+                        },
+                        {
+                            "fase": "Impasto",
+                            "passaggi": [
+                                "Mescola farina, zucchero e lievito secco in una ciotola.",
+                                "Aggiungi gradualmente l’emulsione verde e inizia a impastare.",
+                                "Quando l’impasto prende forma, aggiungi il sale e lavora fino a renderlo liscio, morbido e non appiccicoso (10–12 min a mano o 8 min in planetaria)."
+                            ]
+                        },
+                        {
+                            "fase": "Prima lievitazione",
+                            "passaggi": [
+                                "Copri l’impasto e lascia lievitare 1,5–2 ore a 26–28°C finché raddoppia.",
+                                "Mantieni un ambiente umido o usa pellicola per evitare che secchi."
+                            ]
+                        },
+                        {
+                            "fase": "Formatura dei bao",
+                            "passaggi": [
+                                "Dividi l’impasto in palline da circa 40 g.",
+                                "Stendile leggermente in forma ovale, spennella un lato con olio e ripiegale a metà.",
+                                "Sistema ogni bao su un quadrato di carta forno."
+                            ]
+                        },
+                        {
+                            "fase": "Seconda lievitazione",
+                            "passaggi": [
+                                "Copri i bao formati e lasciali lievitare per 30–45 minuti finché morbidi e gonfi."
+                            ]
+                        },
+                        {
+                            "fase": "Cottura a vapore",
+                            "passaggi": [
+                                "Cuoci a vapore medio (non forte) per 10 minuti.",
+                                "Spegni il fuoco e lascia i bao nel cestello per altri 3 minuti con coperchio chiuso per evitare il collasso da shock termico."
+                            ]
+                        }
+                    ],
+                    "pairing_consigliato": [
+                        {
+                            "bevanda": "Tè verde al gelsomino",
+                            "note": "aromatico e delicato, in linea con le note erbacee"
+                        },
+                        {
+                            "bevanda": "Bianchi secchi aromatici",
+                            "note": "come Sauvignon Blanc o Falanghina"
+                        }
+                    ]
+                }
             ]
         },
         {
@@ -8718,6 +9133,158 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "nome": "Cookies Gourmet al Caramello Salato",
+                    "descrizione": "Un'esperienza sensoriale bilanciata tra il dolce profondo del burro nocciola e il contrasto sapido del caramello salato. Questi cookies presentano una struttura complessa: croccanti sui bordi e fondenti al cuore.",
+                    "porzioni_base": 12,
+                    "ingredienti": [
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "burro",
+                                    "opzionale": false,
+                                    "note": "da trasformare in burro nocciola",
+                                    "quantita_num": 120
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "zucchero di canna scuro",
+                                    "opzionale": false,
+                                    "note": "preferibilmente muscovado",
+                                    "quantita_num": 100
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "zucchero semolato",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 60
+                                },
+                                {
+                                    "unita": "intero",
+                                    "ingrediente": "uovo",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "intero",
+                                    "ingrediente": "tuorlo d'uovo",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "farina 00",
+                                    "opzionale": false,
+                                    "note": "consigliato mix 180g 00 + 40g manitoba",
+                                    "quantita_num": 220
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "bicarbonato di sodio",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 3
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "sale fino",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 2
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "vaniglia",
+                                    "opzionale": false,
+                                    "note": "estratto o polvere naturale",
+                                    "quantita_num": 1
+                                }
+                            ],
+                            "nome_gruppo": "Impasto Cookie"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "zucchero semolato",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 100
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "burro",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 30
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "panna liquida",
+                                    "opzionale": false,
+                                    "note": "da scaldare prima dell'uso",
+                                    "quantita_num": 60
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "sale in fiocchi",
+                                    "opzionale": false,
+                                    "note": "tipo Maldon",
+                                    "quantita_num": 2
+                                }
+                            ],
+                            "nome_gruppo": "Caramello Salato (Cuore)"
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "passaggi": [
+                                "In un pentolino, sciogliere lo zucchero a secco a fuoco medio fino a ottenere un colore ambra scuro.",
+                                "Togliere dal fuoco e aggiungere il burro mescolando energicamente.",
+                                "Versare la panna calda a filo, facendo attenzione agli schizzi di vapore.",
+                                "Aggiungere il sale in fiocchi, lasciare raffreddare e riporre in frigo per 20-30 minuti finché non diventa modellabile."
+                            ],
+                            "fase": "Preparazione del Caramello"
+                        },
+                        {
+                            "passaggi": [
+                                "Scaldare il burro in un pentolino finché non smette di sfrigolare, assume un colore nocciola e profuma di frutta secca.",
+                                "Filtrare e lasciare intiepidire fino a temperatura ambiente (non deve essere né bollente né solido)."
+                            ],
+                            "fase": "Burro Nocciola"
+                        },
+                        {
+                            "passaggi": [
+                                "In una ciotola, mescolare il burro nocciola con lo zucchero di canna e lo zucchero semolato senza montare.",
+                                "Unire l'uovo intero, il tuorlo e la vaniglia.",
+                                "Setacciare all'interno la farina, il bicarbonato e il sale fino, incorporando delicatamente il tutto.",
+                                "Lasciare riposare l'impasto in frigorifero per almeno 1-2 ore per idratare le polveri."
+                            ],
+                            "fase": "Impasto"
+                        },
+                        {
+                            "passaggi": [
+                                "Prelevare circa 70g di impasto per cookie e appiattirlo leggermente.",
+                                "Posizionare al centro una piccola porzione di caramello salato rassodato.",
+                                "Richiudere l'impasto formando una sfera irregolare. Per un effetto estetico 'strappato', dividere la sfera in due e ricomporla unendo le parti piatte verso l'esterno."
+                            ],
+                            "fase": "Formatura"
+                        },
+                        {
+                            "passaggi": [
+                                "Preriscaldare il forno statico a 175°C.",
+                                "Cuocere i cookies per 11-13 minuti: devono risultare dorati ai bordi ma ancora molto chiari e morbidi al centro.",
+                                "Sfornare e completare immediatamente con un pizzico di sale in fiocchi e, se desiderato, un'ulteriore goccia di caramello caldo.",
+                                "Lasciare raffreddare completamente sulla teglia per stabilizzare la struttura."
+                            ],
+                            "fase": "Cottura e Finitura"
+                        }
+                    ]
                 }
             ]
         },
@@ -9235,144 +9802,144 @@
                     }
                 },
                 {
-  "nome": "Ketchup di Friarielli Fermentati",
-  "descrizione": "Nel grembo del tempo, l’amaro si fa balsamo. I friarielli, testardi figli del Vesuvio, si tuffano nella salamoia per lasciarsi corrodere dalla vita, fino a diventare crema acida, dolce, carnale. Questa non è una salsa, è una rivolta vegetale: ketchup che parla napoletano, mordendo come il Vesuvio quando sogna.",
-  "porzioni_base": 200,
-  "ingredienti": [
-    {
-      "nome_gruppo": "Fermentazione lattica",
-      "lista_ingredienti": [
-        {
-          "quantita_num": 200,
-          "unita": "g",
-          "ingrediente": "friarielli crudi",
-          "note": "puliti",
-          "opzionale": false
-        },
-        {
-          "quantita_num": 50,
-          "unita": "g",
-          "ingrediente": "cipolla bianca",
-          "note": null,
-          "opzionale": false
-        },
-        {
-          "quantita_num": 1,
-          "unita": "spicchio",
-          "ingrediente": "aglio",
-          "note": null,
-          "opzionale": false
-        },
-        {
-          "quantita_num": 6,
-          "unita": "g",
-          "ingrediente": "sale",
-          "note": "3%",
-          "opzionale": false
-        },
-        {
-          "quantita_num": null,
-          "unita": "q.b.",
-          "ingrediente": "acqua",
-          "note": "quanto basta per coprire",
-          "opzionale": false
-        },
-        {
-          "quantita_num": 1,
-          "unita": "foglia",
-          "ingrediente": "alloro",
-          "note": "opzionale",
-          "opzionale": true
-        }
-      ]
-    },
-    {
-      "nome_gruppo": "Fase di trasformazione",
-      "lista_ingredienti": [
-        {
-          "quantita_num": 30,
-          "unita": "g",
-          "ingrediente": "zucchero di canna grezzo",
-          "note": null,
-          "opzionale": false
-        },
-        {
-          "quantita_num": 25,
-          "unita": "g",
-          "ingrediente": "aceto di mele non pastorizzato",
-          "note": null,
-          "opzionale": false
-        },
-        {
-          "quantita_num": 1,
-          "unita": "cucchiaino",
-          "ingrediente": "senape in grani",
-          "note": null,
-          "opzionale": false
-        },
-        {
-          "quantita_num": 1,
-          "unita": "pizzico",
-          "ingrediente": "pepe nero",
-          "note": null,
-          "opzionale": false
-        },
-        {
-          "quantita_num": 1,
-          "unita": "cucchiaio",
-          "ingrediente": "olio extravergine d'oliva",
-          "note": null,
-          "opzionale": false
-        }
-      ]
-    }
-  ],
-  "procedimento": [
-    {
-      "fase": "Fermentazione",
-      "passaggi": [
-        "Taglia i friarielli e la cipolla a pezzi grossi.",
-        "Inseriscili in un barattolo da fermentazione insieme all’aglio schiacciato, al sale e all’alloro.",
-        "Aggiungi acqua quanto basta per coprire e assicurati che tutto resti sommerso.",
-        "Fermenta a temperatura ambiente (18–22°C) per circa 6 giorni, fino a quando la salamoia sarà leggermente frizzante e profumata."
-      ]
-    },
-    {
-      "fase": "Riduzione e bilanciamento",
-      "passaggi": [
-        "Filtra i vegetali dalla salamoia, tenendone da parte un po’.",
-        "Frulla il composto con una parte della salamoia filtrata fino a ottenere una crema liscia.",
-        "Trasferisci in un pentolino, aggiungi zucchero, aceto, senape e pepe.",
-        "Riduci a fuoco dolce finché non raggiunge la consistenza di un ketchup. Aggiusta con altra salamoia se serve.",
-        "Emulsiona con olio EVO a filo, usando un mixer a immersione."
-      ]
-    }
-  ],
-  "note_tecniche": [
-    "Dopo la fermentazione, frulla molto bene i friarielli fermentati, poi passa il composto in un colino fine o chinois per ottenere una base liscia.",
-    "Riduci a fuoco dolce per 10–15 minuti per mantenere colore e ottenere viscosità classica da ketchup.",
-    "L’olio EVO crea corpo, lucidità e consistenza cremosa.",
-    "Per regolare la densità, usa salamoia fermentata e non acqua o aceto puro, per mantenere il profilo aromatico."
-  ],
-  "pairing_consigliato": [
-    {
-      "bevanda": null,
-      "note": "Con pulled pork CBT o spalla di maiale glassata"
-    },
-    {
-      "bevanda": null,
-      "note": "Su burger vegetali a base di legumi e funghi"
-    },
-    {
-      "bevanda": null,
-      "note": "In sandwich gourmet con provola affumicata e pane cafone"
-    },
-    {
-      "bevanda": null,
-      "note": "Come intingolo per patate dolci arrosto"
-    }
-  ]
-},
+                    "nome": "Ketchup di Friarielli Fermentati",
+                    "descrizione": "Nel grembo del tempo, l’amaro si fa balsamo. I friarielli, testardi figli del Vesuvio, si tuffano nella salamoia per lasciarsi corrodere dalla vita, fino a diventare crema acida, dolce, carnale. Questa non è una salsa, è una rivolta vegetale: ketchup che parla napoletano, mordendo come il Vesuvio quando sogna.",
+                    "porzioni_base": 200,
+                    "ingredienti": [
+                        {
+                            "nome_gruppo": "Fermentazione lattica",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 200,
+                                    "unita": "g",
+                                    "ingrediente": "friarielli crudi",
+                                    "note": "puliti",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 50,
+                                    "unita": "g",
+                                    "ingrediente": "cipolla bianca",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "spicchio",
+                                    "ingrediente": "aglio",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 6,
+                                    "unita": "g",
+                                    "ingrediente": "sale",
+                                    "note": "3%",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": null,
+                                    "unita": "q.b.",
+                                    "ingrediente": "acqua",
+                                    "note": "quanto basta per coprire",
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "foglia",
+                                    "ingrediente": "alloro",
+                                    "note": "opzionale",
+                                    "opzionale": true
+                                }
+                            ]
+                        },
+                        {
+                            "nome_gruppo": "Fase di trasformazione",
+                            "lista_ingredienti": [
+                                {
+                                    "quantita_num": 30,
+                                    "unita": "g",
+                                    "ingrediente": "zucchero di canna grezzo",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 25,
+                                    "unita": "g",
+                                    "ingrediente": "aceto di mele non pastorizzato",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "cucchiaino",
+                                    "ingrediente": "senape in grani",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "pizzico",
+                                    "ingrediente": "pepe nero",
+                                    "note": null,
+                                    "opzionale": false
+                                },
+                                {
+                                    "quantita_num": 1,
+                                    "unita": "cucchiaio",
+                                    "ingrediente": "olio extravergine d'oliva",
+                                    "note": null,
+                                    "opzionale": false
+                                }
+                            ]
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "fase": "Fermentazione",
+                            "passaggi": [
+                                "Taglia i friarielli e la cipolla a pezzi grossi.",
+                                "Inseriscili in un barattolo da fermentazione insieme all’aglio schiacciato, al sale e all’alloro.",
+                                "Aggiungi acqua quanto basta per coprire e assicurati che tutto resti sommerso.",
+                                "Fermenta a temperatura ambiente (18–22°C) per circa 6 giorni, fino a quando la salamoia sarà leggermente frizzante e profumata."
+                            ]
+                        },
+                        {
+                            "fase": "Riduzione e bilanciamento",
+                            "passaggi": [
+                                "Filtra i vegetali dalla salamoia, tenendone da parte un po’.",
+                                "Frulla il composto con una parte della salamoia filtrata fino a ottenere una crema liscia.",
+                                "Trasferisci in un pentolino, aggiungi zucchero, aceto, senape e pepe.",
+                                "Riduci a fuoco dolce finché non raggiunge la consistenza di un ketchup. Aggiusta con altra salamoia se serve.",
+                                "Emulsiona con olio EVO a filo, usando un mixer a immersione."
+                            ]
+                        }
+                    ],
+                    "note_tecniche": [
+                        "Dopo la fermentazione, frulla molto bene i friarielli fermentati, poi passa il composto in un colino fine o chinois per ottenere una base liscia.",
+                        "Riduci a fuoco dolce per 10–15 minuti per mantenere colore e ottenere viscosità classica da ketchup.",
+                        "L’olio EVO crea corpo, lucidità e consistenza cremosa.",
+                        "Per regolare la densità, usa salamoia fermentata e non acqua o aceto puro, per mantenere il profilo aromatico."
+                    ],
+                    "pairing_consigliato": [
+                        {
+                            "bevanda": null,
+                            "note": "Con pulled pork CBT o spalla di maiale glassata"
+                        },
+                        {
+                            "bevanda": null,
+                            "note": "Su burger vegetali a base di legumi e funghi"
+                        },
+                        {
+                            "bevanda": null,
+                            "note": "In sandwich gourmet con provola affumicata e pane cafone"
+                        },
+                        {
+                            "bevanda": null,
+                            "note": "Come intingolo per patate dolci arrosto"
+                        }
+                    ]
+                },
                 {
                     "nome": "Nube Salata",
                     "descrizione": "Fermentazione enzimatica – panna con miso o shio-koji, montata.",
