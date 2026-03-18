@@ -9285,6 +9285,165 @@
                             "fase": "Cottura e Finitura"
                         }
                     ]
+                },
+                {
+                    "nome": "Torta Rovesciata di Ricotta, Pera a Sfoglia e Caramello Salato",
+                    "descrizione": "Un dolce architettonico che unisce la densità vellutata della ricotta di pecora alla complessità strutturale delle pere tagliate a nastro, il tutto sigillato da un caramello salato che funge da glassa naturale al momento del ribaltamento.",
+                    "porzioni_base": 8,
+                    "ingredienti": [
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "zucchero semolato",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 120
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "acqua",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 25
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "fleur de sel",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 2
+                                }
+                            ],
+                            "nome_gruppo": "Base - Caramello salato strutturale"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "n.",
+                                    "ingrediente": "pere Williams mature ma sode",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 3
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "zucchero",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 15
+                                },
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "succo di limone",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 5
+                                }
+                            ],
+                            "nome_gruppo": "Strato - Pera a sfoglia"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "ricotta di pecora ben scolata",
+                                    "opzionale": false,
+                                    "note": "setacciata",
+                                    "quantita_num": 400
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "zucchero",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 120
+                                },
+                                {
+                                    "unita": "n.",
+                                    "ingrediente": "uova medie",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 2
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "farina 00",
+                                    "opzionale": false,
+                                    "note": "setacciata",
+                                    "quantita_num": 40
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "panna fresca",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 30
+                                },
+                                {
+                                    "unita": "n.",
+                                    "ingrediente": "scorza grattugiata di limone",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "pizzico",
+                                    "ingrediente": "sale",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "miso bianco",
+                                    "opzionale": true,
+                                    "note": "per profondità umami",
+                                    "quantita_num": 5
+                                }
+                            ],
+                            "nome_gruppo": "Impasto - Massa lattica equilibrata"
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "passaggi": [
+                                "Metti zucchero e acqua in una casseruola senza mescolare.",
+                                "Porta a 170–175°C fino a ottenere un colore ambrato profondo, quindi togli dal fuoco.",
+                                "Aggiungi il fleur de sel e versa subito nello stampo da 20 cm rivestito con carta forno sul fondo.",
+                                "Inclina lo stampo per distribuire uniformemente e lascia solidificare completamente finché non diventa vetroso."
+                            ],
+                            "fase": "Preparazione della base di caramello"
+                        },
+                        {
+                            "passaggi": [
+                                "Pela le pere e crea nastri continui utilizzando un pelapatate.",
+                                "Condisci i nastri con zucchero e succo di limone, lasciando riposare 10 minuti per far rilasciare l'acqua.",
+                                "Tampona delicatamente i nastri con carta assorbente.",
+                                "Disponi le strisce a spirale sopra il caramello solidificato partendo dal centro, creando una rosa compatta che dia struttura."
+                            ],
+                            "fase": "Costruzione dello strato di pere"
+                        },
+                        {
+                            "passaggi": [
+                                "Lavora la ricotta setacciata con lo zucchero fino a ottenere una crema liscia.",
+                                "Aggiungi le uova una alla volta, incorporando poi la panna.",
+                                "Unisci la farina setacciata, la scorza di limone, il sale e l'eventuale miso bianco.",
+                                "Mescola delicatamente senza montare troppo il composto per mantenere la cremosità.",
+                                "Versa l'impasto sopra le pere e livella uniformemente."
+                            ],
+                            "fase": "Preparazione e inserimento dell'impasto"
+                        },
+                        {
+                            "passaggi": [
+                                "Cuoci in forno statico a 170°C per 45–50 minuti (cuore a circa 72–74°C).",
+                                "Il centro deve risultare leggermente tremolante ma non liquido.",
+                                "Lascia riposare la torta per 20 minuti nello stampo.",
+                                "Passa una lama lungo il bordo e capovolgi con decisione su un piatto da portata, rimuovendo poi la carta forno."
+                            ],
+                            "fase": "Cottura e finitura"
+                        }
+                    ]
                 }
             ]
         },
