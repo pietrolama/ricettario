@@ -50,7 +50,7 @@ export function loadRicettario(updateUICallback) {
     }
 
     // Esegui il fetch del file JSON
-    fetch('ricettarioNew.json')
+    fetch('ricettario.json')
         .then(response => {
             // Controlla se la richiesta HTTP è andata a buon fine
             if (!response.ok) {
