@@ -9909,6 +9909,175 @@
                             "fase": "Montaggio e Decorazione"
                         }
                     ]
+                },
+                {
+                    "nome": "Red Velvet Classica – 4 Monoporzioni Abbondanti",
+                    "descrizione": "Un'icona della pasticceria americana in versione monoporzione gourmet: pan di spagna rosso velluto alternato a un voluttuoso frosting al formaggio, per un perfetto equilibrio tra acidità e dolcezza.",
+                    "porzioni_base": 4,
+                    "ingredienti": [
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Farina 00",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 135
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Zucchero semolato",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 160
+                                },
+                                {
+                                    "unita": "n",
+                                    "ingrediente": "Uova medie",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Burro morbido",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 35
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Olio di semi",
+                                    "opzionale": false,
+                                    "note": "girasole o arachide",
+                                    "quantita_num": 70
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Yogurt bianco intero o latticello",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 130
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Cacao amaro in polvere",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 6
+                                },
+                                {
+                                    "unita": "cucchiaino",
+                                    "ingrediente": "Colorante rosso in gel",
+                                    "opzionale": false,
+                                    "note": "abbondante",
+                                    "quantita_num": 0.5
+                                },
+                                {
+                                    "unita": "cucchiaino",
+                                    "ingrediente": "Aceto di vino bianco",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 0.5
+                                },
+                                {
+                                    "unita": "cucchiaino",
+                                    "ingrediente": "Bicarbonato di sodio",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 0.5
+                                },
+                                {
+                                    "unita": "cucchiaino",
+                                    "ingrediente": "Estratto di vaniglia",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 0.5
+                                },
+                                {
+                                    "unita": "pizzico",
+                                    "ingrediente": "Sale",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 1
+                                }
+                            ],
+                            "nome_gruppo": "Base Red Velvet"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Philadelphia intero",
+                                    "opzionale": false,
+                                    "note": "freddo",
+                                    "quantita_num": 260
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Mascarpone",
+                                    "opzionale": false,
+                                    "note": "freddo",
+                                    "quantita_num": 130
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Zucchero a velo vanigliato",
+                                    "opzionale": false,
+                                    "note": "setacciato",
+                                    "quantita_num": 100
+                                },
+                                {
+                                    "unita": "q.b.",
+                                    "ingrediente": "Vaniglia",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": null
+                                },
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "Panna fresca montata",
+                                    "opzionale": true,
+                                    "note": "per alleggerire",
+                                    "quantita_num": 50
+                                }
+                            ],
+                            "nome_gruppo": "Frosting al Cream Cheese"
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "passaggi": [
+                                "Monta il burro morbido con lo zucchero fino a renderlo chiaro e spumoso.",
+                                "Aggiungi l’uovo e continua a montare.",
+                                "Unisci l’olio a filo e la vaniglia.",
+                                "In una ciotola a parte, mescola yogurt, colorante rosso e cacao, quindi unisci questo composto all’impasto.",
+                                "Setaccia la farina con il sale e aggiungila in due riprese, mescolando delicatamente.",
+                                "In una tazzina, miscela aceto e bicarbonato, uniscili immediatamente all'impasto e mescola velocemente.",
+                                "Versa il composto in una teglia 20x20 cm imburrata e infarinata e cuoci in forno statico a 170°C per 30–35 minuti.",
+                                "Raffredda completamente la base, quindi ricava 8 dischi utilizzando un coppapasta da 7–8 cm."
+                            ],
+                            "fase": "Preparazione della Base Red Velvet"
+                        },
+                        {
+                            "passaggi": [
+                                "In una ciotola capiente, lavora il Philadelphia e il mascarpone freddi con la vaniglia.",
+                                "Incorpora gradualmente lo zucchero a velo setacciato continuando a lavorare il composto.",
+                                "Se si desidera una consistenza più soffice, incorporare delicatamente la panna montata con movimenti dal basso verso l'alto."
+                            ],
+                            "fase": "Preparazione del Frosting"
+                        },
+                        {
+                            "passaggi": [
+                                "Posiziona un primo disco di base all'interno di un anello inox da 7 cm o direttamente sul piatto da portata.",
+                                "Crea uno strato abbondante di frosting e copri con un secondo disco di pan di spagna.",
+                                "Rifinisci la superficie con ciuffi di crema o una spatolata liscia.",
+                                "Decora con le briciole degli scarti del pan di spagna, frutti rossi freschi, riccioli di cioccolato bianco o foglia oro per un tocco gourmet.",
+                                "Conserva in frigo fino al momento del servizio; lascia a temperatura ambiente per 15-20 minuti prima di gustare."
+                            ],
+                            "fase": "Composizione e Finitura"
+                        }
+                    ]
                 }
             ]
         },
