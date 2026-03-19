@@ -41,6 +41,26 @@
   --ease-out: cubic-bezier(0,0,.2,1);
 }
 
+/* ── 1b. DARK MODE OVERRIDES ──────────────────────────────── */
+[data-theme="dark"] {
+  --bg:              #141210;
+  --bg-alt:          #1C1916;
+  --bg-deep:         #252019;
+  --surface:         #201D19;
+  --text:            #EDE5D8;
+  --text-2:          #A8998A;
+  --text-3:          #6B5F55;
+  --accent:          #D4623D;
+  --accent-dark:     #B84E2A;
+  --accent-pale:     rgba(212, 98, 61, .12);
+  --border:          #2E2925;
+  --border-2:        #3D3530;
+
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.25), 0 2px 8px rgba(0,0,0,.2);
+  --shadow-md: 0 4px 16px rgba(0,0,0,.3), 0 8px 32px rgba(0,0,0,.25);
+  --shadow-lg: 0 12px 40px rgba(0,0,0,.4), 0 32px 64px rgba(0,0,0,.3);
+}
+
 /* ── 2. RESET & BASE ──────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -92,6 +112,39 @@ header {
   letter-spacing: .04em;
   white-space: nowrap;
 }
+
+/* Header actions (right side) */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Theme toggle button */
+.theme-toggle {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-2);
+  transition: background .15s, color .15s, border-color .15s;
+  flex-shrink: 0;
+}
+.theme-toggle:hover {
+  background: var(--bg-alt);
+  border-color: var(--border-2);
+  color: var(--text);
+}
+
+/* Show/hide moon-sun icons based on theme */
+.theme-toggle .icon-sun  { display: none; }
+.theme-toggle .icon-moon { display: block; }
+[data-theme="dark"] .theme-toggle .icon-sun  { display: block; }
+[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
 
 /* Hamburger */
 .menu-toggle {
@@ -813,7 +866,17 @@ header {
   #allRecipesContainer { grid-template-columns: 1fr; }
 }
 
-/* ── 16. ANIMATIONS ───────────────────────────────────────── */
+/* ── 16. THEME TRANSITION ─────────────────────────────────── */
+/* Smooth color transitions when switching theme */
+body, header, .sidebar, .card, .modal-scroll-panel,
+.modal-header, .modal-body, #searchInput, .sezione-toggle-btn {
+  transition:
+    background-color .3s var(--ease),
+    border-color .3s var(--ease),
+    color .3s var(--ease);
+}
+
+/* ── 17. ANIMATIONS ───────────────────────────────────────── */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(16px); }
   to   { opacity: 1; transform: translateY(0); }
