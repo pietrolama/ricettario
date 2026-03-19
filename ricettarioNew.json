@@ -12494,6 +12494,116 @@
                             "fase": "Stabilizzazione e Conservazione"
                         }
                     ]
+                },
+                {
+                    "nome": "Scallop Circuitry: Capasanta al Carbone e Fluorescenza di Yuzu",
+                    "descrizione": "Un piatto che incarna l'estetica cyberpunk: il contrasto estremo tra il nero assoluto del carbone e i colori neon della chimica gastronomica, bilanciando acidità elettriche e texture eteree.",
+                    "porzioni_base": 4,
+                    "ingredienti": [
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "pezzi",
+                                    "ingrediente": "Capasante giganti",
+                                    "opzionale": false,
+                                    "note": "pulite e asciugate",
+                                    "quantita_num": 8
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Carbone vegetale in polvere",
+                                    "opzionale": false,
+                                    "note": "per la panatura esterna",
+                                    "quantita_num": 15
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Burro di cacao",
+                                    "opzionale": false,
+                                    "note": "per la cottura",
+                                    "quantita_num": 20
+                                }
+                            ],
+                            "nome_gruppo": "Elemento Centrale"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "Succo di yuzu",
+                                    "opzionale": false,
+                                    "note": "o succo di lime",
+                                    "quantita_num": 100
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Agar agar",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 1.2
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Spirulina blu in polvere",
+                                    "opzionale": false,
+                                    "note": "per l'effetto neon",
+                                    "quantita_num": 0.5
+                                }
+                            ],
+                            "nome_gruppo": "Gel Elettrico"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "Estratto di barbabietola",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 150
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Lecitina di soia",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 3
+                                }
+                            ],
+                            "nome_gruppo": "Aria Magenta"
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "passaggi": [
+                                "Mescolare il succo di yuzu con la spirulina blu e l'agar agar.",
+                                "Portare a ebollizione per 30 secondi, poi versare in una teglia piana e lasciare gelificare in frigorifero.",
+                                "Una volta sodo, frullare il gel fino a ottenere una consistenza fluida e trasferire in un biberon da cucina."
+                            ],
+                            "fase": "Sintesi del Gel Neon"
+                        },
+                        {
+                            "passaggi": [
+                                "Passare i bordi delle capasante nel carbone vegetale in polvere, premendo leggermente.",
+                                "Scaldare il burro di cacao in una padella antiaderente e scottare le capasante 1 minuto per lato a fuoco vivo, mantenendo il cuore morbido."
+                            ],
+                            "fase": "Cottura Monocromatica"
+                        },
+                        {
+                            "passaggi": [
+                                "Unire l'estratto di barbabietola e la lecitina in un contenitore alto.",
+                                "Utilizzare un mixer ad immersione lavorando sulla superficie del liquido per incorporare aria fino a formare una schiuma stabile e voluminosa."
+                            ],
+                            "fase": "Emissione di Aria"
+                        },
+                        {
+                            "passaggi": [
+                                "Posizionare due capasante al centro di un piatto nero opaco.",
+                                "Aggiungere piccoli punti di gel blu elettrico sopra e intorno alle capasante.",
+                                "Adagiare una nuvola di aria magenta sopra ogni mollusco e rifinire con frammenti di foglia d'argento."
+                            ],
+                            "fase": "Assemblaggio e Impiattamento"
+                        }
+                    ]
                 }
             ]
         }
