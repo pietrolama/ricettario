@@ -4174,6 +4174,206 @@
                         "La mousse al pecorino avvolge il carciofo, mentre il caramello vegetale porta l’umami.",
                         "Il crumble e l’olio aggiungono croccantezza e freschezza, creando un piatto dal carattere ricco e sorprendente pur essendo completamente vegetale."
                     ]
+                },
+                {
+                    "nome": "Cervo in Crosta di Caffè, Salsa al Limoncello e Cipolla Fermentata",
+                    "descrizione": "Un piatto elegante e notturno che unisce la selvaticità del cervo alla tostatura del caffè e alla vivacità citrica del limoncello, bilanciati dall'acidità profonda della fermentazione.",
+                    "porzioni_base": 4,
+                    "ingredienti": [
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Filetto di cervo",
+                                    "opzionale": false,
+                                    "note": "pulito e parato",
+                                    "quantita_num": 600
+                                },
+                                {
+                                    "unita": "bacche",
+                                    "ingrediente": "Ginepro",
+                                    "opzionale": false,
+                                    "note": "schiacciate",
+                                    "quantita_num": 5
+                                },
+                                {
+                                    "unita": "rametti",
+                                    "ingrediente": "Timo fresco",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 2
+                                },
+                                {
+                                    "unita": "spicchio",
+                                    "ingrediente": "Aglio",
+                                    "opzionale": false,
+                                    "note": "camicia",
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "scorza",
+                                    "ingrediente": "Limone biologico",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "Limoncello",
+                                    "opzionale": false,
+                                    "note": "per la marinatura",
+                                    "quantita_num": 20
+                                }
+                            ],
+                            "nome_gruppo": "Cervo e Marinatura"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Pane nero raffermo",
+                                    "opzionale": false,
+                                    "note": "tipo pumpernickel",
+                                    "quantita_num": 100
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Chicchi di caffè tostato",
+                                    "opzionale": false,
+                                    "note": "qualità arabica",
+                                    "quantita_num": 15
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Cacao amaro in polvere",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 5
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Senape dolce",
+                                    "opzionale": false,
+                                    "note": "per spennellare",
+                                    "quantita_num": 30
+                                },
+                                {
+                                    "unita": "qb",
+                                    "ingrediente": "Olio extravergine di oliva",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": null
+                                }
+                            ],
+                            "nome_gruppo": "Crosta al Caffè"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "Limoncello",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 100
+                                },
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "Fondo bruno di cervo o vitello",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 200
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Burro freddo",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 40
+                                },
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "Caffè cold brew",
+                                    "opzionale": true,
+                                    "note": "per nota amaricante",
+                                    "quantita_num": 15
+                                }
+                            ],
+                            "nome_gruppo": "Salsa"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Cipolle rosse",
+                                    "opzionale": false,
+                                    "note": "affettate finemente",
+                                    "quantita_num": 200
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Sale marino",
+                                    "opzionale": false,
+                                    "note": "2% del peso delle cipolle",
+                                    "quantita_num": 4
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Zucchero",
+                                    "opzionale": false,
+                                    "note": "1% del peso delle cipolle",
+                                    "quantita_num": 2
+                                }
+                            ],
+                            "nome_gruppo": "Cipolla Fermentata"
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "passaggi": [
+                                "Affettare le cipolle rosse e pesarle.",
+                                "Mescolarle con il sale (2%) e lo zucchero (1%) massaggiando leggermente.",
+                                "Mettere in un barattolo da fermentazione premendo bene per far uscire i succhi.",
+                                "Lasciare fermentare a temperatura ambiente per 5 giorni, poi conservare in frigo."
+                            ],
+                            "fase": "Cipolla Fermentata (da iniziare in anticipo)"
+                        },
+                        {
+                            "passaggi": [
+                                "Condire il filetto di cervo con ginepro, timo, aglio, scorza di limone e limoncello.",
+                                "Mettere sottovuoto e lasciar marinare in frigo per 6 ore.",
+                                "Cuocere il filetto sottovuoto in roner a 56 gradi Celsius per 2 ore.",
+                                "Raffreddare rapidamente in acqua e ghiaccio, poi asciugare perfettamente."
+                            ],
+                            "fase": "Cervone CBT"
+                        },
+                        {
+                            "passaggi": [
+                                "In una padella, far ridurre il limoncello dell'80% fino a ottenere una consistenza sciropposa.",
+                                "Aggiungere il fondo bruno e far ridurre ulteriormente fino a densità desiderata.",
+                                "Opzionale: aggiungere il caffè cold brew per profondità.",
+                                "Togliere dal fuoco e montare con il burro freddo a cubetti per lucidare la salsa."
+                            ],
+                            "fase": "Salsa al Limoncello"
+                        },
+                        {
+                            "passaggi": [
+                                "Frullare il pane nero con i chicchi di caffè e il cacao fino a ottenere una panure grossolana.",
+                                "Spennellare il cervo asciutto con la senape dolce.",
+                                "Passare il filetto nella panure di caffè premendo bene.",
+                                "Infornare a 220 gradi Celsius (ventilato) per pochi minuti fino a doratura della crosta."
+                            ],
+                            "fase": "Crosta e Finitura Carne"
+                        },
+                        {
+                            "passaggi": [
+                                "Scaloppare il cervo a fette spesse.",
+                                "Disporre nel piatto e nappare con la salsa al limoncello.",
+                                "Aggiungere petali di cipolla fermentata per contrasto acido.",
+                                "Completare con una spolverata di polvere di buccia di limone e un pizzico di cacao."
+                            ],
+                            "fase": "Impiattamento"
+                        }
+                    ]
                 }
             ]
         },
