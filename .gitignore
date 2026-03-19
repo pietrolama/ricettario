@@ -1,0 +1,13 @@
+# Dati ricettario (file locale, non versionato)
+ricettarioNew.json
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Claude
+.claude/
