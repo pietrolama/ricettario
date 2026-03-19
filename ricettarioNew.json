@@ -9580,6 +9580,335 @@
                             "fase": "Cottura e finitura"
                         }
                     ]
+                },
+                {
+                    "nome": "Crostata Moderna Arachide Nera",
+                    "descrizione": "Una creazione di alta pasticceria che esplora il contrasto tra il cacao amaro, l'intensità salina dell'arachide e la freschezza tropicale. Un guscio di frolla sabbiata al burro d'arachidi racchiude strati di croccantezza, cremosità al caramello e un cuore esotico, il tutto sormontato da una ganache montata leggera e vellutata.",
+                    "porzioni_base": 6,
+                    "ingredienti": [
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Farina 00",
+                                    "opzionale": false,
+                                    "note": "debole",
+                                    "quantita_num": 200
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Cacao amaro in polvere",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 20
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Burro freddo",
+                                    "opzionale": false,
+                                    "note": "a cubetti",
+                                    "quantita_num": 90
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Burro d'arachidi",
+                                    "opzionale": false,
+                                    "note": "liscia e naturale",
+                                    "quantita_num": 30
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Zucchero a velo",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 80
+                                },
+                                {
+                                    "unita": "n",
+                                    "ingrediente": "Uova",
+                                    "opzionale": false,
+                                    "note": "circa 50g",
+                                    "quantita_num": 1
+                                }
+                            ],
+                            "nome_gruppo": "Frolla Cacao & Burro d’Arachidi"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Pralinato d'arachidi",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 100
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Cioccolato al latte",
+                                    "opzionale": false,
+                                    "note": "fuso",
+                                    "quantita_num": 40
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Feuillantine",
+                                    "opzionale": false,
+                                    "note": "crêpe dentelle sbriciolate",
+                                    "quantita_num": 30
+                                },
+                                {
+                                    "unita": "pizzico",
+                                    "ingrediente": "Sale Maldon",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 1
+                                }
+                            ],
+                            "nome_gruppo": "Pralinato Croccante"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Zucchero semolato",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 100
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Panna fresca",
+                                    "opzionale": false,
+                                    "note": "prima parte - calda",
+                                    "quantita_num": 100
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Panna fresca",
+                                    "opzionale": false,
+                                    "note": "seconda parte - fredda",
+                                    "quantita_num": 100
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Tuorli",
+                                    "opzionale": false,
+                                    "note": "circa 2 tuorli",
+                                    "quantita_num": 40
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Gelatina 200 Bloom",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 3
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Acqua per gelatina",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 15
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Burro",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 30
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Fior di sale",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 1
+                                }
+                            ],
+                            "nome_gruppo": "Cremoso al Caramello Salato"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Purea di banana",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 50
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Purea di mango/passion fruit",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 50
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Succo di lime",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 10
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Zucchero",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 20
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Gelatina 200 Bloom",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 2.5
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Acqua per gelatina",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 12
+                                }
+                            ],
+                            "nome_gruppo": "Gelée Tropica-Banana"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Cioccolato fondente 66-70%",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 110
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Panna fresca",
+                                    "opzionale": false,
+                                    "note": "bollente",
+                                    "quantita_num": 100
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Panna fresca",
+                                    "opzionale": false,
+                                    "note": "fredda",
+                                    "quantita_num": 150
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Glucosio",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 10
+                                }
+                            ],
+                            "nome_gruppo": "Ganache Montata Fondente"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Acqua",
+                                    "opzionale": true,
+                                    "note": null,
+                                    "quantita_num": 90
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Zucchero",
+                                    "opzionale": true,
+                                    "note": null,
+                                    "quantita_num": 90
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Glucosio",
+                                    "opzionale": true,
+                                    "note": null,
+                                    "quantita_num": 90
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Latte condensato",
+                                    "opzionale": true,
+                                    "note": null,
+                                    "quantita_num": 60
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Cioccolato fondente",
+                                    "opzionale": true,
+                                    "note": null,
+                                    "quantita_num": 90
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Gelatina",
+                                    "opzionale": true,
+                                    "note": null,
+                                    "quantita_num": 8
+                                }
+                            ],
+                            "nome_gruppo": "Glaçage Noir (Opzionale)"
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "passaggi": [
+                                "Impasta burro, burro d'arachidi e zucchero a velo senza montare.",
+                                "Aggiungi l'uovo e infine farina e cacao setacciati.",
+                                "Lavora brevemente, stendi tra due fogli di carta forno e lascia riposare in frigo 4 ore.",
+                                "Rivesti un anello da 18 cm e cuoci in bianco a 160°C per circa 20-25 minuti."
+                            ],
+                            "fase": "Preparazione Guscio di Frolla"
+                        },
+                        {
+                            "passaggi": [
+                                "Fai un caramello a secco con lo zucchero.",
+                                "Decuoci versando la prima parte di panna calda gradualmente.",
+                                "Stempera i tuorli con una parte del caramello liquido e riporta sul fuoco cuocendo fino a 82°C.",
+                                "Togli dal fuoco, unisci la gelatina idratata e il burro. Emulsiona con minipimer.",
+                                "Versa in un anello da 14 cm per formare un inserto e congela."
+                            ],
+                            "fase": "Preparazione Cremoso al Caramello"
+                        },
+                        {
+                            "passaggi": [
+                                "Scalda le puree con lo zucchero e il lime fino a sfiorare il bollore.",
+                                "Sciogli all'interno la gelatina idratata.",
+                                "Cola la gelatina sopra lo strato di cremoso già congelato e rimetti in freezer."
+                            ],
+                            "fase": "Preparazione Gelée"
+                        },
+                        {
+                            "passaggi": [
+                                "Sciogli il cioccolato con il pralinato.",
+                                "Aggiungi le feuillantine e il sale, mescolando delicatamente per non rompere troppo il croccante.",
+                                "Spalma uno strato sottile sul fondo della frolla già cotta e fredda. Fai cristallizzare in frigo."
+                            ],
+                            "fase": "Preparazione Strato Croccante"
+                        },
+                        {
+                            "passaggi": [
+                                "Porta a bollore la prima panna con il glucosio e versala sul cioccolato in tre volte, creando un'emulsione elastica.",
+                                "Aggiungi la seconda panna fredda a filo emulsionando con minipimer.",
+                                "Copri a contatto e lascia riposare in frigo per almeno 12 ore prima di montare con le fruste fino a consistenza ferma ma setosa."
+                            ],
+                            "fase": "Preparazione Ganache Montata"
+                        },
+                        {
+                            "passaggi": [
+                                "Sforma l'inserto di cremoso e gelée (opzionalmente glassalo con la Glassa Nera a 32°C).",
+                                "Posiziona l'inserto al centro della frolla sopra il pralinato.",
+                                "Utilizza la ganache montata per creare decorazioni (spuntoni o onde) intorno o sopra l'inserto.",
+                                "Rifinisci con arachidi caramellate, scaglie di cioccolato e un tocco di oro alimentare."
+                            ],
+                            "fase": "Montaggio e Decorazione"
+                        }
+                    ]
                 }
             ]
         },
