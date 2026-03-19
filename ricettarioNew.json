@@ -11196,6 +11196,93 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "nome": "Caramello Alveolato Croccante (Protocollo Chimico-Fisico)",
+                    "descrizione": "Una preparazione avanzata basata sulla creazione di una matrice vetrosa viscosa e sulla successiva espansione gassosa controllata tramite decomposizione termica del bicarbonato di sodio. Risultato: un materiale effimero, croccante e altamente igroscopico.",
+                    "porzioni_base": 4,
+                    "ingredienti": [
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Zucchero saccarosio",
+                                    "opzionale": false,
+                                    "note": "Matrice solida di base",
+                                    "quantita_num": 100
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Glucosio o miele neutro",
+                                    "opzionale": false,
+                                    "note": "Stabilizzatore reologico per ridurre la cristallizzazione",
+                                    "quantita_num": 20
+                                }
+                            ],
+                            "nome_gruppo": "Matrice Vetrosa"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Bicarbonato di sodio (NaHCO₃)",
+                                    "opzionale": false,
+                                    "note": "Agente schiumogeno finemente setacciato",
+                                    "quantita_num": 0.9
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Sale fino",
+                                    "opzionale": true,
+                                    "note": "Esaltatore di sapidità",
+                                    "quantita_num": 0.3
+                                },
+                                {
+                                    "unita": "q.b.",
+                                    "ingrediente": "Spezia liposolubile micronizzata",
+                                    "opzionale": true,
+                                    "note": "Liquirizia, cacao o peperoncino",
+                                    "quantita_num": null
+                                }
+                            ],
+                            "nome_gruppo": "Fase Gas e Aromi"
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "passaggi": [
+                                "In un pentolino a fondo spesso, unire lo zucchero e il glucosio.",
+                                "Scaldare a fiamma media senza mescolare in modo aggressivo per evitare nuclei cristallini.",
+                                "Monitorare la temperatura con un termometro IR o a sonda fino a raggiungere il range 170–175 °C.",
+                                "Il colore deve risultare ambra scura e lucida; evitare assolutamente la produzione di fumo."
+                            ],
+                            "fase": "Fusione e Controllo della Matrice"
+                        },
+                        {
+                            "passaggi": [
+                                "Spegnere la fiamma e attendere 2-3 secondi per stabilizzare la fluidità.",
+                                "Aggiungere il bicarbonato di sodio (e l'eventuale sale/spezia) in un colpo solo.",
+                                "Eseguire un unico mescolamento con un gesto ampio e rapido (massimo 2 secondi) per avviare la reazione chimica e definire la geometria degli alveoli."
+                            ],
+                            "fase": "Punto Critico ed Evento Chimico"
+                        },
+                        {
+                            "passaggi": [
+                                "Quando la massa triplica di volume, colarla immediatamente su un tappetino Silpat o carta forno.",
+                                "Non livellare, non vibrare e non toccare la massa durante l'espansione.",
+                                "Attendere il blocco della schiuma che avviene tramite raffreddamento rapido in circa 30–60 secondi."
+                            ],
+                            "fase": "Espansione e Congelamento Strutturale"
+                        },
+                        {
+                            "passaggi": [
+                                "Lasciare raffreddare completamente a 20–22 °C in un ambiente con umidità relativa inferiore al 50%.",
+                                "Una volta freddo, spezzare la massa esclusivamente a mano.",
+                                "Conservare immediatamente in un contenitore ermetico con sacchetti di silica gel per prevenire il collasso igroscopico."
+                            ],
+                            "fase": "Stabilizzazione e Conservazione"
+                        }
+                    ]
                 }
             ]
         }
