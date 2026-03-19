@@ -5785,6 +5785,142 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "nome": "Spaghetto alla Luce del Cartoccio",
+                    "descrizione": "Una rivisitazione creativa della pasta al limone dove l'acidità viene domata attraverso la cottura al cartoccio del citrus, arricchita da aglio confit, burro freddo e una punta di sapidità umami data dal miso bianco.",
+                    "porzioni_base": 2,
+                    "ingredienti": [
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "pz",
+                                    "ingrediente": "limone biologico",
+                                    "opzionale": false,
+                                    "note": "tagliato a metà",
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "spicchi",
+                                    "ingrediente": "aglio",
+                                    "opzionale": false,
+                                    "note": "in camicia",
+                                    "quantita_num": 2
+                                },
+                                {
+                                    "unita": "rametti",
+                                    "ingrediente": "timo",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 2
+                                },
+                                {
+                                    "unita": "grani",
+                                    "ingrediente": "pepe nero",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 5
+                                },
+                                {
+                                    "unita": "pizzico",
+                                    "ingrediente": "zucchero di canna",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "pizzico",
+                                    "ingrediente": "sale",
+                                    "opzionale": true,
+                                    "note": "micro-scaglia",
+                                    "quantita_num": 1
+                                }
+                            ],
+                            "nome_gruppo": "Cartoccio aromatico"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "burro freddo",
+                                    "opzionale": false,
+                                    "note": "a cubetti",
+                                    "quantita_num": 20
+                                },
+                                {
+                                    "unita": "cucchiaino",
+                                    "ingrediente": "miso bianco (shiro miso)",
+                                    "opzionale": false,
+                                    "note": "raso",
+                                    "quantita_num": 1
+                                }
+                            ],
+                            "nome_gruppo": "Crema"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "spaghetti di qualità",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 180
+                                },
+                                {
+                                    "unita": "qb",
+                                    "ingrediente": "pepe nero macinato fresco",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": null
+                                }
+                            ],
+                            "nome_gruppo": "Finitura"
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "passaggi": [
+                                "Disponi il limone, l'aglio, il timo, il pepe e lo zucchero su un foglio di carta forno.",
+                                "Chiudi ermeticamente il cartoccio utilizzando carta forno e uno strato esterno di carta stagnola.",
+                                "Cuoci in forno statico a 199 °C per circa 40 minuti.",
+                                "Apri il cartoccio e lascia intiepidire. Filtra il succo rilasciato, preleva la polpa del limone e conserva separatamente le bucce cotte."
+                            ],
+                            "fase": "Il Cartoccio"
+                        },
+                        {
+                            "passaggi": [
+                                "In un bicchiere per frullatore ad immersione inserisci la polpa e il succo del limone cotto e gli spicchi d’aglio privati della camicia.",
+                                "Frulla brevemente, poi aggiungi il burro freddo a cubetti e il miso bianco.",
+                                "Frulla alla massima velocità fino a ottenere una crema liscia, lucida e stabile."
+                            ],
+                            "fase": "Crema al burro"
+                        },
+                        {
+                            "passaggi": [
+                                "Taglia le bucce dei limoni cotti a strisce sottili.",
+                                "Disponile su una teglia e asciugale in forno a 90–100 °C fino a quando non risulteranno completamente secche.",
+                                "Frulla le bucce secche fino a ridurle in una polvere finissima."
+                            ],
+                            "fase": "Polvere di scorza"
+                        },
+                        {
+                            "passaggi": [
+                                "Cuoci gli spaghetti in acqua bollente ben salata.",
+                                "Scola la pasta molto al dente, conservando l'acqua di cottura.",
+                                "Trasferisci gli spaghetti in una padella (fuoco spento o bassissimo) con la crema di limone al burro.",
+                                "Mantecca aggiungendo acqua di cottura poco alla volta fino a ottenere una consistenza avvolgente e cremosa."
+                            ],
+                            "fase": "Pasta e mantecatura"
+                        },
+                        {
+                            "passaggi": [
+                                "Impiatta creando un nido di spaghetti al centro del piatto.",
+                                "Spolvera con la polvere di scorza preparata in precedenza.",
+                                "Termina con una generosa macinata di pepe nero fresco."
+                            ],
+                            "fase": "Impiattamento"
+                        }
+                    ]
                 }
             ]
         },
