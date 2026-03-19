@@ -10451,6 +10451,71 @@
                             "Emulsione con senape per carni bianche"
                         ]
                     }
+                },
+                {
+                    "nome": "Loto Ferito",
+                    "descrizione": "Il caco si disfa e si trasforma, perde la sua innocenza zuccherina per diventare voce acida e luminosa. È una crema viva, lattica, che vibra sulla lingua come un’eco d’autunno. Base silenziosa per accogliere il fumo e la dolcezza bruna della cipolla caramellata.",
+                    "porzioni_base": 10,
+                    "ingredienti": [
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "cachi maturi ma sodi",
+                                    "opzionale": false,
+                                    "note": "puliti e privati di semi",
+                                    "quantita_num": 1000
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "sale marino fino",
+                                    "opzionale": false,
+                                    "note": "non iodato",
+                                    "quantita_num": 9
+                                },
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "acqua minerale",
+                                    "opzionale": true,
+                                    "note": "solo se necessario per regolare la densità",
+                                    "quantita_num": 50
+                                },
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "siero di kefir o kombucha",
+                                    "opzionale": true,
+                                    "note": "facoltativo, come starter",
+                                    "quantita_num": 5
+                                }
+                            ],
+                            "nome_gruppo": "Crema di cachi fermentata"
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "passaggi": [
+                                "Lava e asciuga i cachi, rimuovi semi e piccioli.",
+                                "Frulla la polpa fino a ottenere una crema liscia, non filtrare: le fibre nutriranno la fermentazione."
+                            ],
+                            "fase": "Preparazione"
+                        },
+                        {
+                            "passaggi": [
+                                "Aggiungi il sale e l’eventuale starter, mescola bene.",
+                                "Trasferisci in un barattolo di vetro pulito lasciando due centimetri d’aria.",
+                                "Fermenta a 20–24 °C per 3–5 giorni, mescolando ogni giorno.",
+                                "Assaggia: quando la dolcezza lascia spazio a una nota acidula e complessa, sposta in frigorifero."
+                            ],
+                            "fase": "Fermentazione"
+                        },
+                        {
+                            "passaggi": [
+                                "Lascia riposare 4–7 giorni in frigo.",
+                                "La crema diventa vellutata, leggermente frizzante, con profumi di yogurt e miele."
+                            ],
+                            "fase": "Maturazione"
+                        }
+                    ]
                 }
             ]
         },
