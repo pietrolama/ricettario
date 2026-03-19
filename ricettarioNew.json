@@ -2685,6 +2685,294 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "nome": "Spina Verde – Carrè di Maiale CBT con Friarielli Fermentati e Gel di Mela",
+                    "descrizione": "Un piatto sofisticato che unisce la tecnica Sous Vide alla tradizione dei friarielli, arricchito da note di fermentazione e dalla freschezza acida della mela verde. Il carrè risulta fondente, con una croccantezza verticale data dalla cotenna e un finale balsamico dovuto al miele di castagno.",
+                    "porzioni_base": 4,
+                    "ingredienti": [
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "carrè di maiale con osso",
+                                    "opzionale": false,
+                                    "note": "intero",
+                                    "quantita_num": 800
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "sale grosso",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 30
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "zucchero di canna",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 15
+                                },
+                                {
+                                    "unita": "n",
+                                    "ingrediente": "scorza di limone",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "rametto",
+                                    "ingrediente": "rosmarino",
+                                    "opzionale": false,
+                                    "note": "fresco",
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "cucchiaino",
+                                    "ingrediente": "pepe nero in grani",
+                                    "opzionale": false,
+                                    "note": "schiacciati",
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "burro",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 20
+                                },
+                                {
+                                    "unita": "spicchio",
+                                    "ingrediente": "aglio",
+                                    "opzionale": false,
+                                    "note": "schiacciato",
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "foglie",
+                                    "ingrediente": "salvia",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 2
+                                },
+                                {
+                                    "unita": "cucchiaio",
+                                    "ingrediente": "miele di castagno",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "fondo bruno",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 50
+                                }
+                            ],
+                            "nome_gruppo": "Per il carrè di maiale"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "friarielli freschi",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 400
+                                },
+                                {
+                                    "unita": "n",
+                                    "ingrediente": "filetti di acciuga sott'olio",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 2
+                                },
+                                {
+                                    "unita": "spicchio",
+                                    "ingrediente": "aglio nero",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "brodo vegetale",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 50
+                                },
+                                {
+                                    "unita": "cucchiaio",
+                                    "ingrediente": "olio evo",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "cucchiaino",
+                                    "ingrediente": "burro nocciola",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "q.b.",
+                                    "ingrediente": "sale",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": null
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "friarielli fermentati",
+                                    "opzionale": true,
+                                    "note": "fermentati 5 giorni con 2% sale",
+                                    "quantita_num": 150
+                                }
+                            ],
+                            "nome_gruppo": "Per la crema di friarielli"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "centrifuga di mela verde",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 200
+                                },
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "aceto di mele affumicato",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 20
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "agar agar",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 2
+                                }
+                            ],
+                            "nome_gruppo": "Per il gel di mela verde"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "n",
+                                    "ingrediente": "cotenna di maiale",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "q.b.",
+                                    "ingrediente": "sale",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": null
+                                },
+                                {
+                                    "unita": "q.b.",
+                                    "ingrediente": "pepe di Sichuan in polvere",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": null
+                                }
+                            ],
+                            "nome_gruppo": "Per la cotenna croccante"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "n",
+                                    "ingrediente": "foglie di friariello",
+                                    "opzionale": false,
+                                    "note": "integre",
+                                    "quantita_num": 4
+                                },
+                                {
+                                    "unita": "mix",
+                                    "ingrediente": "olio evo, succo di limone, sale, miele",
+                                    "opzionale": false,
+                                    "note": "per marinata",
+                                    "quantita_num": null
+                                }
+                            ],
+                            "nome_gruppo": "Per la foglia di friariello marinata"
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "passaggi": [
+                                "Mescolare sale, zucchero, pepe, scorza di limone e rosmarino.",
+                                "Massaggiare accuratamente il carrè e lasciar marinare in frigorifero per 12 ore, preferibilmente sottovuoto.",
+                                "Risciacquare il carrè, asciugarlo bene e confezionarlo nuovamente sottovuoto.",
+                                "Cuocere a bassa temperatura nel roner a 62°C per 8 ore.",
+                                "Raffreddare rapidamente in acqua e ghiaccio e conservare in frigo."
+                            ],
+                            "fase": "Marinatura e CBT del carrè"
+                        },
+                        {
+                            "passaggi": [
+                                "Sbollentare i friarielli freschi per 1 minuto, poi raffreddarli immediatamente in acqua e ghiaccio.",
+                                "In una padella, brasare i friarielli con olio, l'aglio nero, le acciughe e il brodo vegetale.",
+                                "Se si utilizzano i friarielli fermentati, aggiungerli ora.",
+                                "Frullare tutto a caldo aggiungendo l'olio evo e il burro nocciola per montare la crema.",
+                                "Filtrare al setaccio fine per ottenere una consistenza setosa e tenere in caldo."
+                            ],
+                            "fase": "Crema di friarielli"
+                        },
+                        {
+                            "passaggi": [
+                                "In un pentolino, mescolare la centrifuga di mela, l'aceto e l'agar agar.",
+                                "Portare a ebollizione mescolando continuamente.",
+                                "Versare in un contenitore largo e lasciare raffreddare fino alla gelificazione completa.",
+                                "Frullare il gel ottenuto fino a renderlo liscio e trasferirlo in un biberon."
+                            ],
+                            "fase": "Gel di mela verde"
+                        },
+                        {
+                            "passaggi": [
+                                "Sbollentare la cotenna in acqua bollente per 1 ora.",
+                                "Rimuovere accuratamente tutto il grasso residuo, asciugare e tagliare a pezzi.",
+                                "Essiccare in forno ventilato a 65°C per circa 8-10 ore.",
+                                "Friggere in olio a 200°C fino a quando non si gonfia. Salare e spolverare con pepe di Sichuan."
+                            ],
+                            "fase": "Cotenna croccante"
+                        },
+                        {
+                            "passaggi": [
+                                "Marinare le foglie integre con il mix di olio, limone, miele e sale.",
+                                "Utilizzare un cannello per bruciare leggermente i bordi delle foglie per un aroma affumicato.",
+                                "Laccare leggermente con un pennello intinto nel fondo di cottura ridotto."
+                            ],
+                            "fase": "Foglia di friariello marinata"
+                        },
+                        {
+                            "passaggi": [
+                                "Rigenerare il carrè in padella con burro, aglio e salvia, rosolando fino a doratura uniforme.",
+                                "In un pentolino, ridurre il fondo bruno con il miele di castagno.",
+                                "Glassare abbondantemente il carrè con la riduzione ottenuta prima di scalopparlo."
+                            ],
+                            "fase": "Rigenerazione e glassatura"
+                        },
+                        {
+                            "passaggi": [
+                                "Stendere un velo di crema di friarielli alla base del piatto.",
+                                "Adagiare il carrè scaloppato sopra la crema.",
+                                "Aggiungere gocce di gel di mela attorno alla carne.",
+                                "Posizionare la cotenna croccante in verticale.",
+                                "Terminare con la foglia di friariello bruciata.",
+                                "Consigliato il pairing con Fiano di Avellino Riserva o Kombucha di mela verde e fieno."
+                            ],
+                            "fase": "Impiattamento finale"
+                        }
+                    ]
                 }
             ]
         },
