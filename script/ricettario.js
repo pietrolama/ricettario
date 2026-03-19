@@ -170,26 +170,28 @@ export function renderGallery(filter = '', galleryElement) {
 // --- Funzione per creare l'elemento HTML di una singola card ---
 // Questa è la funzione standard usata sia da #allRecipesContainer che da #singleSezioneContainer
 export function createAndAppendCard(ricetta) {
-    const card = createElement('div', 'card'); // Crea il div della card
-    const imageFilename = generateImageFilename(ricetta.nome); // Genera nome file immagine
-    const imageUrl = `img/${imageFilename}.jpeg`; // Costruisce URL immagine (assume JPEG)
+    const card = createElement('div', 'card');
+    const imageFilename = generateImageFilename(ricetta.nome);
+    const imageUrl = `img/${imageFilename}.jpeg`;
 
-    // Imposta immagine come sfondo CSS (con fallback gestito da CSS)
-    card.style.setProperty('--card-bg-image', `url('${imageUrl}')`);
-    card.classList.add('card-has-image'); // Aggiunge classe per stile con immagine
+    // Immagine con wrapper per effetto zoom al hover
+    const imageDiv = createElement('div', 'card-image');
+    const imageInner = createElement('div', 'card-image-inner');
+    imageInner.style.backgroundImage = `url('${imageUrl}')`;
+    imageDiv.appendChild(imageInner);
+    card.appendChild(imageDiv);
 
-    // Wrapper per il contenuto testuale sovrapposto
-    const contentWrapper = createElement('div', 'card-content-wrapper');
-    const title = createElement('h3', null, ricetta.nome); // Titolo
-    const description = createElement('p', null, ricetta.descrizione || ''); // Descrizione (o stringa vuota)
-    const categoryTag = createElement('span', 'category-tag', ricetta.categoria); // Tag categoria
-
-    // Aggiunge titolo, descrizione e tag al wrapper
-    contentWrapper.appendChild(title);
-    contentWrapper.appendChild(description);
-    contentWrapper.appendChild(categoryTag);
-    // Aggiunge il wrapper alla card
-    card.appendChild(contentWrapper);
+    // Card body: categoria + titolo + descrizione
+    const cardBody = createElement('div', 'card-body');
+    const categoryTag = createElement('span', 'card-category', ricetta.categoria);
+    const title = createElement('h3', 'card-title', ricetta.nome);
+    cardBody.appendChild(categoryTag);
+    cardBody.appendChild(title);
+    if (ricetta.descrizione) {
+        const description = createElement('p', 'card-desc', ricetta.descrizione);
+        cardBody.appendChild(description);
+    }
+    card.appendChild(cardBody);
 
     // Aggiunge l'event listener per aprire il modal al click sulla card
     card.addEventListener('click', () => {

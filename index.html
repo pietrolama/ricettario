@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Jost:wght@300;400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -20,48 +20,48 @@
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
       </button>
-      <h1>Ricettario</h1>
-      <span id="recipe-counter" class="recipe-count-display">Caricamento ricette...</span>
+      <div class="header-brand">
+        <h1>Ricettario</h1>
+      </div>
+      <span id="recipe-counter" class="recipe-count-display">Caricamento...</span>
     </header>
 
-    <!-- Contenitore principale (Sidebar + Content) -->
+    <!-- Main Container (Sidebar + Content) -->
     <div class="main-container">
-      <!-- Sidebar con barra di ricerca e categorie -->
+      <!-- Sidebar -->
       <aside class="sidebar">
-        <h2>Indice Rapido</h2>
-        <input type="text" id="searchInput" placeholder="Cerca ricette..." />
-        <ul id="categoryList"></ul>
+        <div class="sidebar-inner">
+          <div class="sidebar-search">
+            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+            <input type="text" id="searchInput" placeholder="Cerca ricette…" />
+          </div>
+          <nav class="sidebar-nav">
+            <p class="sidebar-nav-label">Sezioni</p>
+            <ul id="categoryList"></ul>
+          </nav>
+        </div>
       </aside>
 
-      <!-- Sezione principale -->
+      <!-- Content Area -->
       <section class="content">
-        <!-- Galleria vecchia (se necessaria) -->
         <div id="gallery" class="gallery hidden"></div>
-
-        <!-- Nuovo contenitore per la visualizzazione di tutte le ricette -->
         <div id="allRecipesContainer" class="hidden"></div>
-
-        <!-- Nuovo contenitore per la visualizzazione di una singola sezione -->
         <div id="singleSezioneContainer" class="hidden"></div>
-
-        <!-- Container introduttivo (opzionale) -->
         <div id="sectionIntro" class="section-intro hidden"></div>
-
-        <!-- Sezioni dinamiche caricate da sezioni.json (se ancora necessarie) -->
         <section id="sezioniContainer" class="sezioni-wrapper"></section>
       </section>
     </div>
 
-    <!-- Modal per i dettagli delle ricette -->
+    <!-- Recipe Detail Modal (Full Screen) -->
     <div id="recipeModal" class="modal">
       <div class="modal-content" id="modalContent"></div>
     </div>
 
-    <!-- Overlay per il menu mobile -->
+    <!-- Mobile Menu Overlay -->
     <div id="menuOverlay" class="menu-overlay"></div>
 
-    <!-- Caricamento del nostro script principale come modulo -->
     <script type="module" src="script/main.js"></script>
   </body>
 </html>
-

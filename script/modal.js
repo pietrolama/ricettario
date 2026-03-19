@@ -361,10 +361,10 @@ export function openModal(ricetta, modal, modalContent, bodyElement) {
     modalContent.innerHTML = ''; // Pulisci subito
 
     // ---- Contenitori Principali (Figli diretti di modalContent) ----
-    const textWrapper = createElement('div', 'modal-text-content'); // Area testo (scrollabile)
-    const imageContainer = createElement('div', 'modal-image-container'); // Area immagine
-    modalContent.appendChild(textWrapper);
+    const imageContainer = createElement('div', 'modal-image-panel'); // Area immagine (sinistra)
+    const textWrapper = createElement('div', 'modal-scroll-panel');   // Area testo scrollabile (destra)
     modalContent.appendChild(imageContainer);
+    modalContent.appendChild(textWrapper);
 
     // ---- Header (Figlio di textWrapper) ----
     const modalHeader = createElement('div', 'modal-header');
@@ -491,7 +491,7 @@ export function openModal(ricetta, modal, modalContent, bodyElement) {
     recipeImage.loading = 'lazy';
     const setImageError = (container, imgElement) => {
         container.innerHTML = '<p class="image-error">Immagine non disponibile</p>';
-        container.style.backgroundColor = 'var(--color-surface-alt)';
+        container.style.backgroundColor = 'var(--bg-alt)';
         if(imgElement) imgElement.remove();
     };
     recipeImage.onerror = () => {
