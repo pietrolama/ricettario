@@ -4662,6 +4662,166 @@
                             "fase": "Impiattamento"
                         }
                     ]
+                },
+                {
+                    "nome": "Cipolla bruciata ripiena con mousse di formaggio di capra e riduzione al balsamico",
+                    "descrizione": "Un secondo piatto gourmet o antipasto d'autore in cui la cipolla, cotta intera fino a carbonizzare la buccia, diventa un contenitore edibile dal cuore dolcissimo, contrastato dalla sapidità del caprino e dall'acidità del balsamico.",
+                    "porzioni_base": 4,
+                    "ingredienti": [
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "pezzi",
+                                    "ingrediente": "cipolle bianche grandi",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 4
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "formaggio di capra morbido",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 200
+                                },
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "panna fresca",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 50
+                                },
+                                {
+                                    "unita": "cucchiai",
+                                    "ingrediente": "erba cipollina tritata",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 2
+                                },
+                                {
+                                    "unita": "q.b.",
+                                    "ingrediente": "sale",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": null
+                                },
+                                {
+                                    "unita": "q.b.",
+                                    "ingrediente": "pepe",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": null
+                                },
+                                {
+                                    "unita": "q.b.",
+                                    "ingrediente": "olio extravergine d’oliva",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": null
+                                }
+                            ],
+                            "nome_gruppo": "Cipolle bruciate ripiene"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "aceto balsamico di Modena",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 100
+                                },
+                                {
+                                    "unita": "cucchiai",
+                                    "ingrediente": "zucchero di canna",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 2
+                                }
+                            ],
+                            "nome_gruppo": "Riduzione di aceto balsamico"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "q.b.",
+                                    "ingrediente": "germogli freschi (es. ravanello)",
+                                    "opzionale": true,
+                                    "note": null,
+                                    "quantita_num": null
+                                },
+                                {
+                                    "unita": "q.b.",
+                                    "ingrediente": "scaglie di sale marino",
+                                    "opzionale": true,
+                                    "note": null,
+                                    "quantita_num": null
+                                },
+                                {
+                                    "unita": "q.b.",
+                                    "ingrediente": "foglioline di timo",
+                                    "opzionale": true,
+                                    "note": null,
+                                    "quantita_num": null
+                                }
+                            ],
+                            "nome_gruppo": "Decorazione"
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "passaggi": [
+                                "Preriscalda il forno a 220°C.",
+                                "Lava accuratamente le cipolle, lasciando la buccia intatta.",
+                                "Disponi le cipolle intere su una teglia foderata con carta da forno.",
+                                "Inforna e cuoci per 45-60 minuti, finché l’esterno risulterà completamente nero e bruciato, mentre l’interno sarà morbido.",
+                                "Estrai le cipolle dal forno e lasciale raffreddare leggermente."
+                            ],
+                            "fase": "Cottura estrema delle cipolle"
+                        },
+                        {
+                            "passaggi": [
+                                "Posiziona la cipolla cotta su un tagliere con la radice verso il basso.",
+                                "Taglia la parte superiore della cipolla, rimuovendo circa 1-2 cm di calotta.",
+                                "Con un cucchiaino, rimuovi delicatamente la polpa interna lasciando intatti 2-3 strati esterni per formare una coppetta.",
+                                "Metti da parte la polpa estratta.",
+                                "Se lo strato più esterno è eccessivamente carbonizzato e friabile, rimuovilo con attenzione senza rompere la struttura."
+                            ],
+                            "fase": "Creazione delle coppette"
+                        },
+                        {
+                            "passaggi": [
+                                "Trita grossolanamente circa 2 cucchiai della polpa di cipolla estratta.",
+                                "In una ciotola, amalgama il formaggio di capra con la panna fresca fino a ottenere una crema liscia.",
+                                "Aggiungi l’erba cipollina tritata e la polpa di cipolla sminuzzata.",
+                                "Condisci con sale e pepe a piacere."
+                            ],
+                            "fase": "Preparazione della mousse"
+                        },
+                        {
+                            "passaggi": [
+                                "Riempi le coppette di cipolla con la mousse di formaggio preparata.",
+                                "Disponile su una teglia e inforna a 180°C per 10-15 minuti per scaldare il cuore e gratinare leggermente la superficie."
+                            ],
+                            "fase": "Farcitura e finitura"
+                        },
+                        {
+                            "passaggi": [
+                                "In un pentolino, unisci l’aceto balsamico allo zucchero di canna.",
+                                "Porta a ebollizione, abbassa la fiamma e lascia sobbollire finché il liquido si riduce della metà diventando sciropposo.",
+                                "Lascia intiepidire prima dell'uso."
+                            ],
+                            "fase": "Preparazione della riduzione"
+                        },
+                        {
+                            "passaggi": [
+                                "Posiziona ogni cipolla al centro di un piatto piano.",
+                                "Irrora con la riduzione di balsamico e decora con i germogli freschi, il timo e le scaglie di sale.",
+                                "Termina con un filo d’olio extravergine d’oliva a crudo."
+                            ],
+                            "fase": "Impiattamento"
+                        }
+                    ]
                 }
             ]
         },
