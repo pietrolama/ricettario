@@ -6569,6 +6569,95 @@
                             "fase": "Impiattamento"
                         }
                     ]
+                },
+                {
+                    "nome": "Assoluto di Burro e Parmigiano: Evoluzione Astrale",
+                    "descrizione": "Una scomposizione tecnica che eleva il comfort food a opera d'arte cinetica. Attraverso l'estrazione molecolare dell'essenza di Parmigiano e l'emulsione dinamica del burro di malga a freddo, creiamo una texture che sfida la gravità: una seta dorata che avvolge il grano, trasformando ogni boccone in un'esplosione cosmica di umami e lipidi nobili. È la geometria del sapore puro.",
+                    "porzioni_base": 2,
+                    "ingredienti": [
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Linguine di Grano Duro (Monograno)",
+                                    "opzionale": false,
+                                    "note": "Trafilate al bronzo",
+                                    "quantita_num": 160
+                                }
+                            ],
+                            "nome_gruppo": "La Pasta"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Parmigiano Reggiano 36 mesi",
+                                    "opzionale": false,
+                                    "note": "Grattugiato finemente",
+                                    "quantita_num": 150
+                                },
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "Acqua oligominerale",
+                                    "opzionale": false,
+                                    "note": "Per l'estrazione",
+                                    "quantita_num": 200
+                                }
+                            ],
+                            "nome_gruppo": "Essenza di Parmigiano"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Burro di Malga d'alpeggio",
+                                    "opzionale": false,
+                                    "note": "Freddo di frigorifero, a cubetti",
+                                    "quantita_num": 80
+                                },
+                                {
+                                    "unita": "n",
+                                    "ingrediente": "Limone di Sorrento",
+                                    "opzionale": true,
+                                    "note": "Solo per l'olio essenziale della scorza",
+                                    "quantita_num": 0.25
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Pepe di Sarawak",
+                                    "opzionale": true,
+                                    "note": "Macinato al momento",
+                                    "quantita_num": 1
+                                }
+                            ],
+                            "nome_gruppo": "Emulsione e Finitura"
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "passaggi": [
+                                "Scaldare l'acqua a 80°C e unirla al Parmigiano grattugiato in un blender.",
+                                "Frullare alla massima potenza per 2 minuti, quindi filtrare con un'etamina per ottenere un'acqua di Parmigiano limpida e ricca di proteine.",
+                                "Lasciare riposare l'essenza in frigorifero finché la parte grassa non si separa, utilizzando solo il siero sottostante per una purezza cristallina."
+                            ],
+                            "fase": "Estrazione Molecolare del Parmigiano"
+                        },
+                        {
+                            "passaggi": [
+                                "Cuocere la pasta in acqua leggermente salata per metà del tempo indicato sulla confezione.",
+                                "Trasferire la pasta in una sauteuse con 100ml di acqua di Parmigiano e terminare la cottura 'risottando', aggiungendo liquido solo se necessario."
+                            ],
+                            "fase": "Cottura e Idratazione"
+                        },
+                        {
+                            "passaggi": [
+                                "Togliere dal fuoco quando la pasta è al dente e il liquido è ridotto a una glassa velante.",
+                                "Inserire il burro ghiacciato a piccoli cubetti, agitando la padella con un movimento circolare energico (manteccatura dinamica) per creare un'emulsione stabile e lucida.",
+                                "Aggiungere una nebulizzazione di scorza di limone e un pizzico di pepe di Sarawak prima di impiattare a nido con l'aiuto di una pinza e un mestolo professionale."
+                            ],
+                            "fase": "Emulsione e Plating"
+                        }
+                    ]
                 }
             ]
         },
