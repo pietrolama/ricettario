@@ -12864,6 +12864,103 @@
                             "fase": "Assemblaggio e Impiattamento"
                         }
                     ]
+                },
+                {
+                    "nome": "Bresaola di Picanha (Black Angus Style)",
+                    "descrizione": "Una raffinata elaborazione tecnica che sfrutta la specifica morfologia della Picanha per ottenere un salume d'eccellenza. Il protocollo si basa su un'accurata gestione dei parametri biochimici: l'utilizzo del nitrato garantisce la stabilità cromatica e la sicurezza microbiologica, mentre la maturazione proteolitica trasforma la coltre adiposa in una componente fondente. La sinergia tra la densità cellulare del Black Angus e un rub aromatico complesso assicura un'esperienza sensoriale caratterizzata da una spiccata sapidità umami e note terrose.",
+                    "porzioni_base": 10,
+                    "ingredienti": [
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "kg",
+                                    "ingrediente": "Picanha di Black Angus",
+                                    "opzionale": false,
+                                    "note": "Con grasso compatto e ben distribuito",
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Sale Fino",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 28
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Zucchero di Canna",
+                                    "opzionale": false,
+                                    "note": "Per favorire la reazione di Maillard",
+                                    "quantita_num": 5
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Pepe Nero Tellicherry",
+                                    "opzionale": false,
+                                    "note": "Macinato grossolanamente",
+                                    "quantita_num": 4
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Polvere di Porcini essiccati",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 2
+                                },
+                                {
+                                    "unita": "rametto",
+                                    "ingrediente": "Timo fresco",
+                                    "opzionale": false,
+                                    "note": "Tritato finemente",
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Nitrato (E252)",
+                                    "opzionale": false,
+                                    "note": "Indispensabile per la sicurezza e il colore",
+                                    "quantita_num": 0.15
+                                }
+                            ],
+                            "nome_gruppo": "Curing e Aromi"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "Vino Rosso corposo",
+                                    "opzionale": false,
+                                    "note": "Tipo Amarone o Syrah",
+                                    "quantita_num": 150
+                                }
+                            ],
+                            "nome_gruppo": "Lavaggio e Sigillo"
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "passaggi": [
+                                "Miscelare accuratamente il sale, lo zucchero, il pepe, il nitrato e la polvere di porcini con il timo tritato.",
+                                "Applicare il mix sulla picanha effettuando un massaggio profondo sia sulla parte magra che sulla copertina di grasso per favorire la penetrazione dei soluti.",
+                                "Confezionare il pezzo sottovuoto e riporre in frigorifero a una temperatura di 4°C per un periodo compreso tra 12 e 14 giorni."
+                            ],
+                            "fase": "Fase di Cura (Curing)"
+                        },
+                        {
+                            "passaggi": [
+                                "Estrarre la carne dal sottovuoto e sciacquare accuratamente la superficie utilizzando il vino rosso invece dell'acqua, per stabilizzare il pH superficiale.",
+                                "Asciugare meticolosamente con carta assorbente per rimuovere ogni traccia di umidità residua."
+                            ],
+                            "fase": "Lavaggio e Condizionamento"
+                        },
+                        {
+                            "passaggi": [
+                                "Appendere la picanha in una vetrina di stagionatura o ambiente controllato impostato a 12°C con un'umidità costante del 75%.",
+                                "Monitorare il peso periodicamente fino al raggiungimento di un calo ponderale del 35%, indicativamente in 45-60 giorni."
+                            ],
+                            "fase": "Stagionatura"
+                        }
+                    ]
                 }
             ]
         }
