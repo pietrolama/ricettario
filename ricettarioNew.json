@@ -11751,6 +11751,83 @@
                             "fase": "Maturazione"
                         }
                     ]
+                },
+                {
+                    "nome": "Garum Moderno: Sintesi di Autolisi Accelerata",
+                    "descrizione": "Questa preparazione applica i principi della biochimica alimentare per replicare l'antico condimento romano attraverso l'autolisi enzimatica controllata. Sfruttando temperature costanti di 60°C, le proteasi endogene presenti nei visceri e l'azione sinergica del Koji scindono le catene proteiche in amminoacidi liberi, generando un profilo umami di estrema profondità e una stabilità microbiologica garantita dalla saturazione salina.",
+                    "porzioni_base": 1,
+                    "ingredienti": [
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "kg",
+                                    "ingrediente": "Pesce azzurro (alici o sgombri interi con visceri)",
+                                    "opzionale": false,
+                                    "note": "Indispensabile l'uso del pesce intero per il contenuto enzimatico",
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Sale marino",
+                                    "opzionale": false,
+                                    "note": "Calcolato al 15-20% del peso del pesce",
+                                    "quantita_num": 200
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Koji di riso (Aspergillus oryzae)",
+                                    "opzionale": true,
+                                    "note": "Accelera drasticamente la scomposizione proteica",
+                                    "quantita_num": 100
+                                },
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "Acqua",
+                                    "opzionale": true,
+                                    "note": "Solo se necessaria per coprire il soluto",
+                                    "quantita_num": 100
+                                }
+                            ],
+                            "nome_gruppo": "Matrice Proteica e Reagenti"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "q.b.",
+                                    "ingrediente": "Erbe aromatiche essiccate (origano, timo, finocchio, levistico)",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": null
+                                }
+                            ],
+                            "nome_gruppo": "Profilo Terpenico"
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "passaggi": [
+                                "Frazionare grossolanamente il pesce intero senza procedere alla pulizia delle interiora, sede delle proteasi necessarie al processo.",
+                                "Miscelare omogeneamente il pesce con il sale, il koji e le erbe aromatiche in un contenitore sterile, assicurando una distribuzione uniforme degli agenti conservanti."
+                            ],
+                            "fase": "Preparazione e Stabilizzazione"
+                        },
+                        {
+                            "passaggi": [
+                                "Sigillare il composto sottovuoto o in un contenitore ermetico resistente alle temperature prolungate.",
+                                "Impostare un dispositivo termostatico (Roner o camera di fermentazione) a una temperatura costante di 60°C.",
+                                "Mantenere l'incubazione per 48 ore in caso di utilizzo del Koji, o per 7 giorni qualora si faccia affidamento esclusivamente sugli enzimi endogeni del pesce."
+                            ],
+                            "fase": "Incubazione Termica Controllata"
+                        },
+                        {
+                            "passaggi": [
+                                "Filtrare la sospensione liquida ottenuta attraverso un colino a maglia fine per rimuovere i residui solidi macroscopici.",
+                                "Effettuare una chiarificazione secondaria utilizzando un filtro da caffè o una garza di cotone a trama fitta fino a ottenere un liquido limpido e ambrato.",
+                                "Imbottigliare il prodotto finale e conservare in refrigerazione per arrestare l'attività enzimatica e stabilizzare il gusto."
+                            ],
+                            "fase": "Raffinazione e Chiarificazione"
+                        }
+                    ]
                 }
             ]
         },
