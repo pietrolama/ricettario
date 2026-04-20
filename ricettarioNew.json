@@ -774,6 +774,93 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "nome": "Pancetta Tesa Stagionata",
+                    "descrizione": "Protocollo tecnico per la trasformazione e stabilizzazione microbiologica della pancetta di suino tramite salagione osmotica e stagionatura controllata. Il processo prevede l'utilizzo di nitrato di potassio (E252) come agente conservativo e il monitoraggio costante della perdita ponderale (target 25-30%) in ambiente a temperatura (12°C) e umidità relativa (74-80%) calibrate per ottimizzare la maturazione enzimatica e prevenire difetti tecnologici.",
+                    "porzioni_base": 10,
+                    "ingredienti": [
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "kg",
+                                    "ingrediente": "Pancetta di maiale",
+                                    "opzionale": false,
+                                    "note": "Squadrata, con cotenna, di alta qualità",
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Sale fino",
+                                    "opzionale": false,
+                                    "note": "2.8% del peso totale",
+                                    "quantita_num": 28
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Zucchero (Destrosio o Saccarosio)",
+                                    "opzionale": false,
+                                    "note": "Substrato per colture batteriche",
+                                    "quantita_num": 3
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Nitrato di Potassio (E252)",
+                                    "opzionale": false,
+                                    "note": "Additivo antimicrobico di sicurezza",
+                                    "quantita_num": 0.15
+                                },
+                                {
+                                    "unita": "q.b.",
+                                    "ingrediente": "Aromi in polvere",
+                                    "opzionale": true,
+                                    "note": "Aglio, rosmarino o bacche di ginepro",
+                                    "quantita_num": null
+                                }
+                            ],
+                            "nome_gruppo": "Miscela per la salagione"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Pepe Nero macinato",
+                                    "opzionale": false,
+                                    "note": "Per la protezione superficiale e finitura",
+                                    "quantita_num": 5
+                                }
+                            ],
+                            "nome_gruppo": "Fase di finitura"
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "passaggi": [
+                                "Rifilare accuratamente la pancetta eliminando cartilagini o parti pendenti senza rimuovere la cotenna.",
+                                "Miscelare sale, zucchero, nitrati e aromi; distribuire e massaggiare uniformemente su tutta la superficie carnosa.",
+                                "Confezionare il pezzo in sottovuoto o in sacchetto ermetico (tecnica 'saltbox' controllata).",
+                                "Stoccare in regime di refrigerazione (4°C) per 7-10 giorni, invertendo il posizionamento quotidianamente per uniformare l'azione della salamoia naturale."
+                            ],
+                            "fase": "Salagione e Stabilizzazione"
+                        },
+                        {
+                            "passaggi": [
+                                "Estrarre la carne dal sacchetto e risciacquare accuratamente sotto acqua corrente fredda per rimuovere i residui di sale e aromi.",
+                                "Tamponare con carta assorbente fino a completa rimozione dell'umidità superficiale.",
+                                "Applicare uno strato uniforme di pepe nero sulla parte magra e forare un angolo per l'inserimento dello spago di sospensione."
+                            ],
+                            "fase": "Lavaggio e Preparazione alla Maturazione"
+                        },
+                        {
+                            "passaggi": [
+                                "Sospendere il prodotto nella camera di stagionatura a 12°C senza contatto con superfici.",
+                                "Impostare l'umidità relativa all'80% per la prima settimana, riducendola progressivamente fino al 74-75%.",
+                                "Monitorare il decremento ponderale: la pancetta è pronta al raggiungimento di una perdita di peso del 25-30% rispetto al peso iniziale (circa 3-6 settimane).",
+                                "In caso di comparsa di muffe non desiderate (scure o pelose), intervenire con un lavaggio localizzato a base di aceto di vino bianco."
+                            ],
+                            "fase": "Maturazione Controllata"
+                        }
+                    ]
                 }
             ]
         },
