@@ -4916,6 +4916,84 @@
                             "fase": "Impiattamento"
                         }
                     ]
+                },
+                {
+                    "nome": "Duck Prosciutto al Caffè e Anice",
+                    "descrizione": "Un'opera di raffinata norcineria domestica: l'intensità tostata del caffè e le note balsamiche dell'anice stellato si fondono con la grassezza vellutata dell'anatra, creando un salume dal cuore rubino che si scioglie elegantemente al palato, regalando un'esperienza sensoriale sofisticata e indimenticabile.",
+                    "porzioni_base": 6,
+                    "ingredienti": [
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "pezzo",
+                                    "ingrediente": "Petto d'anatra",
+                                    "opzionale": false,
+                                    "note": "circa 300-400g",
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "kg",
+                                    "ingrediente": "Sale grosso",
+                                    "opzionale": false,
+                                    "note": "quantità necessaria per coprire interamente il petto",
+                                    "quantita_num": 1
+                                }
+                            ],
+                            "nome_gruppo": "Base e Salatura"
+                        },
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "cucchiai",
+                                    "ingrediente": "Caffè in polvere",
+                                    "opzionale": false,
+                                    "note": "macinatura fine",
+                                    "quantita_num": 2
+                                },
+                                {
+                                    "unita": "cucchiaio",
+                                    "ingrediente": "Anice stellato polverizzato",
+                                    "opzionale": false,
+                                    "note": null,
+                                    "quantita_num": 1
+                                },
+                                {
+                                    "unita": "cucchiaio",
+                                    "ingrediente": "Scorza d'arancia essiccata",
+                                    "opzionale": false,
+                                    "note": "tritata finemente",
+                                    "quantita_num": 1
+                                }
+                            ],
+                            "nome_gruppo": "Mix di Aromatizzazione"
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "passaggi": [
+                                "Rifilare il petto d'anatra rimuovendo la pelle in eccesso sui bordi, assicurandosi però di lasciarla integra sulla parte superiore del muscolo.",
+                                "In un contenitore, creare un letto di sale grosso, adagiarvi il petto e ricoprirlo completamente con altro sale.",
+                                "Riporre in frigorifero per 24 ore esatte affinché il sale estragga l'umidità necessaria."
+                            ],
+                            "fase": "Salatura Urto"
+                        },
+                        {
+                            "passaggi": [
+                                "Estrarre il petto dal sale, sciacquarlo accuratamente sotto acqua corrente fredda e asciugarlo con estrema cura usando carta assorbente.",
+                                "In una ciotolina, mescolare il caffè, l'anice stellato e la scorza d'arancia.",
+                                "Ricoprire generosamente e uniformemente il lato della carne (non quello della pelle) con il mix aromatico, premendo leggermente per farlo aderire."
+                            ],
+                            "fase": "Aromatizzazione"
+                        },
+                        {
+                            "passaggi": [
+                                "Avvolgere il petto in una garza traspirante o, se si dispone di una vetrina con parametri controllati, appenderlo direttamente.",
+                                "Lasciare stagionare per circa 15-20 giorni: il prosciutto è pronto quando risulta sodo al tatto all'esterno ma mantiene una leggera flessibilità elastica al centro.",
+                                "Affettare finemente prima di servire."
+                            ],
+                            "fase": "Stagionatura e Finitura"
+                        }
+                    ]
                 }
             ]
         },
