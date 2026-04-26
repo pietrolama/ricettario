@@ -10987,6 +10987,64 @@
                             "fase": "Composizione e Finitura"
                         }
                     ]
+                },
+                {
+                    "nome": "Elisir di Basilico e Nocciola",
+                    "descrizione": "Un connubio inatteso, un'ode al contrasto. Il profumo erbaceo e pungente del basilico, estratto con precisione scientifica, si fonde con la golosità avvolgente della Nutella. Un liquore che evoca passeggiate estive tra i filari di basilico e il calore di un focolare domestico, un ricordo d'infanzia e un'esplorazione sensoriale audace. L'estrazione a bassa temperatura preserva intatti gli aromi volatili del basilico, creando un'esperienza gustativa unica e persistente.",
+                    "porzioni_base": 750,
+                    "ingredienti": [
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Basilico Genovese fresco",
+                                    "opzionale": false,
+                                    "quantita_num": 100
+                                },
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "Alcool etilico 96% vol",
+                                    "opzionale": false,
+                                    "quantita_num": 200
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Nutella",
+                                    "opzionale": false,
+                                    "quantita_num": 300
+                                },
+                                {
+                                    "unita": "ml",
+                                    "ingrediente": "Acqua",
+                                    "opzionale": false,
+                                    "quantita_num": 300
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Zucchero semolato",
+                                    "opzionale": false,
+                                    "quantita_num": 200
+                                }
+                            ],
+                            "nome_gruppo": "Ingredienti"
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "passaggi": [
+                                "Immergere il basilico e l'alcool in un sacchetto sottovuoto.",
+                                "Cuocere in bagnomaria termostatato a 55°C per 2 ore.",
+                                "Raffreddare rapidamente in acqua e ghiaccio.",
+                                "Filtrare l'infusione di basilico attraverso un filtro di carta.",
+                                "In un pentolino, sciogliere lo zucchero nell'acqua a fuoco basso, creando uno sciroppo.",
+                                "Lasciar raffreddare completamente lo sciroppo.",
+                                "In una ciotola, mescolare lo sciroppo freddo con la Nutella fino ad ottenere un composto omogeneo.",
+                                "Aggiungere gradualmente l'infusione di basilico al composto di Nutella e sciroppo, mescolando delicatamente per amalgamare gli ingredienti.",
+                                "Imbottigliare il liquore e lasciarlo riposare in un luogo fresco e buio per almeno 2 settimane prima di consumarlo."
+                            ],
+                            "fase": "Preparazione"
+                        }
+                    ]
                 }
             ]
         },
