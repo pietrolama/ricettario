@@ -7656,6 +7656,94 @@
                             "note": "come Sauvignon Blanc o Falanghina"
                         }
                     ]
+                },
+                {
+                    "nome": "Pane Contemporaneo (Ispirazione Bonetta)",
+                    "descrizione": "Ricetta per pane contemporaneo ad alta idratazione, ispirata alle tecniche di Raffaele Bonetta. Ottimizzata per panificatori esperti, mira a una struttura alveolare estrema ottenuta attraverso una fermentazione calda prolungata e uno shock termico finale. La semola di grano duro conferisce tenacità e croccantezza.",
+                    "porzioni_base": 1,
+                    "ingredienti": [
+                        {
+                            "lista_ingredienti": [
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Farina Tipo 1 (W 380+)",
+                                    "opzionale": false,
+                                    "note": "Per la struttura e la spinta enzimatica.",
+                                    "quantita_num": 500
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Semola Rimacinata di Grano Duro",
+                                    "opzionale": false,
+                                    "note": "Per la croccantezza vitrea e la tenuta della mollica.",
+                                    "quantita_num": 500
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Acqua",
+                                    "opzionale": false,
+                                    "note": "Idratazione calibrata per la gestione della semola.",
+                                    "quantita_num": 760
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Lievito Madre (Licoli o Solido performante)",
+                                    "opzionale": false,
+                                    "note": "Fondamentale per la spinta alveolare.",
+                                    "quantita_num": 200
+                                },
+                                {
+                                    "unita": "g",
+                                    "ingrediente": "Sale",
+                                    "opzionale": false,
+                                    "note": "Per il controllo della fermentazione e il sapore.",
+                                    "quantita_num": 20
+                                }
+                            ],
+                            "nome_gruppo": null
+                        }
+                    ],
+                    "procedimento": [
+                        {
+                            "passaggi": [
+                                "Miscela le due farine con il 70% dell'acqua (circa il 53% sul peso totale delle farine) e lascia riposare per 40 minuti."
+                            ],
+                            "fase": "Autolisi"
+                        },
+                        {
+                            "passaggi": [
+                                "Aggiungi il lievito madre e avvia l'incordatura. Una volta che l'impasto è strutturato, inserisci il sale e la restante acqua a filo, goccia a goccia, assicurandoti che l'impasto resti sempre 'aggrappato' al gancio e lucido."
+                            ],
+                            "fase": "Impastamento"
+                        },
+                        {
+                            "passaggi": [
+                                "Riponi l'impasto in una madia o contenitore oleato.",
+                                "Mantenere una temperatura ambiente costante di 24-26°C.",
+                                "Prima Piega: Dopo 1 ora e mezza.",
+                                "Seconda Piega: Dopo 3 ore totali dall'inizio della puntata.",
+                                "Riposo Finale: Attendi un'ulteriore ora e mezza (per un totale di 4 ore e mezza in massa)."
+                            ],
+                            "fase": "Puntata"
+                        },
+                        {
+                            "passaggi": [
+                                "Dividi le pezzature con delicatezza.",
+                                "Lascia riposare i panetti scoperti per 30 minuti. Questo passaggio è critico per formare una 'pelle' superficiale che darà tensione alla pagnotta.",
+                                "Chiudi il pane senza sgonfiarlo troppo e riponilo nei cestini di lievitazione."
+                            ],
+                            "fase": "Formatura"
+                        },
+                        {
+                            "passaggi": [
+                                "In frigo a 4°C per 16 ore.",
+                                "Passaggio diretto dal frigo al forno (Combo o Pietra refrattaria).",
+                                "Cuoci a 230/240°C.",
+                                "Vapore: Fondamentale per i primi 15 minuti per permettere l'espansione dei macro-alveoli prima che la crosta si fissi."
+                            ],
+                            "fase": "Maturazione a Freddo e Cottura"
+                        }
+                    ]
                 }
             ]
         },
